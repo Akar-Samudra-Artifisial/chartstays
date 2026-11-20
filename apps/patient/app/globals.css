@@ -1680,6 +1680,18 @@ input[type="checkbox"] {
   text-align: right;
 }
 
+/* Long statuses (quarantine, errors) take their own row under the name, so the origin keeps its width
+   instead of being squeezed into a one-character column by the status pill. */
+.node-item:is([data-status="quarantined"], [data-status="error"], [data-status="denied"]) {
+  grid-template-columns: auto minmax(0, 1fr);
+}
+
+.node-item:is([data-status="quarantined"], [data-status="error"], [data-status="denied"]) .node-status {
+  grid-column: 2;
+  justify-content: flex-start;
+  text-align: left;
+}
+
 .node-loading {
   display: flex;
   color: var(--muted);
@@ -2284,6 +2296,66 @@ input[type="checkbox"] {
 .trust-requests {
   font-size: var(--text-sm);
   width: 100%;
+}
+
+.trust-origin {
+  container: trust-origin / inline-size;
+}
+
+/* Rule ids are short tokens: keep them on one line. */
+.trust-firewall td:nth-child(3) code {
+  white-space: nowrap;
+  overflow-wrap: normal;
+}
+
+.trust-firewall td:nth-child(1) {
+  white-space: nowrap;
+}
+
+.trust-firewall td:nth-child(4) {
+  overflow-wrap: anywhere;
+}
+
+/* Narrow trust panel (sidebar, phones): one decision per block. Time and decision on the first line,
+   the rule under them, then the reason at full width. The header row stays for screen readers. */
+@container trust-origin (max-width: 34rem) {
+  .trust-firewall,
+  .trust-firewall tbody {
+    display: block;
+  }
+
+  .trust-firewall thead {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+
+  .trust-firewall tr {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    gap: var(--space-1) var(--space-3);
+    padding: var(--space-2) 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .trust-firewall td {
+    display: block;
+    padding: 0;
+    border: 0;
+    min-width: 0;
+  }
+
+  .trust-firewall td:nth-child(1) {
+    color: var(--muted);
+  }
+
+  .trust-firewall td:nth-child(3),
+  .trust-firewall td:nth-child(4) {
+    grid-column: 1 / -1;
+  }
 }
 
 .fw-blocked td:nth-child(2),
