@@ -1,0 +1,63 @@
+{
+  "retrieved": "2026-11-16",
+  "api_version": "2.0.5",
+  "request_url": "https://clinicaltrials.gov/api/v2/studies?filter.ids=NCT07776613%2CNCT05440227%2CNCT06858449%2CNCT06461650%2CNCT07021846&pageSize=5&fields=NCTId%2CBriefTitle%2COverallStatus%2CLastUpdatePostDate%2CStartDate%2CPrimaryCompletionDate%2CPhase%2CStudyType%2CEnrollmentCount%2CLeadSponsorName%2CCondition%2CBriefSummary%2CEligibilityCriteria%2CMinimumAge%2CMaximumAge%2CSex%2CHealthyVolunteers%2CLocationFacility%2CLocationCity%2CLocationState%2CLocationCountry%2CLocationStatus",
+  "study": {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT05440227",
+        "briefTitle": "PG2 Injection for the Treatment of moderate-to Severe Fatigue in Breast Cancer Patients"
+      },
+      "statusModule": {
+        "overallStatus": "RECRUITING",
+        "startDateStruct": {
+          "date": "2023-05-17"
+        },
+        "primaryCompletionDateStruct": {
+          "date": "2025-12"
+        },
+        "lastUpdatePostDateStruct": {
+          "date": "2025-06-05"
+        }
+      },
+      "sponsorCollaboratorsModule": {
+        "leadSponsor": {
+          "name": "PhytoHealth Corporation"
+        }
+      },
+      "descriptionModule": {
+        "briefSummary": "The objective of this study is to assess the efficacy of weekly PG2 regimen as a complementary treatment for patients with recurrent unresectable (local or regional) or metastatic breast cancer who experienced moderate to severe fatigue while receiving chemotherapies."
+      },
+      "conditionsModule": {
+        "conditions": [
+          "Cancer-related Fatigue"
+        ]
+      },
+      "designModule": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollmentInfo": {
+          "count": 36
+        }
+      },
+      "eligibilityModule": {
+        "eligibilityCriteria": "Inclusion Criteria:\n\n1. Women aged ≥ 20 years\n2. ECOG performance score ≤ 2\n3. Locally advanced, recurrent or metastatic, histologically documented breast cancer who is currently undergoing infusional chemotherapy regimen.\n4. Presence of moderate to severe cancer related fatigue prior to randomization as defined by at least two records of usual fatigue score ≥ 4 on the numeric scale (0 -10), which must be ≥ 14 days apart.\n5. Laboratory values obtained prior to randomization:\n\n   * Hgb ≥ 10 g/dL (patients must not be transfused ≤ 14 days to meet this criterion)\n   * Creatinine ≤ 1.2 x ULN\n   * AST (SGOT) or ALT (SGPT) ≤1.5 x ULN (or ≤5.0 x ULN for patients with liver metastases)\n6. Pain under controlled of score ≤ 4 on the numeric scale (0 -10)\n7. Life expectancy ≥ 3 months\n8. Ability to complete patient questionnaires alone or with assistance.\n9. Negative pregnancy test done ≤ 14 days prior to randomization, for women of childbearing potential only, and willing to take efficient contraceptives procedures to avoid pregnancy throughout the study period.\n10. Willing to provide written informed consent and agree to follow the study requirements.\n\nExclusion Criteria:\n\n1. Known brain metastasis or primary CNS malignancy\n2. Has known psychiatric or substance abuse disorders.\n3. Malnutrition, active infection, uncontrolled thyroid disorder, uncontrollable hypertension or diabetes mellitus, significant pulmonary disease and cardiovascular disease.\n4. Currently using any other pharmacologic agents.\n5. Subject who is unwilling to receive transfusions when, at the investigator's discretion, it is required to control her anemia.\n6. Other medical conditions that necessitate chronic systemic use of steroids (e.g. use of prednisolone \\> 10 mg daily or equivalent steroids fore more than 2 weeks).\n7. ≤ 4 weeks from major surgery to randomization, including any procedure that requires general anesthetics.\n8. Pain requiring opioid pain medication, however, over the counter analgesics such as acetaminophen or ibuprofen are allowed.\n9. Use of monoamine oxidase inhibitors (MAOI) (such as Moclobemide).\n10. Planning to start or complete any type of cancer therapy during the 8 weeks course of the study, once randomized on the study.\n11. Use of any over the counter herbal/dietary supplement marketed for fatigue or energy.\n12. Known history of hypersensitivity to Astragalus products.\n13. Currently participating another interventional study or planning to join one in the upcoming 8 weeks after randomization.\n14. Currently breast feeding.\n15. With any other serious disease considered by the investigator not in the condition to enter into the trial.",
+        "healthyVolunteers": false,
+        "sex": "FEMALE",
+        "minimumAge": "20 Years"
+      },
+      "contactsLocationsModule": {
+        "locations": [
+          {
+            "facility": "National Taiwan University Hospital",
+            "status": "RECRUITING",
+            "city": "Taipei",
+            "country": "Taiwan"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "retrieved": "2026-11-16",
+  "api_version": "2.0.5",
+  "request_url": "https://clinicaltrials.gov/api/v2/studies?filter.ids=NCT07272343%2CNCT07390422%2CNCT06627322%2CNCT06875193%2CNCT07007676&pageSize=5&fields=NCTId%2CBriefTitle%2COverallStatus%2CLastUpdatePostDate%2CStartDate%2CPrimaryCompletionDate%2CPhase%2CStudyType%2CEnrollmentCount%2CLeadSponsorName%2CCondition%2CBriefSummary%2CEligibilityCriteria%2CMinimumAge%2CMaximumAge%2CSex%2CHealthyVolunteers%2CLocationFacility%2CLocationCity%2CLocationState%2CLocationCountry%2CLocationStatus",
+  "study": {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT07390422",
+        "briefTitle": "Duodenal pulsENDO for Suboptimally Controlled Type II Diabetes Mellitus and Steatotic Liver Disease"
+      },
+      "statusModule": {
+        "overallStatus": "RECRUITING",
+        "startDateStruct": {
+          "date": "2026-09-01"
+        },
+        "primaryCompletionDateStruct": {
+          "date": "2031-08-30"
+        },
+        "lastUpdatePostDateStruct": {
+          "date": "2026-09-15"
+        }
+      },
+      "sponsorCollaboratorsModule": {
+        "leadSponsor": {
+          "name": "Chinese University of Hong Kong"
+        }
+      },
+      "descriptionModule": {
+        "briefSummary": "This study is designed to evaluate the efficacy, safety, and mechanisms of pulsENDO procedure in patients with T2DM and its effect on MASLD."
+      },
+      "conditionsModule": {
+        "conditions": [
+          "T2DM (Type 2 Diabetes Mellitus)",
+          "MASLD - Metabolic Dysfunction-Associated Steatotic Liver Disease",
+          "Metabolic Syndrome (MetS)"
+        ]
+      },
+      "designModule": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollmentInfo": {
+          "count": 40
+        }
+      },
+      "eligibilityModule": {
+        "eligibilityCriteria": "Inclusion Criteria:\n\n* Duration of T2DM \\< 10 years\n* BMI 18.5-40kg/m2\n* Failure to achieve adequate HbA1c reduction (7.5 - 11%) after at least 3 months stable dosage of oral glucose lowering drugs\n\nExclusion Criteria:\n\n* Previous treatment with pulsENDO or similar procedure\n* Previous GI surgery that could preclude the ability to perform pulsENDO, or acute gastric and duodenal pathology that increased the risk of pulsENDO\n* Type 1 DM, DM secondary to specific disease or having any history of ketoacidosis\n* Patients on insulin\n* Fasting C-peptide level \\<0.5ug/L\n* Any inflammatory disease of the gastrointestinal tract such as Crohn's disease\n* Abnormal pathologies or conditions of the gastrointestinal tract, including duodenal polyps, ulcers or upper gastrointestinal bleeding conditions within 3 months of study\n* Uncorrectable bleeding diathesis, platelet dysfunction, thrombocytopenia with platelet count less than 100,000/microliter or known coagulopathy\n* Currently taking prescription antithrombotic therapy (e.g., anticoagulant or antiplatelet agent) within 10 days prior to study and/or there is a need or expected need to use during the study period\n* Currently taking medications known to cause significant weight gain or weight loss (e.g. chemotherapeutics)\n* Patients who have used non-steroidal analgesics and anti-inflammatory drugs (NSAID) and corticosteroids in the past 1 month\n* Underlying uncontrolled endocrine problem that leads to obesity, including and not limited to hypothyroidism, Cushing syndrome and eating disorder.\n* Patients with contra-indications to endoscopy\n* Patients with cirrhosis due to causes other than MASLD\n* Malignancy\n* Diagnosis of autoimmune connective tissue disorder (e.g. lupus erythematosus, scleroderma)\n* Pregnant or breast feeding\n* ASA grade IV \\& V\n* Mental or psychiatric disorder; Drug or alcohol addiction\n* Other cases deemed by the examining physician as unsuitable for safe treatment\n* Refusal to participate",
+        "healthyVolunteers": false,
+        "sex": "ALL",
+        "minimumAge": "18 Years",
+        "maximumAge": "70 Years"
+      },
+      "contactsLocationsModule": {
+        "locations": [
+          {
+            "facility": "Chinese University of Hong Kong",
+            "status": "RECRUITING",
+            "city": "Shatin",
+            "country": "Hong Kong"
+          }
+        ]
+      }
+    }
+  }
+}

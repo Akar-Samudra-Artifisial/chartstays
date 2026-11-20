@@ -1,0 +1,66 @@
+{
+  "retrieved": "2026-11-16",
+  "api_version": "2.0.5",
+  "request_url": "https://clinicaltrials.gov/api/v2/studies?filter.ids=NCT07776613%2CNCT05440227%2CNCT06858449%2CNCT06461650%2CNCT07021846&pageSize=5&fields=NCTId%2CBriefTitle%2COverallStatus%2CLastUpdatePostDate%2CStartDate%2CPrimaryCompletionDate%2CPhase%2CStudyType%2CEnrollmentCount%2CLeadSponsorName%2CCondition%2CBriefSummary%2CEligibilityCriteria%2CMinimumAge%2CMaximumAge%2CSex%2CHealthyVolunteers%2CLocationFacility%2CLocationCity%2CLocationState%2CLocationCountry%2CLocationStatus",
+  "study": {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT06858449",
+        "briefTitle": "Resistance Training and Post Workout Protein to Improve Body Composition During Neoadjuvant Chemotherapy for Breast Cancer"
+      },
+      "statusModule": {
+        "overallStatus": "RECRUITING",
+        "startDateStruct": {
+          "date": "2025-01-02"
+        },
+        "primaryCompletionDateStruct": {
+          "date": "2026-12"
+        },
+        "lastUpdatePostDateStruct": {
+          "date": "2026-02-03"
+        }
+      },
+      "sponsorCollaboratorsModule": {
+        "leadSponsor": {
+          "name": "Allegheny Singer Research Institute (also known as Allegheny Health Network Research Institute)"
+        }
+      },
+      "descriptionModule": {
+        "briefSummary": "In this study, the investigators hypothesize that a high dose of post-workout protein nutrition regimen focused on food quality and an observed exercise regimen utilizing high-load resistance training initiated during or after cancer treatment will improve body composition and functional capacity."
+      },
+      "conditionsModule": {
+        "conditions": [
+          "Cancer",
+          "Breast Cancer"
+        ]
+      },
+      "designModule": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollmentInfo": {
+          "count": 30
+        }
+      },
+      "eligibilityModule": {
+        "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age 20-89 years\n2. Women with a biopsy proven diagnosis of invasive carcinoma of the breast.\n3. Women must undergo neoadjuvant chemotherapy for breast cancer treatment prior to surgery\n4. Must be able to read and understand English and consent for themselves.\n\nExclusion Criteria:\n\n1. Inability to get up and down off the ground or squat body weight\n2. Inability to safely engage in group exercise sessions as deemed by study PI\n3. Severe arthritic, joint, cardiovascular, musculoskeletal, or any other condition deemed by PI to be unsafe to engage in resistance training\n4. Lactose intolerance\n5. Cow's milk or whey protein allergy\n6. Pregnant women\n7. Males",
+        "healthyVolunteers": false,
+        "sex": "FEMALE",
+        "minimumAge": "20 Years",
+        "maximumAge": "89 Years"
+      },
+      "contactsLocationsModule": {
+        "locations": [
+          {
+            "facility": "Allegheny General Hospital",
+            "status": "RECRUITING",
+            "city": "Pittsburgh",
+            "state": "Pennsylvania",
+            "country": "United States"
+          }
+        ]
+      }
+    }
+  }
+}

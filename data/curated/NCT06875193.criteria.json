@@ -1,0 +1,280 @@
+{
+  "schema_version": 1,
+  "nct_id": "NCT06875193",
+  "title": "DM Treatment to Evaluate the Efficacy and Safety of Dapagliflozin or Pioglitazone in Patients with Type 2 Diabetes",
+  "status": "RECRUITING",
+  "conditions": [
+    "Type2diabetes"
+  ],
+  "source": {
+    "name": "ClinicalTrials.gov",
+    "nct_id": "NCT06875193",
+    "url": "https://clinicaltrials.gov/study/NCT06875193",
+    "retrieved": "2026-11-16",
+    "modified": "Eligibility criteria structured and coded (SNOMED CT, LOINC, RxNorm) by ChartStays from the ClinicalTrials.gov text; the original text is kept unchanged in eligibility.criteria_text. Criteria curated by the project team, not reviewed by clinicians; pre-screening only.",
+    "last_update_posted": "2025-03-17"
+  },
+  "eligibility": {
+    "criteria_text": "Inclusion Criteria:\n\n* Patients with type 2 diabetes who are 19 years of age or older at the date of written consent\n* Subjects who Receiving a stable dose of metformin and a DPP-4 inhibitor for at least the last 8 weeks at the time of screening\n* HbA1c ≤ 7.0% ≤ HbA1c \\< 10% at time of screening\n* BMI ≤ 18.5 kg/m2 ≤ 40 kg/m2 at time of screening\n* Subjects fully explained and understood the purpose and methods of this study and voluntarily gave written informed consent\n\nExclusion Criteria:\n\n* Patients with type 1 diabetes\n* Have a BMI \\> 40 kg/m2\n* Subjects who have moderate (Stage 3b) or severe kidney disease or an estimated glomerular filtration rate (eGFR, using the CKD-EPI formula) \\< 45 mL/min/1.73 m2\n* Patients with end stage renal disease or patients on dialysis\n* Patients with uncontrolled heart failure (NYHA class III - IV)\n* Patients with history of uncontrolled arrhythmia, myocardial infarction, unstable angina, coronary artery bypass graft surgery, cerebrovascular disease within 24 weeks prior to the screening visit\n* Patients with acute or chronic metabolic acidosis, including lactic acidosis, diabetic ketoacidosis (DKA) with or without coma, and patients with a history of ketoacidosis\n* Patients with diabetic coma or precoma\n* Patients with a history of severe hypoglycemia while taking metformin and DPP-4 inhibitors.\n* Patients with hematuria\n* Patients who receiving treatment for thyroid dysfunction at the time of screening\n* Malnourished, starving, or debilitated subjects\n* Patients with pituitary insufficiency or adrenal insufficiency\n* Patients with clinically significant hepatic disease with AST or ALT greater than 3 times the upper limit of normal\n* Patients with severe infectious diseases, perioperative, or clinically significant trauma\n* Have a history of substance abuse\n* Patients receiving insulin or sulfonylurea, thiazolidinedione, SGLT2 inhibitor, GLP-1 receptor agonist within 8 weeks prior to the screening visit\n* Patients who have received more than 2 consecutive weeks of corticosteroids within 8 weeks at the time of screening or who require treatment requiring repeated use of corticosteroids\n* Patients with a history of malignancy within the last 5 years\n* Participation in any other clinical trial within 12 weeks of screening in which an investigational drug or investigational medical device was administered or applied\n* Pregnant and breastfeeding women\n* Hypersensitivity to any of the drugs and components, including metformin, DPP-4 inhibitors, dapagliflozin, TZDs, sulfonylurea class of drugs, or any of the ingredients\n* Patients with genetic problems such as galactose intolerance, Lapp lactose deficiency, or glucose-galactose mal-absorption.\n* Any other person deemed by the investigator to be unsuitable for participation in the study",
+    "sex": "ALL",
+    "minimum_age": "19 Years",
+    "maximum_age": null,
+    "healthy_volunteers": false
+  },
+  "structured": [
+    {
+      "id": "inc-0a",
+      "type": "inclusion",
+      "kind": "age",
+      "label": "Age 19 years or older",
+      "source_text": "ClinicalTrials.gov age limits: 19 Years minimum, none maximum",
+      "min": 19,
+      "max": null,
+      "unit": "years"
+    },
+    {
+      "kind": "condition",
+      "label": "Type 2 diabetes",
+      "primary": true,
+      "codes": {
+        "snomed": [
+          "44054006"
+        ]
+      },
+      "id": "inc-1",
+      "type": "inclusion",
+      "source_text": "Patients with type 2 diabetes who are 19 years of age or older at the date of written consent"
+    },
+    {
+      "kind": "medication",
+      "label": "Taking metformin",
+      "rxnorm": [
+        "860975"
+      ],
+      "note": "Only the metformin product found in the Synthea sample (RxNorm 860975, metformin ER 500 mg, the only metformin code in the sample) is recognised; other metformin products rely on the free text; the DPP-4 inhibitor and dose stability are not checked.",
+      "id": "inc-2a",
+      "type": "inclusion",
+      "source_text": "Subjects who Receiving a stable dose of metformin and a DPP-4 inhibitor for at least the last 8 weeks at the time of screening"
+    },
+    {
+      "kind": "lab",
+      "label": "HbA1c 7.0% or higher",
+      "loinc": "4548-4",
+      "op": "gte",
+      "value": 7,
+      "unit": "%",
+      "note": "Interpreted from garbled source text (\"HbA1c ≤ 7.0% ≤ HbA1c < 10%\") as 7.0% to below 10%.",
+      "id": "inc-3a",
+      "type": "inclusion",
+      "source_text": "HbA1c ≤ 7.0% ≤ HbA1c < 10% at time of screening"
+    },
+    {
+      "kind": "lab",
+      "label": "HbA1c below 10%",
+      "loinc": "4548-4",
+      "op": "lt",
+      "value": 10,
+      "unit": "%",
+      "id": "inc-3b",
+      "type": "inclusion",
+      "source_text": "HbA1c ≤ 7.0% ≤ HbA1c < 10% at time of screening"
+    },
+    {
+      "kind": "lab",
+      "label": "BMI 18.5 to 40 kg/m2",
+      "loinc": "39156-5",
+      "op": "between",
+      "value": [
+        18.5,
+        40
+      ],
+      "unit": "kg/m2",
+      "note": "Interpreted from garbled source text (\"BMI ≤ 18.5 kg/m2 ≤ 40 kg/m2\") as 18.5 to 40 kg/m2.",
+      "id": "inc-4a",
+      "type": "inclusion",
+      "source_text": "BMI ≤ 18.5 kg/m2 ≤ 40 kg/m2 at time of screening"
+    },
+    {
+      "kind": "lab",
+      "label": "BMI above 40 kg/m2",
+      "loinc": "39156-5",
+      "op": "gt",
+      "value": 40,
+      "unit": "kg/m2",
+      "id": "exc-2",
+      "type": "exclusion",
+      "source_text": "Have a BMI > 40 kg/m2"
+    },
+    {
+      "kind": "lab",
+      "label": "eGFR below 45 mL/min/1.73m2",
+      "loinc": "33914-3",
+      "op": "lt",
+      "value": 45,
+      "unit": "mL/min/{1.73_m2}",
+      "note": "The study uses CKD-EPI; Synthea records eGFR by the MDRD formula (LOINC 33914-3).",
+      "id": "exc-3a",
+      "type": "exclusion",
+      "source_text": "Subjects who have moderate (Stage 3b) or severe kidney disease or an estimated glomerular filtration rate (eGFR, using the CKD-EPI formula) < 45 mL/min/1.73 m2"
+    },
+    {
+      "kind": "medication",
+      "label": "Receiving insulin",
+      "rxnorm": [
+        "106892"
+      ],
+      "note": "Only the insulin product found in the Synthea sample (RxNorm 106892) is recognised; other drug classes rely on the free text.",
+      "id": "exc-17a",
+      "type": "exclusion",
+      "source_text": "Patients receiving insulin or sulfonylurea, thiazolidinedione, SGLT2 inhibitor, GLP-1 receptor agonist within 8 weeks prior to the screening visit"
+    }
+  ],
+  "free_text": [
+    {
+      "id": "inc-2",
+      "type": "inclusion",
+      "text": "Subjects who Receiving a stable dose of metformin and a DPP-4 inhibitor for at least the last 8 weeks at the time of screening"
+    },
+    {
+      "id": "inc-3",
+      "type": "inclusion",
+      "text": "HbA1c ≤ 7.0% ≤ HbA1c < 10% at time of screening"
+    },
+    {
+      "id": "inc-4",
+      "type": "inclusion",
+      "text": "BMI ≤ 18.5 kg/m2 ≤ 40 kg/m2 at time of screening"
+    },
+    {
+      "id": "inc-5",
+      "type": "inclusion",
+      "text": "Subjects fully explained and understood the purpose and methods of this study and voluntarily gave written informed consent"
+    },
+    {
+      "id": "exc-1",
+      "type": "exclusion",
+      "text": "Patients with type 1 diabetes"
+    },
+    {
+      "id": "exc-3",
+      "type": "exclusion",
+      "text": "Subjects who have moderate (Stage 3b) or severe kidney disease or an estimated glomerular filtration rate (eGFR, using the CKD-EPI formula) < 45 mL/min/1.73 m2"
+    },
+    {
+      "id": "exc-4",
+      "type": "exclusion",
+      "text": "Patients with end stage renal disease or patients on dialysis"
+    },
+    {
+      "id": "exc-5",
+      "type": "exclusion",
+      "text": "Patients with uncontrolled heart failure (NYHA class III - IV)"
+    },
+    {
+      "id": "exc-6",
+      "type": "exclusion",
+      "text": "Patients with history of uncontrolled arrhythmia, myocardial infarction, unstable angina, coronary artery bypass graft surgery, cerebrovascular disease within 24 weeks prior to the screening visit"
+    },
+    {
+      "id": "exc-7",
+      "type": "exclusion",
+      "text": "Patients with acute or chronic metabolic acidosis, including lactic acidosis, diabetic ketoacidosis (DKA) with or without coma, and patients with a history of ketoacidosis"
+    },
+    {
+      "id": "exc-8",
+      "type": "exclusion",
+      "text": "Patients with diabetic coma or precoma"
+    },
+    {
+      "id": "exc-9",
+      "type": "exclusion",
+      "text": "Patients with a history of severe hypoglycemia while taking metformin and DPP-4 inhibitors."
+    },
+    {
+      "id": "exc-10",
+      "type": "exclusion",
+      "text": "Patients with hematuria"
+    },
+    {
+      "id": "exc-11",
+      "type": "exclusion",
+      "text": "Patients who receiving treatment for thyroid dysfunction at the time of screening"
+    },
+    {
+      "id": "exc-12",
+      "type": "exclusion",
+      "text": "Malnourished, starving, or debilitated subjects"
+    },
+    {
+      "id": "exc-13",
+      "type": "exclusion",
+      "text": "Patients with pituitary insufficiency or adrenal insufficiency"
+    },
+    {
+      "id": "exc-14",
+      "type": "exclusion",
+      "text": "Patients with clinically significant hepatic disease with AST or ALT greater than 3 times the upper limit of normal"
+    },
+    {
+      "id": "exc-15",
+      "type": "exclusion",
+      "text": "Patients with severe infectious diseases, perioperative, or clinically significant trauma"
+    },
+    {
+      "id": "exc-16",
+      "type": "exclusion",
+      "text": "Have a history of substance abuse"
+    },
+    {
+      "id": "exc-17",
+      "type": "exclusion",
+      "text": "Patients receiving insulin or sulfonylurea, thiazolidinedione, SGLT2 inhibitor, GLP-1 receptor agonist within 8 weeks prior to the screening visit"
+    },
+    {
+      "id": "exc-18",
+      "type": "exclusion",
+      "text": "Patients who have received more than 2 consecutive weeks of corticosteroids within 8 weeks at the time of screening or who require treatment requiring repeated use of corticosteroids"
+    },
+    {
+      "id": "exc-19",
+      "type": "exclusion",
+      "text": "Patients with a history of malignancy within the last 5 years"
+    },
+    {
+      "id": "exc-20",
+      "type": "exclusion",
+      "text": "Participation in any other clinical trial within 12 weeks of screening in which an investigational drug or investigational medical device was administered or applied"
+    },
+    {
+      "id": "exc-21",
+      "type": "exclusion",
+      "text": "Pregnant and breastfeeding women"
+    },
+    {
+      "id": "exc-22",
+      "type": "exclusion",
+      "text": "Hypersensitivity to any of the drugs and components, including metformin, DPP-4 inhibitors, dapagliflozin, TZDs, sulfonylurea class of drugs, or any of the ingredients"
+    },
+    {
+      "id": "exc-23",
+      "type": "exclusion",
+      "text": "Patients with genetic problems such as galactose intolerance, Lapp lactose deficiency, or glucose-galactose mal-absorption."
+    },
+    {
+      "id": "exc-24",
+      "type": "exclusion",
+      "text": "Any other person deemed by the investigator to be unsuitable for participation in the study"
+    }
+  ],
+  "requested_fields_for_inquiry": [
+    "age",
+    "conditions",
+    "medications",
+    "labs:4548-4",
+    "labs:39156-5",
+    "labs:33914-3"
+  ],
+  "curation": {
+    "method": "manual"
+  }
+}

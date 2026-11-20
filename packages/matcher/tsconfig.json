@@ -1,0 +1,14 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist",
+    "declaration": true,
+    "rewriteRelativeImportExtensions": true,
+    "allowImportingTsExtensions": true,
+    // No Node or DOM types: the source must stay environment-neutral and cannot reach
+    // fetch, XMLHttpRequest or WebSocket (test/no-network.test.ts checks this too).
+    "types": []
+  },
+  "include": ["src/**/*.ts"]
+}

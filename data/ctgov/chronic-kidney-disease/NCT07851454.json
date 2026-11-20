@@ -1,0 +1,67 @@
+{
+  "retrieved": "2026-11-16",
+  "api_version": "2.0.5",
+  "request_url": "https://clinicaltrials.gov/api/v2/studies?filter.ids=NCT06725810%2CNCT04819217%2CNCT07851454%2CNCT06923709%2CNCT07835828&pageSize=5&fields=NCTId%2CBriefTitle%2COverallStatus%2CLastUpdatePostDate%2CStartDate%2CPrimaryCompletionDate%2CPhase%2CStudyType%2CEnrollmentCount%2CLeadSponsorName%2CCondition%2CBriefSummary%2CEligibilityCriteria%2CMinimumAge%2CMaximumAge%2CSex%2CHealthyVolunteers%2CLocationFacility%2CLocationCity%2CLocationState%2CLocationCountry%2CLocationStatus",
+  "study": {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT07851454",
+        "briefTitle": "Walnuts for Cardiorenal Protection in Adults With Chronic Kidney Disease"
+      },
+      "statusModule": {
+        "overallStatus": "RECRUITING",
+        "startDateStruct": {
+          "date": "2026-08-04"
+        },
+        "primaryCompletionDateStruct": {
+          "date": "2028-02"
+        },
+        "lastUpdatePostDateStruct": {
+          "date": "2026-10-01"
+        }
+      },
+      "sponsorCollaboratorsModule": {
+        "leadSponsor": {
+          "name": "Institut Investigacio Sanitaria Pere Virgili"
+        }
+      },
+      "descriptionModule": {
+        "briefSummary": "To date, no rigorous randomized controlled trials have demonstrated a protective effect of daily moderate walnut consumption on kidney function or chronic kidney disease (CKD) progression in individuals with CKD.\n\nObjective: To determine the effect of walnut supplementation (30 g/day of raw walnuts) within a Mediterranean diet (MedDiet) based dietary counseling program, compared with the same MedDiet counseling program without walnut supplementation, on kidney function, CKD progression and regression, and classical and emerging cardiovascular risk markers in individuals with CKD. Secondary objectives focus on assessing whether regular walnut consumption as a healthy snack has a positive impact on inflammation, oxidative stress, endothelial dysfunction, and intestinal dysbiosis, conditions intrinsically linked to CKD that play a pathophysiological role in promoting/exacerbating its progression and the development of comorbidities in this vulnerable group of subjects.\n\nMethodology: A 6-month randomized controlled trial will be conducted in 150 men and women aged 45 to 75 years with stable mild to moderate CKD (stage G3a-b), overweight or obesity, and high cardiometabolic risk. The study will compare the effect of two interventions assessed at 3 and 6 months on the following outcomes:\n\n1. Primary outcomes: a) changes in kidney function assessed by the Estimated Glomerular Filtration Rate based on creatinine and cystatin C (eGFRcr-cys); b) CKD progression; and c) CKD remission\n2. Secondary outcomes: a) urinary albumin-to-creatinine ratio (UACR); b) mineral and bone metabolism parameters, c) anthropometry and body composition (Dual-Energy X-ray Absorptiometry, DXA); d) bone mineral density (DXA); e) diet quality; f) physical activity; g) medication use; h) psychological well-being; i) quality of life; j) classic cardiovascular risk markers; k) iron status and hepatic function; l) inflammation, endothelial function, and oxidation markers; m) gut microbiota"
+      },
+      "conditionsModule": {
+        "conditions": [
+          "CKD - Chronic Kidney Disease",
+          "Renal Function",
+          "Cardiovascular Biomarkers"
+        ]
+      },
+      "designModule": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollmentInfo": {
+          "count": 150
+        }
+      },
+      "eligibilityModule": {
+        "eligibilityCriteria": "Inclusion Criteria:\n\n* Men and women with stable mild to moderate chronic kidney disease \\[CKD\\] (stage G3a-b (estimated glomerular filtration rate \\[eGFR\\] 30-\\<60mL/min/1.73 m²) and albuminuria stages A1-3 (UACR from \\< 30mg/g to ≥ 300 mg/g))\n* 45-75 years old at screening\n* Overweight/obesity (Body Mass Index \\[BMI\\] ≥25 and ≤40 kg/m²)\n* Meet at least one of the following conditions:\n\n  (i) Systolic blood pressure ≥140 mmHg or diastolic blood pressure ≥90 mmHg, or use of antihypertensive agents (ii) Triglycerides ≥150 mg/dL, LDL cholesterol ≥160 mg/dL, HDL cholesterol ≤40 mg/dL in men or ≤50 mg/dL in women, or use of lipid-modifying medication (iii) Prediabetes or type 2 diabetes according to the American Diabetes Association (ADA) Standards, or use of glucose-lowering medication.\n\nExclusion Criteria:\n\n* Inability to give written informed consent\n* CKD caused by polycystic kidney disease, chronic pyelonephritis, and renal dysplasia\n* CKD on renal replacement therapy (hemodialysis, peritoneal dialysis, and kidney transplant recipients)\n* Acute exacerbation of CKD, whether due to extrarenal causes (decompensated heart failure, infectious disease or sepsis, surgical intervention) or due to an outbreak of underlying glomerular or systemic renal pathology, with changes in treatment in the last 2 months.\n* Nut allergy\n* Alcoholism (\\>50 g/day) or drug abuse\n* Treatment with immunosuppressant drugs or cytotoxic agents\n* Any other medical condition that interferes with the completion of the protocol (pregnancy/breastfeeding, history of inflammatory bowel disease, liver failure, cancer or active neoplasms, psychiatric problems)\n* Institutionalization of the participant.",
+        "healthyVolunteers": false,
+        "sex": "ALL",
+        "minimumAge": "45 Years",
+        "maximumAge": "75 Years"
+      },
+      "contactsLocationsModule": {
+        "locations": [
+          {
+            "facility": "Unit for Public Health and Nutritional Epidemiology, Faculty of Medicine and Health Sciences, Universitat Rovira i Virgili",
+            "status": "RECRUITING",
+            "city": "Reus",
+            "state": "Tarragona",
+            "country": "Spain"
+          }
+        ]
+      }
+    }
+  }
+}

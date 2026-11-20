@@ -1,0 +1,64 @@
+{
+  "retrieved": "2026-11-16",
+  "api_version": "2.0.5",
+  "request_url": "https://clinicaltrials.gov/api/v2/studies?filter.ids=NCT06725810%2CNCT04819217%2CNCT07851454%2CNCT06923709%2CNCT07835828&pageSize=5&fields=NCTId%2CBriefTitle%2COverallStatus%2CLastUpdatePostDate%2CStartDate%2CPrimaryCompletionDate%2CPhase%2CStudyType%2CEnrollmentCount%2CLeadSponsorName%2CCondition%2CBriefSummary%2CEligibilityCriteria%2CMinimumAge%2CMaximumAge%2CSex%2CHealthyVolunteers%2CLocationFacility%2CLocationCity%2CLocationState%2CLocationCountry%2CLocationStatus",
+  "study": {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT06923709",
+        "briefTitle": "Beneficial Effect of Amiloride on Progression of Chronic Kidney Disease"
+      },
+      "statusModule": {
+        "overallStatus": "RECRUITING",
+        "startDateStruct": {
+          "date": "2024-10-10"
+        },
+        "primaryCompletionDateStruct": {
+          "date": "2025-08-01"
+        },
+        "lastUpdatePostDateStruct": {
+          "date": "2025-04-11"
+        }
+      },
+      "sponsorCollaboratorsModule": {
+        "leadSponsor": {
+          "name": "Odense University Hospital"
+        }
+      },
+      "descriptionModule": {
+        "briefSummary": "This is a randomized, placebo-controlled, double-blinded crossover trial testing the effects of amiloride in patients with chronic kidney disease (CKD) and proteinuria.\n\nIn CKD with proteinuria, there is aberrant filtration of serine proteases and complement precursors into the tubular lumen. The interaction of these factors leads to proinflammatory complement activation, which may promote inflammation, opsonization, and formation of the membrane-attack complex, causing cell injury.\n\nWith the aim of preserving kidney function, reducing cardiovascular morbidity, and delaying renal replacement therapy in CKD, this study tests whether amiloride (10 mg/day) protects the filtration barrier, lowers albuminuria, and mitigates kidney inflammation through urokinase inhibition, independent of blood pressure effects.\n\nParticipants are randomized to receive amiloride (10 mg/day) or placebo for one week, with a 2-3-week washout period in between. Blood and urine samples are collected before and after each treatment period. Additionally, ECG, body composition measurements, blood pressure, and body weight are monitored.\n\nThe primary outcome measures are urinary C3a, soluble C5-9 (sTCC/MAC), and kidney injury biomarkers KIM-1 and NGAL. Secondary endpoints include the urinary albumin/creatinine ratio, protein/creatinine ratio, and blood pressure."
+      },
+      "conditionsModule": {
+        "conditions": [
+          "Chronic Kidney Disease(CKD)",
+          "Proteinuria"
+        ]
+      },
+      "designModule": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollmentInfo": {
+          "count": 40
+        }
+      },
+      "eligibilityModule": {
+        "eligibilityCriteria": "Inclusion criteria\n\nParticipants are eligible to be included in the study, only if all the following criteria apply:\n\n1. Participant must be 18 years of age including at the time of signing the informed consent.\n2. A clinical diagnosis of chronic kidney disease and:\n\n   1. eGFR ≥ 25 mL/min/1.73m2 and \\< 60mL/ min/1.73m2 at screening\n   2. UACR of ≥ 300mg/g at screening\n3. Participants must be on stable antihypertensive treatment 2 weeks before start of study drug and throughout study duration.\n4. Office blood pressure at screening meeting (visit 1), \\> 110/60mmHg and \\< 150/90mmHg. If BP \\> 150/90mmHg at visit 1, screening phase can be prolonged to 4 weeks#.\n5. Capable of giving signed informed consent.\n6. Women with childbearing potential\\* can only be included if a pregnancy test is negative at the screening visit. Moreover, women should be using contraception during the study.\n\n   * If the office blood pressure varies by approximately ±10 mmHg and is deemed acceptable by the investigator, the participant can be included.\n\n     * Women are considered of childbearing potential following menarche and until becoming post-menopausal (12 consecutive months without a menstrual period) unless permanently sterile. Permanent sterilization methods include hysterectomy, bilateral salpingectomy or bilateral oophorectomy (According to the Clinical Trial Facilitation Group, 2014-09-15).\n\nExclusion criteria\n\nParticipants are excluded from the study is any of the following criteria apply:\n\n1. Treatment with amiloride alone or in combination or use of other types of K-sparing diuretics, MR antagonists (Spironolactone, eplerenone, finerenone)\n2. Ongoing cancer treatment\n3. Treatment with immunosuppressive therapy within 6 months prior to screening\n4. History of organ transplantation\n5. Evidence of current infection (CRP\\> 50 and temperature \\> 38◦C)\n6. History of unstable or rapidly progressing renal disease (eGFR decreasing \\> 5ml/min/1.73m2 the last 2 months)\n7. Severe hepatic insufficiency classified as Child-Pugh C\n8. Patients on hypertension treatment who is not on stable antihypertensive treatment 2 weeks before start of study drug.\n9. Pregnancy or breastfeeding participants\n10. Congestive heart failure NYHA class IV, unstable or acute congestive heart failure.\n11. Recent cardiovascular events in a patient:\n\n    1. Less than two months post coronary artery revascularization.\n    2. Acute stroke or TIA within two months prior to screening\n    3. Acute coronary syndrome within two months prior to screening\n12. Patients who, in the judgement of the investigator may be at risk for dehydration.\n13. Known hypersensitivity to the study treatment (active substance or excipients)\n14. Known hypersensitivity to resonium\n15. Addison´s disease\n16. Gastric bypass operation\n17. Participation in other interventional trials\n18. Lactose intolerance\n19. Plasma potassium \\>4.9 mmol/l at screening",
+        "healthyVolunteers": false,
+        "sex": "ALL",
+        "minimumAge": "18 Years"
+      },
+      "contactsLocationsModule": {
+        "locations": [
+          {
+            "facility": "Department of Nephrology, Odense University Hospital",
+            "status": "RECRUITING",
+            "city": "Odense",
+            "country": "Denmark"
+          }
+        ]
+      }
+    }
+  }
+}

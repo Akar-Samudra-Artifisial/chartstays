@@ -1,0 +1,65 @@
+{
+  "retrieved": "2026-11-16",
+  "api_version": "2.0.5",
+  "request_url": "https://clinicaltrials.gov/api/v2/studies?filter.ids=NCT07595549%2CNCT07564414%2CNCT05919797%2CNCT06393725%2CNCT05799846&pageSize=5&fields=NCTId%2CBriefTitle%2COverallStatus%2CLastUpdatePostDate%2CStartDate%2CPrimaryCompletionDate%2CPhase%2CStudyType%2CEnrollmentCount%2CLeadSponsorName%2CCondition%2CBriefSummary%2CEligibilityCriteria%2CMinimumAge%2CMaximumAge%2CSex%2CHealthyVolunteers%2CLocationFacility%2CLocationCity%2CLocationState%2CLocationCountry%2CLocationStatus",
+  "study": {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT06393725",
+        "briefTitle": "Synchronous vs Asynchronous Remotely Delivered Lifestyle Interventions"
+      },
+      "statusModule": {
+        "overallStatus": "RECRUITING",
+        "startDateStruct": {
+          "date": "2025-02-06"
+        },
+        "primaryCompletionDateStruct": {
+          "date": "2027-12-31"
+        },
+        "lastUpdatePostDateStruct": {
+          "date": "2026-11-03"
+        }
+      },
+      "sponsorCollaboratorsModule": {
+        "leadSponsor": {
+          "name": "University of Connecticut"
+        }
+      },
+      "descriptionModule": {
+        "briefSummary": "The goal of this clinical trial is to learn if a group-based digital weight loss program that is delivered asynchronously (via an online platform) is as effective as one that is delivered synchronously (via weekly videoconference meetings). In the asynchronous condition, participants can engage with their group any time 24/7. In the synchronous condition, participants can engage with their group once a week at a videoconference meeting. The main questions it aims to answer are:\n\nWill participants in each condition lose about the same amount of weight? Will the participants in the asynchronous condition participate more than those in the synchronous condition? Will the participants in the asynchronous condition feel more connected to each other than those in the synchronous condition? Will the asynchronous condition cost less to deliver per pound lost than the synchronous condition?\n\nParticipants will:\n\nReceive a digital weight loss program that lasts 1 year and then volunteer participants will be selected to lead the group for 1 year following the program, a phase called the \"peer-led weight loss maintenance phase.\" Complete study assessments at baseline, 6, 12, 18, and 24 months."
+      },
+      "conditionsModule": {
+        "conditions": [
+          "Obesity"
+        ]
+      },
+      "designModule": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollmentInfo": {
+          "count": 378
+        }
+      },
+      "eligibilityModule": {
+        "eligibilityCriteria": "Inclusion Criteria:\n\n* BMI 27-45\n* has Bluetooth or wifi connectivity at home (for scale)\n* goes on Facebook at least 5 days per week over the past 2 weeks\n* has posted/replied at least once a week in the past 2 weeks (per self-report)\n* has a smart phone\n\nExclusion Criteria:\n\n* Pregnant or lactating or plans to during study period\n* bipolar disorder, substance abuse, psychosis, bulimia, binge eating disorder, or severe depression\n* had bariatric surgery or plans to during the study\n* currently taking meds affecting weight\n* lost ≥5% of weight in past 6 months\n* participating in another weight loss program or plans to during the study\n* chronic pain or medical condition that interferes with the ability to exercise\n* type 1 diabetes\n* unable to walk ¼ mile unaided without stopping\n* nicotine user",
+        "healthyVolunteers": true,
+        "sex": "ALL",
+        "minimumAge": "18 Years",
+        "maximumAge": "65 Years"
+      },
+      "contactsLocationsModule": {
+        "locations": [
+          {
+            "facility": "University of Connecticut",
+            "status": "RECRUITING",
+            "city": "Storrs",
+            "state": "Connecticut",
+            "country": "United States"
+          }
+        ]
+      }
+    }
+  }
+}

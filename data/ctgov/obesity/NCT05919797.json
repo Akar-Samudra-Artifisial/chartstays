@@ -1,0 +1,65 @@
+{
+  "retrieved": "2026-11-16",
+  "api_version": "2.0.5",
+  "request_url": "https://clinicaltrials.gov/api/v2/studies?filter.ids=NCT07595549%2CNCT07564414%2CNCT05919797%2CNCT06393725%2CNCT05799846&pageSize=5&fields=NCTId%2CBriefTitle%2COverallStatus%2CLastUpdatePostDate%2CStartDate%2CPrimaryCompletionDate%2CPhase%2CStudyType%2CEnrollmentCount%2CLeadSponsorName%2CCondition%2CBriefSummary%2CEligibilityCriteria%2CMinimumAge%2CMaximumAge%2CSex%2CHealthyVolunteers%2CLocationFacility%2CLocationCity%2CLocationState%2CLocationCountry%2CLocationStatus",
+  "study": {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT05919797",
+        "briefTitle": "Weight Loss Study: Genetics and Response to Naltrexone/Bupropion"
+      },
+      "statusModule": {
+        "overallStatus": "RECRUITING",
+        "startDateStruct": {
+          "date": "2023-06-08"
+        },
+        "primaryCompletionDateStruct": {
+          "date": "2027-06-30"
+        },
+        "lastUpdatePostDateStruct": {
+          "date": "2026-06-10"
+        }
+      },
+      "sponsorCollaboratorsModule": {
+        "leadSponsor": {
+          "name": "Columbia University"
+        }
+      },
+      "descriptionModule": {
+        "briefSummary": "The goal of this clinical trial is to understand if genetic variations are associated with the amount of weight loss with diet and while taking an FDA-approved medication for weight loss. The main question\\[s\\] it aims to answer are:\n\n* In Aim One, the investigators propose to rigorously test the hypothesis that presence of the Taq1A A1+ polymorphism is associated with greater weight loss with NB compared with the A1- genotype.\n* In Aim Two, the investigators will explore other genetic polymorphisms that might influence the efficacy of NB such as the fat mass and obesity-associated (FTO) gene which modulates DRD2 signaling, as carriers of risk alleles in both the FTO and ANKK1 gene demonstrate altered responses to reward-learning tasks associated with negative outcomes.\n\nParticipants will be in the study for 40 weeks, which consists of two phases:\n\n1. From baseline to week 12, participants will receive individual nutritional counseling on a calorie restricted diet. This phase includes in-person visits, blood tests, an EKG, vital signs, questionnaires, body weight, and nutritional visits.\n2. From week 12 to week 40, participants will continue to receive dietary counseling and will receive treatment with naltrexone/bupropion for 28 weeks. This phase includes in-person and phone visits, blood tests, vital signs, questionnaires, body weight, and nutritional visits."
+      },
+      "conditionsModule": {
+        "conditions": [
+          "Obesity"
+        ]
+      },
+      "designModule": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollmentInfo": {
+          "count": 120
+        }
+      },
+      "eligibilityModule": {
+        "eligibilityCriteria": "Inclusion Criteria:\n\n* Men and women ages 18-65 years\n* BMI 30-50 kg/m2 or\n* BMI 27-29.99 kg/m2 with at least one weight-related comorbidity including controlled hypertension, dyslipidemia, obstructive sleep apnea, or osteoarthritis of a weight-bearing joint.\n\nExclusion Criteria:\n\n* Obesity of known endocrine or hypothalamic origin\n* HbA1c \\> 6.5%\n* Cerebrovascular, cardiovascular, hepatic or renal disease\n* History of seizures, serious psychiatric illness or suicide attempts, drug or alcohol misuse within prior 24 months\n* Glaucoma\n* Current tobacco use on a regular basis\n* Use of dopamine agonists, opioid analgesics, antipsychotics, antidepressants, neuroleptics, naltrexone, diabetes medications\n* Use of Monoamine oxidase (MAO) inhibitors \\< 14 days prior to screening\n* Concomitant use of CYP2B6 inhibitors\n* History of anorexia nervosa or bulimia\n* Previous surgery for obesity\n* Weight loss device intervention within prior 2 years\n* Currently pregnant or lactating, planning pregnancy or refusal to use birth control when appropriate (Women of childbearing potential will be required to use effective contraception.)\n* Blood pressure \\> 145/95 (use of anti-hypertensives will be allowed with the exception of verapamil, which can cause hyperprolactinemia)\n* Clinically significant thyroid disease\n* Triglycerides \\> 499 mg/dl\n* Current use or use of weight loss medication within prior six months\n* Any lifetime weight change deemed significant by Principal Investigator\n* An affirmative answer to any question in the Columbia-Suicide Severity Rating Scale",
+        "healthyVolunteers": false,
+        "sex": "ALL",
+        "minimumAge": "18 Years",
+        "maximumAge": "65 Years"
+      },
+      "contactsLocationsModule": {
+        "locations": [
+          {
+            "facility": "Columbia University Medical Center",
+            "status": "RECRUITING",
+            "city": "New York",
+            "state": "New York",
+            "country": "United States"
+          }
+        ]
+      }
+    }
+  }
+}

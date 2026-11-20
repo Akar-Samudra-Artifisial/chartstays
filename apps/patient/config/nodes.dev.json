@@ -1,0 +1,10 @@
+{
+  "comment": "Trial node base URLs for local development (pnpm serve:nodes). For a deployment, copy this file, set each origin (e.g. https://<project>.pages.dev) and build with CHARTSTAYS_NODES_CONFIG=<path> (and remove \"dev\": localhost origins are refused without it).",
+  "dev": true,
+  "nodes": [
+    { "name": "Type 2 diabetes trials (demo node)", "area": "type-2-diabetes", "network": "t2d_trials", "origin": "http://localhost:4101" },
+    { "name": "Breast cancer trials (demo node)", "area": "breast-cancer", "network": "breast_cancer_trials", "origin": "http://localhost:4102" },
+    { "name": "Chronic kidney disease trials (demo node)", "area": "chronic-kidney-disease", "network": "ckd_trials", "origin": "http://localhost:4103" },
+    { "name": "Obesity trials (demo node)", "area": "obesity", "network": "obesity_trials", "origin": "http://localhost:4104" }
+  ]
+}

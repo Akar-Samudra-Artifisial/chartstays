@@ -1,0 +1,25 @@
+{
+  "name": "chartstays",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "ChartStays: your health record never leaves your browser; the clinical trials come to you.",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "packageManager": "pnpm@11.7.0",
+  "scripts": {
+    "build": "pnpm -r build",
+    "fetch:ctgov": "node tools/node-generator/src/cli/fetch.ts",
+    "gen": "pnpm --filter @chartstays/criteria-schema build && node tools/node-generator/src/cli/generate.ts",
+    "validate": "pnpm --filter @chartstays/criteria-schema build && node tools/node-generator/src/cli/validate.ts",
+    "match:report": "pnpm --filter @chartstays/criteria-schema --filter @chartstays/fhir-profile --filter @chartstays/matcher build && node tools/node-generator/src/cli/match-report.ts",
+    "synthea:timeshift": "node tools/node-generator/src/cli/timeshift.ts",
+    "serve:nodes": "node tools/serve-nodes.mjs",
+    "serve:app": "node tools/serve-app.mjs",
+    "e2e": "node tools/e2e/patient-e2e.mjs",
+    "deploy:check": "node tools/deploy-check.mjs",
+    "test": "pnpm -r --workspace-concurrency=1 test"
+  }
+}

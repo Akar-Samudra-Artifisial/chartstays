@@ -1,0 +1,58 @@
+[
+  {
+    "file": "Angelyn934_Kandra693_Harris789_abbe7ce8-820b-cb76-8d0c-02fe9d9decb0.json",
+    "reason": "female, b. 1965: type 2 diabetes, diabetic kidney disease, breast cancer, obesity",
+    "resources": 1603,
+    "offset_days": 18,
+    "original_latest": "2026-10-14"
+  },
+  {
+    "file": "Asia282_Prosacco716_3f0c90c7-2489-1306-ff69-868509c56635.json",
+    "reason": "female, b. 1959: obesity (BMI 30+)",
+    "resources": 344,
+    "offset_days": 54,
+    "original_latest": "2026-09-08"
+  },
+  {
+    "file": "Brett333_Kirlin939_1d670d3c-f290-52f4-9409-aaffd1eb59f5.json",
+    "reason": "male, b. 1998: obesity (BMI 30+)",
+    "resources": 110,
+    "offset_days": 949,
+    "original_latest": "2024-03-27"
+  },
+  {
+    "file": "Carmelina668_Jeane173_Shanahan202_55612fe8-9071-4a97-8e4c-8cc653c8394c.json",
+    "reason": "female, b. 1990: obesity (BMI 30+)",
+    "resources": 105,
+    "offset_days": 65,
+    "original_latest": "2026-08-28"
+  },
+  {
+    "file": "Marlin805_Nienow652_0c1b260c-7f32-fdd5-15dd-1160caf24c2b.json",
+    "reason": "male, b. 1966: type 2 diabetes",
+    "resources": 433,
+    "offset_days": 142,
+    "original_latest": "2026-06-12"
+  },
+  {
+    "file": "Noriko180_Yolonda722_Ullrich385_9345aa1d-acef-eea9-4904-f19b56249e76.json",
+    "reason": "female, b. 1977: breast cancer",
+    "resources": 315,
+    "offset_days": 183,
+    "original_latest": "2026-05-02"
+  },
+  {
+    "file": "Raquel318_Sommer719_Greenholt190_37cd4685-45ad-8602-7fff-2b04af9bc008.json",
+    "reason": "female, b. 1978: type 2 diabetes",
+    "resources": 475,
+    "offset_days": 83,
+    "original_latest": "2026-08-10"
+  },
+  {
+    "file": "Stephan15_Emmerich580_492dfa32-d7b8-faf8-c7d9-ba12d95f82cd.json",
+    "reason": "male, b. 1963: chronic kidney disease stage 1-2",
+    "resources": 1253,
+    "offset_days": 350,
+    "original_latest": "2025-11-16"
+  }
+]

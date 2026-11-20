@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "nct_id": "NCT07851454",
+  "title": "Walnuts for Cardiorenal Protection in Adults With Chronic Kidney Disease",
+  "status": "RECRUITING",
+  "conditions": [
+    "CKD - Chronic Kidney Disease",
+    "Renal Function",
+    "Cardiovascular Biomarkers"
+  ],
+  "source": {
+    "name": "ClinicalTrials.gov",
+    "nct_id": "NCT07851454",
+    "url": "https://clinicaltrials.gov/study/NCT07851454",
+    "retrieved": "2026-11-16",
+    "modified": "Eligibility criteria structured and coded (SNOMED CT, LOINC, RxNorm) by ChartStays from the ClinicalTrials.gov text; the original text is kept unchanged in eligibility.criteria_text. Criteria curated by the project team, not reviewed by clinicians; pre-screening only.",
+    "last_update_posted": "2026-10-01"
+  },
+  "eligibility": {
+    "criteria_text": "Inclusion Criteria:\n\n* Men and women with stable mild to moderate chronic kidney disease \\[CKD\\] (stage G3a-b (estimated glomerular filtration rate \\[eGFR\\] 30-\\<60mL/min/1.73 m²) and albuminuria stages A1-3 (UACR from \\< 30mg/g to ≥ 300 mg/g))\n* 45-75 years old at screening\n* Overweight/obesity (Body Mass Index \\[BMI\\] ≥25 and ≤40 kg/m²)\n* Meet at least one of the following conditions:\n\n  (i) Systolic blood pressure ≥140 mmHg or diastolic blood pressure ≥90 mmHg, or use of antihypertensive agents (ii) Triglycerides ≥150 mg/dL, LDL cholesterol ≥160 mg/dL, HDL cholesterol ≤40 mg/dL in men or ≤50 mg/dL in women, or use of lipid-modifying medication (iii) Prediabetes or type 2 diabetes according to the American Diabetes Association (ADA) Standards, or use of glucose-lowering medication.\n\nExclusion Criteria:\n\n* Inability to give written informed consent\n* CKD caused by polycystic kidney disease, chronic pyelonephritis, and renal dysplasia\n* CKD on renal replacement therapy (hemodialysis, peritoneal dialysis, and kidney transplant recipients)\n* Acute exacerbation of CKD, whether due to extrarenal causes (decompensated heart failure, infectious disease or sepsis, surgical intervention) or due to an outbreak of underlying glomerular or systemic renal pathology, with changes in treatment in the last 2 months.\n* Nut allergy\n* Alcoholism (\\>50 g/day) or drug abuse\n* Treatment with immunosuppressant drugs or cytotoxic agents\n* Any other medical condition that interferes with the completion of the protocol (pregnancy/breastfeeding, history of inflammatory bowel disease, liver failure, cancer or active neoplasms, psychiatric problems)\n* Institutionalization of the participant.",
+    "sex": "ALL",
+    "minimum_age": "45 Years",
+    "maximum_age": "75 Years",
+    "healthy_volunteers": false
+  },
+  "structured": [
+    {
+      "id": "inc-0a",
+      "type": "inclusion",
+      "kind": "age",
+      "label": "Age 45 to 75 years",
+      "source_text": "ClinicalTrials.gov age limits: 45 Years minimum, 75 Years maximum",
+      "min": 45,
+      "max": 75,
+      "unit": "years"
+    },
+    {
+      "kind": "lab",
+      "label": "eGFR 30 mL/min/1.73m2 or higher",
+      "loinc": "33914-3",
+      "op": "gte",
+      "value": 30,
+      "unit": "mL/min/{1.73_m2}",
+      "note": "Synthea records eGFR by the MDRD formula (LOINC 33914-3); the study does not name a formula.",
+      "id": "inc-1a",
+      "type": "inclusion",
+      "source_text": "Men and women with stable mild to moderate chronic kidney disease [CKD] (stage G3a-b (estimated glomerular filtration rate [eGFR] 30-<60mL/min/1.73 m²) and albuminuria stages A1-3 (UACR from < 30mg/g to ≥ 300 mg/g))"
+    },
+    {
+      "kind": "lab",
+      "label": "eGFR below 60 mL/min/1.73m2",
+      "loinc": "33914-3",
+      "op": "lt",
+      "value": 60,
+      "unit": "mL/min/{1.73_m2}",
+      "id": "inc-1b",
+      "type": "inclusion",
+      "source_text": "Men and women with stable mild to moderate chronic kidney disease [CKD] (stage G3a-b (estimated glomerular filtration rate [eGFR] 30-<60mL/min/1.73 m²) and albuminuria stages A1-3 (UACR from < 30mg/g to ≥ 300 mg/g))"
+    },
+    {
+      "kind": "lab",
+      "label": "BMI 25 to 40 kg/m2",
+      "loinc": "39156-5",
+      "op": "between",
+      "value": [
+        25,
+        40
+      ],
+      "unit": "kg/m2",
+      "id": "inc-3",
+      "type": "inclusion",
+      "source_text": "Overweight/obesity (Body Mass Index [BMI] ≥25 and ≤40 kg/m²)"
+    }
+  ],
+  "free_text": [
+    {
+      "id": "inc-1",
+      "type": "inclusion",
+      "text": "Men and women with stable mild to moderate chronic kidney disease [CKD] (stage G3a-b (estimated glomerular filtration rate [eGFR] 30-<60mL/min/1.73 m²) and albuminuria stages A1-3 (UACR from < 30mg/g to ≥ 300 mg/g))"
+    },
+    {
+      "id": "inc-4",
+      "type": "inclusion",
+      "text": "Meet at least one of the following conditions: (i) Systolic blood pressure ≥140 mmHg or diastolic blood pressure ≥90 mmHg, or use of antihypertensive agents (ii) Triglycerides ≥150 mg/dL, LDL cholesterol ≥160 mg/dL, HDL cholesterol ≤40 mg/dL in men or ≤50 mg/dL in women, or use of lipid-modifying medication (iii) Prediabetes or type 2 diabetes according to the American Diabetes Association (ADA) Standards, or use of glucose-lowering medication."
+    },
+    {
+      "id": "exc-1",
+      "type": "exclusion",
+      "text": "Inability to give written informed consent"
+    },
+    {
+      "id": "exc-2",
+      "type": "exclusion",
+      "text": "CKD caused by polycystic kidney disease, chronic pyelonephritis, and renal dysplasia"
+    },
+    {
+      "id": "exc-3",
+      "type": "exclusion",
+      "text": "CKD on renal replacement therapy (hemodialysis, peritoneal dialysis, and kidney transplant recipients)"
+    },
+    {
+      "id": "exc-4",
+      "type": "exclusion",
+      "text": "Acute exacerbation of CKD, whether due to extrarenal causes (decompensated heart failure, infectious disease or sepsis, surgical intervention) or due to an outbreak of underlying glomerular or systemic renal pathology, with changes in treatment in the last 2 months."
+    },
+    {
+      "id": "exc-5",
+      "type": "exclusion",
+      "text": "Nut allergy"
+    },
+    {
+      "id": "exc-6",
+      "type": "exclusion",
+      "text": "Alcoholism (>50 g/day) or drug abuse"
+    },
+    {
+      "id": "exc-7",
+      "type": "exclusion",
+      "text": "Treatment with immunosuppressant drugs or cytotoxic agents"
+    },
+    {
+      "id": "exc-8",
+      "type": "exclusion",
+      "text": "Any other medical condition that interferes with the completion of the protocol (pregnancy/breastfeeding, history of inflammatory bowel disease, liver failure, cancer or active neoplasms, psychiatric problems)"
+    },
+    {
+      "id": "exc-9",
+      "type": "exclusion",
+      "text": "Institutionalization of the participant."
+    }
+  ],
+  "requested_fields_for_inquiry": [
+    "age",
+    "labs:33914-3",
+    "labs:39156-5"
+  ],
+  "curation": {
+    "method": "manual"
+  }
+}

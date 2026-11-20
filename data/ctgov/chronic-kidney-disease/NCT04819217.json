@@ -1,0 +1,63 @@
+{
+  "retrieved": "2026-11-16",
+  "api_version": "2.0.5",
+  "request_url": "https://clinicaltrials.gov/api/v2/studies?filter.ids=NCT06725810%2CNCT04819217%2CNCT07851454%2CNCT06923709%2CNCT07835828&pageSize=5&fields=NCTId%2CBriefTitle%2COverallStatus%2CLastUpdatePostDate%2CStartDate%2CPrimaryCompletionDate%2CPhase%2CStudyType%2CEnrollmentCount%2CLeadSponsorName%2CCondition%2CBriefSummary%2CEligibilityCriteria%2CMinimumAge%2CMaximumAge%2CSex%2CHealthyVolunteers%2CLocationFacility%2CLocationCity%2CLocationState%2CLocationCountry%2CLocationStatus",
+  "study": {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT04819217",
+        "briefTitle": "Study of Oral Uremic Toxin Absorbent and Probiotics to Retard the Progression of Chronic Kidney Disease"
+      },
+      "statusModule": {
+        "overallStatus": "RECRUITING",
+        "startDateStruct": {
+          "date": "2020-05-01"
+        },
+        "primaryCompletionDateStruct": {
+          "date": "2030-12-01"
+        },
+        "lastUpdatePostDateStruct": {
+          "date": "2025-07-18"
+        }
+      },
+      "sponsorCollaboratorsModule": {
+        "leadSponsor": {
+          "name": "National Taiwan University Hospital"
+        }
+      },
+      "descriptionModule": {
+        "briefSummary": "In patients with chronic kidney disease (CKD), uremic toxins accumulate when kidney function declines. Those uremic toxins had a greater affinity to circulating proteins are called \"protein bound uremic toxins, PBUT.\" Apart from traditional small or middle molecule uremic toxins, the PBUTs can be rarely eliminated using traditional renal replacement therapy, even using high flux dialysis modalities. Among these molecules identified, indoxyl sulfate (IS), and p-cresol (PC) are mostly studied. Both in vitro and in vivo study, IS and PC are associated with endothelial dysfunction, vascular smooth muscle proliferation, and increased risk for CV outcomes.\n\nThe uremic toxins (IS and PC) are originated in the endogenous environment, mainly from the protein metabolism, food intake, or produced by gut microbiota. Prevention of IS or PC precursors from being absorbed across the intestinal tract has been extensively studied in the renal literature by use of oral adsorbents. In animal models, activated charcoal reduces the serum concentration of creatinine (cre) and may delay CKD progression by alleviating IS overload. An oral form of non-absorbable surface-modified activated bamboo charcoal (ABC), has been demonstrated to effectively reduce circulating and renal IS levels in animal models.\n\nRecently, probiotics, prebiotics or synbiotics have been reported to reduce inflammation, improve kidney function and retard progression of CKD by restoring the symbiosis of gut microflora in patients with CKD. A randomized trial found synbiotics decreased serum PCS without reducing serum IS in non-dialysis CKD. Another study found that synbiotics delayed CKD progression. A systematic review found prebiotic and probiotic therapies reduced IS and PCS in patients with end stage kidney disease (ESKD) on haemodialysis. However, it is unclear whether the results hold true for other patients with CKD. Based on these previous findings, investigators will conduct a prospective randomized open blinded end-point (PROBE) study to see if oral uremic toxin absorbent + probiotics prevent CKD progression. Also, a panel of clinical and biochemical profiles will be checked to investigate possible link between several biomarkers and clinical response."
+      },
+      "conditionsModule": {
+        "conditions": [
+          "CKD"
+        ]
+      },
+      "designModule": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollmentInfo": {
+          "count": 180
+        }
+      },
+      "eligibilityModule": {
+        "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age ≥ 20 years old on the day of screening.\n2. CKD patients with eGFR 15 \\< eGFR \\<45 ml/min/1.73m2 and UACR \\> 100 mg/g in a stable status, creatinine elevated less than 0.3 mg/dL in at least 30 days before enrollment.\n\nExclusion Criteria:\n\n1. Baseline estimated glomerular filtration rates (eGFR) \\< 15 ml/min/1.73m2 according to MDRD equation.\n2. Patients in severe malnutrition status, albumin less than 2.0 g/dL\n3. Patients in severe anemia or active gastrointestinal bleeding with hemoglobulin \\< 8 g/dL.\n4. Peptic ulcer, esophageal varices, ileus or under fasting status\n5. Previous gastrointestinal operation.\n6. Chronic constipation, as defined with less than 3 bowel movements per week, straining, hard stools, incomplete evacuation and inability to pass stool. If usage of oral laxatives can achieve bowel movement, this patient will not be excluded.\n7. Patients with major hemorrhage, as defined with acute hemorrhage and requirement of blood transfusion during index admission.\n8. Patients with a biopsy proved or clinically diagnosed advanced liver cirrhosis, Child classification B or C.\n9. Solid organ or hematological transplantation recipients.\n10. Patients with oliguric kidney injury, as defined with less than 500 cc/day.\n11. Evidence of obstructive kidney injury or polycystic kidney disease.\n12. Antibiotics or probiotics treatment within the last 2 weeks before enrollment and during follow-up period.\n13. Presence or history of malignant neoplasms within the past 5 years prior to the day of screening.",
+        "healthyVolunteers": false,
+        "sex": "ALL",
+        "minimumAge": "20 Years"
+      },
+      "contactsLocationsModule": {
+        "locations": [
+          {
+            "facility": "NTUH",
+            "status": "RECRUITING",
+            "city": "Taipei",
+            "country": "Taiwan"
+          }
+        ]
+      }
+    }
+  }
+}

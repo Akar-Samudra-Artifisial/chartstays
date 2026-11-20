@@ -1,0 +1,209 @@
+{
+  "schema_version": 1,
+  "nct_id": "NCT06725810",
+  "title": "Correction of Anemia With Enarodustat in Non-dialysis Dependent Chronic Kidney Disease",
+  "status": "RECRUITING",
+  "conditions": [
+    "Chronic Kidney Disease Associated Anemia"
+  ],
+  "source": {
+    "name": "ClinicalTrials.gov",
+    "nct_id": "NCT06725810",
+    "url": "https://clinicaltrials.gov/study/NCT06725810",
+    "retrieved": "2026-11-16",
+    "modified": "Eligibility criteria structured and coded (SNOMED CT, LOINC, RxNorm) by ChartStays from the ClinicalTrials.gov text; the original text is kept unchanged in eligibility.criteria_text. Criteria curated by the project team, not reviewed by clinicians; pre-screening only.",
+    "last_update_posted": "2025-07-28"
+  },
+  "eligibility": {
+    "criteria_text": "Inclusion Criteria:\n\n1. Aged 18-75 years at the time of consent to participate;\n2. Body weight ranged from 45 to 100 kg;\n3. Diagnosed with CKD stages 2-5 (10 ≤ eGFR \\< 90 mL/min/1.73m2) and were not dialysis dependent;\n4. Diagnosed with renal anemia:\n\n1)Hemoglobin level of 6 - 10 g/dL for those who have not received ESA or HIF-PHI treatment within 6 weeks at screening; 2)Hemoglobin level of 8 - 12 g/dL for those who are currently receiving ESA (ESA dosage ≤ 10,000 IU/week) or HIF-PHI (roxadustat dosage≤ 100 mg TIW) at screening; 5. Serum ferritin \\> 100 μg/L or transferrin saturation \\> 20% at screening; 6. Voluntary participation in the trial and signing of the informed consent form.\n\nExclusion Criteria:\n\n1. Uncontrolled hypertension identified as systolic blood pressure \\>160mmHg or diastolic blood pressure \\>100mmHg after 4 weeks of regular and adequate drug therapy prior to screening;\n2. Uncontrolled proteinuria identified as UACR \\>3000mg/g or 24-hour urine protein \\>3.5g in non-diabetic patients and UACR of \\>5000mg/g or 24-hour urine protein \\>5.5g in diabetic patients;\n3. Anemia due to other reasons except CKD including systemic hematological disorders (such as myelodysplastic syndrome, aplastic anemia, etc.), hemolytic anemia, hemorrhagic anemia or cancer-related anemia;\n4. History of autoimmune diseases which could result in anemia such as systemic lupus erythematosus and ANCA vasculitis;\n5. History of active bleeding within 4 weeks prior to screening;\n6. History of serious thrombotic event such as a myocardial infarction, cerebral infarction, pulmonary embolism, unstable angina, or PCI or cardiac surgery within 6 months prior to screening;\n7. Severe heart failure (NYHA class IV) at screening;\n8. History of blood transfusion within 2 months prior to screening;\n9. History of usage of immunosuppressants or other immune therapies within 6 months prior to screening;\n10. Patients who are estimated to require dialysis, kidney transplantation, or major surgery within 6 months;\n11. Severe liver and biliary system complications (AST or ALT \\>3 times the upper limit of normal, total bilirubin \\>2 times the upper limit of normal) at screening;\n12. Receiving ESA combined with roxadustat treatment at screening;\n13. History of proliferative retinopathy or diabetic retinopathy requiring ophthalmological treatment;\n14. Severe hyperparathyroidism (iPTH ≥ 500 pg/mL);\n15. Severe active infections (such as active tuberculosis, fungal infections, etc.);\n16. Patients who are bedridden or have difficulty walking, or have a history of atrial fibrillation or deep vein thrombosis of the lower limbs;\n17. History of active tumors;\n18. Female patients who are pregnant or breastfeeding, or non-childbearing women who do not agree to effective contraception;\n19. Patients with a history of severe drug allergies (such as anaphylactic shock), or known allergies to any of the active ingredients or excipients of enarodostat;\n20. Patients who are currently participating in any other interventional clinical trial;\n21. Other reasons determined by the investigator not suitable for participation in the study.",
+    "sex": "ALL",
+    "minimum_age": "18 Years",
+    "maximum_age": "75 Years",
+    "healthy_volunteers": false
+  },
+  "structured": [
+    {
+      "id": "inc-0a",
+      "type": "inclusion",
+      "kind": "age",
+      "label": "Age 18 to 75 years",
+      "source_text": "ClinicalTrials.gov age limits: 18 Years minimum, 75 Years maximum",
+      "min": 18,
+      "max": 75,
+      "unit": "years"
+    },
+    {
+      "kind": "lab",
+      "label": "Body weight 45 to 100 kg",
+      "loinc": "29463-7",
+      "op": "between",
+      "value": [
+        45,
+        100
+      ],
+      "unit": "kg",
+      "id": "inc-2",
+      "type": "inclusion",
+      "source_text": "Body weight ranged from 45 to 100 kg;"
+    },
+    {
+      "kind": "lab",
+      "label": "eGFR 10 mL/min/1.73m2 or higher",
+      "loinc": "33914-3",
+      "op": "gte",
+      "value": 10,
+      "unit": "mL/min/{1.73_m2}",
+      "note": "Synthea records eGFR by the MDRD formula (LOINC 33914-3); the study does not name a formula.",
+      "id": "inc-3a",
+      "type": "inclusion",
+      "source_text": "Diagnosed with CKD stages 2-5 (10 ≤ eGFR < 90 mL/min/1.73m2) and were not dialysis dependent;"
+    },
+    {
+      "kind": "lab",
+      "label": "eGFR below 90 mL/min/1.73m2",
+      "loinc": "33914-3",
+      "op": "lt",
+      "value": 90,
+      "unit": "mL/min/{1.73_m2}",
+      "note": "Dialysis dependence is not checked.",
+      "id": "inc-3b",
+      "type": "inclusion",
+      "source_text": "Diagnosed with CKD stages 2-5 (10 ≤ eGFR < 90 mL/min/1.73m2) and were not dialysis dependent;"
+    }
+  ],
+  "free_text": [
+    {
+      "id": "inc-3",
+      "type": "inclusion",
+      "text": "Diagnosed with CKD stages 2-5 (10 ≤ eGFR < 90 mL/min/1.73m2) and were not dialysis dependent;"
+    },
+    {
+      "id": "inc-4",
+      "type": "inclusion",
+      "text": "Diagnosed with renal anemia: 1)Hemoglobin level of 6 - 10 g/dL for those who have not received ESA or HIF-PHI treatment within 6 weeks at screening; 2)Hemoglobin level of 8 - 12 g/dL for those who are currently receiving ESA (ESA dosage ≤ 10,000 IU/week) or HIF-PHI (roxadustat dosage≤ 100 mg TIW) at screening"
+    },
+    {
+      "id": "inc-5",
+      "type": "inclusion",
+      "text": "Serum ferritin > 100 μg/L or transferrin saturation > 20% at screening"
+    },
+    {
+      "id": "inc-6",
+      "type": "inclusion",
+      "text": "Voluntary participation in the trial and signing of the informed consent form."
+    },
+    {
+      "id": "exc-1",
+      "type": "exclusion",
+      "text": "Uncontrolled hypertension identified as systolic blood pressure >160mmHg or diastolic blood pressure >100mmHg after 4 weeks of regular and adequate drug therapy prior to screening;"
+    },
+    {
+      "id": "exc-2",
+      "type": "exclusion",
+      "text": "Uncontrolled proteinuria identified as UACR >3000mg/g or 24-hour urine protein >3.5g in non-diabetic patients and UACR of >5000mg/g or 24-hour urine protein >5.5g in diabetic patients;"
+    },
+    {
+      "id": "exc-3",
+      "type": "exclusion",
+      "text": "Anemia due to other reasons except CKD including systemic hematological disorders (such as myelodysplastic syndrome, aplastic anemia, etc.), hemolytic anemia, hemorrhagic anemia or cancer-related anemia;"
+    },
+    {
+      "id": "exc-4",
+      "type": "exclusion",
+      "text": "History of autoimmune diseases which could result in anemia such as systemic lupus erythematosus and ANCA vasculitis;"
+    },
+    {
+      "id": "exc-5",
+      "type": "exclusion",
+      "text": "History of active bleeding within 4 weeks prior to screening;"
+    },
+    {
+      "id": "exc-6",
+      "type": "exclusion",
+      "text": "History of serious thrombotic event such as a myocardial infarction, cerebral infarction, pulmonary embolism, unstable angina, or PCI or cardiac surgery within 6 months prior to screening;"
+    },
+    {
+      "id": "exc-7",
+      "type": "exclusion",
+      "text": "Severe heart failure (NYHA class IV) at screening;"
+    },
+    {
+      "id": "exc-8",
+      "type": "exclusion",
+      "text": "History of blood transfusion within 2 months prior to screening;"
+    },
+    {
+      "id": "exc-9",
+      "type": "exclusion",
+      "text": "History of usage of immunosuppressants or other immune therapies within 6 months prior to screening;"
+    },
+    {
+      "id": "exc-10",
+      "type": "exclusion",
+      "text": "Patients who are estimated to require dialysis, kidney transplantation, or major surgery within 6 months;"
+    },
+    {
+      "id": "exc-11",
+      "type": "exclusion",
+      "text": "Severe liver and biliary system complications (AST or ALT >3 times the upper limit of normal, total bilirubin >2 times the upper limit of normal) at screening;"
+    },
+    {
+      "id": "exc-12",
+      "type": "exclusion",
+      "text": "Receiving ESA combined with roxadustat treatment at screening;"
+    },
+    {
+      "id": "exc-13",
+      "type": "exclusion",
+      "text": "History of proliferative retinopathy or diabetic retinopathy requiring ophthalmological treatment;"
+    },
+    {
+      "id": "exc-14",
+      "type": "exclusion",
+      "text": "Severe hyperparathyroidism (iPTH ≥ 500 pg/mL);"
+    },
+    {
+      "id": "exc-15",
+      "type": "exclusion",
+      "text": "Severe active infections (such as active tuberculosis, fungal infections, etc.);"
+    },
+    {
+      "id": "exc-16",
+      "type": "exclusion",
+      "text": "Patients who are bedridden or have difficulty walking, or have a history of atrial fibrillation or deep vein thrombosis of the lower limbs;"
+    },
+    {
+      "id": "exc-17",
+      "type": "exclusion",
+      "text": "History of active tumors;"
+    },
+    {
+      "id": "exc-18",
+      "type": "exclusion",
+      "text": "Female patients who are pregnant or breastfeeding, or non-childbearing women who do not agree to effective contraception;"
+    },
+    {
+      "id": "exc-19",
+      "type": "exclusion",
+      "text": "Patients with a history of severe drug allergies (such as anaphylactic shock), or known allergies to any of the active ingredients or excipients of enarodostat;"
+    },
+    {
+      "id": "exc-20",
+      "type": "exclusion",
+      "text": "Patients who are currently participating in any other interventional clinical trial;"
+    },
+    {
+      "id": "exc-21",
+      "type": "exclusion",
+      "text": "Other reasons determined by the investigator not suitable for participation in the study."
+    }
+  ],
+  "requested_fields_for_inquiry": [
+    "age",
+    "labs:29463-7",
+    "labs:33914-3"
+  ],
+  "curation": {
+    "method": "manual"
+  }
+}

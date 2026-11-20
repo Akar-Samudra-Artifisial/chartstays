@@ -1,0 +1,85 @@
+{
+  "brand": "ChartStays Patient Assistant",
+  "networks": [
+    {
+      "name": "patient_navigator",
+      "front_man": "navigator",
+      "hocon": "./patient_navigator.network.json",
+      "description": "Pre-screens a patient for clinical trials in the browser: trial nodes send public criteria, health data never leaves the page.",
+      "tags": [
+        "agentified-website"
+      ],
+      "sample_queries": [
+        "Find clinical trials I might qualify for.",
+        "Which trial nodes can you check?",
+        "What should I confirm with my doctor?",
+        "Can you enroll me in a trial right now?"
+      ]
+    }
+  ],
+  "actions": {
+    "version": 1,
+    "module": "./site-actions.js",
+    "bridge": "./bridge/action-bridge.html",
+    "agentTools": [
+      "readProfile",
+      "listNodes",
+      "loadNode",
+      "evaluateCriteria",
+      "buildDoctorSheet",
+      "prepareInquiry"
+    ]
+  },
+  "llm_router": {
+    "base_url": "browser://mock",
+    "mock": true,
+    "byok_router": "https://api.otari.ai/api/v1"
+  },
+  "allowed_peers": [
+    "http://localhost:4101",
+    "http://localhost:4102",
+    "http://localhost:4103",
+    "http://localhost:4104"
+  ],
+  "peer_policy": {
+    "mode": "closed",
+    "deny_origins": [],
+    "note": "Calls only the trial nodes in allowed_peers, after the patient agrees; health data is never sent."
+  },
+  "agent_mcp": {
+    "protocol": "nsdeploy-agent-mcp/v1",
+    "network": "patient_navigator",
+    "front_man": "navigator",
+    "available": false,
+    "reason": "This is a static bundle; a public MCP facade requires an application host."
+  },
+  "theme": {
+    "primary": "#1b5e73"
+  },
+  "linking": {
+    "protocol": "nsdeploy-link/v1",
+    "exports": [
+      {
+        "network": "patient_navigator",
+        "front_man": "navigator",
+        "aliases": [
+          "patient_navigator",
+          "navigator"
+        ],
+        "url": "patient_navigator"
+      }
+    ],
+    "imports": [],
+    "link_updates": {
+      "mode": "browser-local"
+    }
+  },
+  "deployment": {
+    "mode": "static",
+    "self_contained_runtime": true,
+    "browser_mock": true,
+    "direct_byok": true,
+    "direct_mcp_requires_cors": true,
+    "public_mcp_facade": false
+  }
+}

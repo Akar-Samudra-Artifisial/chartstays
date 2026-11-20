@@ -1,0 +1,38 @@
+{
+  "name": "@chartstays/criteria-schema",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "JSON Schema and TypeScript types for ChartStays criteria.json documents.",
+  "license": "Apache-2.0",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./validate": {
+      "types": "./dist/validate.d.ts",
+      "default": "./dist/validate.js"
+    },
+    "./criteria.schema.json": "./schema/criteria.schema.json",
+    "./precompiled": {
+      "types": "./dist/precompiled.d.ts",
+      "default": "./dist/precompiled.js"
+    }
+  },
+  "files": [
+    "dist",
+    "schema"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json && node scripts/precompile.mjs",
+    "test": "tsc -p tsconfig.json && node scripts/precompile.mjs && node --test \"test/*.test.ts\""
+  },
+  "dependencies": {
+    "ajv": "8.20.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.20.5",
+    "typescript": "5.9.3"
+  }
+}

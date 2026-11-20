@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "nodes": [
+    {
+      "name": "Type 2 diabetes trials (demo node)",
+      "origin": "http://localhost:4101",
+      "area": "type-2-diabetes",
+      "network": "t2d_trials"
+    },
+    {
+      "name": "Breast cancer trials (demo node)",
+      "origin": "http://localhost:4102",
+      "area": "breast-cancer",
+      "network": "breast_cancer_trials"
+    },
+    {
+      "name": "Chronic kidney disease trials (demo node)",
+      "origin": "http://localhost:4103",
+      "area": "chronic-kidney-disease",
+      "network": "ckd_trials"
+    },
+    {
+      "name": "Obesity trials (demo node)",
+      "origin": "http://localhost:4104",
+      "area": "obesity",
+      "network": "obesity_trials"
+    }
+  ]
+}

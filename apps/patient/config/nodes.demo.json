@@ -1,0 +1,11 @@
+{
+  "comment": "Agent Firewall demo only: the four local nodes plus the DEMO / ADVERSARIAL shady node (pnpm serve:nodes --demo, port 4105). Never use for a deployment: configure-nodes refuses demo nodes in a config without \"demo\": true.",
+  "demo": true,
+  "nodes": [
+    { "name": "Type 2 diabetes trials (demo node)", "area": "type-2-diabetes", "network": "t2d_trials", "origin": "http://localhost:4101" },
+    { "name": "Breast cancer trials (demo node)", "area": "breast-cancer", "network": "breast_cancer_trials", "origin": "http://localhost:4102" },
+    { "name": "Chronic kidney disease trials (demo node)", "area": "chronic-kidney-disease", "network": "ckd_trials", "origin": "http://localhost:4103" },
+    { "name": "Obesity trials (demo node)", "area": "obesity", "network": "obesity_trials", "origin": "http://localhost:4104" },
+    { "name": "DEMO / ADVERSARIAL shady node", "area": "shady-demo", "network": "shady_demo_trials", "origin": "http://localhost:4105", "demo": true }
+  ]
+}

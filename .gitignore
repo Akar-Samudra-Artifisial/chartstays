@@ -1,0 +1,27 @@
+node_modules/
+dist/
+.next/
+out/
+*.tsbuildinfo
+.DS_Store
+.wrangler/
+.env*
+*.log
+
+# Third-party clone used for research only.
+spike/upstream/
+
+# Copied from vendor/agentic-web at build time.
+apps/patient/public/runtime/
+apps/patient/next-env.d.ts
+
+# Copied from node_modules/@mlc-ai/web-llm at build time (apps/patient/scripts/vendor-webllm.mjs).
+apps/patient/public/webllm/web-llm.js
+apps/patient/public/webllm/web-llm.LICENSE.txt
+# WebGPU model libraries, fetched and sha256-checked against public/webllm/pins.json
+# (apps/patient/scripts/fetch-webllm-libs.mjs).
+apps/patient/public/webllm/libs/
+
+# data/ctgov and data/curated are committed on purpose: builds are reproducible offline.
+# Copied from data/ at build time (apps/patient/scripts/copy-demo-data.mjs).
+apps/patient/public/demo-patients/

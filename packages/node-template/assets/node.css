@@ -1,0 +1,70 @@
+:root {
+  --primary: #1b5e73;
+  --ink: #1d2327;
+  --muted: #5a656c;
+  --line: #d9e0e3;
+  --warn-bg: #fff6db;
+  --warn-line: #e6c65c;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  color: var(--ink);
+  font: 16px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif;
+  background: #f7f9fa;
+}
+
+a { color: var(--primary); }
+
+.demo-banner {
+  padding: 10px 16px;
+  background: var(--warn-bg);
+  border-bottom: 1px solid var(--warn-line);
+  font-size: 0.95rem;
+  text-align: center;
+}
+
+.node-header, main, .attribution {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.node-header { padding-top: 28px; }
+.node-header h1 { margin: 0.1em 0 0.3em; color: var(--primary); }
+.eyebrow { margin: 0; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; font-size: 0.8rem; }
+.machine-links { color: var(--muted); font-size: 0.9rem; }
+
+.studies { list-style: none; padding: 0; display: grid; gap: 14px; }
+.study {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--primary);
+  border-radius: 8px;
+  padding: 14px 16px;
+}
+.study h3 { margin: 0 0 6px; font-size: 1.05rem; }
+.study .meta { margin: 0; color: var(--muted); font-size: 0.9rem; }
+.study .criteria-summary { margin: 8px 0 0; font-size: 0.92rem; }
+
+.assistant {
+  margin: 32px 0;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 16px;
+}
+.assistant-note { color: var(--muted); font-size: 0.9rem; }
+.assistant-panels { display: grid; gap: 12px; }
+@media (min-width: 900px) {
+  .assistant-panels { grid-template-columns: 2fr 1fr; }
+}
+
+.attribution {
+  padding-bottom: 32px;
+  color: var(--muted);
+  font-size: 0.88rem;
+  border-top: 1px solid var(--line);
+}

@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{NODE_TITLE}} · ChartStays demo trial node</title>
+  <meta name="description" content="{{NODE_DESCRIPTION}}">
+  <link rel="stylesheet" href="./node.css">
+  <style>:root { --primary: {{THEME_PRIMARY}}; }</style>
+</head>
+<body>
+  <div class="demo-banner" role="note">
+    <strong>Demo node, not a real trial site.</strong>
+    Pre-screening information only, not medical advice. This site cannot enroll anyone.
+    Contact the study team listed on ClinicalTrials.gov and talk to your doctor.
+  </div>
+  <header class="node-header">
+    <p class="eyebrow">ChartStays demo trial node</p>
+    <h1>{{NODE_TITLE}}</h1>
+    <p>{{NODE_DESCRIPTION}}</p>
+    <p class="machine-links">
+      For agents: <a href="./agent-manifest.json">agent-manifest.json</a> ·
+      <a href="./criteria/index.json">criteria/index.json</a> ·
+      <a href="./links.json">links.json</a>
+    </p>
+  </header>
+  <main>
+    <section aria-labelledby="studies-heading">
+      <h2 id="studies-heading">{{STUDY_COUNT}} recruiting studies</h2>
+      <ol class="studies">
+{{STUDY_LIST}}
+      </ol>
+    </section>
+
+    <section id="assistant" class="assistant" aria-labelledby="assistant-heading">
+      <h2 id="assistant-heading">Ask about these studies</h2>
+      <p>The assistant answers only from the studies listed on this page. It cannot enroll you or read health records.</p>
+      <p class="assistant-note">Your messages and this page's data go to the LLM provider you choose in the settings below. You confirm anything that cannot be undone before it happens.</p>
+      <p id="assistant-status" role="status">Connecting the assistant… If this message stays, the assistant could not load. You can still use the page directly.</p>
+      <div id="agent-app">
+        <div data-ns-slot="header"></div>
+        <div class="assistant-panels">
+          <div data-ns-slot="chat"></div>
+          <div data-ns-slot="agents"></div>
+        </div>
+        <div data-ns-slot="settings"></div>
+      </div>
+    </section>
+  </main>
+  <footer class="attribution">
+    <p>
+      Study records from <a href="https://clinicaltrials.gov/">ClinicalTrials.gov</a>, a service of the
+      U.S. National Library of Medicine, retrieved {{RETRIEVED}}. ChartStays structured the eligibility
+      criteria into coded form and shortened the page text; the linked ClinicalTrials.gov record is the
+      authoritative source. Listing a study here is not an endorsement by the sponsor or by NLM.
+    </p>
+    <p>Demo node, not a real trial site; pre-screening only, not medical advice.</p>
+  </footer>
+  <script type="module">
+    const status = document.querySelector("#assistant-status");
+    try {
+      const { boot } = await import("./runtime/index.js");
+      await boot("#agent-app", { sandboxWorkerUrl: "/runtime/sandbox-worker.js" });
+      status.textContent = "Assistant ready.";
+    } catch (error) {
+      status.textContent = `The assistant could not load: ${error.message}`;
+    }
+  </script>
+</body>
+</html>

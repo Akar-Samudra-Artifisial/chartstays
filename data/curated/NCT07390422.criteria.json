@@ -1,0 +1,246 @@
+{
+  "schema_version": 1,
+  "nct_id": "NCT07390422",
+  "title": "Duodenal pulsENDO for Suboptimally Controlled Type II Diabetes Mellitus and Steatotic Liver Disease",
+  "status": "RECRUITING",
+  "conditions": [
+    "T2DM (Type 2 Diabetes Mellitus)",
+    "MASLD - Metabolic Dysfunction-Associated Steatotic Liver Disease",
+    "Metabolic Syndrome (MetS)"
+  ],
+  "source": {
+    "name": "ClinicalTrials.gov",
+    "nct_id": "NCT07390422",
+    "url": "https://clinicaltrials.gov/study/NCT07390422",
+    "retrieved": "2026-11-16",
+    "modified": "Eligibility criteria structured and coded (SNOMED CT, LOINC, RxNorm) by ChartStays from the ClinicalTrials.gov text; the original text is kept unchanged in eligibility.criteria_text. Criteria curated by the project team, not reviewed by clinicians; pre-screening only.",
+    "last_update_posted": "2026-09-15"
+  },
+  "eligibility": {
+    "criteria_text": "Inclusion Criteria:\n\n* Duration of T2DM \\< 10 years\n* BMI 18.5-40kg/m2\n* Failure to achieve adequate HbA1c reduction (7.5 - 11%) after at least 3 months stable dosage of oral glucose lowering drugs\n\nExclusion Criteria:\n\n* Previous treatment with pulsENDO or similar procedure\n* Previous GI surgery that could preclude the ability to perform pulsENDO, or acute gastric and duodenal pathology that increased the risk of pulsENDO\n* Type 1 DM, DM secondary to specific disease or having any history of ketoacidosis\n* Patients on insulin\n* Fasting C-peptide level \\<0.5ug/L\n* Any inflammatory disease of the gastrointestinal tract such as Crohn's disease\n* Abnormal pathologies or conditions of the gastrointestinal tract, including duodenal polyps, ulcers or upper gastrointestinal bleeding conditions within 3 months of study\n* Uncorrectable bleeding diathesis, platelet dysfunction, thrombocytopenia with platelet count less than 100,000/microliter or known coagulopathy\n* Currently taking prescription antithrombotic therapy (e.g., anticoagulant or antiplatelet agent) within 10 days prior to study and/or there is a need or expected need to use during the study period\n* Currently taking medications known to cause significant weight gain or weight loss (e.g. chemotherapeutics)\n* Patients who have used non-steroidal analgesics and anti-inflammatory drugs (NSAID) and corticosteroids in the past 1 month\n* Underlying uncontrolled endocrine problem that leads to obesity, including and not limited to hypothyroidism, Cushing syndrome and eating disorder.\n* Patients with contra-indications to endoscopy\n* Patients with cirrhosis due to causes other than MASLD\n* Malignancy\n* Diagnosis of autoimmune connective tissue disorder (e.g. lupus erythematosus, scleroderma)\n* Pregnant or breast feeding\n* ASA grade IV \\& V\n* Mental or psychiatric disorder; Drug or alcohol addiction\n* Other cases deemed by the examining physician as unsuitable for safe treatment\n* Refusal to participate",
+    "sex": "ALL",
+    "minimum_age": "18 Years",
+    "maximum_age": "70 Years",
+    "healthy_volunteers": false
+  },
+  "structured": [
+    {
+      "id": "inc-0a",
+      "type": "inclusion",
+      "kind": "age",
+      "label": "Age 18 to 70 years",
+      "source_text": "ClinicalTrials.gov age limits: 18 Years minimum, 70 Years maximum",
+      "min": 18,
+      "max": 70,
+      "unit": "years"
+    },
+    {
+      "kind": "condition",
+      "label": "Type 2 diabetes",
+      "primary": true,
+      "codes": {
+        "snomed": [
+          "44054006"
+        ]
+      },
+      "note": "Diabetes duration under 10 years is not checked.",
+      "id": "inc-1a",
+      "type": "inclusion",
+      "source_text": "Duration of T2DM < 10 years"
+    },
+    {
+      "kind": "lab",
+      "label": "BMI 18.5 to 40 kg/m2",
+      "loinc": "39156-5",
+      "op": "between",
+      "value": [
+        18.5,
+        40
+      ],
+      "unit": "kg/m2",
+      "id": "inc-2",
+      "type": "inclusion",
+      "source_text": "BMI 18.5-40kg/m2"
+    },
+    {
+      "kind": "lab",
+      "label": "HbA1c 7.5% to 11%",
+      "loinc": "4548-4",
+      "op": "between",
+      "value": [
+        7.5,
+        11
+      ],
+      "unit": "%",
+      "note": "The 3 months of stable oral glucose-lowering drugs is not checked.",
+      "id": "inc-3a",
+      "type": "inclusion",
+      "source_text": "Failure to achieve adequate HbA1c reduction (7.5 - 11%) after at least 3 months stable dosage of oral glucose lowering drugs"
+    },
+    {
+      "kind": "medication",
+      "label": "Currently on insulin",
+      "rxnorm": [
+        "106892"
+      ],
+      "note": "Only the insulin product found in the Synthea sample (RxNorm 106892, the only insulin code in the sample) is recognised; any other insulin relies on the free text.",
+      "id": "exc-4a",
+      "type": "exclusion",
+      "source_text": "Patients on insulin"
+    },
+    {
+      "kind": "lab",
+      "label": "Platelet count below 100 x10^3/uL",
+      "loinc": "777-3",
+      "op": "lt",
+      "value": 100,
+      "unit": "10*3/uL",
+      "id": "exc-8a",
+      "type": "exclusion",
+      "source_text": "Uncorrectable bleeding diathesis, platelet dysfunction, thrombocytopenia with platelet count less than 100,000/microliter or known coagulopathy"
+    },
+    {
+      "kind": "condition",
+      "label": "Malignancy",
+      "codes": {
+        "snomed": [
+          "254837009",
+          "93143009",
+          "94503003"
+        ]
+      },
+      "note": "Coded: breast cancer, leukemia and metastatic prostate cancer found in the Synthea sample. Neoplasm of prostate (may be benign) and carcinoma in situ are left out; they and all other cancers rely on the free text.",
+      "id": "exc-15a",
+      "type": "exclusion",
+      "source_text": "Malignancy"
+    }
+  ],
+  "free_text": [
+    {
+      "id": "inc-1",
+      "type": "inclusion",
+      "text": "Duration of T2DM < 10 years"
+    },
+    {
+      "id": "inc-3",
+      "type": "inclusion",
+      "text": "Failure to achieve adequate HbA1c reduction (7.5 - 11%) after at least 3 months stable dosage of oral glucose lowering drugs"
+    },
+    {
+      "id": "exc-1",
+      "type": "exclusion",
+      "text": "Previous treatment with pulsENDO or similar procedure"
+    },
+    {
+      "id": "exc-2",
+      "type": "exclusion",
+      "text": "Previous GI surgery that could preclude the ability to perform pulsENDO, or acute gastric and duodenal pathology that increased the risk of pulsENDO"
+    },
+    {
+      "id": "exc-3",
+      "type": "exclusion",
+      "text": "Type 1 DM, DM secondary to specific disease or having any history of ketoacidosis"
+    },
+    {
+      "id": "exc-4",
+      "type": "exclusion",
+      "text": "Patients on insulin"
+    },
+    {
+      "id": "exc-5",
+      "type": "exclusion",
+      "text": "Fasting C-peptide level <0.5ug/L"
+    },
+    {
+      "id": "exc-6",
+      "type": "exclusion",
+      "text": "Any inflammatory disease of the gastrointestinal tract such as Crohn's disease"
+    },
+    {
+      "id": "exc-7",
+      "type": "exclusion",
+      "text": "Abnormal pathologies or conditions of the gastrointestinal tract, including duodenal polyps, ulcers or upper gastrointestinal bleeding conditions within 3 months of study"
+    },
+    {
+      "id": "exc-8",
+      "type": "exclusion",
+      "text": "Uncorrectable bleeding diathesis, platelet dysfunction, thrombocytopenia with platelet count less than 100,000/microliter or known coagulopathy"
+    },
+    {
+      "id": "exc-9",
+      "type": "exclusion",
+      "text": "Currently taking prescription antithrombotic therapy (e.g., anticoagulant or antiplatelet agent) within 10 days prior to study and/or there is a need or expected need to use during the study period"
+    },
+    {
+      "id": "exc-10",
+      "type": "exclusion",
+      "text": "Currently taking medications known to cause significant weight gain or weight loss (e.g. chemotherapeutics)"
+    },
+    {
+      "id": "exc-11",
+      "type": "exclusion",
+      "text": "Patients who have used non-steroidal analgesics and anti-inflammatory drugs (NSAID) and corticosteroids in the past 1 month"
+    },
+    {
+      "id": "exc-12",
+      "type": "exclusion",
+      "text": "Underlying uncontrolled endocrine problem that leads to obesity, including and not limited to hypothyroidism, Cushing syndrome and eating disorder."
+    },
+    {
+      "id": "exc-13",
+      "type": "exclusion",
+      "text": "Patients with contra-indications to endoscopy"
+    },
+    {
+      "id": "exc-14",
+      "type": "exclusion",
+      "text": "Patients with cirrhosis due to causes other than MASLD"
+    },
+    {
+      "id": "exc-15",
+      "type": "exclusion",
+      "text": "Malignancy"
+    },
+    {
+      "id": "exc-16",
+      "type": "exclusion",
+      "text": "Diagnosis of autoimmune connective tissue disorder (e.g. lupus erythematosus, scleroderma)"
+    },
+    {
+      "id": "exc-17",
+      "type": "exclusion",
+      "text": "Pregnant or breast feeding"
+    },
+    {
+      "id": "exc-18",
+      "type": "exclusion",
+      "text": "ASA grade IV & V"
+    },
+    {
+      "id": "exc-19",
+      "type": "exclusion",
+      "text": "Mental or psychiatric disorder; Drug or alcohol addiction"
+    },
+    {
+      "id": "exc-20",
+      "type": "exclusion",
+      "text": "Other cases deemed by the examining physician as unsuitable for safe treatment"
+    },
+    {
+      "id": "exc-21",
+      "type": "exclusion",
+      "text": "Refusal to participate"
+    }
+  ],
+  "requested_fields_for_inquiry": [
+    "age",
+    "conditions",
+    "labs:39156-5",
+    "labs:4548-4",
+    "medications",
+    "labs:777-3"
+  ],
+  "curation": {
+    "method": "manual"
+  }
+}

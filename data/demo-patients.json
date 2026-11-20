@@ -1,0 +1,84 @@
+{
+  "asOf": "2026-11-16",
+  "generated_by": "pnpm match:report",
+  "note": "Synthetic Synthea patients from data/synthea/shifted (dates shifted so the latest record date is recent). One demo patient per area, picked by tier mix; see docs/match-matrix.md.",
+  "patients": [
+    {
+      "id": "demo-type-2-diabetes",
+      "area": "type-2-diabetes",
+      "file": "Angelyn934_Kandra693_Harris789_abbe7ce8-820b-cb76-8d0c-02fe9d9decb0.json",
+      "short": "Angelyn934",
+      "age": 60,
+      "sex": "female",
+      "strong_match": [
+        "NCT07272343"
+      ],
+      "possible_match": [],
+      "not_eligible": [
+        "NCT07390422",
+        "NCT06627322",
+        "NCT06875193",
+        "NCT07007676"
+      ],
+      "reason": "female, 60, 5 type 2 diabetes trials: strong match for NCT07272343 (NCT07272343: 9 to confirm); not eligible for NCT07390422, NCT06627322, NCT06875193, NCT07007676 (e.g. NCT07390422: Inclusion not met: Latest Hemoglobin A1c/Hemoglobin.total in Blood is 3.11% on 2026-11-01, not between 7.5 and 11%.)."
+    },
+    {
+      "id": "demo-breast-cancer",
+      "area": "breast-cancer",
+      "file": "Noriko180_Yolonda722_Ullrich385_9345aa1d-acef-eea9-4904-f19b56249e76.json",
+      "short": "Noriko180",
+      "age": 48,
+      "sex": "female",
+      "strong_match": [
+        "NCT06858449",
+        "NCT06461650"
+      ],
+      "possible_match": [
+        "NCT07776613",
+        "NCT05440227",
+        "NCT07021846"
+      ],
+      "not_eligible": [],
+      "reason": "female, 48, 5 breast cancer trials: strong match for NCT06858449, NCT06461650 (NCT06858449: 9 to confirm, NCT06461650: 9 to confirm); possible match for NCT07776613, NCT05440227, NCT07021846 (e.g. NCT07776613: Unknown inclusion: Osteoporosis or history of osteoporotic fracture is not recorded; the imported record may be incomplete.)."
+    },
+    {
+      "id": "demo-chronic-kidney-disease",
+      "area": "chronic-kidney-disease",
+      "file": "Stephan15_Emmerich580_492dfa32-d7b8-faf8-c7d9-ba12d95f82cd.json",
+      "short": "Stephan15",
+      "age": 62,
+      "sex": "male",
+      "strong_match": [
+        "NCT06725810",
+        "NCT07835828"
+      ],
+      "possible_match": [],
+      "not_eligible": [
+        "NCT04819217",
+        "NCT07851454",
+        "NCT06923709"
+      ],
+      "reason": "male, 62, 5 chronic kidney disease trials: strong match for NCT06725810, NCT07835828 (NCT06725810: 25 to confirm, NCT07835828: 9 to confirm); not eligible for NCT04819217, NCT07851454, NCT06923709 (e.g. NCT04819217: Inclusion not met: Latest Glomerular filtration rate [Volume Rate/Area] in Serum or Plasma by Creatinine-based formula (MDRD)/1.73 sq M is 71.123 mL/min/{1.73_m2} on 2026-10-18, not below 45 mL/min/{1.73_m2}.)."
+    },
+    {
+      "id": "demo-obesity",
+      "area": "obesity",
+      "file": "Brett333_Kirlin939_1d670d3c-f290-52f4-9409-aaffd1eb59f5.json",
+      "short": "Brett333",
+      "age": 25,
+      "sex": "male",
+      "strong_match": [
+        "NCT07595549",
+        "NCT06393725",
+        "NCT05799846"
+      ],
+      "possible_match": [
+        "NCT05919797"
+      ],
+      "not_eligible": [
+        "NCT07564414"
+      ],
+      "reason": "male, 25, 5 obesity trials: strong match for NCT07595549, NCT06393725, NCT05799846 (NCT07595549: 5 to confirm, NCT06393725: 14 to confirm, NCT05799846: 2 to confirm); possible match for NCT05919797 (e.g. NCT05919797: Unknown exclusion: No result for hba1c above 6.5% (LOINC 4548-4) in the record.); not eligible for NCT07564414 (e.g. NCT07564414: Inclusion not met: Latest Body mass index (BMI) [Ratio] is 27.78 kg/m2 on 2026-10-18, not at least 35 kg/m2.)."
+    }
+  ]
+}

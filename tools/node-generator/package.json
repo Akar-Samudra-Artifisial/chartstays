@@ -1,0 +1,22 @@
+{
+  "name": "@chartstays/node-generator",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Build-time CLI: ClinicalTrials.gov snapshots + curated criteria -> static agentic trial node sites.",
+  "license": "Apache-2.0",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsc -p tsconfig.json && node --test \"test/*.test.ts\""
+  },
+  "dependencies": {
+    "@chartstays/criteria-schema": "workspace:*",
+    "@chartstays/fhir-profile": "workspace:*",
+    "@chartstays/matcher": "workspace:*",
+    "@chartstays/node-template": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "22.20.5",
+    "typescript": "5.9.3"
+  }
+}

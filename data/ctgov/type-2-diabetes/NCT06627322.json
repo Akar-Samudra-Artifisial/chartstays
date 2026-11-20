@@ -1,0 +1,69 @@
+{
+  "retrieved": "2026-11-16",
+  "api_version": "2.0.5",
+  "request_url": "https://clinicaltrials.gov/api/v2/studies?filter.ids=NCT07272343%2CNCT07390422%2CNCT06627322%2CNCT06875193%2CNCT07007676&pageSize=5&fields=NCTId%2CBriefTitle%2COverallStatus%2CLastUpdatePostDate%2CStartDate%2CPrimaryCompletionDate%2CPhase%2CStudyType%2CEnrollmentCount%2CLeadSponsorName%2CCondition%2CBriefSummary%2CEligibilityCriteria%2CMinimumAge%2CMaximumAge%2CSex%2CHealthyVolunteers%2CLocationFacility%2CLocationCity%2CLocationState%2CLocationCountry%2CLocationStatus",
+  "study": {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT06627322",
+        "briefTitle": "A Registry-based Randomized Controlled Trial in Type 2 Diabetes With Cardiovascular Risk Factors (REMATCH)"
+      },
+      "statusModule": {
+        "overallStatus": "RECRUITING",
+        "startDateStruct": {
+          "date": "2024-11-21"
+        },
+        "primaryCompletionDateStruct": {
+          "date": "2029-09-30"
+        },
+        "lastUpdatePostDateStruct": {
+          "date": "2025-04-24"
+        }
+      },
+      "sponsorCollaboratorsModule": {
+        "leadSponsor": {
+          "name": "Kyu Chang Won"
+        }
+      },
+      "descriptionModule": {
+        "briefSummary": "Glycemic control is a mainstay of diabetes management to reduce the risk of microvascular complications and cardiovascular outcomes in people with type 2 diabetes (T2D). However, intensive control to near-normal glycated hemoglobin (HbA1c) yielded complex results in previous landmark trials. Potential risks of intensive glycemic control, such as hypoglycemia and weight gain, may partly contributed to the possible harms associated with this approach. Recent advances in diabetes management with development of newer antidiabetic drugs which minimize possible harms of intensive glycemic control as well as reduce cardiorenal risks enabled safer glycemic reduction. Thus, this randomized trial aims to evaluate the effects of near normalization of HbA1c with novel approaches on microvascular complications and cardiovascular outcomes in people with T2D."
+      },
+      "conditionsModule": {
+        "conditions": [
+          "Type 2 Diabetes"
+        ]
+      },
+      "designModule": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollmentInfo": {
+          "count": 5950
+        }
+      },
+      "eligibilityModule": {
+        "eligibilityCriteria": "Inclusion Criteria:\n\n1. ≥19 years of age\n2. Patient agreed to participate in the study and signed a written informed consent form\n3. Type 2 diabetes (ADA criteria)\n4. HbA1c≥7.0% and \\&lt;10.0% in patients receiving monotherapy, dual-combination therapy, or triple-combination therapy (when the submaximal dose was administered) with oral antidiabetic drugs (OADs)\n5. Any of the following:\n\nA. Patients who one or more of the following conditions\n\n1. Coronary artery disease\n2. Atherosclerotic ischemic stroke, transient ischemic attack, carotid artery disease, peripheral artery disease, abdominal aortic aneurysm\n3. Prevalence of diabetes ≥10 years\n4. Left ventricular hypertrophy\n5. Albuminuria\n6. Chronic kidney disease (eGFR\\&lt;60mL/min/1.73m²)\n7. Diabetic Retinopathy\n8. Diabetic neuropathy or B. Patients who have two or more of the following cardiovascular risk factors\n\n(1) Family history of early-onset ASCVD (first-degree relatives with disease before age 55 for men and before age 65 for women) (2) Hypertension (on medication or with SBP≥140 mm Hg or DBP≥90 mm Hg) (3) Low HDL cholesterol concentration (\\&lt;40 mg/dL) (4) Current smoker (5) Obese (BMI≥25 kg/m²)\n\nExclusion Criteria:\n\n1. Type 1 diabetes\n2. Estimated GFR\\&lt;45 ml/min/1.73m²\n3. AST or ALT greater than 3 times the normal upper limit\n4. Symptomatic heart failure (NYHA Class III or IV)\n5. History of hospitalization for acute cardiovascular events within 3 months prior to the date of consent\n6. Currently in active treatment for malignancy\n7. Contraindications for each assigned drug, as applicable\n8. Pregnant and nursing women\n9. If the investigator determines that assignment to the standard glycemic control arm raises ethical concerns",
+        "healthyVolunteers": false,
+        "sex": "ALL",
+        "minimumAge": "19 Years"
+      },
+      "contactsLocationsModule": {
+        "locations": [
+          {
+            "facility": "Yeungnam University Medical Center",
+            "status": "NOT_YET_RECRUITING",
+            "city": "Daegu",
+            "country": "South Korea"
+          },
+          {
+            "facility": "Korea University Anam Hospital",
+            "status": "RECRUITING",
+            "city": "Seoul",
+            "country": "South Korea"
+          }
+        ]
+      }
+    }
+  }
+}

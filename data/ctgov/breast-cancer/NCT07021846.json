@@ -1,0 +1,64 @@
+{
+  "retrieved": "2026-11-16",
+  "api_version": "2.0.5",
+  "request_url": "https://clinicaltrials.gov/api/v2/studies?filter.ids=NCT07776613%2CNCT05440227%2CNCT06858449%2CNCT06461650%2CNCT07021846&pageSize=5&fields=NCTId%2CBriefTitle%2COverallStatus%2CLastUpdatePostDate%2CStartDate%2CPrimaryCompletionDate%2CPhase%2CStudyType%2CEnrollmentCount%2CLeadSponsorName%2CCondition%2CBriefSummary%2CEligibilityCriteria%2CMinimumAge%2CMaximumAge%2CSex%2CHealthyVolunteers%2CLocationFacility%2CLocationCity%2CLocationState%2CLocationCountry%2CLocationStatus",
+  "study": {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT07021846",
+        "briefTitle": "Dose Escalated Concomitant Boost Radiotherapy for Early Breast Cancer"
+      },
+      "statusModule": {
+        "overallStatus": "RECRUITING",
+        "startDateStruct": {
+          "date": "2020-03-12"
+        },
+        "primaryCompletionDateStruct": {
+          "date": "2026-03"
+        },
+        "lastUpdatePostDateStruct": {
+          "date": "2025-06-15"
+        }
+      },
+      "sponsorCollaboratorsModule": {
+        "leadSponsor": {
+          "name": "Fondazione Policlinico Universitario Campus Bio-Medico"
+        }
+      },
+      "descriptionModule": {
+        "briefSummary": "The goal of this prospective, single-arm, phase II, non-randomized trial is to evaluate an hypofractionation schedule with high dose simultaneous integrated tumor bed boost in early breast cancer patients.\n\nThe main question\\[s\\] it aims to answer are:\n\n* evaluate the rate of all grades of radiation-induced fibrosis at 4 years.\n* evaluate poor/fair cosmesis rate Participants will be treated with hypofractionated radiotherapy (RT) to whole breast with a dose of 40.05 Gy in 15 fractions (2.67 Gy/die) and a concomitant tumor bed dose of 52.5 Gy (3.5 gy/die)"
+      },
+      "conditionsModule": {
+        "conditions": [
+          "Breast Cancer"
+        ]
+      },
+      "designModule": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollmentInfo": {
+          "count": 132
+        }
+      },
+      "eligibilityModule": {
+        "eligibilityCriteria": "Inclusion Criteria:\n\n* histologically proven breast cancer who have undergone conservative surgery\n* at least 3 inserted clips\n* age: from 18 years old to 50 years\n* at least one of the following risk factors: N1 disease, LVI, extensive intraductal component (\\>25%), close margins (\\<4 mm), non-hormone-sensitive disease, grading 3\n* ECOG performance status \\< 2\n* adequate bone marrow (haemoglobin concentration \\> 8 g/dl, white blood cell count \\> 3000/mm3, platelet count \\> 75000).\n\nExclusion Criteria:\n\n* Previous chest radiation treatment\n* Bilateral breast cancer\n* Neoadjuvant chemotherapy\n* BMI \\> 35\n* Collagen diseases\n* Pregnancy or breastfeeding",
+        "healthyVolunteers": false,
+        "sex": "FEMALE",
+        "minimumAge": "18 Years",
+        "maximumAge": "50 Years"
+      },
+      "contactsLocationsModule": {
+        "locations": [
+          {
+            "facility": "Università Campus Biomedico",
+            "status": "RECRUITING",
+            "city": "Roma",
+            "country": "Italy"
+          }
+        ]
+      }
+    }
+  }
+}

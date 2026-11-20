@@ -1,0 +1,603 @@
+{
+  "retrieved": "2026-11-16",
+  "api_version": "2.0.5",
+  "request_url": "https://clinicaltrials.gov/api/v2/studies?filter.ids=NCT07595549%2CNCT07564414%2CNCT05919797%2CNCT06393725%2CNCT05799846&pageSize=5&fields=NCTId%2CBriefTitle%2COverallStatus%2CLastUpdatePostDate%2CStartDate%2CPrimaryCompletionDate%2CPhase%2CStudyType%2CEnrollmentCount%2CLeadSponsorName%2CCondition%2CBriefSummary%2CEligibilityCriteria%2CMinimumAge%2CMaximumAge%2CSex%2CHealthyVolunteers%2CLocationFacility%2CLocationCity%2CLocationState%2CLocationCountry%2CLocationStatus",
+  "study": {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT07595549",
+        "briefTitle": "A Study to Learn About the Study Medicine Called Berobenatide (PF-08653944) in People With Overweight or Obesity"
+      },
+      "statusModule": {
+        "overallStatus": "RECRUITING",
+        "startDateStruct": {
+          "date": "2026-06-10"
+        },
+        "primaryCompletionDateStruct": {
+          "date": "2028-05-04"
+        },
+        "lastUpdatePostDateStruct": {
+          "date": "2026-11-05"
+        }
+      },
+      "sponsorCollaboratorsModule": {
+        "leadSponsor": {
+          "name": "Pfizer"
+        }
+      },
+      "descriptionModule": {
+        "briefSummary": "The purpose of this clinical study is to learn about the effects and safety of berobenatide (PF-08653944). This may help people with overweight or obesity lose weight. People in this study may also have type 2 diabetes.\n\nAbout 950 adults will be in this study. Berobenatide will be compared to a placebo. A placebo does not have any medicine in it but looks just like the medicine being studied. Berobenatide or placebo is given by a shot under the skin in the belly area. The objective of the study is to compare the experiences of people receiving berobenatide to those of the people who do not to assess if the study medicine is effective and safe.\n\nPeople will take part in this study for about 20 months. During this time, they will have about 15 study visits at the site. They will also have 2 study visits over the phone."
+      },
+      "conditionsModule": {
+        "conditions": [
+          "Obesity",
+          "Overweight and/or Obesity",
+          "Overweight"
+        ]
+      },
+      "designModule": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollmentInfo": {
+          "count": 954
+        }
+      },
+      "eligibilityModule": {
+        "eligibilityCriteria": "Inclusion Criteria:\n\n* Aged ≥18 years.\n* BMI of: ≥30 kg/m2 or ≥27.0 kg/m2 to \\<30.0 kg/m2 and must have at least 1 of the following weight-related co-morbidities: hypertension, dyslipidemia, obstructive sleep apnea, cardiovascular disease, or T2D.\n\nExclusion Criteria:\n\n* Have a self-reported body weight change greater than 5% within 90 days prior to Screening.\n* Diagnosis of type 1 diabetes or any other form of diabetes other than T2D.\n* History of acute or chronic pancreatitis.\n* Personal or family history of medullary thyroid carcinoma (MTC) or multiple endocrine neoplasia type 2 (MEN-2).",
+        "healthyVolunteers": false,
+        "sex": "ALL",
+        "minimumAge": "18 Years"
+      },
+      "contactsLocationsModule": {
+        "locations": [
+          {
+            "facility": "San Fernando Valley Health Institute",
+            "status": "RECRUITING",
+            "city": "Canoga Park",
+            "state": "California",
+            "country": "United States"
+          },
+          {
+            "facility": "Headlands Research California, LLC",
+            "status": "RECRUITING",
+            "city": "Escondido",
+            "state": "California",
+            "country": "United States"
+          },
+          {
+            "facility": "ImmuniMet, LLC",
+            "status": "RECRUITING",
+            "city": "Modesto",
+            "state": "California",
+            "country": "United States"
+          },
+          {
+            "facility": "Clinical Trials Research",
+            "status": "RECRUITING",
+            "city": "Sacramento",
+            "state": "California",
+            "country": "United States"
+          },
+          {
+            "facility": "University Clinical Investigators, Inc.",
+            "status": "RECRUITING",
+            "city": "Tustin",
+            "state": "California",
+            "country": "United States"
+          },
+          {
+            "facility": "Diablo Clinical Research, Inc.",
+            "status": "RECRUITING",
+            "city": "Walnut Creek",
+            "state": "California",
+            "country": "United States"
+          },
+          {
+            "facility": "Southern California Retina Specialists",
+            "status": "RECRUITING",
+            "city": "West Hills",
+            "state": "California",
+            "country": "United States"
+          },
+          {
+            "facility": "Nature Coast Clinical Research",
+            "status": "RECRUITING",
+            "city": "Crystal River",
+            "state": "Florida",
+            "country": "United States"
+          },
+          {
+            "facility": "West Coast Eye Institute",
+            "status": "RECRUITING",
+            "city": "Lecanto",
+            "state": "Florida",
+            "country": "United States"
+          },
+          {
+            "facility": "South Broward Research",
+            "status": "RECRUITING",
+            "city": "Miramar",
+            "state": "Florida",
+            "country": "United States"
+          },
+          {
+            "facility": "Suncoast Clinical Research, Inc.",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "New Port Richey",
+            "state": "Florida",
+            "country": "United States"
+          },
+          {
+            "facility": "West Coast Medical Associates",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "New Port Richey",
+            "state": "Florida",
+            "country": "United States"
+          },
+          {
+            "facility": "Center for Diabetes, Obesity and Metabolism Inc",
+            "status": "RECRUITING",
+            "city": "Pembroke Pines",
+            "state": "Florida",
+            "country": "United States"
+          },
+          {
+            "facility": "Cedar Crosse Research Center",
+            "status": "RECRUITING",
+            "city": "Chicago",
+            "state": "Illinois",
+            "country": "United States"
+          },
+          {
+            "facility": "Northwestern University",
+            "status": "RECRUITING",
+            "city": "Chicago",
+            "state": "Illinois",
+            "country": "United States"
+          },
+          {
+            "facility": "Endeavor Health - Family Medicine Administration",
+            "status": "RECRUITING",
+            "city": "Evanston",
+            "state": "Illinois",
+            "country": "United States"
+          },
+          {
+            "facility": "Endeavor Health- Endocrinology Research",
+            "status": "RECRUITING",
+            "city": "Skokie",
+            "state": "Illinois",
+            "country": "United States"
+          },
+          {
+            "facility": "MediSphere Medical Research Center, LLC",
+            "status": "RECRUITING",
+            "city": "Evansville",
+            "state": "Indiana",
+            "country": "United States"
+          },
+          {
+            "facility": "Monroe Biomedical Research",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Louisville",
+            "state": "Kentucky",
+            "country": "United States"
+          },
+          {
+            "facility": "Louisville Retina, PLLC",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Louisville",
+            "state": "Kentucky",
+            "country": "United States"
+          },
+          {
+            "facility": "Ascension Saint Agnes Heart Care",
+            "status": "RECRUITING",
+            "city": "Baltimore",
+            "state": "Maryland",
+            "country": "United States"
+          },
+          {
+            "facility": "Aa Mrc Llc",
+            "status": "RECRUITING",
+            "city": "Flint",
+            "state": "Michigan",
+            "country": "United States"
+          },
+          {
+            "facility": "University Of Nebraska Medical Center",
+            "status": "RECRUITING",
+            "city": "Omaha",
+            "state": "Nebraska",
+            "country": "United States"
+          },
+          {
+            "facility": "Albuquerque Clinical Trials, Inc.",
+            "status": "RECRUITING",
+            "city": "Albuquerque",
+            "state": "New Mexico",
+            "country": "United States"
+          },
+          {
+            "facility": "Weill Cornell Medicine - Comprehensive Weight Control Center",
+            "status": "RECRUITING",
+            "city": "New York",
+            "state": "New York",
+            "country": "United States"
+          },
+          {
+            "facility": "Rochester Clinical Research, LLC",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Rochester",
+            "state": "New York",
+            "country": "United States"
+          },
+          {
+            "facility": "Medication Management, LLC",
+            "status": "RECRUITING",
+            "city": "Greensboro",
+            "state": "North Carolina",
+            "country": "United States"
+          },
+          {
+            "facility": "Accellacare - Wilmington",
+            "status": "RECRUITING",
+            "city": "Wilmington",
+            "state": "North Carolina",
+            "country": "United States"
+          },
+          {
+            "facility": "Jeffrey Coleman, OD",
+            "status": "RECRUITING",
+            "city": "Wilmington",
+            "state": "North Carolina",
+            "country": "United States"
+          },
+          {
+            "facility": "Midwest Eye Center",
+            "status": "RECRUITING",
+            "city": "Cincinnati",
+            "state": "Ohio",
+            "country": "United States"
+          },
+          {
+            "facility": "Velocity Clinical Research, Mt. Auburn",
+            "status": "RECRUITING",
+            "city": "Cincinnati",
+            "state": "Ohio",
+            "country": "United States"
+          },
+          {
+            "facility": "PlanIt Research, LLC (Monitoring Room)",
+            "status": "RECRUITING",
+            "city": "Houston",
+            "state": "Texas",
+            "country": "United States"
+          },
+          {
+            "facility": "PlanIt Research, LLC",
+            "status": "RECRUITING",
+            "city": "Houston",
+            "state": "Texas",
+            "country": "United States"
+          },
+          {
+            "facility": "VIP Trials",
+            "status": "RECRUITING",
+            "city": "San Antonio",
+            "state": "Texas",
+            "country": "United States"
+          },
+          {
+            "facility": "York Clinical Research, LLC",
+            "status": "RECRUITING",
+            "city": "Norfolk",
+            "state": "Virginia",
+            "country": "United States"
+          },
+          {
+            "facility": "Associação de Amparo à Saúde, Ensino e Pesquisa",
+            "status": "RECRUITING",
+            "city": "Brasília",
+            "state": "Federal District",
+            "country": "Brazil"
+          },
+          {
+            "facility": "Saraiva & Berlinger Ltda EPP Instituto de Pesquisa Clínica de Campinas",
+            "status": "RECRUITING",
+            "city": "Campinas",
+            "state": "São Paulo",
+            "country": "Brazil"
+          },
+          {
+            "facility": "Fundação Faculdade Regional de Medicina de São José do Rio Preto",
+            "status": "RECRUITING",
+            "city": "São José do Rio Preto",
+            "state": "São Paulo",
+            "country": "Brazil"
+          },
+          {
+            "facility": "CEPIC - Centro Paulista de Investigação Clínica",
+            "status": "RECRUITING",
+            "city": "São Paulo",
+            "country": "Brazil"
+          },
+          {
+            "facility": "Hospital das Clínicas da Faculdade de Medicina da USP",
+            "status": "RECRUITING",
+            "city": "São Paulo",
+            "country": "Brazil"
+          },
+          {
+            "facility": "Ocean West Research Clinic",
+            "status": "RECRUITING",
+            "city": "Surrey",
+            "state": "British Columbia",
+            "country": "Canada"
+          },
+          {
+            "facility": "GA Research Associates Ltd.",
+            "status": "RECRUITING",
+            "city": "Moncton",
+            "state": "New Brunswick",
+            "country": "Canada"
+          },
+          {
+            "facility": "Winterberry Research Inc.",
+            "status": "RECRUITING",
+            "city": "Hamilton",
+            "state": "Ontario",
+            "country": "Canada"
+          },
+          {
+            "facility": "The Wharton Medical Clinic Clinical Trials Inc",
+            "status": "RECRUITING",
+            "city": "Hamilton",
+            "state": "Ontario",
+            "country": "Canada"
+          },
+          {
+            "facility": "Canadian Phase Onward Inc.",
+            "status": "RECRUITING",
+            "city": "Toronto",
+            "state": "Ontario",
+            "country": "Canada"
+          },
+          {
+            "facility": "Hôpital Nord Guillaume-et-René-Laennec / CHU de Nantes",
+            "status": "RECRUITING",
+            "city": "Saint-Herblain",
+            "state": "Loire Atlantique",
+            "country": "France"
+          },
+          {
+            "facility": "CHU Montpellier - Hôpital Lapeyronie",
+            "status": "RECRUITING",
+            "city": "Montpellier",
+            "country": "France"
+          },
+          {
+            "facility": "Georges Pompidou European hospital",
+            "status": "RECRUITING",
+            "city": "Paris",
+            "state": "Île-de-France Region",
+            "country": "France"
+          },
+          {
+            "facility": "Klinische Forschung Schwerin GmbH",
+            "status": "RECRUITING",
+            "city": "Schwerin",
+            "state": "Mecklenburg-Vorpommern",
+            "country": "Germany"
+          },
+          {
+            "facility": "Universitätsklinikum Schleswig-Holstein, Campus Lübeck",
+            "status": "RECRUITING",
+            "city": "Lübeck",
+            "state": "Schleswig-Holstein",
+            "country": "Germany"
+          },
+          {
+            "facility": "RED - lnstitut für medizinische Forschung GmbH",
+            "status": "RECRUITING",
+            "city": "Oldenburg in Holstein",
+            "state": "Schleswig-Holstein",
+            "country": "Germany"
+          },
+          {
+            "facility": "IRCCS MultiMedica",
+            "status": "RECRUITING",
+            "city": "Sesto San Giovanni",
+            "state": "Milano",
+            "country": "Italy"
+          },
+          {
+            "facility": "IRCCS Azienda Ospedaliero Universitaria di Bologna, Policlinico di Sant'Orsola",
+            "status": "RECRUITING",
+            "city": "Bologna",
+            "country": "Italy"
+          },
+          {
+            "facility": "Università degli Studi \"G. d'Annunzio\" Chieti-Pescara",
+            "status": "RECRUITING",
+            "city": "Chieti",
+            "country": "Italy"
+          },
+          {
+            "facility": "Azienda Ospedaliera Universitaria Policlinico Paolo Giaccone",
+            "status": "RECRUITING",
+            "city": "Palermo",
+            "country": "Italy"
+          },
+          {
+            "facility": "Fondazione Policlinico Universitario Campus Bio-Medico",
+            "status": "RECRUITING",
+            "city": "Roma",
+            "country": "Italy"
+          },
+          {
+            "facility": "Medical Corporation Heishinkai OCROM Clinic",
+            "status": "RECRUITING",
+            "city": "Suita",
+            "state": "Osaka",
+            "country": "Japan"
+          },
+          {
+            "facility": "Tokyo Center Clinic",
+            "status": "RECRUITING",
+            "city": "Chuo-ku",
+            "state": "Tokyo",
+            "country": "Japan"
+          },
+          {
+            "facility": "Tokyo-Eki Center-Building Clinic",
+            "status": "RECRUITING",
+            "city": "Chuo-ku",
+            "state": "Tokyo",
+            "country": "Japan"
+          },
+          {
+            "facility": "Fukuwa Clinic",
+            "status": "RECRUITING",
+            "city": "Chuo-ku",
+            "state": "Tokyo",
+            "country": "Japan"
+          },
+          {
+            "facility": "Medical Corporation Heishinkai ToCROM Clinic",
+            "status": "RECRUITING",
+            "city": "Shinjuku-ku",
+            "state": "Tokyo",
+            "country": "Japan"
+          },
+          {
+            "facility": "Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán - INCMNSZ",
+            "status": "RECRUITING",
+            "city": "Mexico City",
+            "state": "Mexico City",
+            "country": "Mexico"
+          },
+          {
+            "facility": "Instituto de Diabetes Obesidad y Nutrición S.C.",
+            "status": "RECRUITING",
+            "city": "Cuernavaca",
+            "state": "Morelos",
+            "country": "Mexico"
+          },
+          {
+            "facility": "IMED Investigación Médica SC",
+            "status": "RECRUITING",
+            "city": "Monterrey",
+            "state": "Nuevo León",
+            "country": "Mexico"
+          },
+          {
+            "facility": "Eukarya PharmaSite",
+            "status": "RECRUITING",
+            "city": "Monterrey",
+            "state": "Nuevo León",
+            "country": "Mexico"
+          },
+          {
+            "facility": "ZDROWIE OSTEO-MEDIC s.c. L i A Racewicz, A i J Supronik",
+            "status": "RECRUITING",
+            "city": "Bialystok",
+            "country": "Poland"
+          },
+          {
+            "facility": "Penta Hospitals Badania Kliniczne sp. z o.o.",
+            "status": "RECRUITING",
+            "city": "Gdansk",
+            "country": "Poland"
+          },
+          {
+            "facility": "Gabinety Medyczne MATUSZEK Beata Matyjaszek-Matuszek Prywatna Praktyka Specjalistyczna",
+            "status": "RECRUITING",
+            "city": "Lublin",
+            "country": "Poland"
+          },
+          {
+            "facility": "Centrum Zdrowia Metabolicznego Pawel Bogdanski",
+            "status": "RECRUITING",
+            "city": "Poznan",
+            "country": "Poland"
+          },
+          {
+            "facility": "Centrum Medyczne AD-MED Sp. z o.o.",
+            "status": "RECRUITING",
+            "city": "Wroclaw",
+            "country": "Poland"
+          },
+          {
+            "facility": "Konyang University Hospital",
+            "status": "RECRUITING",
+            "city": "Daejeon",
+            "state": "Daejeon",
+            "country": "South Korea"
+          },
+          {
+            "facility": "Hallym University Sacred Heart Hospital",
+            "status": "RECRUITING",
+            "city": "Anyang-si",
+            "state": "Gyeonggi-do",
+            "country": "South Korea"
+          },
+          {
+            "facility": "Pusan National University Yangsan Hospital",
+            "status": "RECRUITING",
+            "city": "Yangsan",
+            "state": "Gyeongsangnam-do",
+            "country": "South Korea"
+          },
+          {
+            "facility": "Gachon University Gil Medical Center",
+            "status": "RECRUITING",
+            "city": "Incheon",
+            "state": "Incheon-gwangyeoksi",
+            "country": "South Korea"
+          },
+          {
+            "facility": "Kangbuk Samsung Hospital",
+            "status": "RECRUITING",
+            "city": "Seoul",
+            "state": "Seoul- Teukbyeolsi",
+            "country": "South Korea"
+          },
+          {
+            "facility": "Hospital Universitario Ramón y Cajal",
+            "status": "RECRUITING",
+            "city": "Madrid",
+            "state": "Madrid, Comunidad de",
+            "country": "Spain"
+          },
+          {
+            "facility": "Hospital San Rafael",
+            "status": "RECRUITING",
+            "city": "A Coruña",
+            "country": "Spain"
+          },
+          {
+            "facility": "Hospital General Universitario Gregorio Marañon",
+            "status": "RECRUITING",
+            "city": "Madrid",
+            "country": "Spain"
+          },
+          {
+            "facility": "Hospital Universitario QuironSalud Madrid",
+            "status": "RECRUITING",
+            "city": "Pozuelo de Alarcón",
+            "country": "Spain"
+          },
+          {
+            "facility": "Hospital Universitario Virgen Del Rocio",
+            "status": "RECRUITING",
+            "city": "Seville",
+            "country": "Spain"
+          }
+        ]
+      }
+    }
+  }
+}

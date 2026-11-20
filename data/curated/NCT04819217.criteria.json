@@ -1,0 +1,192 @@
+{
+  "schema_version": 1,
+  "nct_id": "NCT04819217",
+  "title": "Study of Oral Uremic Toxin Absorbent and Probiotics to Retard the Progression of Chronic Kidney Disease",
+  "status": "RECRUITING",
+  "conditions": [
+    "CKD"
+  ],
+  "source": {
+    "name": "ClinicalTrials.gov",
+    "nct_id": "NCT04819217",
+    "url": "https://clinicaltrials.gov/study/NCT04819217",
+    "retrieved": "2026-11-16",
+    "modified": "Eligibility criteria structured and coded (SNOMED CT, LOINC, RxNorm) by ChartStays from the ClinicalTrials.gov text; the original text is kept unchanged in eligibility.criteria_text. Criteria curated by the project team, not reviewed by clinicians; pre-screening only.",
+    "last_update_posted": "2025-07-18"
+  },
+  "eligibility": {
+    "criteria_text": "Inclusion Criteria:\n\n1. Age ≥ 20 years old on the day of screening.\n2. CKD patients with eGFR 15 \\< eGFR \\<45 ml/min/1.73m2 and UACR \\> 100 mg/g in a stable status, creatinine elevated less than 0.3 mg/dL in at least 30 days before enrollment.\n\nExclusion Criteria:\n\n1. Baseline estimated glomerular filtration rates (eGFR) \\< 15 ml/min/1.73m2 according to MDRD equation.\n2. Patients in severe malnutrition status, albumin less than 2.0 g/dL\n3. Patients in severe anemia or active gastrointestinal bleeding with hemoglobulin \\< 8 g/dL.\n4. Peptic ulcer, esophageal varices, ileus or under fasting status\n5. Previous gastrointestinal operation.\n6. Chronic constipation, as defined with less than 3 bowel movements per week, straining, hard stools, incomplete evacuation and inability to pass stool. If usage of oral laxatives can achieve bowel movement, this patient will not be excluded.\n7. Patients with major hemorrhage, as defined with acute hemorrhage and requirement of blood transfusion during index admission.\n8. Patients with a biopsy proved or clinically diagnosed advanced liver cirrhosis, Child classification B or C.\n9. Solid organ or hematological transplantation recipients.\n10. Patients with oliguric kidney injury, as defined with less than 500 cc/day.\n11. Evidence of obstructive kidney injury or polycystic kidney disease.\n12. Antibiotics or probiotics treatment within the last 2 weeks before enrollment and during follow-up period.\n13. Presence or history of malignant neoplasms within the past 5 years prior to the day of screening.",
+    "sex": "ALL",
+    "minimum_age": "20 Years",
+    "maximum_age": null,
+    "healthy_volunteers": false
+  },
+  "structured": [
+    {
+      "id": "inc-0a",
+      "type": "inclusion",
+      "kind": "age",
+      "label": "Age 20 years or older",
+      "source_text": "ClinicalTrials.gov age limits: 20 Years minimum, none maximum",
+      "min": 20,
+      "max": null,
+      "unit": "years"
+    },
+    {
+      "kind": "lab",
+      "label": "eGFR above 15 mL/min/1.73m2",
+      "loinc": "33914-3",
+      "op": "gt",
+      "value": 15,
+      "unit": "mL/min/{1.73_m2}",
+      "id": "inc-2a",
+      "type": "inclusion",
+      "source_text": "CKD patients with eGFR 15 < eGFR <45 ml/min/1.73m2 and UACR > 100 mg/g in a stable status, creatinine elevated less than 0.3 mg/dL in at least 30 days before enrollment."
+    },
+    {
+      "kind": "lab",
+      "label": "eGFR below 45 mL/min/1.73m2",
+      "loinc": "33914-3",
+      "op": "lt",
+      "value": 45,
+      "unit": "mL/min/{1.73_m2}",
+      "id": "inc-2b",
+      "type": "inclusion",
+      "source_text": "CKD patients with eGFR 15 < eGFR <45 ml/min/1.73m2 and UACR > 100 mg/g in a stable status, creatinine elevated less than 0.3 mg/dL in at least 30 days before enrollment."
+    },
+    {
+      "kind": "lab",
+      "label": "Urine albumin/creatinine ratio above 100 mg/g",
+      "loinc": "14959-1",
+      "op": "gt",
+      "value": 100,
+      "unit": "mg/g",
+      "note": "Stability of creatinine over 30 days is not checked.",
+      "id": "inc-2c",
+      "type": "inclusion",
+      "source_text": "CKD patients with eGFR 15 < eGFR <45 ml/min/1.73m2 and UACR > 100 mg/g in a stable status, creatinine elevated less than 0.3 mg/dL in at least 30 days before enrollment."
+    },
+    {
+      "kind": "lab",
+      "label": "eGFR below 15 mL/min/1.73m2",
+      "loinc": "33914-3",
+      "op": "lt",
+      "value": 15,
+      "unit": "mL/min/{1.73_m2}",
+      "id": "exc-1",
+      "type": "exclusion",
+      "source_text": "Baseline estimated glomerular filtration rates (eGFR) < 15 ml/min/1.73m2 according to MDRD equation."
+    },
+    {
+      "kind": "lab",
+      "label": "Serum albumin below 2.0 g/dL",
+      "loinc": "1751-7",
+      "op": "lt",
+      "value": 2,
+      "unit": "g/dL",
+      "id": "exc-2",
+      "type": "exclusion",
+      "source_text": "Patients in severe malnutrition status, albumin less than 2.0 g/dL"
+    },
+    {
+      "kind": "lab",
+      "label": "Hemoglobin below 8 g/dL",
+      "loinc": "718-7",
+      "op": "lt",
+      "value": 8,
+      "unit": "g/dL",
+      "note": "Active gastrointestinal bleeding is not checked.",
+      "id": "exc-3a",
+      "type": "exclusion",
+      "source_text": "Patients in severe anemia or active gastrointestinal bleeding with hemoglobulin < 8 g/dL."
+    },
+    {
+      "kind": "condition",
+      "label": "Malignancy or history of malignancy",
+      "codes": {
+        "snomed": [
+          "254837009",
+          "93143009",
+          "94503003"
+        ]
+      },
+      "note": "Coded: breast cancer, leukemia and metastatic prostate cancer found in the Synthea sample. Neoplasm of prostate (may be benign) and carcinoma in situ are left out; they, all other cancers and the 5-year window rely on the free text.",
+      "id": "exc-13a",
+      "type": "exclusion",
+      "source_text": "Presence or history of malignant neoplasms within the past 5 years prior to the day of screening."
+    }
+  ],
+  "free_text": [
+    {
+      "id": "inc-2",
+      "type": "inclusion",
+      "text": "CKD patients with eGFR 15 < eGFR <45 ml/min/1.73m2 and UACR > 100 mg/g in a stable status, creatinine elevated less than 0.3 mg/dL in at least 30 days before enrollment."
+    },
+    {
+      "id": "exc-3",
+      "type": "exclusion",
+      "text": "Patients in severe anemia or active gastrointestinal bleeding with hemoglobulin < 8 g/dL."
+    },
+    {
+      "id": "exc-4",
+      "type": "exclusion",
+      "text": "Peptic ulcer, esophageal varices, ileus or under fasting status"
+    },
+    {
+      "id": "exc-5",
+      "type": "exclusion",
+      "text": "Previous gastrointestinal operation."
+    },
+    {
+      "id": "exc-6",
+      "type": "exclusion",
+      "text": "Chronic constipation, as defined with less than 3 bowel movements per week, straining, hard stools, incomplete evacuation and inability to pass stool. If usage of oral laxatives can achieve bowel movement, this patient will not be excluded."
+    },
+    {
+      "id": "exc-7",
+      "type": "exclusion",
+      "text": "Patients with major hemorrhage, as defined with acute hemorrhage and requirement of blood transfusion during index admission."
+    },
+    {
+      "id": "exc-8",
+      "type": "exclusion",
+      "text": "Patients with a biopsy proved or clinically diagnosed advanced liver cirrhosis, Child classification B or C."
+    },
+    {
+      "id": "exc-9",
+      "type": "exclusion",
+      "text": "Solid organ or hematological transplantation recipients."
+    },
+    {
+      "id": "exc-10",
+      "type": "exclusion",
+      "text": "Patients with oliguric kidney injury, as defined with less than 500 cc/day."
+    },
+    {
+      "id": "exc-11",
+      "type": "exclusion",
+      "text": "Evidence of obstructive kidney injury or polycystic kidney disease."
+    },
+    {
+      "id": "exc-12",
+      "type": "exclusion",
+      "text": "Antibiotics or probiotics treatment within the last 2 weeks before enrollment and during follow-up period."
+    },
+    {
+      "id": "exc-13",
+      "type": "exclusion",
+      "text": "Presence or history of malignant neoplasms within the past 5 years prior to the day of screening."
+    }
+  ],
+  "requested_fields_for_inquiry": [
+    "age",
+    "labs:33914-3",
+    "labs:14959-1",
+    "labs:1751-7",
+    "labs:718-7",
+    "conditions"
+  ],
+  "curation": {
+    "method": "manual"
+  }
+}

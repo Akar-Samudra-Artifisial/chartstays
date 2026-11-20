@@ -1,0 +1,11 @@
+{
+  "comment": "Deployment config for Cloudflare Pages (pnpm deploy:check). The origins assume the Pages project names chartstays (app) and chartstays-<area> (nodes); a project named X is served at https://X.pages.dev, so if a name is taken, change it here (app and every node origin) and use the same names in wrangler pages deploy. https only: localhost, http and demo/test nodes fail the build.",
+  "production": true,
+  "app": "https://chartstays.pages.dev",
+  "nodes": [
+    { "name": "Type 2 diabetes trials", "area": "type-2-diabetes", "network": "t2d_trials", "origin": "https://chartstays-type-2-diabetes.pages.dev" },
+    { "name": "Breast cancer trials", "area": "breast-cancer", "network": "breast_cancer_trials", "origin": "https://chartstays-breast-cancer.pages.dev" },
+    { "name": "Chronic kidney disease trials", "area": "chronic-kidney-disease", "network": "ckd_trials", "origin": "https://chartstays-chronic-kidney-disease.pages.dev" },
+    { "name": "Obesity trials", "area": "obesity", "network": "obesity_trials", "origin": "https://chartstays-obesity.pages.dev" }
+  ]
+}

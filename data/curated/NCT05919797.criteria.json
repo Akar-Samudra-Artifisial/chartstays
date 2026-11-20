@@ -1,0 +1,192 @@
+{
+  "schema_version": 1,
+  "nct_id": "NCT05919797",
+  "title": "Weight Loss Study: Genetics and Response to Naltrexone/Bupropion",
+  "status": "RECRUITING",
+  "conditions": [
+    "Obesity"
+  ],
+  "source": {
+    "name": "ClinicalTrials.gov",
+    "nct_id": "NCT05919797",
+    "url": "https://clinicaltrials.gov/study/NCT05919797",
+    "retrieved": "2026-11-16",
+    "modified": "Eligibility criteria structured and coded (SNOMED CT, LOINC, RxNorm) by ChartStays from the ClinicalTrials.gov text; the original text is kept unchanged in eligibility.criteria_text. Criteria curated by the project team, not reviewed by clinicians; pre-screening only.",
+    "last_update_posted": "2026-06-10"
+  },
+  "eligibility": {
+    "criteria_text": "Inclusion Criteria:\n\n* Men and women ages 18-65 years\n* BMI 30-50 kg/m2 or\n* BMI 27-29.99 kg/m2 with at least one weight-related comorbidity including controlled hypertension, dyslipidemia, obstructive sleep apnea, or osteoarthritis of a weight-bearing joint.\n\nExclusion Criteria:\n\n* Obesity of known endocrine or hypothalamic origin\n* HbA1c \\> 6.5%\n* Cerebrovascular, cardiovascular, hepatic or renal disease\n* History of seizures, serious psychiatric illness or suicide attempts, drug or alcohol misuse within prior 24 months\n* Glaucoma\n* Current tobacco use on a regular basis\n* Use of dopamine agonists, opioid analgesics, antipsychotics, antidepressants, neuroleptics, naltrexone, diabetes medications\n* Use of Monoamine oxidase (MAO) inhibitors \\< 14 days prior to screening\n* Concomitant use of CYP2B6 inhibitors\n* History of anorexia nervosa or bulimia\n* Previous surgery for obesity\n* Weight loss device intervention within prior 2 years\n* Currently pregnant or lactating, planning pregnancy or refusal to use birth control when appropriate (Women of childbearing potential will be required to use effective contraception.)\n* Blood pressure \\> 145/95 (use of anti-hypertensives will be allowed with the exception of verapamil, which can cause hyperprolactinemia)\n* Clinically significant thyroid disease\n* Triglycerides \\> 499 mg/dl\n* Current use or use of weight loss medication within prior six months\n* Any lifetime weight change deemed significant by Principal Investigator\n* An affirmative answer to any question in the Columbia-Suicide Severity Rating Scale",
+    "sex": "ALL",
+    "minimum_age": "18 Years",
+    "maximum_age": "65 Years",
+    "healthy_volunteers": false
+  },
+  "structured": [
+    {
+      "id": "inc-0a",
+      "type": "inclusion",
+      "kind": "age",
+      "label": "Age 18 to 65 years",
+      "source_text": "ClinicalTrials.gov age limits: 18 Years minimum, 65 Years maximum",
+      "min": 18,
+      "max": 65,
+      "unit": "years"
+    },
+    {
+      "kind": "lab",
+      "label": "BMI 27 to 50 kg/m2",
+      "loinc": "39156-5",
+      "op": "between",
+      "value": [
+        27,
+        50
+      ],
+      "unit": "kg/m2",
+      "note": "Covers both BMI routes (inc-2 or inc-3); BMI 27 to 29.99 also needs a weight-related co-morbidity (free text inc-3).",
+      "id": "inc-2a",
+      "type": "inclusion",
+      "source_text": "BMI 30-50 kg/m2 or"
+    },
+    {
+      "kind": "lab",
+      "label": "HbA1c above 6.5%",
+      "loinc": "4548-4",
+      "op": "gt",
+      "value": 6.5,
+      "unit": "%",
+      "id": "exc-2",
+      "type": "exclusion",
+      "source_text": "HbA1c > 6.5%"
+    },
+    {
+      "kind": "condition",
+      "label": "Daily tobacco smoking",
+      "codes": {
+        "snomed": [
+          "449868002"
+        ]
+      },
+      "id": "exc-6a",
+      "type": "exclusion",
+      "source_text": "Current tobacco use on a regular basis"
+    },
+    {
+      "kind": "lab",
+      "label": "Triglycerides above 499 mg/dL",
+      "loinc": "2571-8",
+      "op": "gt",
+      "value": 499,
+      "unit": "mg/dL",
+      "id": "exc-16",
+      "type": "exclusion",
+      "source_text": "Triglycerides > 499 mg/dl"
+    }
+  ],
+  "free_text": [
+    {
+      "id": "inc-2",
+      "type": "inclusion",
+      "text": "BMI 30-50 kg/m2 or"
+    },
+    {
+      "id": "inc-3",
+      "type": "inclusion",
+      "text": "BMI 27-29.99 kg/m2 with at least one weight-related comorbidity including controlled hypertension, dyslipidemia, obstructive sleep apnea, or osteoarthritis of a weight-bearing joint."
+    },
+    {
+      "id": "exc-1",
+      "type": "exclusion",
+      "text": "Obesity of known endocrine or hypothalamic origin"
+    },
+    {
+      "id": "exc-3",
+      "type": "exclusion",
+      "text": "Cerebrovascular, cardiovascular, hepatic or renal disease"
+    },
+    {
+      "id": "exc-4",
+      "type": "exclusion",
+      "text": "History of seizures, serious psychiatric illness or suicide attempts, drug or alcohol misuse within prior 24 months"
+    },
+    {
+      "id": "exc-5",
+      "type": "exclusion",
+      "text": "Glaucoma"
+    },
+    {
+      "id": "exc-6",
+      "type": "exclusion",
+      "text": "Current tobacco use on a regular basis"
+    },
+    {
+      "id": "exc-7",
+      "type": "exclusion",
+      "text": "Use of dopamine agonists, opioid analgesics, antipsychotics, antidepressants, neuroleptics, naltrexone, diabetes medications"
+    },
+    {
+      "id": "exc-8",
+      "type": "exclusion",
+      "text": "Use of Monoamine oxidase (MAO) inhibitors < 14 days prior to screening"
+    },
+    {
+      "id": "exc-9",
+      "type": "exclusion",
+      "text": "Concomitant use of CYP2B6 inhibitors"
+    },
+    {
+      "id": "exc-10",
+      "type": "exclusion",
+      "text": "History of anorexia nervosa or bulimia"
+    },
+    {
+      "id": "exc-11",
+      "type": "exclusion",
+      "text": "Previous surgery for obesity"
+    },
+    {
+      "id": "exc-12",
+      "type": "exclusion",
+      "text": "Weight loss device intervention within prior 2 years"
+    },
+    {
+      "id": "exc-13",
+      "type": "exclusion",
+      "text": "Currently pregnant or lactating, planning pregnancy or refusal to use birth control when appropriate (Women of childbearing potential will be required to use effective contraception.)"
+    },
+    {
+      "id": "exc-14",
+      "type": "exclusion",
+      "text": "Blood pressure > 145/95 (use of anti-hypertensives will be allowed with the exception of verapamil, which can cause hyperprolactinemia)"
+    },
+    {
+      "id": "exc-15",
+      "type": "exclusion",
+      "text": "Clinically significant thyroid disease"
+    },
+    {
+      "id": "exc-17",
+      "type": "exclusion",
+      "text": "Current use or use of weight loss medication within prior six months"
+    },
+    {
+      "id": "exc-18",
+      "type": "exclusion",
+      "text": "Any lifetime weight change deemed significant by Principal Investigator"
+    },
+    {
+      "id": "exc-19",
+      "type": "exclusion",
+      "text": "An affirmative answer to any question in the Columbia-Suicide Severity Rating Scale"
+    }
+  ],
+  "requested_fields_for_inquiry": [
+    "age",
+    "labs:39156-5",
+    "labs:4548-4",
+    "conditions",
+    "labs:2571-8"
+  ],
+  "curation": {
+    "method": "manual"
+  }
+}

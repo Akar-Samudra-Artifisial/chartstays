@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "nct_id": "NCT07021846",
+  "title": "Dose Escalated Concomitant Boost Radiotherapy for Early Breast Cancer",
+  "status": "RECRUITING",
+  "conditions": [
+    "Breast Cancer"
+  ],
+  "source": {
+    "name": "ClinicalTrials.gov",
+    "nct_id": "NCT07021846",
+    "url": "https://clinicaltrials.gov/study/NCT07021846",
+    "retrieved": "2026-11-16",
+    "modified": "Eligibility criteria structured and coded (SNOMED CT, LOINC, RxNorm) by ChartStays from the ClinicalTrials.gov text; the original text is kept unchanged in eligibility.criteria_text. Criteria curated by the project team, not reviewed by clinicians; pre-screening only.",
+    "last_update_posted": "2025-06-15"
+  },
+  "eligibility": {
+    "criteria_text": "Inclusion Criteria:\n\n* histologically proven breast cancer who have undergone conservative surgery\n* at least 3 inserted clips\n* age: from 18 years old to 50 years\n* at least one of the following risk factors: N1 disease, LVI, extensive intraductal component (\\>25%), close margins (\\<4 mm), non-hormone-sensitive disease, grading 3\n* ECOG performance status \\< 2\n* adequate bone marrow (haemoglobin concentration \\> 8 g/dl, white blood cell count \\> 3000/mm3, platelet count \\> 75000).\n\nExclusion Criteria:\n\n* Previous chest radiation treatment\n* Bilateral breast cancer\n* Neoadjuvant chemotherapy\n* BMI \\> 35\n* Collagen diseases\n* Pregnancy or breastfeeding",
+    "sex": "FEMALE",
+    "minimum_age": "18 Years",
+    "maximum_age": "50 Years",
+    "healthy_volunteers": false
+  },
+  "structured": [
+    {
+      "id": "inc-0a",
+      "type": "inclusion",
+      "kind": "age",
+      "label": "Age 18 to 50 years",
+      "source_text": "ClinicalTrials.gov age limits: 18 Years minimum, 50 Years maximum",
+      "min": 18,
+      "max": 50,
+      "unit": "years"
+    },
+    {
+      "id": "inc-0b",
+      "type": "inclusion",
+      "kind": "sex",
+      "label": "Female participants",
+      "source_text": "ClinicalTrials.gov sex: FEMALE",
+      "sex": "female"
+    },
+    {
+      "kind": "condition",
+      "label": "Breast cancer",
+      "primary": true,
+      "codes": {
+        "snomed": [
+          "254837009"
+        ]
+      },
+      "note": "Conservative surgery is not checked.",
+      "id": "inc-1a",
+      "type": "inclusion",
+      "source_text": "histologically proven breast cancer who have undergone conservative surgery"
+    },
+    {
+      "kind": "lab",
+      "label": "Hemoglobin above 8 g/dL",
+      "loinc": "718-7",
+      "op": "gt",
+      "value": 8,
+      "unit": "g/dL",
+      "id": "inc-6a",
+      "type": "inclusion",
+      "source_text": "adequate bone marrow (haemoglobin concentration > 8 g/dl, white blood cell count > 3000/mm3, platelet count > 75000)."
+    },
+    {
+      "kind": "lab",
+      "label": "White blood cell count above 3 x10^3/uL",
+      "loinc": "6690-2",
+      "op": "gt",
+      "value": 3,
+      "unit": "10*3/uL",
+      "note": "3000/mm3 converted to 3 x10^3/uL.",
+      "id": "inc-6b",
+      "type": "inclusion",
+      "source_text": "adequate bone marrow (haemoglobin concentration > 8 g/dl, white blood cell count > 3000/mm3, platelet count > 75000)."
+    },
+    {
+      "kind": "lab",
+      "label": "Platelet count above 75 x10^3/uL",
+      "loinc": "777-3",
+      "op": "gt",
+      "value": 75,
+      "unit": "10*3/uL",
+      "note": "75000 read as per microliter and converted to 75 x10^3/uL.",
+      "id": "inc-6c",
+      "type": "inclusion",
+      "source_text": "adequate bone marrow (haemoglobin concentration > 8 g/dl, white blood cell count > 3000/mm3, platelet count > 75000)."
+    },
+    {
+      "kind": "lab",
+      "label": "BMI above 35 kg/m2",
+      "loinc": "39156-5",
+      "op": "gt",
+      "value": 35,
+      "unit": "kg/m2",
+      "id": "exc-4",
+      "type": "exclusion",
+      "source_text": "BMI > 35"
+    }
+  ],
+  "free_text": [
+    {
+      "id": "inc-1",
+      "type": "inclusion",
+      "text": "histologically proven breast cancer who have undergone conservative surgery"
+    },
+    {
+      "id": "inc-2",
+      "type": "inclusion",
+      "text": "at least 3 inserted clips"
+    },
+    {
+      "id": "inc-4",
+      "type": "inclusion",
+      "text": "at least one of the following risk factors: N1 disease, LVI, extensive intraductal component (>25%), close margins (<4 mm), non-hormone-sensitive disease, grading 3"
+    },
+    {
+      "id": "inc-5",
+      "type": "inclusion",
+      "text": "ECOG performance status < 2"
+    },
+    {
+      "id": "exc-1",
+      "type": "exclusion",
+      "text": "Previous chest radiation treatment"
+    },
+    {
+      "id": "exc-2",
+      "type": "exclusion",
+      "text": "Bilateral breast cancer"
+    },
+    {
+      "id": "exc-3",
+      "type": "exclusion",
+      "text": "Neoadjuvant chemotherapy"
+    },
+    {
+      "id": "exc-5",
+      "type": "exclusion",
+      "text": "Collagen diseases"
+    },
+    {
+      "id": "exc-6",
+      "type": "exclusion",
+      "text": "Pregnancy or breastfeeding"
+    }
+  ],
+  "requested_fields_for_inquiry": [
+    "age",
+    "sex",
+    "conditions",
+    "labs:718-7",
+    "labs:6690-2",
+    "labs:777-3",
+    "labs:39156-5"
+  ],
+  "curation": {
+    "method": "manual"
+  }
+}

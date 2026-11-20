@@ -1,0 +1,18 @@
+{
+  "protocol": "nsdeploy-link/v1",
+  "exports": [
+    {
+      "network": "patient_navigator",
+      "front_man": "navigator",
+      "aliases": [
+        "patient_navigator",
+        "navigator"
+      ],
+      "url": "patient_navigator"
+    }
+  ],
+  "imports": [],
+  "link_updates": {
+    "mode": "browser-local"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "retrieved": "2026-11-16",
+  "api_version": "2.0.5",
+  "request_url": "https://clinicaltrials.gov/api/v2/studies?filter.ids=NCT06725810%2CNCT04819217%2CNCT07851454%2CNCT06923709%2CNCT07835828&pageSize=5&fields=NCTId%2CBriefTitle%2COverallStatus%2CLastUpdatePostDate%2CStartDate%2CPrimaryCompletionDate%2CPhase%2CStudyType%2CEnrollmentCount%2CLeadSponsorName%2CCondition%2CBriefSummary%2CEligibilityCriteria%2CMinimumAge%2CMaximumAge%2CSex%2CHealthyVolunteers%2CLocationFacility%2CLocationCity%2CLocationState%2CLocationCountry%2CLocationStatus",
+  "study": {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT06725810",
+        "briefTitle": "Correction of Anemia With Enarodustat in Non-dialysis Dependent Chronic Kidney Disease"
+      },
+      "statusModule": {
+        "overallStatus": "RECRUITING",
+        "startDateStruct": {
+          "date": "2025-03-27"
+        },
+        "primaryCompletionDateStruct": {
+          "date": "2029-01-01"
+        },
+        "lastUpdatePostDateStruct": {
+          "date": "2025-07-28"
+        }
+      },
+      "sponsorCollaboratorsModule": {
+        "leadSponsor": {
+          "name": "Shanghai Zhongshan Hospital"
+        }
+      },
+      "descriptionModule": {
+        "briefSummary": "The CANNON trial is a prospective, open-label, randomized, multicenter study designed to investigate rational hemoglobin target value in patients with anemia of non-dialysis chronic kidney disease treated with enarodustat. Eligible patients are randomly assigned 1:1 to the high-hemoglobin target group （hemoglobin of 13 g/dl）and low-hemoglobin target group （hemoglobin of 11 g/dl）and administered with enarodustat to achieve and maintain target hemoglobin over 96 weeks. The first primary endpoint was the difference of mean change in 36-Item Short Form Health Survey at week 24. The second primary endpoint was safety endpoints included time to major adverse cardiovascular + event (MACE+; all-cause mortality, myocardial infarction, stroke, and congestive heart failure requiring hospitalization) during 96 weeks."
+      },
+      "conditionsModule": {
+        "conditions": [
+          "Chronic Kidney Disease Associated Anemia"
+        ]
+      },
+      "designModule": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollmentInfo": {
+          "count": 1670
+        }
+      },
+      "eligibilityModule": {
+        "eligibilityCriteria": "Inclusion Criteria:\n\n1. Aged 18-75 years at the time of consent to participate;\n2. Body weight ranged from 45 to 100 kg;\n3. Diagnosed with CKD stages 2-5 (10 ≤ eGFR \\< 90 mL/min/1.73m2) and were not dialysis dependent;\n4. Diagnosed with renal anemia:\n\n1)Hemoglobin level of 6 - 10 g/dL for those who have not received ESA or HIF-PHI treatment within 6 weeks at screening; 2)Hemoglobin level of 8 - 12 g/dL for those who are currently receiving ESA (ESA dosage ≤ 10,000 IU/week) or HIF-PHI (roxadustat dosage≤ 100 mg TIW) at screening; 5. Serum ferritin \\> 100 μg/L or transferrin saturation \\> 20% at screening; 6. Voluntary participation in the trial and signing of the informed consent form.\n\nExclusion Criteria:\n\n1. Uncontrolled hypertension identified as systolic blood pressure \\>160mmHg or diastolic blood pressure \\>100mmHg after 4 weeks of regular and adequate drug therapy prior to screening;\n2. Uncontrolled proteinuria identified as UACR \\>3000mg/g or 24-hour urine protein \\>3.5g in non-diabetic patients and UACR of \\>5000mg/g or 24-hour urine protein \\>5.5g in diabetic patients;\n3. Anemia due to other reasons except CKD including systemic hematological disorders (such as myelodysplastic syndrome, aplastic anemia, etc.), hemolytic anemia, hemorrhagic anemia or cancer-related anemia;\n4. History of autoimmune diseases which could result in anemia such as systemic lupus erythematosus and ANCA vasculitis;\n5. History of active bleeding within 4 weeks prior to screening;\n6. History of serious thrombotic event such as a myocardial infarction, cerebral infarction, pulmonary embolism, unstable angina, or PCI or cardiac surgery within 6 months prior to screening;\n7. Severe heart failure (NYHA class IV) at screening;\n8. History of blood transfusion within 2 months prior to screening;\n9. History of usage of immunosuppressants or other immune therapies within 6 months prior to screening;\n10. Patients who are estimated to require dialysis, kidney transplantation, or major surgery within 6 months;\n11. Severe liver and biliary system complications (AST or ALT \\>3 times the upper limit of normal, total bilirubin \\>2 times the upper limit of normal) at screening;\n12. Receiving ESA combined with roxadustat treatment at screening;\n13. History of proliferative retinopathy or diabetic retinopathy requiring ophthalmological treatment;\n14. Severe hyperparathyroidism (iPTH ≥ 500 pg/mL);\n15. Severe active infections (such as active tuberculosis, fungal infections, etc.);\n16. Patients who are bedridden or have difficulty walking, or have a history of atrial fibrillation or deep vein thrombosis of the lower limbs;\n17. History of active tumors;\n18. Female patients who are pregnant or breastfeeding, or non-childbearing women who do not agree to effective contraception;\n19. Patients with a history of severe drug allergies (such as anaphylactic shock), or known allergies to any of the active ingredients or excipients of enarodostat;\n20. Patients who are currently participating in any other interventional clinical trial;\n21. Other reasons determined by the investigator not suitable for participation in the study.",
+        "healthyVolunteers": false,
+        "sex": "ALL",
+        "minimumAge": "18 Years",
+        "maximumAge": "75 Years"
+      },
+      "contactsLocationsModule": {
+        "locations": [
+          {
+            "facility": "Zhongshan hospital, Fudan University",
+            "status": "RECRUITING",
+            "city": "Shanghai",
+            "state": "Shanghai Municipality",
+            "country": "China"
+          }
+        ]
+      }
+    }
+  }
+}

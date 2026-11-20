@@ -1,0 +1,10 @@
+{
+  "networks": [
+    {
+      "name": "patient_navigator"
+    }
+  ],
+  "actions": {
+    "version": 1
+  }
+}

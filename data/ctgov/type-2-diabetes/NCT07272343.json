@@ -1,0 +1,67 @@
+{
+  "retrieved": "2026-11-16",
+  "api_version": "2.0.5",
+  "request_url": "https://clinicaltrials.gov/api/v2/studies?filter.ids=NCT07272343%2CNCT07390422%2CNCT06627322%2CNCT06875193%2CNCT07007676&pageSize=5&fields=NCTId%2CBriefTitle%2COverallStatus%2CLastUpdatePostDate%2CStartDate%2CPrimaryCompletionDate%2CPhase%2CStudyType%2CEnrollmentCount%2CLeadSponsorName%2CCondition%2CBriefSummary%2CEligibilityCriteria%2CMinimumAge%2CMaximumAge%2CSex%2CHealthyVolunteers%2CLocationFacility%2CLocationCity%2CLocationState%2CLocationCountry%2CLocationStatus",
+  "study": {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT07272343",
+        "briefTitle": "The Impact of Semaglutide Compared to Energy Restriction on Type 2 Diabetes"
+      },
+      "statusModule": {
+        "overallStatus": "RECRUITING",
+        "startDateStruct": {
+          "date": "2023-02-10"
+        },
+        "primaryCompletionDateStruct": {
+          "date": "2026-06-30"
+        },
+        "lastUpdatePostDateStruct": {
+          "date": "2026-04-02"
+        }
+      },
+      "sponsorCollaboratorsModule": {
+        "leadSponsor": {
+          "name": "Second Affiliated Hospital of Nanchang University"
+        }
+      },
+      "descriptionModule": {
+        "briefSummary": "To evaluate the effects of subcutaneous injection of semaglutide for 12 weeks on patients with type 2 diabetes mellitus (T2DM), compared with concurrent energy-restricted management, on glycemic control, weight loss, inflammatory markers, liver fat content, and other parameters. The study also observed the subcutaneous and visceral fat of the participants and explored the molecular mechanisms of action, providing high-quality evidence-based support for the timing and targets of intervention in this population."
+      },
+      "conditionsModule": {
+        "conditions": [
+          "Type 2 Diabetes Mellitus (T2DM)",
+          "Semaglutide",
+          "Caloric Restriction"
+        ]
+      },
+      "designModule": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "enrollmentInfo": {
+          "count": 100
+        }
+      },
+      "eligibilityModule": {
+        "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age 18-75 years;\n2. BMI≥25 kg/m²;\n3. Diagnosed as type 2 diabetes mellitus patients according to the \"Guidelines for the Prevention and Treatment of Type 2 Diabetes in China (2020 Edition)\";\n4. HbA1c≤8.5%;\n5. Duration of diabetes ≤3 months, and no use of antihyperglycemic drugs;\n6. Willing to participate in this study, and after full informed consent, agrees to strictly follow the treatment plan and promises to attend follow-up visits on time, and signs the informed consent form.\n\nExclusion Criteria:\n\n1. BMI \\< 25 kg/m²;\n2. Age \\< 18 years, or \\> 75 years;\n3. History of type 1 diabetes, acute pancreatitis, or diabetes secondary to pancreatectomy;\n4. History of bariatric surgery or planned bariatric surgery, or currently attempting weight loss within the past 3 months, or use of weight-loss medications within the past 3 months;\n5. Use of GLP-1 receptor agonists, sodium-glucose cotransporter 2 inhibitors, dipeptidyl peptidase-4 inhibitors, thiazolidinediones, or other related drugs within the past 3 months;\n6. Pregnant or breastfeeding women, or those planning to conceive during the study period;\n7. Patients with severe diseases of important organ systems, such as severe cardiovascular and cerebrovascular diseases, respiratory diseases, gastrointestinal diseases, renal insufficiency, hematologic diseases, neurological diseases, or malignancies;\n8. Personal or family history of medullary thyroid carcinoma;\n9. Patients with severe mental disorders or communication barriers that prevent accurate understanding of the study content and compliance with the trial procedures.",
+        "healthyVolunteers": false,
+        "sex": "ALL",
+        "minimumAge": "18 Years",
+        "maximumAge": "75 Years"
+      },
+      "contactsLocationsModule": {
+        "locations": [
+          {
+            "facility": "Minde road No.1",
+            "status": "RECRUITING",
+            "city": "Jiangxi",
+            "state": "Nanchang",
+            "country": "China"
+          }
+        ]
+      }
+    }
+  }
+}

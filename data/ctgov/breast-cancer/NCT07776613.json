@@ -1,0 +1,107 @@
+{
+  "retrieved": "2026-11-16",
+  "api_version": "2.0.5",
+  "request_url": "https://clinicaltrials.gov/api/v2/studies?filter.ids=NCT07776613%2CNCT05440227%2CNCT06858449%2CNCT06461650%2CNCT07021846&pageSize=5&fields=NCTId%2CBriefTitle%2COverallStatus%2CLastUpdatePostDate%2CStartDate%2CPrimaryCompletionDate%2CPhase%2CStudyType%2CEnrollmentCount%2CLeadSponsorName%2CCondition%2CBriefSummary%2CEligibilityCriteria%2CMinimumAge%2CMaximumAge%2CSex%2CHealthyVolunteers%2CLocationFacility%2CLocationCity%2CLocationState%2CLocationCountry%2CLocationStatus",
+  "study": {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT07776613",
+        "briefTitle": "A Study of Romosozumab in People With Breast Cancer and Osteoporosis"
+      },
+      "statusModule": {
+        "overallStatus": "RECRUITING",
+        "startDateStruct": {
+          "date": "2026-08-17"
+        },
+        "primaryCompletionDateStruct": {
+          "date": "2028-08"
+        },
+        "lastUpdatePostDateStruct": {
+          "date": "2026-08-20"
+        }
+      },
+      "sponsorCollaboratorsModule": {
+        "leadSponsor": {
+          "name": "Memorial Sloan Kettering Cancer Center"
+        }
+      },
+      "descriptionModule": {
+        "briefSummary": "The researchers are doing this study to see if romosozumab is effective at helping with bone formation in people with metastatic breast cancer (MBC) that has spread to the bones. All participants will have osteoporosis. The researchers will also look at bone breakdown (resorption) in participants and determine if romosozumab is a safe treatment for osteoporosis in people with MBC that has spread to the bones."
+      },
+      "conditionsModule": {
+        "conditions": [
+          "Breast Cancer",
+          "Metastatic Breast Cancer (MBC)"
+        ]
+      },
+      "designModule": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "enrollmentInfo": {
+          "count": 25
+        }
+      },
+      "eligibilityModule": {
+        "eligibilityCriteria": "Inclusion Criteria:\n\n* ≥18 years of age at the time of giving informed consent;\n* Patients diagnosed with hormone-receptor positive (ER/PR \\>1%) metastatic breast cancer to bones on any endocrine therapy with or without targeted therapy (i.e. CDK 4/6 inhibitors, PI3K inhibitors, anti-HER2-therapy);\n* Evidence of osteoporosis on dual X-ray absorptiometry (DXA) scan; must following:\n* osteoporosis on dual X-ray absorptiometry (DXA) scan; or history of fragility fracture of the spine or hip; or of morphometric spine fracture;\n\nExclusion Criteria:\n\n* Prior therapy with a bone-modifying agent (intraveous bisphosphonates or subcutaneous denosumab) for metastatic bone disease;\n* 25 (OH) vitamin D levels \\< 20 ng/mL; Vitamin D repletion will be permitted and subjects will be be rescreened once 25 (OH) vitamin D level ³ 20 ng/mL;\n* History of myocardial infarction or stroke within the preceding year;\n* Current hyper- or hypocalcemia, defined as albumin-adjusted serum calcium outside the normal range per institutional standard (\\<8.5 or \\>10.5 mg/dL); Calcium repletion will be permitted and subjects will be be rescreened once values are within the institutional standard.\n* History of non-healed dental or oral surgery;\n* History of osteonecrosis of the jaw",
+        "healthyVolunteers": false,
+        "sex": "FEMALE",
+        "minimumAge": "18 Years"
+      },
+      "contactsLocationsModule": {
+        "locations": [
+          {
+            "facility": "Memorial Sloan Kettering Basking Ridge (Limited Protocol Activities)",
+            "status": "RECRUITING",
+            "city": "Basking Ridge",
+            "state": "New Jersey",
+            "country": "United States"
+          },
+          {
+            "facility": "Memorial Sloan Kettering Monmouth (Limited Protocol Activities)",
+            "status": "RECRUITING",
+            "city": "Middletown",
+            "state": "New Jersey",
+            "country": "United States"
+          },
+          {
+            "facility": "Memorial Sloan Kettering Bergen (Limited Protocol Activities)",
+            "status": "RECRUITING",
+            "city": "Montvale",
+            "state": "New Jersey",
+            "country": "United States"
+          },
+          {
+            "facility": "Memorial Sloan Kettering Cancer Center @ Suffolk-Commack (Limited protocol activities)",
+            "status": "RECRUITING",
+            "city": "Commack",
+            "state": "New York",
+            "country": "United States"
+          },
+          {
+            "facility": "Memorial Sloan Kettering Westchester (Limited Protocol Activities)",
+            "status": "RECRUITING",
+            "city": "Harrison",
+            "state": "New York",
+            "country": "United States"
+          },
+          {
+            "facility": "Memorial Sloan Kettering Cancer Center",
+            "status": "RECRUITING",
+            "city": "New York",
+            "state": "New York",
+            "country": "United States"
+          },
+          {
+            "facility": "Memorial Sloan Kettering Nassau (Limited Protocol Activities)",
+            "status": "RECRUITING",
+            "city": "Uniondale",
+            "state": "New York",
+            "country": "United States"
+          }
+        ]
+      }
+    }
+  }
+}

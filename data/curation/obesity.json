@@ -1,0 +1,57 @@
+{
+  "area": "obesity",
+  "studies": [
+    {
+      "nct_id": "NCT07595549",
+      "map": [
+        { "from": "inc-1", "match": "≥18 years", "covered_by": "inc-0a" },
+        { "from": "inc-2", "match": "≥27.0 kg/m2", "keep_free_text": true, "structured": [
+          { "kind": "lab", "label": "BMI 27 kg/m2 or higher", "loinc": "39156-5", "op": "gte", "value": 27, "unit": "kg/m2", "note": "Lowest BMI accepted by either route; BMI 27 to 30 also needs a weight-related co-morbidity (free text)." }
+        ] }
+      ]
+    },
+    {
+      "nct_id": "NCT07564414",
+      "map": [
+        { "from": "inc-2", "match": "18 years", "covered_by": "inc-0a" },
+        { "from": "inc-3", "match": "BMI≥ 35.0", "structured": [
+          { "kind": "lab", "label": "BMI 35 kg/m2 or higher", "loinc": "39156-5", "op": "gte", "value": 35, "unit": "kg/m2" }
+        ] }
+      ]
+    },
+    {
+      "nct_id": "NCT05919797",
+      "map": [
+        { "from": "inc-1", "match": "18-65 years", "covered_by": "inc-0a" },
+        { "from": "inc-2", "match": "BMI 30-50", "keep_free_text": true, "structured": [
+          { "kind": "lab", "label": "BMI 27 to 50 kg/m2", "loinc": "39156-5", "op": "between", "value": [27, 50], "unit": "kg/m2", "note": "Covers both BMI routes (inc-2 or inc-3); BMI 27 to 29.99 also needs a weight-related co-morbidity (free text inc-3)." }
+        ] },
+        { "from": "exc-2", "match": "HbA1c > 6.5%", "structured": [
+          { "kind": "lab", "label": "HbA1c above 6.5%", "loinc": "4548-4", "op": "gt", "value": 6.5, "unit": "%" }
+        ] },
+        { "from": "exc-6", "match": "tobacco", "keep_free_text": true, "structured": [
+          { "kind": "condition", "label": "Daily tobacco smoking", "codes": { "snomed": ["449868002"] } }
+        ] },
+        { "from": "exc-16", "match": "Triglycerides > 499", "structured": [
+          { "kind": "lab", "label": "Triglycerides above 499 mg/dL", "loinc": "2571-8", "op": "gt", "value": 499, "unit": "mg/dL" }
+        ] }
+      ]
+    },
+    {
+      "nct_id": "NCT06393725",
+      "map": [
+        { "from": "inc-1", "match": "BMI 27-45", "structured": [
+          { "kind": "lab", "label": "BMI 27 to 45 kg/m2", "loinc": "39156-5", "op": "between", "value": [27, 45], "unit": "kg/m2" }
+        ] }
+      ]
+    },
+    {
+      "nct_id": "NCT05799846",
+      "map": [
+        { "from": "inc-1", "match": "BMI between 25 and 45", "keep_free_text": true, "structured": [
+          { "kind": "lab", "label": "BMI 25 to 45 kg/m2", "loinc": "39156-5", "op": "between", "value": [25, 45], "unit": "kg/m2" }
+        ] }
+      ]
+    }
+  ]
+}

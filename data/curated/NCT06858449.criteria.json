@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "nct_id": "NCT06858449",
+  "title": "Resistance Training and Post Workout Protein to Improve Body Composition During Neoadjuvant Chemotherapy for Breast Cancer",
+  "status": "RECRUITING",
+  "conditions": [
+    "Cancer",
+    "Breast Cancer"
+  ],
+  "source": {
+    "name": "ClinicalTrials.gov",
+    "nct_id": "NCT06858449",
+    "url": "https://clinicaltrials.gov/study/NCT06858449",
+    "retrieved": "2026-11-16",
+    "modified": "Eligibility criteria structured and coded (SNOMED CT, LOINC, RxNorm) by ChartStays from the ClinicalTrials.gov text; the original text is kept unchanged in eligibility.criteria_text. Criteria curated by the project team, not reviewed by clinicians; pre-screening only.",
+    "last_update_posted": "2026-02-03"
+  },
+  "eligibility": {
+    "criteria_text": "Inclusion Criteria:\n\n1. Age 20-89 years\n2. Women with a biopsy proven diagnosis of invasive carcinoma of the breast.\n3. Women must undergo neoadjuvant chemotherapy for breast cancer treatment prior to surgery\n4. Must be able to read and understand English and consent for themselves.\n\nExclusion Criteria:\n\n1. Inability to get up and down off the ground or squat body weight\n2. Inability to safely engage in group exercise sessions as deemed by study PI\n3. Severe arthritic, joint, cardiovascular, musculoskeletal, or any other condition deemed by PI to be unsafe to engage in resistance training\n4. Lactose intolerance\n5. Cow's milk or whey protein allergy\n6. Pregnant women\n7. Males",
+    "sex": "FEMALE",
+    "minimum_age": "20 Years",
+    "maximum_age": "89 Years",
+    "healthy_volunteers": false
+  },
+  "structured": [
+    {
+      "id": "inc-0a",
+      "type": "inclusion",
+      "kind": "age",
+      "label": "Age 20 to 89 years",
+      "source_text": "ClinicalTrials.gov age limits: 20 Years minimum, 89 Years maximum",
+      "min": 20,
+      "max": 89,
+      "unit": "years"
+    },
+    {
+      "id": "inc-0b",
+      "type": "inclusion",
+      "kind": "sex",
+      "label": "Female participants",
+      "source_text": "ClinicalTrials.gov sex: FEMALE",
+      "sex": "female"
+    },
+    {
+      "kind": "condition",
+      "label": "Breast cancer",
+      "primary": true,
+      "codes": {
+        "snomed": [
+          "254837009"
+        ]
+      },
+      "note": "Biopsy-proven invasive disease is not checked.",
+      "id": "inc-2a",
+      "type": "inclusion",
+      "source_text": "Women with a biopsy proven diagnosis of invasive carcinoma of the breast."
+    }
+  ],
+  "free_text": [
+    {
+      "id": "inc-2",
+      "type": "inclusion",
+      "text": "Women with a biopsy proven diagnosis of invasive carcinoma of the breast."
+    },
+    {
+      "id": "inc-3",
+      "type": "inclusion",
+      "text": "Women must undergo neoadjuvant chemotherapy for breast cancer treatment prior to surgery"
+    },
+    {
+      "id": "inc-4",
+      "type": "inclusion",
+      "text": "Must be able to read and understand English and consent for themselves."
+    },
+    {
+      "id": "exc-1",
+      "type": "exclusion",
+      "text": "Inability to get up and down off the ground or squat body weight"
+    },
+    {
+      "id": "exc-2",
+      "type": "exclusion",
+      "text": "Inability to safely engage in group exercise sessions as deemed by study PI"
+    },
+    {
+      "id": "exc-3",
+      "type": "exclusion",
+      "text": "Severe arthritic, joint, cardiovascular, musculoskeletal, or any other condition deemed by PI to be unsafe to engage in resistance training"
+    },
+    {
+      "id": "exc-4",
+      "type": "exclusion",
+      "text": "Lactose intolerance"
+    },
+    {
+      "id": "exc-5",
+      "type": "exclusion",
+      "text": "Cow's milk or whey protein allergy"
+    },
+    {
+      "id": "exc-6",
+      "type": "exclusion",
+      "text": "Pregnant women"
+    }
+  ],
+  "requested_fields_for_inquiry": [
+    "age",
+    "sex",
+    "conditions"
+  ],
+  "curation": {
+    "method": "manual"
+  }
+}

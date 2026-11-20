@@ -1,0 +1,222 @@
+{
+  "schema_version": 1,
+  "nct_id": "NCT05440227",
+  "title": "PG2 Injection for the Treatment of moderate-to Severe Fatigue in Breast Cancer Patients",
+  "status": "RECRUITING",
+  "conditions": [
+    "Cancer-related Fatigue"
+  ],
+  "source": {
+    "name": "ClinicalTrials.gov",
+    "nct_id": "NCT05440227",
+    "url": "https://clinicaltrials.gov/study/NCT05440227",
+    "retrieved": "2026-11-16",
+    "modified": "Eligibility criteria structured and coded (SNOMED CT, LOINC, RxNorm) by ChartStays from the ClinicalTrials.gov text; the original text is kept unchanged in eligibility.criteria_text. Criteria curated by the project team, not reviewed by clinicians; pre-screening only.",
+    "last_update_posted": "2025-06-05"
+  },
+  "eligibility": {
+    "criteria_text": "Inclusion Criteria:\n\n1. Women aged ≥ 20 years\n2. ECOG performance score ≤ 2\n3. Locally advanced, recurrent or metastatic, histologically documented breast cancer who is currently undergoing infusional chemotherapy regimen.\n4. Presence of moderate to severe cancer related fatigue prior to randomization as defined by at least two records of usual fatigue score ≥ 4 on the numeric scale (0 -10), which must be ≥ 14 days apart.\n5. Laboratory values obtained prior to randomization:\n\n   * Hgb ≥ 10 g/dL (patients must not be transfused ≤ 14 days to meet this criterion)\n   * Creatinine ≤ 1.2 x ULN\n   * AST (SGOT) or ALT (SGPT) ≤1.5 x ULN (or ≤5.0 x ULN for patients with liver metastases)\n6. Pain under controlled of score ≤ 4 on the numeric scale (0 -10)\n7. Life expectancy ≥ 3 months\n8. Ability to complete patient questionnaires alone or with assistance.\n9. Negative pregnancy test done ≤ 14 days prior to randomization, for women of childbearing potential only, and willing to take efficient contraceptives procedures to avoid pregnancy throughout the study period.\n10. Willing to provide written informed consent and agree to follow the study requirements.\n\nExclusion Criteria:\n\n1. Known brain metastasis or primary CNS malignancy\n2. Has known psychiatric or substance abuse disorders.\n3. Malnutrition, active infection, uncontrolled thyroid disorder, uncontrollable hypertension or diabetes mellitus, significant pulmonary disease and cardiovascular disease.\n4. Currently using any other pharmacologic agents.\n5. Subject who is unwilling to receive transfusions when, at the investigator's discretion, it is required to control her anemia.\n6. Other medical conditions that necessitate chronic systemic use of steroids (e.g. use of prednisolone \\> 10 mg daily or equivalent steroids fore more than 2 weeks).\n7. ≤ 4 weeks from major surgery to randomization, including any procedure that requires general anesthetics.\n8. Pain requiring opioid pain medication, however, over the counter analgesics such as acetaminophen or ibuprofen are allowed.\n9. Use of monoamine oxidase inhibitors (MAOI) (such as Moclobemide).\n10. Planning to start or complete any type of cancer therapy during the 8 weeks course of the study, once randomized on the study.\n11. Use of any over the counter herbal/dietary supplement marketed for fatigue or energy.\n12. Known history of hypersensitivity to Astragalus products.\n13. Currently participating another interventional study or planning to join one in the upcoming 8 weeks after randomization.\n14. Currently breast feeding.\n15. With any other serious disease considered by the investigator not in the condition to enter into the trial.",
+    "sex": "FEMALE",
+    "minimum_age": "20 Years",
+    "maximum_age": null,
+    "healthy_volunteers": false
+  },
+  "structured": [
+    {
+      "id": "inc-0a",
+      "type": "inclusion",
+      "kind": "age",
+      "label": "Age 20 years or older",
+      "source_text": "ClinicalTrials.gov age limits: 20 Years minimum, none maximum",
+      "min": 20,
+      "max": null,
+      "unit": "years"
+    },
+    {
+      "id": "inc-0b",
+      "type": "inclusion",
+      "kind": "sex",
+      "label": "Female participants",
+      "source_text": "ClinicalTrials.gov sex: FEMALE",
+      "sex": "female"
+    },
+    {
+      "kind": "condition",
+      "label": "Breast cancer",
+      "primary": true,
+      "codes": {
+        "snomed": [
+          "254837009"
+        ]
+      },
+      "note": "Advanced disease and current infusional chemotherapy are not checked.",
+      "id": "inc-3a",
+      "type": "inclusion",
+      "source_text": "Locally advanced, recurrent or metastatic, histologically documented breast cancer who is currently undergoing infusional chemotherapy regimen."
+    },
+    {
+      "kind": "lab",
+      "label": "Hemoglobin 10 g/dL or higher",
+      "loinc": "718-7",
+      "op": "gte",
+      "value": 10,
+      "unit": "g/dL",
+      "note": "Creatinine and liver enzyme limits relative to ULN are not checked.",
+      "id": "inc-5a",
+      "type": "inclusion",
+      "source_text": "Laboratory values obtained prior to randomization: Hgb ≥ 10 g/dL (patients must not be transfused ≤ 14 days to meet this criterion); Creatinine ≤ 1.2 x ULN; AST (SGOT) or ALT (SGPT) ≤1.5 x ULN (or ≤5.0 x ULN for patients with liver metastases)"
+    },
+    {
+      "kind": "medication",
+      "label": "Opioid pain medication",
+      "rxnorm": [
+        "856987",
+        "857005",
+        "1049504",
+        "1049625",
+        "1860154",
+        "1860491",
+        "245134",
+        "835603",
+        "861467",
+        "993770"
+      ],
+      "note": "Only opioid products found in the Synthea sample are recognised.",
+      "id": "exc-8a",
+      "type": "exclusion",
+      "source_text": "Pain requiring opioid pain medication, however, over the counter analgesics such as acetaminophen or ibuprofen are allowed."
+    }
+  ],
+  "free_text": [
+    {
+      "id": "inc-2",
+      "type": "inclusion",
+      "text": "ECOG performance score ≤ 2"
+    },
+    {
+      "id": "inc-3",
+      "type": "inclusion",
+      "text": "Locally advanced, recurrent or metastatic, histologically documented breast cancer who is currently undergoing infusional chemotherapy regimen."
+    },
+    {
+      "id": "inc-4",
+      "type": "inclusion",
+      "text": "Presence of moderate to severe cancer related fatigue prior to randomization as defined by at least two records of usual fatigue score ≥ 4 on the numeric scale (0 -10), which must be ≥ 14 days apart."
+    },
+    {
+      "id": "inc-5",
+      "type": "inclusion",
+      "text": "Laboratory values obtained prior to randomization: Hgb ≥ 10 g/dL (patients must not be transfused ≤ 14 days to meet this criterion); Creatinine ≤ 1.2 x ULN; AST (SGOT) or ALT (SGPT) ≤1.5 x ULN (or ≤5.0 x ULN for patients with liver metastases)"
+    },
+    {
+      "id": "inc-6",
+      "type": "inclusion",
+      "text": "Pain under controlled of score ≤ 4 on the numeric scale (0 -10)"
+    },
+    {
+      "id": "inc-7",
+      "type": "inclusion",
+      "text": "Life expectancy ≥ 3 months"
+    },
+    {
+      "id": "inc-8",
+      "type": "inclusion",
+      "text": "Ability to complete patient questionnaires alone or with assistance."
+    },
+    {
+      "id": "inc-9",
+      "type": "inclusion",
+      "text": "Negative pregnancy test done ≤ 14 days prior to randomization, for women of childbearing potential only, and willing to take efficient contraceptives procedures to avoid pregnancy throughout the study period."
+    },
+    {
+      "id": "inc-10",
+      "type": "inclusion",
+      "text": "Willing to provide written informed consent and agree to follow the study requirements."
+    },
+    {
+      "id": "exc-1",
+      "type": "exclusion",
+      "text": "Known brain metastasis or primary CNS malignancy"
+    },
+    {
+      "id": "exc-2",
+      "type": "exclusion",
+      "text": "Has known psychiatric or substance abuse disorders."
+    },
+    {
+      "id": "exc-3",
+      "type": "exclusion",
+      "text": "Malnutrition, active infection, uncontrolled thyroid disorder, uncontrollable hypertension or diabetes mellitus, significant pulmonary disease and cardiovascular disease."
+    },
+    {
+      "id": "exc-4",
+      "type": "exclusion",
+      "text": "Currently using any other pharmacologic agents."
+    },
+    {
+      "id": "exc-5",
+      "type": "exclusion",
+      "text": "Subject who is unwilling to receive transfusions when, at the investigator's discretion, it is required to control her anemia."
+    },
+    {
+      "id": "exc-6",
+      "type": "exclusion",
+      "text": "Other medical conditions that necessitate chronic systemic use of steroids (e.g. use of prednisolone > 10 mg daily or equivalent steroids fore more than 2 weeks)."
+    },
+    {
+      "id": "exc-7",
+      "type": "exclusion",
+      "text": "≤ 4 weeks from major surgery to randomization, including any procedure that requires general anesthetics."
+    },
+    {
+      "id": "exc-8",
+      "type": "exclusion",
+      "text": "Pain requiring opioid pain medication, however, over the counter analgesics such as acetaminophen or ibuprofen are allowed."
+    },
+    {
+      "id": "exc-9",
+      "type": "exclusion",
+      "text": "Use of monoamine oxidase inhibitors (MAOI) (such as Moclobemide)."
+    },
+    {
+      "id": "exc-10",
+      "type": "exclusion",
+      "text": "Planning to start or complete any type of cancer therapy during the 8 weeks course of the study, once randomized on the study."
+    },
+    {
+      "id": "exc-11",
+      "type": "exclusion",
+      "text": "Use of any over the counter herbal/dietary supplement marketed for fatigue or energy."
+    },
+    {
+      "id": "exc-12",
+      "type": "exclusion",
+      "text": "Known history of hypersensitivity to Astragalus products."
+    },
+    {
+      "id": "exc-13",
+      "type": "exclusion",
+      "text": "Currently participating another interventional study or planning to join one in the upcoming 8 weeks after randomization."
+    },
+    {
+      "id": "exc-14",
+      "type": "exclusion",
+      "text": "Currently breast feeding."
+    },
+    {
+      "id": "exc-15",
+      "type": "exclusion",
+      "text": "With any other serious disease considered by the investigator not in the condition to enter into the trial."
+    }
+  ],
+  "requested_fields_for_inquiry": [
+    "age",
+    "sex",
+    "conditions",
+    "labs:718-7",
+    "medications"
+  ],
+  "curation": {
+    "method": "manual"
+  }
+}

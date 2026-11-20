@@ -1,0 +1,65 @@
+{
+  "retrieved": "2026-11-16",
+  "api_version": "2.0.5",
+  "request_url": "https://clinicaltrials.gov/api/v2/studies?filter.ids=NCT06725810%2CNCT04819217%2CNCT07851454%2CNCT06923709%2CNCT07835828&pageSize=5&fields=NCTId%2CBriefTitle%2COverallStatus%2CLastUpdatePostDate%2CStartDate%2CPrimaryCompletionDate%2CPhase%2CStudyType%2CEnrollmentCount%2CLeadSponsorName%2CCondition%2CBriefSummary%2CEligibilityCriteria%2CMinimumAge%2CMaximumAge%2CSex%2CHealthyVolunteers%2CLocationFacility%2CLocationCity%2CLocationState%2CLocationCountry%2CLocationStatus",
+  "study": {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT07835828",
+        "briefTitle": "Optimised Cardiovascular and Renal Protection in Patients With Chronic Kidney Disease and Cardiovascular Disease"
+      },
+      "statusModule": {
+        "overallStatus": "RECRUITING",
+        "startDateStruct": {
+          "date": "2026-10-01"
+        },
+        "primaryCompletionDateStruct": {
+          "date": "2038-10-01"
+        },
+        "lastUpdatePostDateStruct": {
+          "date": "2026-10-15"
+        }
+      },
+      "sponsorCollaboratorsModule": {
+        "leadSponsor": {
+          "name": "Odense University Hospital"
+        }
+      },
+      "descriptionModule": {
+        "briefSummary": "The goal of this clinical trial is to investigate whether care in a specialised Cardio-Renal Clinic can improve the health of people living with both cardiovascular disease and chronic kidney disease. The clinic brings together expertise in heart and kidney disease and provides structured treatment based on current clinical guidelines.\n\nThe main research questions are:\n\n* After one year, does care in the Cardio-Renal Clinic improve measures of heart and kidney function, quality of life, symptoms, and physical ability compared with usual care?\n* After five years, does care in the Cardio-Renal Clinic reduce the risk of death, hospitalisation for heart failure, heart attack, stroke, worsening kidney function, or kidney failure compared with usual care? At the beginning of the study, all participants will undergo a detailed assessment of heart and kidney health. This will include blood and urine tests, an ultrasound examination of the heart, questionnaires, and tests of physical ability.\n\nParticipants will then be randomly assigned to either optimised care in the Cardio-Renal Clinic or usual care.\n\nParticipants assigned to the Cardio-Renal Clinic will have treatment reviewed and adjusted by a multidisciplinary team. The clinic may recommend or prescribe approved medications that are already used in routine care for heart and kidney disease. No experimental medications will be used.\n\nParticipants assigned to usual care will continue to receive care from a general practitioner and any hospital departments involved in treatment."
+      },
+      "conditionsModule": {
+        "conditions": [
+          "Chronic Kidney Disease",
+          "Heart Failure With Preserved Ejection Fraction (HFPEF)",
+          "Cardiovascular Diseases"
+        ]
+      },
+      "designModule": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollmentInfo": {
+          "count": 500
+        }
+      },
+      "eligibilityModule": {
+        "eligibilityCriteria": "Inclusion Criteria:\n\n* Age ≥ 18 years old\n* Capable of giving written informed consent\n* Established chronic kidney disease, and at least two measurements of: 1) eGFR \\<45 and \\>15 mL/min/1.73 m², and/or 2) UACR \\>200 mg/g, or 3) eGFR \\<60 mL/min/1.73 m² and UACR \\>30 mg/g.\n* Established cardiovascular disease, including prior acute coronary syndrome, chronic coronary syndrome, objective evidence of myocardial ischaemia, non-coronary atherosclerotic cardiovascular diase (stroke or peripheral arterial disease), heart failure with preserved ejection fraction, atrial fibrillation and/or flutter, clinically significant valvular disease, or hypertension treated with three or more antihypertensive drugs.\n\nExclusion Criteria:\n\n* Established heart failure with reduced ejection fraction.\n* Diabetes type I or II\n* Patients receiving chronic dialysis or having of kidney transplant.\n* Expected life expectancy \\<5 years.\n* Inability to understand the study procedures, comply with study requirements, or presence of any condition that, in the opinion of the research staff, may interfere with the patient's ability to participate in or complete the study.\n* Participation in another clinical trial with an investigational product or device that could interfere with the primary and/or secondary endpoints of this study.",
+        "healthyVolunteers": false,
+        "sex": "ALL",
+        "minimumAge": "18 Years"
+      },
+      "contactsLocationsModule": {
+        "locations": [
+          {
+            "facility": "Cardiovascular Research Unit, Odense University Hospital Svendborg",
+            "status": "RECRUITING",
+            "city": "Svendborg",
+            "country": "Denmark"
+          }
+        ]
+      }
+    }
+  }
+}

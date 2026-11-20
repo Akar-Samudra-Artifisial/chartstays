@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "nct_id": "NCT07007676",
+  "title": "Effect of Continuous Glucose Monitoring System on Glycemic Control in Non-insulin-Treated Elderly People With Type 2 Diabetes",
+  "status": "RECRUITING",
+  "conditions": [
+    "Diabetes Mellitus Type 2"
+  ],
+  "source": {
+    "name": "ClinicalTrials.gov",
+    "nct_id": "NCT07007676",
+    "url": "https://clinicaltrials.gov/study/NCT07007676",
+    "retrieved": "2026-11-16",
+    "modified": "Eligibility criteria structured and coded (SNOMED CT, LOINC, RxNorm) by ChartStays from the ClinicalTrials.gov text; the original text is kept unchanged in eligibility.criteria_text. Criteria curated by the project team, not reviewed by clinicians; pre-screening only.",
+    "last_update_posted": "2026-09-08"
+  },
+  "eligibility": {
+    "criteria_text": "Inclusion Criteria:\n\n* Age ≥ 60 years at the time of screening;\n* Diagnosed with type 2 diabetes mellitus;\n* Treated with two or more oral antidiabetic drugs with a stable medication regimen (medication classes) during the 3 months prior to entry;\n* Suboptimal glycemic control, defined as HbA1c ≥ 7.5% and ≤ 10% at screening or within 30 days prior to screening visit;\n* Has a smart phone compatible with CGM and BGM systems;\n* Willing and able to provide written informed consent;\n* At least 240 hours (10 out of 14 days) of sensor glucose data from the blinded CGM pre-randomization phase.\n\nExclusion Criteria:\n\n* Use of insulin or Glucagon-Like Peptide-1 （GLP-1） receptor agonists within 3 months prior to screening;\n* Use of any CGM device within 3 months prior to screening;\n* Participants were unable to tolerate tape adhesive around sensor placement area, or with medically documented allergy towards the adhesive (glue) of plasters, or with serious skin diseases (e.g. psoriasis vulgaris, bacterial skin diseases) around sensor placement area;\n* Considered unsuitable for participation by the investigators, including but not limited to individuals with dementia, psychiatric disorders, extreme visual or hearing impairment that would impair ability to use real-time CGM assessed;\n* Planned surgery or other procedures within the next 6 months that may interfere with scheduled follow-up visits;\n* Current or anticipated acute uses of glucocorticoids (oral, injectable, or IV), that will affect glycemic control;\n* Estimated glomerular filtration rate (eGFR) \\< 30 ml/min/1.73m2;\n* Participation in any other clinical trial within 3 month prior to screening, or concurrently enrolled, or planning to participate in another trial during the study period.",
+    "sex": "ALL",
+    "minimum_age": "60 Years",
+    "maximum_age": null,
+    "healthy_volunteers": false
+  },
+  "structured": [
+    {
+      "id": "inc-0a",
+      "type": "inclusion",
+      "kind": "age",
+      "label": "Age 60 years or older",
+      "source_text": "ClinicalTrials.gov age limits: 60 Years minimum, none maximum",
+      "min": 60,
+      "max": null,
+      "unit": "years"
+    },
+    {
+      "kind": "condition",
+      "label": "Type 2 diabetes",
+      "primary": true,
+      "codes": {
+        "snomed": [
+          "44054006"
+        ]
+      },
+      "id": "inc-2",
+      "type": "inclusion",
+      "source_text": "Diagnosed with type 2 diabetes mellitus;"
+    },
+    {
+      "kind": "lab",
+      "label": "HbA1c 7.5% to 10%",
+      "loinc": "4548-4",
+      "op": "between",
+      "value": [
+        7.5,
+        10
+      ],
+      "unit": "%",
+      "note": "The result must be from screening or the 30 days before it.",
+      "id": "inc-4a",
+      "type": "inclusion",
+      "source_text": "Suboptimal glycemic control, defined as HbA1c ≥ 7.5% and ≤ 10% at screening or within 30 days prior to screening visit;"
+    },
+    {
+      "kind": "medication",
+      "label": "Use of insulin",
+      "rxnorm": [
+        "106892"
+      ],
+      "note": "Only the insulin product found in the Synthea sample (RxNorm 106892) is recognised; GLP-1 receptor agonists rely on the free text.",
+      "id": "exc-1a",
+      "type": "exclusion",
+      "source_text": "Use of insulin or Glucagon-Like Peptide-1 （GLP-1） receptor agonists within 3 months prior to screening;"
+    },
+    {
+      "kind": "lab",
+      "label": "eGFR below 30 mL/min/1.73m2",
+      "loinc": "33914-3",
+      "op": "lt",
+      "value": 30,
+      "unit": "mL/min/{1.73_m2}",
+      "note": "Synthea records eGFR by the MDRD formula (LOINC 33914-3); the study does not name a formula.",
+      "id": "exc-7",
+      "type": "exclusion",
+      "source_text": "Estimated glomerular filtration rate (eGFR) < 30 ml/min/1.73m2;"
+    }
+  ],
+  "free_text": [
+    {
+      "id": "inc-3",
+      "type": "inclusion",
+      "text": "Treated with two or more oral antidiabetic drugs with a stable medication regimen (medication classes) during the 3 months prior to entry;"
+    },
+    {
+      "id": "inc-4",
+      "type": "inclusion",
+      "text": "Suboptimal glycemic control, defined as HbA1c ≥ 7.5% and ≤ 10% at screening or within 30 days prior to screening visit;"
+    },
+    {
+      "id": "inc-5",
+      "type": "inclusion",
+      "text": "Has a smart phone compatible with CGM and BGM systems;"
+    },
+    {
+      "id": "inc-6",
+      "type": "inclusion",
+      "text": "Willing and able to provide written informed consent;"
+    },
+    {
+      "id": "inc-7",
+      "type": "inclusion",
+      "text": "At least 240 hours (10 out of 14 days) of sensor glucose data from the blinded CGM pre-randomization phase."
+    },
+    {
+      "id": "exc-1",
+      "type": "exclusion",
+      "text": "Use of insulin or Glucagon-Like Peptide-1 （GLP-1） receptor agonists within 3 months prior to screening;"
+    },
+    {
+      "id": "exc-2",
+      "type": "exclusion",
+      "text": "Use of any CGM device within 3 months prior to screening;"
+    },
+    {
+      "id": "exc-3",
+      "type": "exclusion",
+      "text": "Participants were unable to tolerate tape adhesive around sensor placement area, or with medically documented allergy towards the adhesive (glue) of plasters, or with serious skin diseases (e.g. psoriasis vulgaris, bacterial skin diseases) around sensor placement area;"
+    },
+    {
+      "id": "exc-4",
+      "type": "exclusion",
+      "text": "Considered unsuitable for participation by the investigators, including but not limited to individuals with dementia, psychiatric disorders, extreme visual or hearing impairment that would impair ability to use real-time CGM assessed;"
+    },
+    {
+      "id": "exc-5",
+      "type": "exclusion",
+      "text": "Planned surgery or other procedures within the next 6 months that may interfere with scheduled follow-up visits;"
+    },
+    {
+      "id": "exc-6",
+      "type": "exclusion",
+      "text": "Current or anticipated acute uses of glucocorticoids (oral, injectable, or IV), that will affect glycemic control;"
+    },
+    {
+      "id": "exc-8",
+      "type": "exclusion",
+      "text": "Participation in any other clinical trial within 3 month prior to screening, or concurrently enrolled, or planning to participate in another trial during the study period."
+    }
+  ],
+  "requested_fields_for_inquiry": [
+    "age",
+    "conditions",
+    "labs:4548-4",
+    "medications",
+    "labs:33914-3"
+  ],
+  "curation": {
+    "method": "manual"
+  }
+}

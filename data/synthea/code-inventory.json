@@ -1,0 +1,3646 @@
+{
+ "sample": "synthea_sample_data_fhir_latest.zip",
+ "patients": 112,
+ "codes": [
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "314529007",
+   "display": "Medication review due (situation)",
+   "patients": 112
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "66383009",
+   "display": "Gingivitis (disorder)",
+   "patients": 87
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "160903007",
+   "display": "Full-time employment (finding)",
+   "patients": 86
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "73595000",
+   "display": "Stress (finding)",
+   "patients": 86
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "444814009",
+   "display": "Viral sinusitis (disorder)",
+   "patients": 68
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "160904001",
+   "display": "Part-time employment (finding)",
+   "patients": 67
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "422650009",
+   "display": "Social isolation (finding)",
+   "patients": 58
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "224299000",
+   "display": "Received higher education (finding)",
+   "patients": 56
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "423315002",
+   "display": "Limited social contact (finding)",
+   "patients": 52
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "162864005",
+   "display": "Body mass index 30+ - obesity (finding)",
+   "patients": 50
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "195662009",
+   "display": "Acute viral pharyngitis (disorder)",
+   "patients": 49
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "706893006",
+   "display": "Victim of intimate partner abuse (finding)",
+   "patients": 49
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "18718003",
+   "display": "Gingival disease (disorder)",
+   "patients": 46
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "741062008",
+   "display": "Not in labor force (finding)",
+   "patients": 44
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "109570002",
+   "display": "Primary dental caries (disorder)",
+   "patients": 43
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "10509002",
+   "display": "Acute bronchitis (disorder)",
+   "patients": 38
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "714628002",
+   "display": "Prediabetes (finding)",
+   "patients": 33
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "73438004",
+   "display": "Unemployed (finding)",
+   "patients": 33
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "424393004",
+   "display": "Reports of violence in the environment (finding)",
+   "patients": 29
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "72892002",
+   "display": "Normal pregnancy (finding)",
+   "patients": 28
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "160968000",
+   "display": "Risk activity involvement (finding)",
+   "patients": 26
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "271737000",
+   "display": "Anemia (disorder)",
+   "patients": 24
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "82423001",
+   "display": "Chronic pain (finding)",
+   "patients": 23
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "161744009",
+   "display": "Past pregnancy history of miscarriage (situation)",
+   "patients": 22
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "473461003",
+   "display": "Educated to high school level (finding)",
+   "patients": 21
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "105531004",
+   "display": "Housing unsatisfactory (finding)",
+   "patients": 19
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "266948004",
+   "display": "Has a criminal record (finding)",
+   "patients": 19
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "384709000",
+   "display": "Sprain (morphologic abnormality)",
+   "patients": 16
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "59621000",
+   "display": "Essential hypertension (disorder)",
+   "patients": 16
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "125605004",
+   "display": "Fracture of bone (disorder)",
+   "patients": 15
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "267020005",
+   "display": "History of tubal ligation (situation)",
+   "patients": 15
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "278860009",
+   "display": "Chronic low back pain (finding)",
+   "patients": 15
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "43878008",
+   "display": "Streptococcal sore throat (disorder)",
+   "patients": 15
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "840544004",
+   "display": "Suspected disease caused by Severe acute respiratory coronavirus 2 (situation)",
+   "patients": 15
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "386661006",
+   "display": "Fever (finding)",
+   "patients": 14
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "840539006",
+   "display": "Disease caused by severe acute respiratory syndrome coronavirus 2 (disorder)",
+   "patients": 14
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "65363002",
+   "display": "Otitis media (disorder)",
+   "patients": 13
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "10939881000119105",
+   "display": "Unhealthy alcohol drinking behavior (finding)",
+   "patients": 12
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "1121000119107",
+   "display": "Chronic neck pain (finding)",
+   "patients": 12
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "224295006",
+   "display": "Only received primary school education (finding)",
+   "patients": 12
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "274531002",
+   "display": "Abnormal findings diagnostic imaging heart+coronary circulat (finding)",
+   "patients": 12
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "312608009",
+   "display": "Laceration - injury (disorder)",
+   "patients": 12
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "427898007",
+   "display": "Infection of tooth (disorder)",
+   "patients": 12
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "80583007",
+   "display": "Severe anxiety (panic) (finding)",
+   "patients": 12
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "37320007",
+   "display": "Loss of teeth (disorder)",
+   "patients": 11
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "414545008",
+   "display": "Ischemic heart disease (disorder)",
+   "patients": 11
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "266934004",
+   "display": "Transport problem (finding)",
+   "patients": 10
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "278602001",
+   "display": "Loose dental filling (finding)",
+   "patients": 10
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "307426000",
+   "display": "Acute infective cystitis (disorder)",
+   "patients": 10
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "40055000",
+   "display": "Chronic sinusitis (disorder)",
+   "patients": 10
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "44465007",
+   "display": "Sprain of ankle (disorder)",
+   "patients": 10
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "49727002",
+   "display": "Cough (finding)",
+   "patients": 10
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "110030002",
+   "display": "Concussion injury of brain (disorder)",
+   "patients": 9
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "237602007",
+   "display": "Metabolic syndrome X (disorder)",
+   "patients": 9
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "278588009",
+   "display": "Fractured dental filling (finding)",
+   "patients": 9
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "361055000",
+   "display": "Misuses drugs (finding)",
+   "patients": 9
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "713458007",
+   "display": "Lack of access to transportation (finding)",
+   "patients": 9
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "19169002",
+   "display": "Miscarriage in first trimester (disorder)",
+   "patients": 8
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "197927001",
+   "display": "Recurrent urinary tract infection (disorder)",
+   "patients": 8
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "239873007",
+   "display": "Osteoarthritis of knee (disorder)",
+   "patients": 8
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "278558000",
+   "display": "Dental filling lost (finding)",
+   "patients": 8
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "399211009",
+   "display": "History of myocardial infarction (situation)",
+   "patients": 8
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "428251008",
+   "display": "History of appendectomy (situation)",
+   "patients": 8
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "1149222004",
+   "display": "Overdose (disorder)",
+   "patients": 7
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "196416002",
+   "display": "Impacted molars (disorder)",
+   "patients": 7
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "248595008",
+   "display": "Sputum finding (finding)",
+   "patients": 7
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "278598003",
+   "display": "Leaking dental filling (finding)",
+   "patients": 7
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "55822004",
+   "display": "Hyperlipidemia (disorder)",
+   "patients": 7
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "6525002",
+   "display": "Dependent drug abuse (disorder)",
+   "patients": 7
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "70704007",
+   "display": "Sprain of wrist (disorder)",
+   "patients": 7
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "75498004",
+   "display": "Acute bacterial sinusitis (disorder)",
+   "patients": 7
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "128613002",
+   "display": "Seizure disorder (disorder)",
+   "patients": 6
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "1290882004",
+   "display": "History of seizure (situation)",
+   "patients": 6
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "22298006",
+   "display": "Myocardial infarction (disorder)",
+   "patients": 6
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "302870006",
+   "display": "Hypertriglyceridemia (disorder)",
+   "patients": 6
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "36955009",
+   "display": "Loss of taste (finding)",
+   "patients": 6
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "44054006",
+   "display": "Diabetes mellitus type 2 (disorder)",
+   "patients": 6
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "62106007",
+   "display": "Concussion with no loss of consciousness (disorder)",
+   "patients": 6
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "64859006",
+   "display": "Osteoporosis (disorder)",
+   "patients": 6
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "124171000119105",
+   "display": "Chronic intractable migraine without aura (disorder)",
+   "patients": 5
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "127013003",
+   "display": "Disorder of kidney due to diabetes mellitus (disorder)",
+   "patients": 5
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "156073000",
+   "display": "Complete miscarriage (disorder)",
+   "patients": 5
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "198992004",
+   "display": "Eclampsia in pregnancy (disorder)",
+   "patients": 5
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "267036007",
+   "display": "Dyspnea (finding)",
+   "patients": 5
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "36971009",
+   "display": "Sinusitis (disorder)",
+   "patients": 5
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "39848009",
+   "display": "Whiplash injury to neck (disorder)",
+   "patients": 5
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "401314000",
+   "display": "Acute non-ST segment elevation myocardial infarction (disorder)",
+   "patients": 5
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "56018004",
+   "display": "Wheezing (finding)",
+   "patients": 5
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "65966004",
+   "display": "Fracture of forearm (disorder)",
+   "patients": 5
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "90460009",
+   "display": "Injury of neck (disorder)",
+   "patients": 5
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "91302008",
+   "display": "Sepsis (disorder)",
+   "patients": 5
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "183996000",
+   "display": "Sterilization requested (situation)",
+   "patients": 4
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "195967001",
+   "display": "Asthma (disorder)",
+   "patients": 4
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "233604007",
+   "display": "Pneumonia (disorder)",
+   "patients": 4
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "271825005",
+   "display": "Respiratory distress (finding)",
+   "patients": 4
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "284549007",
+   "display": "Laceration of hand (disorder)",
+   "patients": 4
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "370247008",
+   "display": "Facial laceration (disorder)",
+   "patients": 4
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "389087006",
+   "display": "Hypoxemia (disorder)",
+   "patients": 4
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "399261000",
+   "display": "History of coronary artery bypass grafting (situation)",
+   "patients": 4
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "431855005",
+   "display": "Chronic kidney disease stage 1 (disorder)",
+   "patients": 4
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "61804006",
+   "display": "Alveolitis of jaw (disorder)",
+   "patients": 4
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "68496003",
+   "display": "Polyp of colon (disorder)",
+   "patients": 4
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "84229001",
+   "display": "Fatigue (finding)",
+   "patients": 4
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "87433001",
+   "display": "Pulmonary emphysema (disorder)",
+   "patients": 4
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "16114001",
+   "display": "Fracture of ankle (disorder)",
+   "patients": 3
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "192127007",
+   "display": "Child attention deficit disorder (disorder)",
+   "patients": 3
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "232353008",
+   "display": "Perennial allergic rhinitis with seasonal variation (disorder)",
+   "patients": 3
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "254837009",
+   "display": "Malignant neoplasm of breast (disorder)",
+   "patients": 3
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "263102004",
+   "display": "Fracture subluxation of wrist (disorder)",
+   "patients": 3
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "283385000",
+   "display": "Laceration of thigh (disorder)",
+   "patients": 3
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "32911000",
+   "display": "Homeless (finding)",
+   "patients": 3
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "368581000119106",
+   "display": "Neuropathy due to type 2 diabetes mellitus (disorder)",
+   "patients": 3
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "39898005",
+   "display": "Sleep disorder (disorder)",
+   "patients": 3
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "401303003",
+   "display": "Acute ST segment elevation myocardial infarction (disorder)",
+   "patients": 3
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "403190006",
+   "display": "Epidermal burn of skin (disorder)",
+   "patients": 3
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "43724002",
+   "display": "Chill (finding)",
+   "patients": 3
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "446096008",
+   "display": "Perennial allergic rhinitis (disorder)",
+   "patients": 3
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "446654005",
+   "display": "Refugee (person)",
+   "patients": 3
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "48333001",
+   "display": "Burn injury (morphologic abnormality)",
+   "patients": 3
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "58150001",
+   "display": "Fracture of clavicle (disorder)",
+   "patients": 3
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "706870000",
+   "display": "Acute pulmonary embolism (disorder)",
+   "patients": 3
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "73430006",
+   "display": "Sleep apnea (disorder)",
+   "patients": 3
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "79586000",
+   "display": "Tubal pregnancy (disorder)",
+   "patients": 3
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "80394007",
+   "display": "Hyperglycemia (disorder)",
+   "patients": 3
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "90781000119102",
+   "display": "Microalbuminuria due to type 2 diabetes mellitus (disorder)",
+   "patients": 3
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "95417003",
+   "display": "Primary fibromyalgia syndrome (disorder)",
+   "patients": 3
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "1187604002",
+   "display": "Serving in military service (finding)",
+   "patients": 2
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "126906006",
+   "display": "Neoplasm of prostate (disorder)",
+   "patients": 2
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "157141000119108",
+   "display": "Proteinuria due to type 2 diabetes mellitus (disorder)",
+   "patients": 2
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "203646004",
+   "display": "Adolescent idiopathic scoliosis (disorder)",
+   "patients": 2
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "239872002",
+   "display": "Osteoarthritis of hip (disorder)",
+   "patients": 2
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "307731004",
+   "display": "Injury of tendon of the rotator cuff of shoulder (disorder)",
+   "patients": 2
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "315268008",
+   "display": "Suspected prostate cancer (situation)",
+   "patients": 2
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "35999006",
+   "display": "Blighted ovum (disorder)",
+   "patients": 2
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "398254007",
+   "display": "Pre-eclampsia (disorder)",
+   "patients": 2
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "427419006",
+   "display": "Transformed migraine (disorder)",
+   "patients": 2
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "431856006",
+   "display": "Chronic kidney disease stage 2 (disorder)",
+   "patients": 2
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "62564004",
+   "display": "Concussion with loss of consciousness (disorder)",
+   "patients": 2
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "76571007",
+   "display": "Septic shock (disorder)",
+   "patients": 2
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "876882001",
+   "display": "Died in hospice (finding)",
+   "patients": 2
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "88805009",
+   "display": "Chronic congestive heart failure (disorder)",
+   "patients": 2
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "92691004",
+   "display": "Carcinoma in situ of prostate (disorder)",
+   "patients": 2
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "1231000119100",
+   "display": "History of aortic valve replacement (situation)",
+   "patients": 1
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "1255252008",
+   "display": "Resorption of alveolar process due to dental trauma (disorder)",
+   "patients": 1
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "125601008",
+   "display": "Injury of knee (disorder)",
+   "patients": 1
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "153351000119102",
+   "display": "History of peripheral stem cell transplant (situation)",
+   "patients": 1
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "1551000119108",
+   "display": "Nonproliferative diabetic retinopathy due to type II diabetes mellitus",
+   "patients": 1
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "161665007",
+   "display": "History of renal transplant (situation)",
+   "patients": 1
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "185086009",
+   "display": "Chronic obstructive bronchitis (disorder)",
+   "patients": 1
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "230265002",
+   "display": "Familial Alzheimer's disease of early onset (disorder)",
+   "patients": 1
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "233678006",
+   "display": "Childhood asthma (disorder)",
+   "patients": 1
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "24079001",
+   "display": "Atopic dermatitis (disorder)",
+   "patients": 1
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "241929008",
+   "display": "Acute allergic reaction (disorder)",
+   "patients": 1
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "246677007",
+   "display": "Passive conjunctival congestion (finding)",
+   "patients": 1
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "25064002",
+   "display": "Headache (finding)",
+   "patients": 1
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "262574004",
+   "display": "Bullet wound (disorder)",
+   "patients": 1
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "267060006",
+   "display": "Diarrhea symptom (finding)",
+   "patients": 1
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "267102003",
+   "display": "Sore throat (finding)",
+   "patients": 1
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "267253006",
+   "display": "Fetus with chromosomal abnormality (disorder)",
+   "patients": 1
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "26929004",
+   "display": "Alzheimer's disease (disorder)",
+   "patients": 1
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "27942005",
+   "display": "Shock (disorder)",
+   "patients": 1
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "283545005",
+   "display": "Gunshot wound (disorder)",
+   "patients": 1
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "284551006",
+   "display": "Laceration of foot (disorder)",
+   "patients": 1
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "33737001",
+   "display": "Fracture of rib (disorder)",
+   "patients": 1
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "408512008",
+   "display": "Body mass index 40+ - severely obese (finding)",
+   "patients": 1
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "431857002",
+   "display": "Chronic kidney disease stage 4 (disorder)",
+   "patients": 1
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "433144002",
+   "display": "Chronic kidney disease stage 3 (disorder)",
+   "patients": 1
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "443165006",
+   "display": "Osteoporotic fracture of bone (disorder)",
+   "patients": 1
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "444448004",
+   "display": "Injury of medial collateral ligament of knee (disorder)",
+   "patients": 1
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "449868002",
+   "display": "Smokes tobacco daily (finding)",
+   "patients": 1
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "45816000",
+   "display": "Pyelonephritis (disorder)",
+   "patients": 1
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "46752004",
+   "display": "Torus palatinus (disorder)",
+   "patients": 1
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "47505003",
+   "display": "Posttraumatic stress disorder (disorder)",
+   "patients": 1
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "48724000",
+   "display": "Mitral valve regurgitation (disorder)",
+   "patients": 1
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "57676002",
+   "display": "Joint pain",
+   "patients": 1
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "60573004",
+   "display": "Aortic valve stenosis (disorder)",
+   "patients": 1
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "65710008",
+   "display": "Acute respiratory failure (disorder)",
+   "patients": 1
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "66857006",
+   "display": "Hemoptysis (finding)",
+   "patients": 1
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "67782005",
+   "display": "Acute respiratory distress syndrome (disorder)",
+   "patients": 1
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "67787004",
+   "display": "Tongue tie (disorder)",
+   "patients": 1
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "68235000",
+   "display": "Nasal congestion (finding)",
+   "patients": 1
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "68962001",
+   "display": "Muscle pain (finding)",
+   "patients": 1
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "698306007",
+   "display": "Awaiting transplantation of kidney (situation)",
+   "patients": 1
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "74400008",
+   "display": "Appendicitis (disorder)",
+   "patients": 1
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "770349000",
+   "display": "Sepsis caused by virus (disorder)",
+   "patients": 1
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "83664006",
+   "display": "Idiopathic atrophic hypothyroidism (disorder)",
+   "patients": 1
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "84757009",
+   "display": "Epilepsy (disorder)",
+   "patients": 1
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "85116003",
+   "display": "Miscarriage in second trimester (disorder)",
+   "patients": 1
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "93143009",
+   "display": "Leukemia, disease (disorder)",
+   "patients": 1
+  },
+  {
+   "resource": "Condition",
+   "system": "http://snomed.info/sct",
+   "code": "94503003",
+   "display": "Metastatic malignant neoplasm to prostate (disorder)",
+   "patients": 1
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "313782",
+   "display": "Acetaminophen 325 MG Oral Tablet",
+   "patients": 40
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "562251",
+   "display": "Amoxicillin 250 MG / Clavulanate 125 MG Oral Tablet",
+   "patients": 23
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "849574",
+   "display": "Naproxen sodium 220 MG Oral Tablet",
+   "patients": 21
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "748879",
+   "display": "{21 (ethinyl estradiol 0.03 MG / levonorgestrel 0.15 MG Oral Tablet) / 7 (inert ingredients 1 MG Oral Tablet) } Pack [Levora 0.15/30 28 Day]",
+   "patients": 17
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "310965",
+   "display": "Ibuprofen 200 MG Oral Tablet",
+   "patients": 14
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "314076",
+   "display": "lisinopril 10 MG Oral Tablet",
+   "patients": 14
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "757594",
+   "display": "{28 (norethindrone 0.35 MG Oral Tablet) } Pack [Jolivette 28 Day]",
+   "patients": 13
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "1043400",
+   "display": "Acetaminophen 21.7 MG/ML / Dextromethorphan Hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution",
+   "patients": 12
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "1870230",
+   "display": "NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector",
+   "patients": 12
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "748856",
+   "display": "{24 (drospirenone 3 MG / ethinyl estradiol 0.02 MG Oral Tablet) / 4 (inert ingredients 1 MG Oral Tablet) } Pack [Yaz 28 Day]",
+   "patients": 12
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "198405",
+   "display": "Ibuprofen 100 MG Oral Tablet",
+   "patients": 11
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "705129",
+   "display": "Nitroglycerin 0.4 MG/ACTUAT Mucosal Spray",
+   "patients": 11
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "749762",
+   "display": "{7 (ethinyl estradiol 0.01 MG Oral Tablet) / 84 (ethinyl estradiol 0.03 MG / levonorgestrel 0.15 MG Oral Tablet) } Pack [Seasonique]",
+   "patients": 11
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "866412",
+   "display": "24 HR metoprolol succinate 100 MG Extended Release Oral Tablet",
+   "patients": 11
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "2001499",
+   "display": "Vitamin B12 5 MG/ML Injectable Solution",
+   "patients": 9
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "309362",
+   "display": "Clopidogrel 75 MG Oral Tablet",
+   "patients": 9
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "312961",
+   "display": "Simvastatin 20 MG Oral Tablet",
+   "patients": 9
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "313820",
+   "display": "Acetaminophen 160 MG Chewable Tablet",
+   "patients": 9
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "751905",
+   "display": "{7 (ethinyl estradiol 0.035 MG / norgestimate 0.18 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.215 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.25 MG Oral Tablet) / 7 (inert ingredients 1 MG Oral Tablet) } Pack [Trinessa 28 Day]",
+   "patients": 9
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "310798",
+   "display": "Hydrochlorothiazide 25 MG Oral Tablet",
+   "patients": 8
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "834102",
+   "display": "Penicillin V Potassium 500 MG Oral Tablet",
+   "patients": 8
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "308136",
+   "display": "amLODIPine 2.5 MG Oral Tablet",
+   "patients": 7
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "308192",
+   "display": "Amoxicillin 500 MG Oral Tablet",
+   "patients": 7
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "665078",
+   "display": "Loratadine 5 MG Chewable Tablet",
+   "patients": 7
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "748962",
+   "display": "{28 (norethindrone 0.35 MG Oral Tablet) } Pack [Camila 28 Day]",
+   "patients": 7
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "834061",
+   "display": "Penicillin V Potassium 250 MG Oral Tablet",
+   "patients": 7
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "855812",
+   "display": "prasugrel 10 MG Oral Tablet",
+   "patients": 7
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "978950",
+   "display": "{5 (dienogest 2 MG / estradiol valerate 2 MG Oral Tablet) / 17 (dienogest 3 MG / estradiol valerate 2 MG Oral Tablet) / 2 (estradiol valerate 1 MG Oral Tablet) / 2 (estradiol valerate 3 MG Oral Tablet) / 2 (inert ingredients 1 MG Oral Tablet) } Pack [Natazia 28 Day]",
+   "patients": 7
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "1367439",
+   "display": "21 DAY ethinyl estradiol 0.000625 MG/HR / etonogestrel 0.005 MG/HR Vaginal System [NuvaRing]",
+   "patients": 6
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "243670",
+   "display": "aspirin 81 MG Oral Tablet",
+   "patients": 6
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "245314",
+   "display": "albuterol 5 MG/ML Inhalation Solution",
+   "patients": 6
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "314231",
+   "display": "Simvastatin 10 MG Oral Tablet",
+   "patients": 6
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "831533",
+   "display": "{28 (norethindrone 0.35 MG Oral Tablet) } Pack [Errin 28 Day]",
+   "patients": 6
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "904419",
+   "display": "Alendronic acid 10 MG Oral Tablet",
+   "patients": 6
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "1534809",
+   "display": "168 HR Ethinyl Estradiol 0.00146 MG/HR / norelgestromin 0.00625 MG/HR Transdermal System",
+   "patients": 5
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "1648755",
+   "display": "nitrofurantoin, macrocrystals 25 MG / nitrofurantoin, monohydrate 75 MG Oral Capsule",
+   "patients": 5
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "896209",
+   "display": "60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler",
+   "patients": 5
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "309097",
+   "display": "Cefuroxime 250 MG Oral Tablet",
+   "patients": 4
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "856987",
+   "display": "Acetaminophen 300 MG / Hydrocodone Bitartrate 5 MG Oral Tablet",
+   "patients": 4
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "106892",
+   "display": "insulin isophane, human 70 UNT/ML / insulin, regular, human 30 UNT/ML Injectable Suspension [Humulin]",
+   "patients": 3
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "198014",
+   "display": "Naproxen 500 MG Oral Tablet",
+   "patients": 3
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "200033",
+   "display": "carvedilol 25 MG Oral Tablet",
+   "patients": 3
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "209387",
+   "display": "Acetaminophen 325 MG Oral Tablet [Tylenol]",
+   "patients": 3
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "308971",
+   "display": "carbamazepine 20 MG/ML Oral Suspension [Tegretol]",
+   "patients": 3
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "310325",
+   "display": "ferrous sulfate 325 MG Oral Tablet",
+   "patients": 3
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "314077",
+   "display": "lisinopril 20 MG Oral Tablet",
+   "patients": 3
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "477045",
+   "display": "Chlorpheniramine Maleate 2 MG/ML Oral Solution",
+   "patients": 3
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "833135",
+   "display": "Milnacipran hydrochloride 100 MG Oral Tablet",
+   "patients": 3
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "835603",
+   "display": "tramadol hydrochloride 50 MG Oral Tablet",
+   "patients": 3
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "860975",
+   "display": "24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet",
+   "patients": 3
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "866436",
+   "display": "24 HR metoprolol succinate 50 MG Extended Release Oral Tablet",
+   "patients": 3
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "895996",
+   "display": "120 ACTUAT fluticasone propionate 0.044 MG/ACTUAT Metered Dose Inhaler [Flovent]",
+   "patients": 3
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "1049504",
+   "display": "Abuse-Deterrent 12 HR Oxycodone Hydrochloride 10 MG Extended Release Oral Tablet [Oxycontin]",
+   "patients": 2
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "1049625",
+   "display": "Acetaminophen 325 MG / Oxycodone Hydrochloride 10 MG Oral Tablet [Percocet]",
+   "patients": 2
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "106258",
+   "display": "Hydrocortisone 10 MG/ML Topical Cream",
+   "patients": 2
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "1649987",
+   "display": "doxycycline hyclate 100 MG",
+   "patients": 2
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "197591",
+   "display": "Diazepam 5 MG Oral Tablet",
+   "patients": 2
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "197884",
+   "display": "lisinopril 40 MG Oral Tablet",
+   "patients": 2
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "204892",
+   "display": "clonazePAM 0.25 MG Oral Tablet",
+   "patients": 2
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "206905",
+   "display": "Ibuprofen 400 MG Oral Tablet [Ibu]",
+   "patients": 2
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "309309",
+   "display": "ciprofloxacin 500 MG Oral Tablet",
+   "patients": 2
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "311354",
+   "display": "lisinopril 5 MG Oral Tablet",
+   "patients": 2
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "313988",
+   "display": "Furosemide 40 MG Oral Tablet",
+   "patients": 2
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "483438",
+   "display": "pregabalin 100 MG Oral Capsule",
+   "patients": 2
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "596926",
+   "display": "duloxetine 20 MG Delayed Release Oral Capsule",
+   "patients": 2
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "857005",
+   "display": "Acetaminophen 325 MG / HYDROcodone Bitartrate 7.5 MG Oral Tablet",
+   "patients": 2
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "861467",
+   "display": "Meperidine Hydrochloride 50 MG Oral Tablet",
+   "patients": 2
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "979492",
+   "display": "losartan potassium 50 MG Oral Tablet",
+   "patients": 2
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "993770",
+   "display": "Acetaminophen 300 MG / Codeine Phosphate 15 MG Oral Tablet",
+   "patients": 2
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "997488",
+   "display": "Fexofenadine hydrochloride 30 MG Oral Tablet",
+   "patients": 2
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "1049630",
+   "display": "diphenhydrAMINE Hydrochloride 25 MG Oral Tablet",
+   "patients": 1
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "1091392",
+   "display": "Methylphenidate Hydrochloride 20 MG Oral Tablet",
+   "patients": 1
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "1359133",
+   "display": "{5 (ethinyl estradiol 0.02 MG / norethindrone acetate 1 MG Oral Tablet) / 7 (ethinyl estradiol 0.03 MG / norethindrone acetate 1 MG Oral Tablet) / 9 (ethinyl estradiol 0.035 MG / norethindrone acetate 1 MG Oral Tablet) / 7 (ferrous fumarate 75 MG Oral Tablet) } Pack [Estrostep Fe 28 Day]",
+   "patients": 1
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "141918",
+   "display": "Terfenadine 60 MG Oral Tablet",
+   "patients": 1
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "141962",
+   "display": "Azithromycin 250 MG Oral Capsule",
+   "patients": 1
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "1656356",
+   "display": "sacubitril 97 MG / valsartan 103 MG Oral Tablet [Entresto]",
+   "patients": 1
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "1664463",
+   "display": "24 HR tacrolimus 1 MG Extended Release Oral Tablet [Envarsus]",
+   "patients": 1
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "1860154",
+   "display": "Abuse-Deterrent 12 HR Oxycodone Hydrochloride 15 MG Extended Release Oral Tablet",
+   "patients": 1
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "1860491",
+   "display": "12 HR Hydrocodone Bitartrate 10 MG Extended Release Oral Capsule",
+   "patients": 1
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "197454",
+   "display": "cephalexin 500 MG Oral Tablet",
+   "patients": 1
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "198031",
+   "display": "24 HR nicotine 0.292 MG/HR Transdermal System",
+   "patients": 1
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "198211",
+   "display": "simvastatin 40 MG Oral Tablet",
+   "patients": 1
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "198335",
+   "display": "sulfamethoxazole 800 MG / trimethoprim 160 MG Oral Tablet",
+   "patients": 1
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "212446",
+   "display": "azithromycin 250 MG Oral Tablet [Zithromax]",
+   "patients": 1
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "245134",
+   "display": "72 HR Fentanyl 0.025 MG/HR Transdermal System",
+   "patients": 1
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "2563431",
+   "display": "aspirin 81 MG Oral Capsule [Vazalore]",
+   "patients": 1
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "308182",
+   "display": "Amoxicillin 250 MG Oral Capsule",
+   "patients": 1
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "310436",
+   "display": "Galantamine 4 MG Oral Tablet",
+   "patients": 1
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "311372",
+   "display": "Loratadine 10 MG Oral Tablet",
+   "patients": 1
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "312938",
+   "display": "Sertraline 100 MG Oral Tablet",
+   "patients": 1
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "349201",
+   "display": "valsartan 160 MG Oral Tablet",
+   "patients": 1
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "351109",
+   "display": "budesonide 0.25 MG/ML Inhalation Suspension",
+   "patients": 1
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "351137",
+   "display": "albuterol 0.21 MG/ML Inhalation Solution",
+   "patients": 1
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "562508",
+   "display": "amoxicillin 875 MG / clavulanate 125 MG Oral Tablet",
+   "patients": 1
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "617296",
+   "display": "amoxicillin 500 MG / clavulanate 125 MG Oral Tablet",
+   "patients": 1
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "617310",
+   "display": "atorvastatin 20 MG Oral Tablet",
+   "patients": 1
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "617312",
+   "display": "atorvastatin 10 MG Oral Tablet",
+   "patients": 1
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "617320",
+   "display": "atorvastatin 40 MG Oral Tablet [Lipitor]",
+   "patients": 1
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "630208",
+   "display": "albuterol 0.83 MG/ML Inhalation Solution",
+   "patients": 1
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "686924",
+   "display": "carvedilol 3.125 MG Oral Tablet",
+   "patients": 1
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "745752",
+   "display": "NDA021457 200 ACTUAT albuterol 0.09 MG/ACTUAT Metered Dose Inhaler [ProAir]",
+   "patients": 1
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "749785",
+   "display": "{7 (ethinyl estradiol 0.035 MG / norgestimate 0.18 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.215 MG Oral Tablet) / 7 (ethinyl estradiol 0.035 MG / norgestimate 0.25 MG Oral Tablet) / 7 (inert ingredients 1 MG Oral Tablet) } Pack [Ortho Tri-Cyclen 28 Day]",
+   "patients": 1
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "749882",
+   "display": "{7 (inert ingredients 1 MG Oral Tablet) / 21 (mestranol 0.05 MG / norethindrone 1 MG Oral Tablet) } Pack [Norinyl 1+50 28 Day]",
+   "patients": 1
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "859088",
+   "display": "NDA020983 200 ACTUAT albuterol 0.09 MG/ACTUAT Metered Dose Inhaler [Ventolin]",
+   "patients": 1
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "859419",
+   "display": "rosuvastatin calcium 40 MG Oral Tablet",
+   "patients": 1
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "859747",
+   "display": "rosuvastatin calcium 10 MG Oral Tablet",
+   "patients": 1
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "859751",
+   "display": "rosuvastatin calcium 20 MG Oral Tablet",
+   "patients": 1
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "866419",
+   "display": "24 HR metoprolol succinate 200 MG Extended Release Oral Tablet",
+   "patients": 1
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "866924",
+   "display": "metoprolol tartrate 25 MG Oral Tablet",
+   "patients": 1
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "896001",
+   "display": "120 ACTUAT fluticasone propionate 0.11 MG/ACTUAT Metered Dose Inhaler [Flovent]",
+   "patients": 1
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "966222",
+   "display": "Levothyroxine Sodium 0.075 MG Oral Tablet",
+   "patients": 1
+  },
+  {
+   "resource": "MedicationRequest",
+   "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+   "code": "996740",
+   "display": "Memantine hydrochloride 2 MG/ML Oral Solution",
+   "patients": 1
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "29463-7",
+   "display": "Body Weight",
+   "patients": 112
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "32207-3",
+   "display": "Platelet distribution width [Entitic volume] in Blood by Automated count",
+   "patients": 112
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "32623-1",
+   "display": "Platelet [Entitic mean volume] in Blood by Automated count",
+   "patients": 112
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "4544-3",
+   "display": "Hematocrit [Volume Fraction] of Blood by Automated count",
+   "patients": 112
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "6690-2",
+   "display": "Leukocytes [#/volume] in Blood by Automated count",
+   "patients": 112
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "718-7",
+   "display": "Hemoglobin [Mass/volume] in Blood",
+   "patients": 112
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "72166-2",
+   "display": "Tobacco smoking status",
+   "patients": 112
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "72514-3",
+   "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
+   "patients": 112
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "777-3",
+   "display": "Platelets [#/volume] in Blood by Automated count",
+   "patients": 112
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "785-6",
+   "display": "MCH [Entitic mass] by Automated count",
+   "patients": 112
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "786-4",
+   "display": "MCHC [Entitic Mass/volume] in Red Blood Cells by Automated count",
+   "patients": 112
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "787-2",
+   "display": "MCV [Entitic mean volume] in Red Blood Cells by Automated count",
+   "patients": 112
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "788-0",
+   "display": "Erythrocyte [DistWidth] in Blood by Automated count",
+   "patients": 112
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "789-8",
+   "display": "Erythrocytes [#/volume] in Blood by Automated count",
+   "patients": 112
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "8302-2",
+   "display": "Body Height",
+   "patients": 112
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "85354-9",
+   "display": "Blood pressure panel with all children optional",
+   "patients": 112
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "8867-4",
+   "display": "Heart rate",
+   "patients": 112
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "9279-1",
+   "display": "Respiratory rate",
+   "patients": 112
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "39156-5",
+   "display": "Body mass index (BMI) [Ratio]",
+   "patients": 107
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "70274-6",
+   "display": "Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]",
+   "patients": 92
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "93025-5",
+   "display": "Protocol for Responding to and Assessing Patients' Assets, Risks, and Experiences [PRAPARE]",
+   "patients": 89
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "55758-7",
+   "display": "Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]",
+   "patients": 88
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "76504-0",
+   "display": "Total score [HARK]",
+   "patients": 79
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "82667-7",
+   "display": "Total score [DAST-10]",
+   "patients": 70
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "75626-2",
+   "display": "Total score [AUDIT-C]",
+   "patients": 68
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "8310-5",
+   "display": "Body temperature",
+   "patients": 65
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "8331-1",
+   "display": "Oral temperature",
+   "patients": 65
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "18262-6",
+   "display": "Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay",
+   "patients": 64
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "2085-9",
+   "display": "Cholesterol in HDL [Mass/volume] in Serum or Plasma",
+   "patients": 64
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "2093-3",
+   "display": "Cholesterol [Mass/volume] in Serum or Plasma",
+   "patients": 64
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "2571-8",
+   "display": "Triglyceride [Mass/volume] in Serum or Plasma",
+   "patients": 64
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "59576-9",
+   "display": "Body mass index (BMI) [Percentile] Per age and sex",
+   "patients": 41
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "4548-4",
+   "display": "Hemoglobin A1c/Hemoglobin.total in Blood",
+   "patients": 39
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "20565-8",
+   "display": "Carbon dioxide, total [Moles/volume] in Blood",
+   "patients": 37
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "2069-3",
+   "display": "Chloride [Moles/volume] in Blood",
+   "patients": 37
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "2339-0",
+   "display": "Glucose [Mass/volume] in Blood",
+   "patients": 37
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "2947-0",
+   "display": "Sodium [Moles/volume] in Blood",
+   "patients": 37
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "38483-4",
+   "display": "Creatinine [Mass/volume] in Blood",
+   "patients": 37
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "49765-1",
+   "display": "Calcium [Mass/volume] in Blood",
+   "patients": 37
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "6298-4",
+   "display": "Potassium [Moles/volume] in Blood",
+   "patients": 37
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "6299-2",
+   "display": "Urea nitrogen [Mass/volume] in Blood",
+   "patients": 37
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "82810-3",
+   "display": "Pregnancy status",
+   "patients": 28
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "89204-2",
+   "display": "Patient Health Questionnaire-9: Modified for Teens total score [Reported.PHQ.Teen]",
+   "patients": 26
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "2708-6",
+   "display": "Oxygen saturation in Arterial blood",
+   "patients": 24
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "33914-3",
+   "display": "Glomerular filtration rate [Volume Rate/Area] in Serum or Plasma by Creatinine-based formula (MDRD)/1.73 sq M",
+   "patients": 24
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "59408-5",
+   "display": "Oxygen saturation in Arterial blood by Pulse oximetry",
+   "patients": 24
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "44261-6",
+   "display": "Patient Health Questionnaire 9 item (PHQ-9) total score [Reported]",
+   "patients": 23
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "1742-6",
+   "display": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+   "patients": 21
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "1751-7",
+   "display": "Albumin [Mass/volume] in Serum or Plasma",
+   "patients": 21
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "1920-8",
+   "display": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+   "patients": 21
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "1975-2",
+   "display": "Bilirubin.total [Mass/volume] in Serum or Plasma",
+   "patients": 21
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "2885-2",
+   "display": "Protein [Mass/volume] in Serum or Plasma",
+   "patients": 21
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "6768-6",
+   "display": "Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma",
+   "patients": 21
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "59460-6",
+   "display": "Fall risk total [Morse Fall Scale]",
+   "patients": 18
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "59461-4",
+   "display": "Fall risk level [Morse Fall Scale]",
+   "patients": 18
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "17861-6",
+   "display": "Calcium [Mass/volume] in Serum or Plasma",
+   "patients": 17
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "2028-9",
+   "display": "Carbon dioxide, total [Moles/volume] in Serum or Plasma",
+   "patients": 17
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "2075-0",
+   "display": "Chloride [Moles/volume] in Serum or Plasma",
+   "patients": 17
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "2160-0",
+   "display": "Creatinine [Mass/volume] in Serum or Plasma",
+   "patients": 17
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "2345-7",
+   "display": "Glucose [Mass/volume] in Serum or Plasma",
+   "patients": 17
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "2514-8",
+   "display": "Ketones [Presence] in Urine by Test strip",
+   "patients": 17
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "2823-3",
+   "display": "Potassium [Moles/volume] in Serum or Plasma",
+   "patients": 17
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "2951-2",
+   "display": "Sodium [Moles/volume] in Serum or Plasma",
+   "patients": 17
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "3094-0",
+   "display": "Urea nitrogen [Mass/volume] in Serum or Plasma",
+   "patients": 17
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "5794-3",
+   "display": "Hemoglobin [Presence] in Urine by Test strip",
+   "patients": 17
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "5799-2",
+   "display": "Leukocyte esterase [Presence] in Urine by Test strip",
+   "patients": 17
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "5802-4",
+   "display": "Nitrite [Presence] in Urine by Test strip",
+   "patients": 17
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "5803-2",
+   "display": "pH of Urine by Test strip",
+   "patients": 17
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "5811-5",
+   "display": "Specific gravity of Urine by Test strip",
+   "patients": 17
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "5792-7",
+   "display": "Glucose [Mass/volume] in Urine by Test strip",
+   "patients": 16
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "5804-0",
+   "display": "Protein [Mass/volume] in Urine by Test strip",
+   "patients": 16
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "77606-2",
+   "display": "Weight-for-length Per age and sex",
+   "patients": 16
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "8289-1",
+   "display": "Head Occipital-frontal circumference Percentile",
+   "patients": 16
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "9843-4",
+   "display": "Head Occipital-frontal circumference",
+   "patients": 16
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "94531-1",
+   "display": "SARS-CoV-2 (COVID-19) RNA panel - Respiratory system specimen by NAA with probe detection",
+   "patients": 15
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "89579-7",
+   "display": "Troponin I.cardiac [Mass/volume] in Serum or Plasma by High sensitivity method",
+   "patients": 13
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "13945-1",
+   "display": "Erythrocytes [#/area] in Urine sediment by Microscopy high power field",
+   "patients": 11
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "24124-0",
+   "display": "Casts [Presence] in Urine sediment by Light microscopy",
+   "patients": 11
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "5769-5",
+   "display": "Bacteria [#/area] in Urine sediment by Microscopy high power field",
+   "patients": 11
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "5787-7",
+   "display": "Epithelial cells [#/area] in Urine sediment by Microscopy high power field",
+   "patients": 11
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "5821-4",
+   "display": "Leukocytes [#/area] in Urine sediment by Microscopy high power field",
+   "patients": 11
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "630-4",
+   "display": "Bacteria identified in Urine by Culture",
+   "patients": 11
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "6301-6",
+   "display": "INR in Platelet poor plasma by Coagulation assay",
+   "patients": 11
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "69453-9",
+   "display": "Cause of Death [US Standard Certificate of Death]",
+   "patients": 11
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "8247-9",
+   "display": "Mucus [Presence] in Urine sediment by Light microscopy",
+   "patients": 11
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "80382-5",
+   "display": "Influenza virus A Ag [Presence] in Upper respiratory specimen by Rapid immunoassay",
+   "patients": 10
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "80383-3",
+   "display": "Influenza virus B Ag [Presence] in Upper respiratory specimen by Rapid immunoassay",
+   "patients": 10
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "10834-0",
+   "display": "Globulin [Mass/volume] in Serum by calculation",
+   "patients": 8
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "20454-5",
+   "display": "Protein [Presence] in Urine by Test strip",
+   "patients": 7
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "25428-4",
+   "display": "Glucose [Presence] in Urine by Test strip",
+   "patients": 7
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "3173-2",
+   "display": "aPTT in Blood by Coagulation assay",
+   "patients": 7
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "38265-5",
+   "display": "DXA Radius and Ulna [T-score] Bone density",
+   "patients": 7
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "5770-3",
+   "display": "Bilirubin.total [Presence] in Urine by Test strip",
+   "patients": 7
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "14959-1",
+   "display": "Microalbumin/Creatinine [Mass Ratio] in Urine",
+   "patients": 6
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "20505-4",
+   "display": "Bilirubin.total [Mass/volume] in Urine by Test strip",
+   "patients": 6
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "20570-8",
+   "display": "Hematocrit [Volume Fraction] of Blood by calculation",
+   "patients": 6
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "21377-7",
+   "display": "Magnesium [Mass/volume] in Blood",
+   "patients": 6
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "2276-4",
+   "display": "Ferritin [Mass/volume] in Serum or Plasma",
+   "patients": 6
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "32167-9",
+   "display": "Clarity of Urine",
+   "patients": 6
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "34533-0",
+   "display": "Odor of Urine",
+   "patients": 6
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "5767-9",
+   "display": "Appearance of Urine",
+   "patients": 6
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "5778-6",
+   "display": "Color of Urine",
+   "patients": 6
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "5797-6",
+   "display": "Ketones [Mass/volume] in Urine by Test strip",
+   "patients": 6
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "6075-6",
+   "display": "Cladosporium herbarum IgE Ab [Units/volume] in Serum",
+   "patients": 6
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "6082-2",
+   "display": "Codfish IgE Ab [Units/volume] in Serum",
+   "patients": 6
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "6085-5",
+   "display": "Common Ragweed IgE Ab [Units/volume] in Serum",
+   "patients": 6
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "6095-4",
+   "display": "American house dust mite IgE Ab [Units/volume] in Serum",
+   "patients": 6
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "6106-9",
+   "display": "Egg white IgE Ab [Units/volume] in Serum",
+   "patients": 6
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "6158-0",
+   "display": "Latex IgE Ab [Units/volume] in Serum",
+   "patients": 6
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "6189-5",
+   "display": "White oak IgE Ab [Units/volume] in Serum",
+   "patients": 6
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "6206-7",
+   "display": "Peanut IgE Ab [Units/volume] in Serum",
+   "patients": 6
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "6246-3",
+   "display": "Shrimp IgE Ab [Units/volume] in Serum",
+   "patients": 6
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "6248-9",
+   "display": "Soybean IgE Ab [Units/volume] in Serum",
+   "patients": 6
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "6273-7",
+   "display": "Walnut IgE Ab [Units/volume] in Serum",
+   "patients": 6
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "6276-0",
+   "display": "Wheat IgE Ab [Units/volume] in Serum",
+   "patients": 6
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "6833-8",
+   "display": "Cat dander IgE Ab [Units/volume] in Serum",
+   "patients": 6
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "6844-5",
+   "display": "Honey bee IgE Ab [Units/volume] in Serum",
+   "patients": 6
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "71425-3",
+   "display": "Natriuretic peptide.B prohormone N-Terminal [Mass/volume] in Blood by Immunoassay",
+   "patients": 6
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "7258-7",
+   "display": "Cow milk IgE Ab [Units/volume] in Serum",
+   "patients": 6
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "19926-5",
+   "display": "FEV1/FVC",
+   "patients": 5
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "5902-2",
+   "display": "Prothrombin time (PT)",
+   "patients": 5
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "92130-4",
+   "display": "Rhinovirus RNA [Presence] in Respiratory system specimen by NAA with probe detection",
+   "patients": 5
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "92131-2",
+   "display": "Respiratory syncytial virus RNA [Presence] in Respiratory system specimen by NAA with probe detection",
+   "patients": 5
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "92134-6",
+   "display": "Human metapneumovirus RNA [Presence] in Respiratory system specimen by NAA with probe detection",
+   "patients": 5
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "92138-7",
+   "display": "Parainfluenza virus 3 RNA [Presence] in Respiratory system specimen by NAA with probe detection",
+   "patients": 5
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "92139-5",
+   "display": "Parainfluenza virus 2 RNA [Presence] in Respiratory system specimen by NAA with probe detection",
+   "patients": 5
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "92140-3",
+   "display": "Parainfluenza virus 1 RNA [Presence] in Respiratory system specimen by NAA with probe detection",
+   "patients": 5
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "92141-1",
+   "display": "Influenza virus B RNA [Presence] in Respiratory system specimen by NAA with probe detection",
+   "patients": 5
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "92142-9",
+   "display": "Influenza virus A RNA [Presence] in Respiratory system specimen by NAA with probe detection",
+   "patients": 5
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "94040-3",
+   "display": "Adenovirus A+B+C+D+E DNA [Presence] in Respiratory system specimen by NAA with probe detection",
+   "patients": 5
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "X9999-0",
+   "display": "Operative Status",
+   "patients": 5
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "14804-9",
+   "display": "Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma by Lactate to pyruvate reaction",
+   "patients": 4
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "1988-5",
+   "display": "C reactive protein [Mass/volume] in Serum or Plasma",
+   "patients": 4
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "2157-6",
+   "display": "Creatine kinase [Enzymatic activity/volume] in Serum or Plasma",
+   "patients": 4
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "2532-0",
+   "display": "Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma",
+   "patients": 4
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "33756-8",
+   "display": "Polyp size greatest dimension",
+   "patients": 4
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "33959-8",
+   "display": "Procalcitonin [Mass/volume] in Serum or Plasma",
+   "patients": 4
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "48065-7",
+   "display": "Fibrin D-dimer FEU [Mass/volume] in Platelet poor plasma",
+   "patients": 4
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "57905-2",
+   "display": "Hemoglobin.gastrointestinal.lower [Presence] in Stool by Immunoassay --1st specimen",
+   "patients": 4
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "5905-5",
+   "display": "Monocytes/Leukocytes in Blood by Automated count",
+   "patients": 4
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "65750-2",
+   "display": "Drugs of abuse 5 panel - Urine by Screen method",
+   "patients": 4
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "704-7",
+   "display": "Basophils [#/volume] in Blood by Automated count",
+   "patients": 4
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "706-2",
+   "display": "Basophils/Leukocytes in Blood by Automated count",
+   "patients": 4
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "711-2",
+   "display": "Eosinophils [#/volume] in Blood by Automated count",
+   "patients": 4
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "713-8",
+   "display": "Eosinophils/Leukocytes in Blood by Automated count",
+   "patients": 4
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "731-0",
+   "display": "Lymphocytes [#/volume] in Blood by Automated count",
+   "patients": 4
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "736-9",
+   "display": "Lymphocytes/Leukocytes in Blood by Automated count",
+   "patients": 4
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "742-7",
+   "display": "Monocytes [#/volume] in Blood by Automated count",
+   "patients": 4
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "751-8",
+   "display": "Neutrophils [#/volume] in Blood by Automated count",
+   "patients": 4
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "75636-1",
+   "display": "Emergency severity index [ESI]",
+   "patients": 4
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "770-8",
+   "display": "Neutrophils/Leukocytes in Blood by Automated count",
+   "patients": 4
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "91148-7",
+   "display": "Pain intensity, Enjoyment of life, General activity scale [PEG]",
+   "patients": 4
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "10230-1",
+   "display": "Left ventricular Ejection fraction",
+   "patients": 3
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "19123-9",
+   "display": "Magnesium [Mass/volume] in Serum or Plasma",
+   "patients": 3
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "2106-3",
+   "display": "Choriogonadotropin [Presence] in Urine",
+   "patients": 3
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "32693-4",
+   "display": "Lactate [Moles/volume] in Blood",
+   "patients": 3
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "41633001",
+   "display": "Intraocular pressure (observable entity)",
+   "patients": 3
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "44963-7",
+   "display": "Capillary refill [Time] of Nail bed",
+   "patients": 3
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "71490-7",
+   "display": "Left eye Diabetic retinopathy severity level by Ophthalmoscopy",
+   "patients": 3
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "71491-5",
+   "display": "Right eye Diabetic retinopathy severity level by Ophthalmoscopy",
+   "patients": 3
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "79892-6",
+   "display": "Right eye Intraocular pressure",
+   "patients": 3
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "79893-4",
+   "display": "Left eye Intraocular pressure",
+   "patients": 3
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "8478-0",
+   "display": "Mean blood pressure",
+   "patients": 3
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "88262-1",
+   "display": "Gram positive blood culture panel by Probe in Positive blood culture",
+   "patients": 3
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "98498-9",
+   "display": "Visual acuity uncorrected Left eye",
+   "patients": 3
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "98499-7",
+   "display": "Visual acuity uncorrected Right eye",
+   "patients": 3
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "10480-2",
+   "display": "Estrogen+Progesterone receptor Ag [Presence] in Tissue by Immune stain",
+   "patients": 2
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "1960-4",
+   "display": "Bicarbonate [Moles/volume] in Arterial blood",
+   "patients": 2
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "2019-8",
+   "display": "Carbon dioxide [Partial pressure] in Arterial blood",
+   "patients": 2
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "21905-5",
+   "display": "Primary tumor.clinical [Class] Cancer",
+   "patients": 2
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "21906-3",
+   "display": "Regional lymph nodes.clinical [Class] Cancer",
+   "patients": 2
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "21907-1",
+   "display": "Distant metastases.clinical [Class] Cancer",
+   "patients": 2
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "21908-9",
+   "display": "Stage group.clinical Cancer",
+   "patients": 2
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "2498-4",
+   "display": "Iron [Mass/volume] in Serum or Plasma",
+   "patients": 2
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "2500-7",
+   "display": "Iron binding capacity [Mass/volume] in Serum or Plasma",
+   "patients": 2
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "2502-3",
+   "display": "Iron saturation [Mass Fraction] in Serum or Plasma",
+   "patients": 2
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "2703-7",
+   "display": "Oxygen [Partial pressure] in Arterial blood",
+   "patients": 2
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "2744-1",
+   "display": "pH of Arterial blood",
+   "patients": 2
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "28245-9",
+   "display": "Abuse Status [OMAHA]",
+   "patients": 2
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "2857-1",
+   "display": "Prostate specific Ag [Mass/volume] in Serum or Plasma",
+   "patients": 2
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "32465-7",
+   "display": "Physical findings of Prostate",
+   "patients": 2
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "33728-7",
+   "display": "Size.maximum dimension in Tumor",
+   "patients": 2
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "33762-6",
+   "display": "Natriuretic peptide.B prohormone N-Terminal [Mass/volume] in Serum or Plasma",
+   "patients": 2
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "38208-5",
+   "display": "Pain severity - Reported",
+   "patients": 2
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "44667-4",
+   "display": "Site of distant metastasis in Breast tumor",
+   "patients": 2
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "46240-8",
+   "display": "History of Hospitalizations+Outpatient visits Narrative",
+   "patients": 2
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "46288-7",
+   "display": "US Guidance for biopsy of Prostate",
+   "patients": 2
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "55277-8",
+   "display": "HIV status",
+   "patients": 2
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "59557-9",
+   "display": "Treatment status Cancer",
+   "patients": 2
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "63513-6",
+   "display": "Are you covered by health insurance or some other kind of health care plan [PhenX]",
+   "patients": 2
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "71802-3",
+   "display": "Housing status",
+   "patients": 2
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "72106-8",
+   "display": "Total score [MMSE]",
+   "patients": 2
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "75325-1",
+   "display": "Symptom",
+   "patients": 2
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "76690-7",
+   "display": "Sexual orientation",
+   "patients": 2
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "85318-4",
+   "display": "ERBB2 gene duplication [Presence] in Breast cancer specimen by FISH",
+   "patients": 2
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "85319-2",
+   "display": "HER2 [Presence] in Breast cancer specimen by Immune stain",
+   "patients": 2
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "85337-4",
+   "display": "Estrogen receptor Ag [Presence] in Breast cancer specimen by Immune stain",
+   "patients": 2
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "85339-0",
+   "display": "Progesterone receptor Ag [Presence] in Breast cancer specimen by Immune stain",
+   "patients": 2
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "85352-3",
+   "display": "Lymph nodes with isolated tumor cells [#] in Cancer specimen by Light microscopy",
+   "patients": 2
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "88020-3",
+   "display": "Functional capacity NYHA",
+   "patients": 2
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "88021-1",
+   "display": "Objective assessment of cardiovascular disease NYHA",
+   "patients": 2
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "88040-1",
+   "display": "Response to cancer treatment",
+   "patients": 2
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "14627-4",
+   "display": "Bicarbonate [Moles/volume] in Venous blood",
+   "patients": 1
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "19994-3",
+   "display": "Oxygen/Total gas setting [Volume Fraction] Ventilator",
+   "patients": 1
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "2021-4",
+   "display": "Carbon dioxide [Partial pressure] in Venous blood",
+   "patients": 1
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "2027-1",
+   "display": "Carbon dioxide, total [Moles/volume] in Venous blood",
+   "patients": 1
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "2705-2",
+   "display": "Oxygen [Partial pressure] in Venous blood",
+   "patients": 1
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "2746-6",
+   "display": "pH of Venous blood",
+   "patients": 1
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "2777-1",
+   "display": "Phosphate [Mass/volume] in Serum or Plasma",
+   "patients": 1
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "29554-3",
+   "display": "Procedure Narrative",
+   "patients": 1
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "3016-3",
+   "display": "Thyrotropin [Units/volume] in Serum or Plasma",
+   "patients": 1
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "3024-7",
+   "display": "Thyroxine (T4) free [Mass/volume] in Serum or Plasma",
+   "patients": 1
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "3184-9",
+   "display": "Activated clotting time (ACT) of Blood by Coagulation assay",
+   "patients": 1
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "74006-8",
+   "display": "Weight difference [Mass difference] --pre dialysis - post dialysis",
+   "patients": 1
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "75443-2",
+   "display": "Mental health Outpatient Note",
+   "patients": 1
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "79818-1",
+   "display": "Study observation Right retina by OCT",
+   "patients": 1
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "79819-9",
+   "display": "Study observation Left retina by OCT",
+   "patients": 1
+  },
+  {
+   "resource": "Observation",
+   "system": "http://loinc.org",
+   "code": "84215-3",
+   "display": "Mental health Telehealth Note",
+   "patients": 1
+  }
+ ]
+}

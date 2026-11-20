@@ -1,0 +1,3609 @@
+{
+  "asOf": "2026-11-16",
+  "matrix": {
+    "Angelyn934_Kandra693_Harris789_abbe7ce8-820b-cb76-8d0c-02fe9d9decb0": {
+      "NCT04819217": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 3,
+          "not_met": 4,
+          "unknown": 13
+        },
+        "unknowns": {
+          "structured": 1,
+          "free_text": 12
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-2a": "met",
+          "inc-2b": "not_met",
+          "inc-2c": "not_met",
+          "exc-1": "not_met",
+          "exc-2": "not_met",
+          "exc-3a": "unknown",
+          "exc-13a": "met"
+        },
+        "reasons": [
+          "Inclusion not met: Latest Glomerular filtration rate [Volume Rate/Area] in Serum or Plasma by Creatinine-based formula (MDRD)/1.73 sq M is 69.96 mL/min/{1.73_m2} on 2026-11-01, not below 45 mL/min/{1.73_m2}.",
+          "Inclusion not met: Latest Microalbumin/Creatinine [Mass Ratio] in Urine is 16.51 mg/g on 2026-11-01, not above 100 mg/g.",
+          "Exclusion applies: Active condition: Malignant neoplasm of breast (disorder) since 2011-02-12."
+        ]
+      },
+      "NCT05440227": {
+        "verdict": "possible_match",
+        "counts": {
+          "met": 3,
+          "not_met": 1,
+          "unknown": 25
+        },
+        "unknowns": {
+          "structured": 1,
+          "free_text": 24
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-0b": "met",
+          "inc-3a": "met",
+          "inc-5a": "unknown",
+          "exc-8a": "not_met"
+        },
+        "reasons": [
+          "Unknown inclusion: The latest Hemoglobin [Mass/volume] in Blood result is from 2022-02-13, older than 365 days.",
+          "24 items to confirm with your doctor."
+        ]
+      },
+      "NCT05799846": {
+        "verdict": "strong_match",
+        "counts": {
+          "met": 2,
+          "not_met": 0,
+          "unknown": 2
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 2
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-1a": "met"
+        },
+        "reasons": [
+          "Every coded inclusion criterion is met and no coded exclusion applies.",
+          "2 items to confirm with your doctor."
+        ]
+      },
+      "NCT05919797": {
+        "verdict": "strong_match",
+        "counts": {
+          "met": 2,
+          "not_met": 3,
+          "unknown": 19
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 19
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-2a": "met",
+          "exc-2": "not_met",
+          "exc-6a": "not_met",
+          "exc-16": "not_met"
+        },
+        "reasons": [
+          "Every coded inclusion criterion is met and no coded exclusion applies.",
+          "19 items to confirm with your doctor."
+        ]
+      },
+      "NCT06393725": {
+        "verdict": "strong_match",
+        "counts": {
+          "met": 2,
+          "not_met": 0,
+          "unknown": 14
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 14
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-1": "met"
+        },
+        "reasons": [
+          "Every coded inclusion criterion is met and no coded exclusion applies.",
+          "14 items to confirm with your doctor."
+        ]
+      },
+      "NCT06461650": {
+        "verdict": "strong_match",
+        "counts": {
+          "met": 3,
+          "not_met": 1,
+          "unknown": 9
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 9
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-0b": "met",
+          "inc-2a": "met",
+          "exc-1a": "not_met"
+        },
+        "reasons": [
+          "Every coded inclusion criterion is met and no coded exclusion applies.",
+          "9 items to confirm with your doctor."
+        ]
+      },
+      "NCT06627322": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 3,
+          "not_met": 2,
+          "unknown": 20
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 20
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-3": "met",
+          "inc-4a": "not_met",
+          "inc-4b": "met",
+          "exc-2": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: Latest Hemoglobin A1c/Hemoglobin.total in Blood is 3.11% on 2026-11-01, not at least 7%."
+        ]
+      },
+      "NCT06725810": {
+        "verdict": "strong_match",
+        "counts": {
+          "met": 4,
+          "not_met": 0,
+          "unknown": 25
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 25
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-2": "met",
+          "inc-3a": "met",
+          "inc-3b": "met"
+        },
+        "reasons": [
+          "Every coded inclusion criterion is met and no coded exclusion applies.",
+          "25 items to confirm with your doctor."
+        ]
+      },
+      "NCT06858449": {
+        "verdict": "strong_match",
+        "counts": {
+          "met": 3,
+          "not_met": 0,
+          "unknown": 9
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 9
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-0b": "met",
+          "inc-2a": "met"
+        },
+        "reasons": [
+          "Every coded inclusion criterion is met and no coded exclusion applies.",
+          "9 items to confirm with your doctor."
+        ]
+      },
+      "NCT06875193": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 6,
+          "not_met": 3,
+          "unknown": 27
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 27
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-1": "met",
+          "inc-2a": "met",
+          "inc-3a": "not_met",
+          "inc-3b": "met",
+          "inc-4a": "met",
+          "exc-2": "not_met",
+          "exc-3a": "not_met",
+          "exc-17a": "met"
+        },
+        "reasons": [
+          "Inclusion not met: Latest Hemoglobin A1c/Hemoglobin.total in Blood is 3.11% on 2026-11-01, not at least 7%.",
+          "Exclusion applies: Active prescription: insulin isophane, human 70 UNT/ML / insulin, regular, human 30 UNT/ML Injectable Suspension [Humulin]."
+        ]
+      },
+      "NCT06923709": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 2,
+          "not_met": 4,
+          "unknown": 25
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 25
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-3a": "met",
+          "inc-3b": "not_met",
+          "inc-3c": "not_met",
+          "exc-20a": "not_met",
+          "exc-20b": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: Latest Glomerular filtration rate [Volume Rate/Area] in Serum or Plasma by Creatinine-based formula (MDRD)/1.73 sq M is 69.96 mL/min/{1.73_m2} on 2026-11-01, not below 60 mL/min/{1.73_m2}.",
+          "Inclusion not met: Latest Microalbumin/Creatinine [Mass Ratio] in Urine is 16.51 mg/g on 2026-11-01, not at least 300 mg/g."
+        ]
+      },
+      "NCT07007676": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 3,
+          "not_met": 2,
+          "unknown": 12
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 12
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-2": "met",
+          "inc-4a": "not_met",
+          "exc-1a": "met",
+          "exc-7": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: Latest Hemoglobin A1c/Hemoglobin.total in Blood is 3.11% on 2026-11-01, not between 7.5 and 10%.",
+          "Exclusion applies: Active prescription: insulin isophane, human 70 UNT/ML / insulin, regular, human 30 UNT/ML Injectable Suspension [Humulin]."
+        ]
+      },
+      "NCT07021846": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 2,
+          "not_met": 2,
+          "unknown": 12
+        },
+        "unknowns": {
+          "structured": 3,
+          "free_text": 9
+        },
+        "structured": {
+          "inc-0a": "not_met",
+          "inc-0b": "met",
+          "inc-1a": "met",
+          "inc-6a": "unknown",
+          "inc-6b": "unknown",
+          "inc-6c": "unknown",
+          "exc-4": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: Age 60 is above the maximum of 50."
+        ]
+      },
+      "NCT07272343": {
+        "verdict": "strong_match",
+        "counts": {
+          "met": 4,
+          "not_met": 1,
+          "unknown": 9
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 9
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-2": "met",
+          "inc-3": "met",
+          "inc-4": "met",
+          "exc-1": "not_met"
+        },
+        "reasons": [
+          "Every coded inclusion criterion is met and no coded exclusion applies.",
+          "9 items to confirm with your doctor."
+        ]
+      },
+      "NCT07390422": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 5,
+          "not_met": 1,
+          "unknown": 24
+        },
+        "unknowns": {
+          "structured": 1,
+          "free_text": 23
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-1a": "met",
+          "inc-2": "met",
+          "inc-3a": "not_met",
+          "exc-4a": "met",
+          "exc-8a": "unknown",
+          "exc-15a": "met"
+        },
+        "reasons": [
+          "Inclusion not met: Latest Hemoglobin A1c/Hemoglobin.total in Blood is 3.11% on 2026-11-01, not between 7.5 and 11%.",
+          "Exclusion applies: Active prescription: insulin isophane, human 70 UNT/ML / insulin, regular, human 30 UNT/ML Injectable Suspension [Humulin].",
+          "Exclusion applies: Active condition: Malignant neoplasm of breast (disorder) since 2011-02-12."
+        ]
+      },
+      "NCT07564414": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 1,
+          "not_met": 1,
+          "unknown": 4
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 4
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-3": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: Latest Body mass index (BMI) [Ratio] is 30.45 kg/m2 on 2026-11-01, not at least 35 kg/m2."
+        ]
+      },
+      "NCT07595549": {
+        "verdict": "strong_match",
+        "counts": {
+          "met": 2,
+          "not_met": 0,
+          "unknown": 5
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 5
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-2a": "met"
+        },
+        "reasons": [
+          "Every coded inclusion criterion is met and no coded exclusion applies.",
+          "5 items to confirm with your doctor."
+        ]
+      },
+      "NCT07776613": {
+        "verdict": "possible_match",
+        "counts": {
+          "met": 3,
+          "not_met": 0,
+          "unknown": 10
+        },
+        "unknowns": {
+          "structured": 1,
+          "free_text": 9
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-0b": "met",
+          "inc-2a": "met",
+          "inc-4a": "unknown"
+        },
+        "reasons": [
+          "Unknown inclusion: Osteoporosis or history of osteoporotic fracture is not recorded; the imported record may be incomplete.",
+          "9 items to confirm with your doctor."
+        ]
+      },
+      "NCT07835828": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 3,
+          "not_met": 0,
+          "unknown": 9
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 9
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-4a": "met",
+          "exc-2a": "met"
+        },
+        "reasons": [
+          "Exclusion applies: Active condition: Diabetes mellitus type 2 (disorder) since 2013-12-29."
+        ]
+      },
+      "NCT07851454": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 3,
+          "not_met": 1,
+          "unknown": 11
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 11
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-1a": "met",
+          "inc-1b": "not_met",
+          "inc-3": "met"
+        },
+        "reasons": [
+          "Inclusion not met: Latest Glomerular filtration rate [Volume Rate/Area] in Serum or Plasma by Creatinine-based formula (MDRD)/1.73 sq M is 69.96 mL/min/{1.73_m2} on 2026-11-01, not below 60 mL/min/{1.73_m2}."
+        ]
+      }
+    },
+    "Asia282_Prosacco716_3f0c90c7-2489-1306-ff69-868509c56635": {
+      "NCT04819217": {
+        "verdict": "possible_match",
+        "counts": {
+          "met": 1,
+          "not_met": 2,
+          "unknown": 17
+        },
+        "unknowns": {
+          "structured": 5,
+          "free_text": 12
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-2a": "unknown",
+          "inc-2b": "unknown",
+          "inc-2c": "unknown",
+          "exc-1": "unknown",
+          "exc-2": "unknown",
+          "exc-3a": "not_met",
+          "exc-13a": "not_met"
+        },
+        "reasons": [
+          "Unknown inclusion: No result for egfr above 15 ml/min/1.73m2 (LOINC 33914-3) in the record.",
+          "Unknown inclusion: No result for egfr below 45 ml/min/1.73m2 (LOINC 33914-3) in the record.",
+          "Unknown inclusion: No result for urine albumin/creatinine ratio above 100 mg/g (LOINC 14959-1) in the record.",
+          "Unknown exclusion: No result for egfr below 15 ml/min/1.73m2 (LOINC 33914-3) in the record.",
+          "Unknown exclusion: No result for serum albumin below 2.0 g/dl (LOINC 1751-7) in the record.",
+          "12 items to confirm with your doctor."
+        ]
+      },
+      "NCT05440227": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 3,
+          "not_met": 2,
+          "unknown": 24
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 24
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-0b": "met",
+          "inc-3a": "not_met",
+          "inc-5a": "met",
+          "exc-8a": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: No matching condition in the record (Breast cancer)."
+        ]
+      },
+      "NCT05799846": {
+        "verdict": "strong_match",
+        "counts": {
+          "met": 2,
+          "not_met": 0,
+          "unknown": 2
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 2
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-1a": "met"
+        },
+        "reasons": [
+          "Every coded inclusion criterion is met and no coded exclusion applies.",
+          "2 items to confirm with your doctor."
+        ]
+      },
+      "NCT05919797": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 1,
+          "not_met": 3,
+          "unknown": 20
+        },
+        "unknowns": {
+          "structured": 1,
+          "free_text": 19
+        },
+        "structured": {
+          "inc-0a": "not_met",
+          "inc-2a": "met",
+          "exc-2": "not_met",
+          "exc-6a": "not_met",
+          "exc-16": "unknown"
+        },
+        "reasons": [
+          "Inclusion not met: Age 67 is above the maximum of 65."
+        ]
+      },
+      "NCT06393725": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 1,
+          "not_met": 1,
+          "unknown": 14
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 14
+        },
+        "structured": {
+          "inc-0a": "not_met",
+          "inc-1": "met"
+        },
+        "reasons": [
+          "Inclusion not met: Age 67 is above the maximum of 65."
+        ]
+      },
+      "NCT06461650": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 2,
+          "not_met": 2,
+          "unknown": 9
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 9
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-0b": "met",
+          "inc-2a": "not_met",
+          "exc-1a": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: No matching condition in the record (Breast cancer)."
+        ]
+      },
+      "NCT06627322": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 2,
+          "not_met": 2,
+          "unknown": 21
+        },
+        "unknowns": {
+          "structured": 1,
+          "free_text": 20
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-3": "not_met",
+          "inc-4a": "not_met",
+          "inc-4b": "met",
+          "exc-2": "unknown"
+        },
+        "reasons": [
+          "Inclusion not met: No matching condition in the record (Type 2 diabetes).",
+          "Inclusion not met: Latest Hemoglobin A1c/Hemoglobin.total in Blood is 5.95% on 2026-06-11, not at least 7%."
+        ]
+      },
+      "NCT06725810": {
+        "verdict": "possible_match",
+        "counts": {
+          "met": 2,
+          "not_met": 0,
+          "unknown": 27
+        },
+        "unknowns": {
+          "structured": 2,
+          "free_text": 25
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-2": "met",
+          "inc-3a": "unknown",
+          "inc-3b": "unknown"
+        },
+        "reasons": [
+          "Unknown inclusion: No result for egfr 10 ml/min/1.73m2 or higher (LOINC 33914-3) in the record.",
+          "Unknown inclusion: No result for egfr below 90 ml/min/1.73m2 (LOINC 33914-3) in the record.",
+          "25 items to confirm with your doctor."
+        ]
+      },
+      "NCT06858449": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 2,
+          "not_met": 1,
+          "unknown": 9
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 9
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-0b": "met",
+          "inc-2a": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: No matching condition in the record (Breast cancer)."
+        ]
+      },
+      "NCT06875193": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 3,
+          "not_met": 4,
+          "unknown": 29
+        },
+        "unknowns": {
+          "structured": 2,
+          "free_text": 27
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-1": "not_met",
+          "inc-2a": "unknown",
+          "inc-3a": "not_met",
+          "inc-3b": "met",
+          "inc-4a": "met",
+          "exc-2": "not_met",
+          "exc-3a": "unknown",
+          "exc-17a": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: No matching condition in the record (Type 2 diabetes).",
+          "Inclusion not met: Latest Hemoglobin A1c/Hemoglobin.total in Blood is 5.95% on 2026-06-11, not at least 7%."
+        ]
+      },
+      "NCT06923709": {
+        "verdict": "possible_match",
+        "counts": {
+          "met": 1,
+          "not_met": 1,
+          "unknown": 29
+        },
+        "unknowns": {
+          "structured": 4,
+          "free_text": 25
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-3a": "unknown",
+          "inc-3b": "unknown",
+          "inc-3c": "unknown",
+          "exc-20a": "unknown",
+          "exc-20b": "not_met"
+        },
+        "reasons": [
+          "Unknown inclusion: No result for egfr 25 ml/min/1.73m2 or higher (LOINC 33914-3) in the record.",
+          "Unknown inclusion: No result for egfr below 60 ml/min/1.73m2 (LOINC 33914-3) in the record.",
+          "Unknown inclusion: No result for urine albumin/creatinine ratio 300 mg/g or higher (LOINC 14959-1) in the record.",
+          "Unknown exclusion: No result for plasma potassium above 4.9 mmol/l (LOINC 2823-3) in the record.",
+          "25 items to confirm with your doctor."
+        ]
+      },
+      "NCT07007676": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 1,
+          "not_met": 3,
+          "unknown": 13
+        },
+        "unknowns": {
+          "structured": 1,
+          "free_text": 12
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-2": "not_met",
+          "inc-4a": "not_met",
+          "exc-1a": "not_met",
+          "exc-7": "unknown"
+        },
+        "reasons": [
+          "Inclusion not met: No matching condition in the record (Type 2 diabetes).",
+          "Inclusion not met: Latest Hemoglobin A1c/Hemoglobin.total in Blood is 5.95% on 2026-06-11, not between 7.5 and 10%."
+        ]
+      },
+      "NCT07021846": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 4,
+          "not_met": 3,
+          "unknown": 9
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 9
+        },
+        "structured": {
+          "inc-0a": "not_met",
+          "inc-0b": "met",
+          "inc-1a": "not_met",
+          "inc-6a": "met",
+          "inc-6b": "met",
+          "inc-6c": "met",
+          "exc-4": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: Age 67 is above the maximum of 50.",
+          "Inclusion not met: No matching condition in the record (Breast cancer)."
+        ]
+      },
+      "NCT07272343": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 3,
+          "not_met": 2,
+          "unknown": 9
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 9
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-2": "met",
+          "inc-3": "not_met",
+          "inc-4": "met",
+          "exc-1": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: No matching condition in the record (Type 2 diabetes)."
+        ]
+      },
+      "NCT07390422": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 2,
+          "not_met": 5,
+          "unknown": 23
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 23
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-1a": "not_met",
+          "inc-2": "met",
+          "inc-3a": "not_met",
+          "exc-4a": "not_met",
+          "exc-8a": "not_met",
+          "exc-15a": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: No matching condition in the record (Type 2 diabetes).",
+          "Inclusion not met: Latest Hemoglobin A1c/Hemoglobin.total in Blood is 5.95% on 2026-06-11, not between 7.5 and 11%."
+        ]
+      },
+      "NCT07564414": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 1,
+          "not_met": 1,
+          "unknown": 4
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 4
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-3": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: Latest Body mass index (BMI) [Ratio] is 27.5 kg/m2 on 2026-06-11, not at least 35 kg/m2."
+        ]
+      },
+      "NCT07595549": {
+        "verdict": "strong_match",
+        "counts": {
+          "met": 2,
+          "not_met": 0,
+          "unknown": 5
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 5
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-2a": "met"
+        },
+        "reasons": [
+          "Every coded inclusion criterion is met and no coded exclusion applies.",
+          "5 items to confirm with your doctor."
+        ]
+      },
+      "NCT07776613": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 3,
+          "not_met": 1,
+          "unknown": 9
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 9
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-0b": "met",
+          "inc-2a": "not_met",
+          "inc-4a": "met"
+        },
+        "reasons": [
+          "Inclusion not met: No matching condition in the record (Breast cancer)."
+        ]
+      },
+      "NCT07835828": {
+        "verdict": "possible_match",
+        "counts": {
+          "met": 1,
+          "not_met": 1,
+          "unknown": 10
+        },
+        "unknowns": {
+          "structured": 1,
+          "free_text": 9
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-4a": "unknown",
+          "exc-2a": "not_met"
+        },
+        "reasons": [
+          "Unknown inclusion: Established cardiovascular disease, including prior events is not recorded; the imported record may be incomplete.",
+          "9 items to confirm with your doctor."
+        ]
+      },
+      "NCT07851454": {
+        "verdict": "possible_match",
+        "counts": {
+          "met": 2,
+          "not_met": 0,
+          "unknown": 13
+        },
+        "unknowns": {
+          "structured": 2,
+          "free_text": 11
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-1a": "unknown",
+          "inc-1b": "unknown",
+          "inc-3": "met"
+        },
+        "reasons": [
+          "Unknown inclusion: No result for egfr 30 ml/min/1.73m2 or higher (LOINC 33914-3) in the record.",
+          "Unknown inclusion: No result for egfr below 60 ml/min/1.73m2 (LOINC 33914-3) in the record.",
+          "11 items to confirm with your doctor."
+        ]
+      }
+    },
+    "Brett333_Kirlin939_1d670d3c-f290-52f4-9409-aaffd1eb59f5": {
+      "NCT04819217": {
+        "verdict": "possible_match",
+        "counts": {
+          "met": 1,
+          "not_met": 1,
+          "unknown": 18
+        },
+        "unknowns": {
+          "structured": 6,
+          "free_text": 12
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-2a": "unknown",
+          "inc-2b": "unknown",
+          "inc-2c": "unknown",
+          "exc-1": "unknown",
+          "exc-2": "unknown",
+          "exc-3a": "unknown",
+          "exc-13a": "not_met"
+        },
+        "reasons": [
+          "Unknown inclusion: No result for egfr above 15 ml/min/1.73m2 (LOINC 33914-3) in the record.",
+          "Unknown inclusion: No result for egfr below 45 ml/min/1.73m2 (LOINC 33914-3) in the record.",
+          "Unknown inclusion: No result for urine albumin/creatinine ratio above 100 mg/g (LOINC 14959-1) in the record.",
+          "Unknown exclusion: No result for egfr below 15 ml/min/1.73m2 (LOINC 33914-3) in the record.",
+          "Unknown exclusion: No result for serum albumin below 2.0 g/dl (LOINC 1751-7) in the record.",
+          "Unknown exclusion: The latest Hemoglobin [Mass/volume] in Blood result is from 2023-10-15, older than 365 days.",
+          "12 items to confirm with your doctor."
+        ]
+      },
+      "NCT05440227": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 1,
+          "not_met": 3,
+          "unknown": 25
+        },
+        "unknowns": {
+          "structured": 1,
+          "free_text": 24
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-0b": "not_met",
+          "inc-3a": "not_met",
+          "inc-5a": "unknown",
+          "exc-8a": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: Sex is male; the criterion requires female.",
+          "Inclusion not met: No matching condition in the record (Breast cancer)."
+        ]
+      },
+      "NCT05799846": {
+        "verdict": "strong_match",
+        "counts": {
+          "met": 2,
+          "not_met": 0,
+          "unknown": 2
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 2
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-1a": "met"
+        },
+        "reasons": [
+          "Every coded inclusion criterion is met and no coded exclusion applies.",
+          "2 items to confirm with your doctor."
+        ]
+      },
+      "NCT05919797": {
+        "verdict": "possible_match",
+        "counts": {
+          "met": 2,
+          "not_met": 1,
+          "unknown": 21
+        },
+        "unknowns": {
+          "structured": 2,
+          "free_text": 19
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-2a": "met",
+          "exc-2": "unknown",
+          "exc-6a": "not_met",
+          "exc-16": "unknown"
+        },
+        "reasons": [
+          "Unknown exclusion: No result for hba1c above 6.5% (LOINC 4548-4) in the record.",
+          "Unknown exclusion: No result for triglycerides above 499 mg/dl (LOINC 2571-8) in the record.",
+          "19 items to confirm with your doctor."
+        ]
+      },
+      "NCT06393725": {
+        "verdict": "strong_match",
+        "counts": {
+          "met": 2,
+          "not_met": 0,
+          "unknown": 14
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 14
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-1": "met"
+        },
+        "reasons": [
+          "Every coded inclusion criterion is met and no coded exclusion applies.",
+          "14 items to confirm with your doctor."
+        ]
+      },
+      "NCT06461650": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 1,
+          "not_met": 3,
+          "unknown": 9
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 9
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-0b": "not_met",
+          "inc-2a": "not_met",
+          "exc-1a": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: Sex is male; the criterion requires female.",
+          "Inclusion not met: No matching condition in the record (Breast cancer)."
+        ]
+      },
+      "NCT06627322": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 1,
+          "not_met": 1,
+          "unknown": 23
+        },
+        "unknowns": {
+          "structured": 3,
+          "free_text": 20
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-3": "not_met",
+          "inc-4a": "unknown",
+          "inc-4b": "unknown",
+          "exc-2": "unknown"
+        },
+        "reasons": [
+          "Inclusion not met: No matching condition in the record (Type 2 diabetes)."
+        ]
+      },
+      "NCT06725810": {
+        "verdict": "possible_match",
+        "counts": {
+          "met": 2,
+          "not_met": 0,
+          "unknown": 27
+        },
+        "unknowns": {
+          "structured": 2,
+          "free_text": 25
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-2": "met",
+          "inc-3a": "unknown",
+          "inc-3b": "unknown"
+        },
+        "reasons": [
+          "Unknown inclusion: No result for egfr 10 ml/min/1.73m2 or higher (LOINC 33914-3) in the record.",
+          "Unknown inclusion: No result for egfr below 90 ml/min/1.73m2 (LOINC 33914-3) in the record.",
+          "25 items to confirm with your doctor."
+        ]
+      },
+      "NCT06858449": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 1,
+          "not_met": 2,
+          "unknown": 9
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 9
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-0b": "not_met",
+          "inc-2a": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: Sex is male; the criterion requires female.",
+          "Inclusion not met: No matching condition in the record (Breast cancer)."
+        ]
+      },
+      "NCT06875193": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 2,
+          "not_met": 3,
+          "unknown": 31
+        },
+        "unknowns": {
+          "structured": 4,
+          "free_text": 27
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-1": "not_met",
+          "inc-2a": "unknown",
+          "inc-3a": "unknown",
+          "inc-3b": "unknown",
+          "inc-4a": "met",
+          "exc-2": "not_met",
+          "exc-3a": "unknown",
+          "exc-17a": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: No matching condition in the record (Type 2 diabetes)."
+        ]
+      },
+      "NCT06923709": {
+        "verdict": "possible_match",
+        "counts": {
+          "met": 1,
+          "not_met": 0,
+          "unknown": 30
+        },
+        "unknowns": {
+          "structured": 5,
+          "free_text": 25
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-3a": "unknown",
+          "inc-3b": "unknown",
+          "inc-3c": "unknown",
+          "exc-20a": "unknown",
+          "exc-20b": "unknown"
+        },
+        "reasons": [
+          "Unknown inclusion: No result for egfr 25 ml/min/1.73m2 or higher (LOINC 33914-3) in the record.",
+          "Unknown inclusion: No result for egfr below 60 ml/min/1.73m2 (LOINC 33914-3) in the record.",
+          "Unknown inclusion: No result for urine albumin/creatinine ratio 300 mg/g or higher (LOINC 14959-1) in the record.",
+          "Unknown exclusion: No result for plasma potassium above 4.9 mmol/l (LOINC 2823-3) in the record. No result for blood potassium above 4.9 mmol/l (LOINC 6298-4) in the record.",
+          "25 items to confirm with your doctor."
+        ]
+      },
+      "NCT07007676": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 0,
+          "not_met": 3,
+          "unknown": 14
+        },
+        "unknowns": {
+          "structured": 2,
+          "free_text": 12
+        },
+        "structured": {
+          "inc-0a": "not_met",
+          "inc-2": "not_met",
+          "inc-4a": "unknown",
+          "exc-1a": "not_met",
+          "exc-7": "unknown"
+        },
+        "reasons": [
+          "Inclusion not met: Age 25 is below the minimum of 60.",
+          "Inclusion not met: No matching condition in the record (Type 2 diabetes)."
+        ]
+      },
+      "NCT07021846": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 1,
+          "not_met": 3,
+          "unknown": 12
+        },
+        "unknowns": {
+          "structured": 3,
+          "free_text": 9
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-0b": "not_met",
+          "inc-1a": "not_met",
+          "inc-6a": "unknown",
+          "inc-6b": "unknown",
+          "inc-6c": "unknown",
+          "exc-4": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: Sex is male; the criterion requires female.",
+          "Inclusion not met: No matching condition in the record (Breast cancer)."
+        ]
+      },
+      "NCT07272343": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 2,
+          "not_met": 2,
+          "unknown": 10
+        },
+        "unknowns": {
+          "structured": 1,
+          "free_text": 9
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-2": "met",
+          "inc-3": "not_met",
+          "inc-4": "unknown",
+          "exc-1": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: No matching condition in the record (Type 2 diabetes)."
+        ]
+      },
+      "NCT07390422": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 2,
+          "not_met": 3,
+          "unknown": 25
+        },
+        "unknowns": {
+          "structured": 2,
+          "free_text": 23
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-1a": "not_met",
+          "inc-2": "met",
+          "inc-3a": "unknown",
+          "exc-4a": "not_met",
+          "exc-8a": "unknown",
+          "exc-15a": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: No matching condition in the record (Type 2 diabetes)."
+        ]
+      },
+      "NCT07564414": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 1,
+          "not_met": 1,
+          "unknown": 4
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 4
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-3": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: Latest Body mass index (BMI) [Ratio] is 27.78 kg/m2 on 2026-10-18, not at least 35 kg/m2."
+        ]
+      },
+      "NCT07595549": {
+        "verdict": "strong_match",
+        "counts": {
+          "met": 2,
+          "not_met": 0,
+          "unknown": 5
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 5
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-2a": "met"
+        },
+        "reasons": [
+          "Every coded inclusion criterion is met and no coded exclusion applies.",
+          "5 items to confirm with your doctor."
+        ]
+      },
+      "NCT07776613": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 1,
+          "not_met": 2,
+          "unknown": 10
+        },
+        "unknowns": {
+          "structured": 1,
+          "free_text": 9
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-0b": "not_met",
+          "inc-2a": "not_met",
+          "inc-4a": "unknown"
+        },
+        "reasons": [
+          "Inclusion not met: Sex is male; the criterion requires female.",
+          "Inclusion not met: No matching condition in the record (Breast cancer)."
+        ]
+      },
+      "NCT07835828": {
+        "verdict": "possible_match",
+        "counts": {
+          "met": 1,
+          "not_met": 1,
+          "unknown": 10
+        },
+        "unknowns": {
+          "structured": 1,
+          "free_text": 9
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-4a": "unknown",
+          "exc-2a": "not_met"
+        },
+        "reasons": [
+          "Unknown inclusion: Established cardiovascular disease, including prior events is not recorded; the imported record may be incomplete.",
+          "9 items to confirm with your doctor."
+        ]
+      },
+      "NCT07851454": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 1,
+          "not_met": 1,
+          "unknown": 13
+        },
+        "unknowns": {
+          "structured": 2,
+          "free_text": 11
+        },
+        "structured": {
+          "inc-0a": "not_met",
+          "inc-1a": "unknown",
+          "inc-1b": "unknown",
+          "inc-3": "met"
+        },
+        "reasons": [
+          "Inclusion not met: Age 25 is below the minimum of 45."
+        ]
+      }
+    },
+    "Carmelina668_Jeane173_Shanahan202_55612fe8-9071-4a97-8e4c-8cc653c8394c": {
+      "NCT04819217": {
+        "verdict": "possible_match",
+        "counts": {
+          "met": 1,
+          "not_met": 1,
+          "unknown": 18
+        },
+        "unknowns": {
+          "structured": 6,
+          "free_text": 12
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-2a": "unknown",
+          "inc-2b": "unknown",
+          "inc-2c": "unknown",
+          "exc-1": "unknown",
+          "exc-2": "unknown",
+          "exc-3a": "unknown",
+          "exc-13a": "not_met"
+        },
+        "reasons": [
+          "Unknown inclusion: No result for egfr above 15 ml/min/1.73m2 (LOINC 33914-3) in the record.",
+          "Unknown inclusion: No result for egfr below 45 ml/min/1.73m2 (LOINC 33914-3) in the record.",
+          "Unknown inclusion: No result for urine albumin/creatinine ratio above 100 mg/g (LOINC 14959-1) in the record.",
+          "Unknown exclusion: No result for egfr below 15 ml/min/1.73m2 (LOINC 33914-3) in the record.",
+          "Unknown exclusion: No result for serum albumin below 2.0 g/dl (LOINC 1751-7) in the record.",
+          "Unknown exclusion: The latest Hemoglobin [Mass/volume] in Blood result is from 2025-04-21, older than 365 days.",
+          "12 items to confirm with your doctor."
+        ]
+      },
+      "NCT05440227": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 2,
+          "not_met": 2,
+          "unknown": 25
+        },
+        "unknowns": {
+          "structured": 1,
+          "free_text": 24
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-0b": "met",
+          "inc-3a": "not_met",
+          "inc-5a": "unknown",
+          "exc-8a": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: No matching condition in the record (Breast cancer)."
+        ]
+      },
+      "NCT05799846": {
+        "verdict": "possible_match",
+        "counts": {
+          "met": 1,
+          "not_met": 0,
+          "unknown": 3
+        },
+        "unknowns": {
+          "structured": 1,
+          "free_text": 2
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-1a": "unknown"
+        },
+        "reasons": [
+          "Unknown inclusion: The latest Body mass index (BMI) [Ratio] result is from 2025-04-21, older than 365 days.",
+          "2 items to confirm with your doctor."
+        ]
+      },
+      "NCT05919797": {
+        "verdict": "possible_match",
+        "counts": {
+          "met": 1,
+          "not_met": 1,
+          "unknown": 22
+        },
+        "unknowns": {
+          "structured": 3,
+          "free_text": 19
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-2a": "unknown",
+          "exc-2": "unknown",
+          "exc-6a": "not_met",
+          "exc-16": "unknown"
+        },
+        "reasons": [
+          "Unknown inclusion: The latest Body mass index (BMI) [Ratio] result is from 2025-04-21, older than 365 days.",
+          "Unknown exclusion: No result for hba1c above 6.5% (LOINC 4548-4) in the record.",
+          "Unknown exclusion: The latest Triglyceride [Mass/volume] in Serum or Plasma result is from 2025-04-21, older than 365 days.",
+          "19 items to confirm with your doctor."
+        ]
+      },
+      "NCT06393725": {
+        "verdict": "possible_match",
+        "counts": {
+          "met": 1,
+          "not_met": 0,
+          "unknown": 15
+        },
+        "unknowns": {
+          "structured": 1,
+          "free_text": 14
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-1": "unknown"
+        },
+        "reasons": [
+          "Unknown inclusion: The latest Body mass index (BMI) [Ratio] result is from 2025-04-21, older than 365 days.",
+          "14 items to confirm with your doctor."
+        ]
+      },
+      "NCT06461650": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 2,
+          "not_met": 1,
+          "unknown": 10
+        },
+        "unknowns": {
+          "structured": 1,
+          "free_text": 9
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-0b": "met",
+          "inc-2a": "not_met",
+          "exc-1a": "unknown"
+        },
+        "reasons": [
+          "Inclusion not met: No matching condition in the record (Breast cancer)."
+        ]
+      },
+      "NCT06627322": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 1,
+          "not_met": 1,
+          "unknown": 23
+        },
+        "unknowns": {
+          "structured": 3,
+          "free_text": 20
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-3": "not_met",
+          "inc-4a": "unknown",
+          "inc-4b": "unknown",
+          "exc-2": "unknown"
+        },
+        "reasons": [
+          "Inclusion not met: No matching condition in the record (Type 2 diabetes)."
+        ]
+      },
+      "NCT06725810": {
+        "verdict": "possible_match",
+        "counts": {
+          "met": 1,
+          "not_met": 0,
+          "unknown": 28
+        },
+        "unknowns": {
+          "structured": 3,
+          "free_text": 25
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-2": "unknown",
+          "inc-3a": "unknown",
+          "inc-3b": "unknown"
+        },
+        "reasons": [
+          "Unknown inclusion: The latest Body Weight result is from 2025-04-21, older than 365 days.",
+          "Unknown inclusion: No result for egfr 10 ml/min/1.73m2 or higher (LOINC 33914-3) in the record.",
+          "Unknown inclusion: No result for egfr below 90 ml/min/1.73m2 (LOINC 33914-3) in the record.",
+          "25 items to confirm with your doctor."
+        ]
+      },
+      "NCT06858449": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 2,
+          "not_met": 1,
+          "unknown": 9
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 9
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-0b": "met",
+          "inc-2a": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: No matching condition in the record (Breast cancer)."
+        ]
+      },
+      "NCT06875193": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 1,
+          "not_met": 2,
+          "unknown": 33
+        },
+        "unknowns": {
+          "structured": 6,
+          "free_text": 27
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-1": "not_met",
+          "inc-2a": "unknown",
+          "inc-3a": "unknown",
+          "inc-3b": "unknown",
+          "inc-4a": "unknown",
+          "exc-2": "unknown",
+          "exc-3a": "unknown",
+          "exc-17a": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: No matching condition in the record (Type 2 diabetes)."
+        ]
+      },
+      "NCT06923709": {
+        "verdict": "possible_match",
+        "counts": {
+          "met": 1,
+          "not_met": 0,
+          "unknown": 30
+        },
+        "unknowns": {
+          "structured": 5,
+          "free_text": 25
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-3a": "unknown",
+          "inc-3b": "unknown",
+          "inc-3c": "unknown",
+          "exc-20a": "unknown",
+          "exc-20b": "unknown"
+        },
+        "reasons": [
+          "Unknown inclusion: No result for egfr 25 ml/min/1.73m2 or higher (LOINC 33914-3) in the record.",
+          "Unknown inclusion: No result for egfr below 60 ml/min/1.73m2 (LOINC 33914-3) in the record.",
+          "Unknown inclusion: No result for urine albumin/creatinine ratio 300 mg/g or higher (LOINC 14959-1) in the record.",
+          "Unknown exclusion: No result for plasma potassium above 4.9 mmol/l (LOINC 2823-3) in the record. No result for blood potassium above 4.9 mmol/l (LOINC 6298-4) in the record.",
+          "25 items to confirm with your doctor."
+        ]
+      },
+      "NCT07007676": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 0,
+          "not_met": 3,
+          "unknown": 14
+        },
+        "unknowns": {
+          "structured": 2,
+          "free_text": 12
+        },
+        "structured": {
+          "inc-0a": "not_met",
+          "inc-2": "not_met",
+          "inc-4a": "unknown",
+          "exc-1a": "not_met",
+          "exc-7": "unknown"
+        },
+        "reasons": [
+          "Inclusion not met: Age 35 is below the minimum of 60.",
+          "Inclusion not met: No matching condition in the record (Type 2 diabetes)."
+        ]
+      },
+      "NCT07021846": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 2,
+          "not_met": 1,
+          "unknown": 13
+        },
+        "unknowns": {
+          "structured": 4,
+          "free_text": 9
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-0b": "met",
+          "inc-1a": "not_met",
+          "inc-6a": "unknown",
+          "inc-6b": "unknown",
+          "inc-6c": "unknown",
+          "exc-4": "unknown"
+        },
+        "reasons": [
+          "Inclusion not met: No matching condition in the record (Breast cancer)."
+        ]
+      },
+      "NCT07272343": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 1,
+          "not_met": 1,
+          "unknown": 12
+        },
+        "unknowns": {
+          "structured": 3,
+          "free_text": 9
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-2": "unknown",
+          "inc-3": "not_met",
+          "inc-4": "unknown",
+          "exc-1": "unknown"
+        },
+        "reasons": [
+          "Inclusion not met: No matching condition in the record (Type 2 diabetes)."
+        ]
+      },
+      "NCT07390422": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 1,
+          "not_met": 3,
+          "unknown": 26
+        },
+        "unknowns": {
+          "structured": 3,
+          "free_text": 23
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-1a": "not_met",
+          "inc-2": "unknown",
+          "inc-3a": "unknown",
+          "exc-4a": "not_met",
+          "exc-8a": "unknown",
+          "exc-15a": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: No matching condition in the record (Type 2 diabetes)."
+        ]
+      },
+      "NCT07564414": {
+        "verdict": "possible_match",
+        "counts": {
+          "met": 1,
+          "not_met": 0,
+          "unknown": 5
+        },
+        "unknowns": {
+          "structured": 1,
+          "free_text": 4
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-3": "unknown"
+        },
+        "reasons": [
+          "Unknown inclusion: The latest Body mass index (BMI) [Ratio] result is from 2025-04-21, older than 365 days.",
+          "4 items to confirm with your doctor."
+        ]
+      },
+      "NCT07595549": {
+        "verdict": "possible_match",
+        "counts": {
+          "met": 1,
+          "not_met": 0,
+          "unknown": 6
+        },
+        "unknowns": {
+          "structured": 1,
+          "free_text": 5
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-2a": "unknown"
+        },
+        "reasons": [
+          "Unknown inclusion: The latest Body mass index (BMI) [Ratio] result is from 2025-04-21, older than 365 days.",
+          "5 items to confirm with your doctor."
+        ]
+      },
+      "NCT07776613": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 2,
+          "not_met": 1,
+          "unknown": 10
+        },
+        "unknowns": {
+          "structured": 1,
+          "free_text": 9
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-0b": "met",
+          "inc-2a": "not_met",
+          "inc-4a": "unknown"
+        },
+        "reasons": [
+          "Inclusion not met: No matching condition in the record (Breast cancer)."
+        ]
+      },
+      "NCT07835828": {
+        "verdict": "possible_match",
+        "counts": {
+          "met": 1,
+          "not_met": 1,
+          "unknown": 10
+        },
+        "unknowns": {
+          "structured": 1,
+          "free_text": 9
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-4a": "unknown",
+          "exc-2a": "not_met"
+        },
+        "reasons": [
+          "Unknown inclusion: Established cardiovascular disease, including prior events is not recorded; the imported record may be incomplete.",
+          "9 items to confirm with your doctor."
+        ]
+      },
+      "NCT07851454": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 0,
+          "not_met": 1,
+          "unknown": 14
+        },
+        "unknowns": {
+          "structured": 3,
+          "free_text": 11
+        },
+        "structured": {
+          "inc-0a": "not_met",
+          "inc-1a": "unknown",
+          "inc-1b": "unknown",
+          "inc-3": "unknown"
+        },
+        "reasons": [
+          "Inclusion not met: Age 35 is below the minimum of 45."
+        ]
+      }
+    },
+    "Marlin805_Nienow652_0c1b260c-7f32-fdd5-15dd-1160caf24c2b": {
+      "NCT04819217": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 2,
+          "not_met": 5,
+          "unknown": 13
+        },
+        "unknowns": {
+          "structured": 1,
+          "free_text": 12
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-2a": "met",
+          "inc-2b": "not_met",
+          "inc-2c": "not_met",
+          "exc-1": "not_met",
+          "exc-2": "unknown",
+          "exc-3a": "not_met",
+          "exc-13a": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: Latest Glomerular filtration rate [Volume Rate/Area] in Serum or Plasma by Creatinine-based formula (MDRD)/1.73 sq M is 107.28 mL/min/{1.73_m2} on 2026-11-01, not below 45 mL/min/{1.73_m2}.",
+          "Inclusion not met: Latest Microalbumin/Creatinine [Mass Ratio] in Urine is 7.05 mg/g on 2026-11-01, not above 100 mg/g."
+        ]
+      },
+      "NCT05440227": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 2,
+          "not_met": 3,
+          "unknown": 24
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 24
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-0b": "not_met",
+          "inc-3a": "not_met",
+          "inc-5a": "met",
+          "exc-8a": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: Sex is male; the criterion requires female.",
+          "Inclusion not met: No matching condition in the record (Breast cancer)."
+        ]
+      },
+      "NCT05799846": {
+        "verdict": "strong_match",
+        "counts": {
+          "met": 2,
+          "not_met": 0,
+          "unknown": 2
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 2
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-1a": "met"
+        },
+        "reasons": [
+          "Every coded inclusion criterion is met and no coded exclusion applies.",
+          "2 items to confirm with your doctor."
+        ]
+      },
+      "NCT05919797": {
+        "verdict": "strong_match",
+        "counts": {
+          "met": 2,
+          "not_met": 3,
+          "unknown": 19
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 19
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-2a": "met",
+          "exc-2": "not_met",
+          "exc-6a": "not_met",
+          "exc-16": "not_met"
+        },
+        "reasons": [
+          "Every coded inclusion criterion is met and no coded exclusion applies.",
+          "19 items to confirm with your doctor."
+        ]
+      },
+      "NCT06393725": {
+        "verdict": "strong_match",
+        "counts": {
+          "met": 2,
+          "not_met": 0,
+          "unknown": 14
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 14
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-1": "met"
+        },
+        "reasons": [
+          "Every coded inclusion criterion is met and no coded exclusion applies.",
+          "14 items to confirm with your doctor."
+        ]
+      },
+      "NCT06461650": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 1,
+          "not_met": 3,
+          "unknown": 9
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 9
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-0b": "not_met",
+          "inc-2a": "not_met",
+          "exc-1a": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: Sex is male; the criterion requires female.",
+          "Inclusion not met: No matching condition in the record (Breast cancer)."
+        ]
+      },
+      "NCT06627322": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 3,
+          "not_met": 2,
+          "unknown": 20
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 20
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-3": "met",
+          "inc-4a": "not_met",
+          "inc-4b": "met",
+          "exc-2": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: Latest Hemoglobin A1c/Hemoglobin.total in Blood is 5.31% on 2026-11-01, not at least 7%."
+        ]
+      },
+      "NCT06725810": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 3,
+          "not_met": 1,
+          "unknown": 25
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 25
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-2": "met",
+          "inc-3a": "met",
+          "inc-3b": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: Latest Glomerular filtration rate [Volume Rate/Area] in Serum or Plasma by Creatinine-based formula (MDRD)/1.73 sq M is 107.28 mL/min/{1.73_m2} on 2026-11-01, not below 90 mL/min/{1.73_m2}."
+        ]
+      },
+      "NCT06858449": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 1,
+          "not_met": 2,
+          "unknown": 9
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 9
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-0b": "not_met",
+          "inc-2a": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: Sex is male; the criterion requires female.",
+          "Inclusion not met: No matching condition in the record (Breast cancer)."
+        ]
+      },
+      "NCT06875193": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 5,
+          "not_met": 4,
+          "unknown": 27
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 27
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-1": "met",
+          "inc-2a": "met",
+          "inc-3a": "not_met",
+          "inc-3b": "met",
+          "inc-4a": "met",
+          "exc-2": "not_met",
+          "exc-3a": "not_met",
+          "exc-17a": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: Latest Hemoglobin A1c/Hemoglobin.total in Blood is 5.31% on 2026-11-01, not at least 7%."
+        ]
+      },
+      "NCT06923709": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 2,
+          "not_met": 3,
+          "unknown": 26
+        },
+        "unknowns": {
+          "structured": 1,
+          "free_text": 25
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-3a": "met",
+          "inc-3b": "not_met",
+          "inc-3c": "not_met",
+          "exc-20a": "unknown",
+          "exc-20b": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: Latest Glomerular filtration rate [Volume Rate/Area] in Serum or Plasma by Creatinine-based formula (MDRD)/1.73 sq M is 107.28 mL/min/{1.73_m2} on 2026-11-01, not below 60 mL/min/{1.73_m2}.",
+          "Inclusion not met: Latest Microalbumin/Creatinine [Mass Ratio] in Urine is 7.05 mg/g on 2026-11-01, not at least 300 mg/g."
+        ]
+      },
+      "NCT07007676": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 2,
+          "not_met": 3,
+          "unknown": 12
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 12
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-2": "met",
+          "inc-4a": "not_met",
+          "exc-1a": "not_met",
+          "exc-7": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: Latest Hemoglobin A1c/Hemoglobin.total in Blood is 5.31% on 2026-11-01, not between 7.5 and 10%."
+        ]
+      },
+      "NCT07021846": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 3,
+          "not_met": 4,
+          "unknown": 9
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 9
+        },
+        "structured": {
+          "inc-0a": "not_met",
+          "inc-0b": "not_met",
+          "inc-1a": "not_met",
+          "inc-6a": "met",
+          "inc-6b": "met",
+          "inc-6c": "met",
+          "exc-4": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: Age 60 is above the maximum of 50.",
+          "Inclusion not met: Sex is male; the criterion requires female.",
+          "Inclusion not met: No matching condition in the record (Breast cancer)."
+        ]
+      },
+      "NCT07272343": {
+        "verdict": "strong_match",
+        "counts": {
+          "met": 4,
+          "not_met": 1,
+          "unknown": 9
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 9
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-2": "met",
+          "inc-3": "met",
+          "inc-4": "met",
+          "exc-1": "not_met"
+        },
+        "reasons": [
+          "Every coded inclusion criterion is met and no coded exclusion applies.",
+          "9 items to confirm with your doctor."
+        ]
+      },
+      "NCT07390422": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 3,
+          "not_met": 4,
+          "unknown": 23
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 23
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-1a": "met",
+          "inc-2": "met",
+          "inc-3a": "not_met",
+          "exc-4a": "not_met",
+          "exc-8a": "not_met",
+          "exc-15a": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: Latest Hemoglobin A1c/Hemoglobin.total in Blood is 5.31% on 2026-11-01, not between 7.5 and 11%."
+        ]
+      },
+      "NCT07564414": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 1,
+          "not_met": 1,
+          "unknown": 4
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 4
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-3": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: Latest Body mass index (BMI) [Ratio] is 27.22 kg/m2 on 2026-11-01, not at least 35 kg/m2."
+        ]
+      },
+      "NCT07595549": {
+        "verdict": "strong_match",
+        "counts": {
+          "met": 2,
+          "not_met": 0,
+          "unknown": 5
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 5
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-2a": "met"
+        },
+        "reasons": [
+          "Every coded inclusion criterion is met and no coded exclusion applies.",
+          "5 items to confirm with your doctor."
+        ]
+      },
+      "NCT07776613": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 1,
+          "not_met": 2,
+          "unknown": 10
+        },
+        "unknowns": {
+          "structured": 1,
+          "free_text": 9
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-0b": "not_met",
+          "inc-2a": "not_met",
+          "inc-4a": "unknown"
+        },
+        "reasons": [
+          "Inclusion not met: Sex is male; the criterion requires female.",
+          "Inclusion not met: No matching condition in the record (Breast cancer)."
+        ]
+      },
+      "NCT07835828": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 3,
+          "not_met": 0,
+          "unknown": 9
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 9
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-4a": "met",
+          "exc-2a": "met"
+        },
+        "reasons": [
+          "Exclusion applies: Active condition: Diabetes mellitus type 2 (disorder) since 2011-08-07."
+        ]
+      },
+      "NCT07851454": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 3,
+          "not_met": 1,
+          "unknown": 11
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 11
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-1a": "met",
+          "inc-1b": "not_met",
+          "inc-3": "met"
+        },
+        "reasons": [
+          "Inclusion not met: Latest Glomerular filtration rate [Volume Rate/Area] in Serum or Plasma by Creatinine-based formula (MDRD)/1.73 sq M is 107.28 mL/min/{1.73_m2} on 2026-11-01, not below 60 mL/min/{1.73_m2}."
+        ]
+      }
+    },
+    "Noriko180_Yolonda722_Ullrich385_9345aa1d-acef-eea9-4904-f19b56249e76": {
+      "NCT04819217": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 2,
+          "not_met": 1,
+          "unknown": 17
+        },
+        "unknowns": {
+          "structured": 5,
+          "free_text": 12
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-2a": "unknown",
+          "inc-2b": "unknown",
+          "inc-2c": "unknown",
+          "exc-1": "unknown",
+          "exc-2": "not_met",
+          "exc-3a": "unknown",
+          "exc-13a": "met"
+        },
+        "reasons": [
+          "Exclusion applies: Active condition: Malignant neoplasm of breast (disorder) since 2026-07-16."
+        ]
+      },
+      "NCT05440227": {
+        "verdict": "possible_match",
+        "counts": {
+          "met": 3,
+          "not_met": 1,
+          "unknown": 25
+        },
+        "unknowns": {
+          "structured": 1,
+          "free_text": 24
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-0b": "met",
+          "inc-3a": "met",
+          "inc-5a": "unknown",
+          "exc-8a": "not_met"
+        },
+        "reasons": [
+          "Unknown inclusion: The latest Hemoglobin [Mass/volume] in Blood result is from 2023-10-08, older than 365 days.",
+          "24 items to confirm with your doctor."
+        ]
+      },
+      "NCT05799846": {
+        "verdict": "strong_match",
+        "counts": {
+          "met": 2,
+          "not_met": 0,
+          "unknown": 2
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 2
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-1a": "met"
+        },
+        "reasons": [
+          "Every coded inclusion criterion is met and no coded exclusion applies.",
+          "2 items to confirm with your doctor."
+        ]
+      },
+      "NCT05919797": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 1,
+          "not_met": 3,
+          "unknown": 20
+        },
+        "unknowns": {
+          "structured": 1,
+          "free_text": 19
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-2a": "not_met",
+          "exc-2": "unknown",
+          "exc-6a": "not_met",
+          "exc-16": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: Latest Body mass index (BMI) [Ratio] is 25.55 kg/m2 on 2026-10-25, not between 27 and 50 kg/m2."
+        ]
+      },
+      "NCT06393725": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 1,
+          "not_met": 1,
+          "unknown": 14
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 14
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-1": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: Latest Body mass index (BMI) [Ratio] is 25.55 kg/m2 on 2026-10-25, not between 27 and 45 kg/m2."
+        ]
+      },
+      "NCT06461650": {
+        "verdict": "strong_match",
+        "counts": {
+          "met": 3,
+          "not_met": 1,
+          "unknown": 9
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 9
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-0b": "met",
+          "inc-2a": "met",
+          "exc-1a": "not_met"
+        },
+        "reasons": [
+          "Every coded inclusion criterion is met and no coded exclusion applies.",
+          "9 items to confirm with your doctor."
+        ]
+      },
+      "NCT06627322": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 1,
+          "not_met": 1,
+          "unknown": 23
+        },
+        "unknowns": {
+          "structured": 3,
+          "free_text": 20
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-3": "not_met",
+          "inc-4a": "unknown",
+          "inc-4b": "unknown",
+          "exc-2": "unknown"
+        },
+        "reasons": [
+          "Inclusion not met: No matching condition in the record (Type 2 diabetes)."
+        ]
+      },
+      "NCT06725810": {
+        "verdict": "possible_match",
+        "counts": {
+          "met": 2,
+          "not_met": 0,
+          "unknown": 27
+        },
+        "unknowns": {
+          "structured": 2,
+          "free_text": 25
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-2": "met",
+          "inc-3a": "unknown",
+          "inc-3b": "unknown"
+        },
+        "reasons": [
+          "Unknown inclusion: The latest Glomerular filtration rate [Volume Rate/Area] in Serum or Plasma by Creatinine-based formula (MDRD)/1.73 sq M result is 81.325 mL/min, but unit mL/min cannot be converted to mL/min/{1.73_m2}.",
+          "Unknown inclusion: The latest Glomerular filtration rate [Volume Rate/Area] in Serum or Plasma by Creatinine-based formula (MDRD)/1.73 sq M result is 81.325 mL/min, but unit mL/min cannot be converted to mL/min/{1.73_m2}.",
+          "25 items to confirm with your doctor."
+        ]
+      },
+      "NCT06858449": {
+        "verdict": "strong_match",
+        "counts": {
+          "met": 3,
+          "not_met": 0,
+          "unknown": 9
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 9
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-0b": "met",
+          "inc-2a": "met"
+        },
+        "reasons": [
+          "Every coded inclusion criterion is met and no coded exclusion applies.",
+          "9 items to confirm with your doctor."
+        ]
+      },
+      "NCT06875193": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 2,
+          "not_met": 3,
+          "unknown": 31
+        },
+        "unknowns": {
+          "structured": 4,
+          "free_text": 27
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-1": "not_met",
+          "inc-2a": "unknown",
+          "inc-3a": "unknown",
+          "inc-3b": "unknown",
+          "inc-4a": "met",
+          "exc-2": "not_met",
+          "exc-3a": "unknown",
+          "exc-17a": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: No matching condition in the record (Type 2 diabetes)."
+        ]
+      },
+      "NCT06923709": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 2,
+          "not_met": 0,
+          "unknown": 29
+        },
+        "unknowns": {
+          "structured": 4,
+          "free_text": 25
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-3a": "unknown",
+          "inc-3b": "unknown",
+          "inc-3c": "unknown",
+          "exc-20a": "unknown",
+          "exc-20b": "met"
+        },
+        "reasons": [
+          "Exclusion applies: Latest Potassium [Moles/volume] in Blood is 4.91 mmol/L on 2026-11-01, above 4.9 mmol/L."
+        ]
+      },
+      "NCT07007676": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 0,
+          "not_met": 3,
+          "unknown": 14
+        },
+        "unknowns": {
+          "structured": 2,
+          "free_text": 12
+        },
+        "structured": {
+          "inc-0a": "not_met",
+          "inc-2": "not_met",
+          "inc-4a": "unknown",
+          "exc-1a": "not_met",
+          "exc-7": "unknown"
+        },
+        "reasons": [
+          "Inclusion not met: Age 48 is below the minimum of 60.",
+          "Inclusion not met: No matching condition in the record (Type 2 diabetes)."
+        ]
+      },
+      "NCT07021846": {
+        "verdict": "possible_match",
+        "counts": {
+          "met": 3,
+          "not_met": 1,
+          "unknown": 12
+        },
+        "unknowns": {
+          "structured": 3,
+          "free_text": 9
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-0b": "met",
+          "inc-1a": "met",
+          "inc-6a": "unknown",
+          "inc-6b": "unknown",
+          "inc-6c": "unknown",
+          "exc-4": "not_met"
+        },
+        "reasons": [
+          "Unknown inclusion: The latest Hemoglobin [Mass/volume] in Blood result is from 2023-10-08, older than 365 days.",
+          "Unknown inclusion: The latest Leukocytes [#/volume] in Blood by Automated count result is from 2023-10-08, older than 365 days.",
+          "Unknown inclusion: The latest Platelets [#/volume] in Blood by Automated count result is from 2023-10-08, older than 365 days.",
+          "9 items to confirm with your doctor."
+        ]
+      },
+      "NCT07272343": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 2,
+          "not_met": 2,
+          "unknown": 10
+        },
+        "unknowns": {
+          "structured": 1,
+          "free_text": 9
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-2": "met",
+          "inc-3": "not_met",
+          "inc-4": "unknown",
+          "exc-1": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: No matching condition in the record (Type 2 diabetes)."
+        ]
+      },
+      "NCT07390422": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 3,
+          "not_met": 2,
+          "unknown": 25
+        },
+        "unknowns": {
+          "structured": 2,
+          "free_text": 23
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-1a": "not_met",
+          "inc-2": "met",
+          "inc-3a": "unknown",
+          "exc-4a": "not_met",
+          "exc-8a": "unknown",
+          "exc-15a": "met"
+        },
+        "reasons": [
+          "Inclusion not met: No matching condition in the record (Type 2 diabetes).",
+          "Exclusion applies: Active condition: Malignant neoplasm of breast (disorder) since 2026-07-16."
+        ]
+      },
+      "NCT07564414": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 1,
+          "not_met": 1,
+          "unknown": 4
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 4
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-3": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: Latest Body mass index (BMI) [Ratio] is 25.55 kg/m2 on 2026-10-25, not at least 35 kg/m2."
+        ]
+      },
+      "NCT07595549": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 1,
+          "not_met": 1,
+          "unknown": 5
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 5
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-2a": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: Latest Body mass index (BMI) [Ratio] is 25.55 kg/m2 on 2026-10-25, not at least 27 kg/m2."
+        ]
+      },
+      "NCT07776613": {
+        "verdict": "possible_match",
+        "counts": {
+          "met": 3,
+          "not_met": 0,
+          "unknown": 10
+        },
+        "unknowns": {
+          "structured": 1,
+          "free_text": 9
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-0b": "met",
+          "inc-2a": "met",
+          "inc-4a": "unknown"
+        },
+        "reasons": [
+          "Unknown inclusion: Osteoporosis or history of osteoporotic fracture is not recorded; the imported record may be incomplete.",
+          "9 items to confirm with your doctor."
+        ]
+      },
+      "NCT07835828": {
+        "verdict": "possible_match",
+        "counts": {
+          "met": 1,
+          "not_met": 1,
+          "unknown": 10
+        },
+        "unknowns": {
+          "structured": 1,
+          "free_text": 9
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-4a": "unknown",
+          "exc-2a": "not_met"
+        },
+        "reasons": [
+          "Unknown inclusion: Established cardiovascular disease, including prior events is not recorded; the imported record may be incomplete.",
+          "9 items to confirm with your doctor."
+        ]
+      },
+      "NCT07851454": {
+        "verdict": "possible_match",
+        "counts": {
+          "met": 2,
+          "not_met": 0,
+          "unknown": 13
+        },
+        "unknowns": {
+          "structured": 2,
+          "free_text": 11
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-1a": "unknown",
+          "inc-1b": "unknown",
+          "inc-3": "met"
+        },
+        "reasons": [
+          "Unknown inclusion: The latest Glomerular filtration rate [Volume Rate/Area] in Serum or Plasma by Creatinine-based formula (MDRD)/1.73 sq M result is 81.325 mL/min, but unit mL/min cannot be converted to mL/min/{1.73_m2}.",
+          "Unknown inclusion: The latest Glomerular filtration rate [Volume Rate/Area] in Serum or Plasma by Creatinine-based formula (MDRD)/1.73 sq M result is 81.325 mL/min, but unit mL/min cannot be converted to mL/min/{1.73_m2}.",
+          "11 items to confirm with your doctor."
+        ]
+      }
+    },
+    "Raquel318_Sommer719_Greenholt190_37cd4685-45ad-8602-7fff-2b04af9bc008": {
+      "NCT04819217": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 2,
+          "not_met": 4,
+          "unknown": 14
+        },
+        "unknowns": {
+          "structured": 2,
+          "free_text": 12
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-2a": "met",
+          "inc-2b": "not_met",
+          "inc-2c": "not_met",
+          "exc-1": "not_met",
+          "exc-2": "unknown",
+          "exc-3a": "unknown",
+          "exc-13a": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: Latest Glomerular filtration rate [Volume Rate/Area] in Serum or Plasma by Creatinine-based formula (MDRD)/1.73 sq M is 92.7 mL/min/{1.73_m2} on 2026-05-21, not below 45 mL/min/{1.73_m2}.",
+          "Inclusion not met: Latest Microalbumin/Creatinine [Mass Ratio] in Urine is 7.92 mg/g on 2026-05-21, not above 100 mg/g."
+        ]
+      },
+      "NCT05440227": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 2,
+          "not_met": 2,
+          "unknown": 25
+        },
+        "unknowns": {
+          "structured": 1,
+          "free_text": 24
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-0b": "met",
+          "inc-3a": "not_met",
+          "inc-5a": "unknown",
+          "exc-8a": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: No matching condition in the record (Breast cancer)."
+        ]
+      },
+      "NCT05799846": {
+        "verdict": "strong_match",
+        "counts": {
+          "met": 2,
+          "not_met": 0,
+          "unknown": 2
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 2
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-1a": "met"
+        },
+        "reasons": [
+          "Every coded inclusion criterion is met and no coded exclusion applies.",
+          "2 items to confirm with your doctor."
+        ]
+      },
+      "NCT05919797": {
+        "verdict": "strong_match",
+        "counts": {
+          "met": 2,
+          "not_met": 3,
+          "unknown": 19
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 19
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-2a": "met",
+          "exc-2": "not_met",
+          "exc-6a": "not_met",
+          "exc-16": "not_met"
+        },
+        "reasons": [
+          "Every coded inclusion criterion is met and no coded exclusion applies.",
+          "19 items to confirm with your doctor."
+        ]
+      },
+      "NCT06393725": {
+        "verdict": "strong_match",
+        "counts": {
+          "met": 2,
+          "not_met": 0,
+          "unknown": 14
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 14
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-1": "met"
+        },
+        "reasons": [
+          "Every coded inclusion criterion is met and no coded exclusion applies.",
+          "14 items to confirm with your doctor."
+        ]
+      },
+      "NCT06461650": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 2,
+          "not_met": 2,
+          "unknown": 9
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 9
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-0b": "met",
+          "inc-2a": "not_met",
+          "exc-1a": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: No matching condition in the record (Breast cancer)."
+        ]
+      },
+      "NCT06627322": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 3,
+          "not_met": 2,
+          "unknown": 20
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 20
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-3": "met",
+          "inc-4a": "not_met",
+          "inc-4b": "met",
+          "exc-2": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: Latest Hemoglobin A1c/Hemoglobin.total in Blood is 6.05% on 2026-05-21, not at least 7%."
+        ]
+      },
+      "NCT06725810": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 3,
+          "not_met": 1,
+          "unknown": 25
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 25
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-2": "met",
+          "inc-3a": "met",
+          "inc-3b": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: Latest Glomerular filtration rate [Volume Rate/Area] in Serum or Plasma by Creatinine-based formula (MDRD)/1.73 sq M is 92.7 mL/min/{1.73_m2} on 2026-05-21, not below 90 mL/min/{1.73_m2}."
+        ]
+      },
+      "NCT06858449": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 2,
+          "not_met": 1,
+          "unknown": 9
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 9
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-0b": "met",
+          "inc-2a": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: No matching condition in the record (Breast cancer)."
+        ]
+      },
+      "NCT06875193": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 5,
+          "not_met": 4,
+          "unknown": 27
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 27
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-1": "met",
+          "inc-2a": "met",
+          "inc-3a": "not_met",
+          "inc-3b": "met",
+          "inc-4a": "met",
+          "exc-2": "not_met",
+          "exc-3a": "not_met",
+          "exc-17a": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: Latest Hemoglobin A1c/Hemoglobin.total in Blood is 6.05% on 2026-05-21, not at least 7%."
+        ]
+      },
+      "NCT06923709": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 3,
+          "not_met": 2,
+          "unknown": 26
+        },
+        "unknowns": {
+          "structured": 1,
+          "free_text": 25
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-3a": "met",
+          "inc-3b": "not_met",
+          "inc-3c": "not_met",
+          "exc-20a": "unknown",
+          "exc-20b": "met"
+        },
+        "reasons": [
+          "Inclusion not met: Latest Glomerular filtration rate [Volume Rate/Area] in Serum or Plasma by Creatinine-based formula (MDRD)/1.73 sq M is 92.7 mL/min/{1.73_m2} on 2026-05-21, not below 60 mL/min/{1.73_m2}.",
+          "Inclusion not met: Latest Microalbumin/Creatinine [Mass Ratio] in Urine is 7.92 mg/g on 2026-05-21, not at least 300 mg/g.",
+          "Exclusion applies: Latest Potassium [Moles/volume] in Blood is 5.04 mmol/L on 2026-05-21, above 4.9 mmol/L."
+        ]
+      },
+      "NCT07007676": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 1,
+          "not_met": 4,
+          "unknown": 12
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 12
+        },
+        "structured": {
+          "inc-0a": "not_met",
+          "inc-2": "met",
+          "inc-4a": "not_met",
+          "exc-1a": "not_met",
+          "exc-7": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: Age 48 is below the minimum of 60.",
+          "Inclusion not met: Latest Hemoglobin A1c/Hemoglobin.total in Blood is 6.05% on 2026-05-21, not between 7.5 and 10%."
+        ]
+      },
+      "NCT07021846": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 2,
+          "not_met": 2,
+          "unknown": 12
+        },
+        "unknowns": {
+          "structured": 3,
+          "free_text": 9
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-0b": "met",
+          "inc-1a": "not_met",
+          "inc-6a": "unknown",
+          "inc-6b": "unknown",
+          "inc-6c": "unknown",
+          "exc-4": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: No matching condition in the record (Breast cancer)."
+        ]
+      },
+      "NCT07272343": {
+        "verdict": "strong_match",
+        "counts": {
+          "met": 4,
+          "not_met": 1,
+          "unknown": 9
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 9
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-2": "met",
+          "inc-3": "met",
+          "inc-4": "met",
+          "exc-1": "not_met"
+        },
+        "reasons": [
+          "Every coded inclusion criterion is met and no coded exclusion applies.",
+          "9 items to confirm with your doctor."
+        ]
+      },
+      "NCT07390422": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 3,
+          "not_met": 3,
+          "unknown": 24
+        },
+        "unknowns": {
+          "structured": 1,
+          "free_text": 23
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-1a": "met",
+          "inc-2": "met",
+          "inc-3a": "not_met",
+          "exc-4a": "not_met",
+          "exc-8a": "unknown",
+          "exc-15a": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: Latest Hemoglobin A1c/Hemoglobin.total in Blood is 6.05% on 2026-05-21, not between 7.5 and 11%."
+        ]
+      },
+      "NCT07564414": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 1,
+          "not_met": 1,
+          "unknown": 4
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 4
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-3": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: Latest Body mass index (BMI) [Ratio] is 30.21 kg/m2 on 2026-05-21, not at least 35 kg/m2."
+        ]
+      },
+      "NCT07595549": {
+        "verdict": "strong_match",
+        "counts": {
+          "met": 2,
+          "not_met": 0,
+          "unknown": 5
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 5
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-2a": "met"
+        },
+        "reasons": [
+          "Every coded inclusion criterion is met and no coded exclusion applies.",
+          "5 items to confirm with your doctor."
+        ]
+      },
+      "NCT07776613": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 2,
+          "not_met": 1,
+          "unknown": 10
+        },
+        "unknowns": {
+          "structured": 1,
+          "free_text": 9
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-0b": "met",
+          "inc-2a": "not_met",
+          "inc-4a": "unknown"
+        },
+        "reasons": [
+          "Inclusion not met: No matching condition in the record (Breast cancer)."
+        ]
+      },
+      "NCT07835828": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 2,
+          "not_met": 0,
+          "unknown": 10
+        },
+        "unknowns": {
+          "structured": 1,
+          "free_text": 9
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-4a": "unknown",
+          "exc-2a": "met"
+        },
+        "reasons": [
+          "Exclusion applies: Active condition: Diabetes mellitus type 2 (disorder) since 2015-06-18."
+        ]
+      },
+      "NCT07851454": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 3,
+          "not_met": 1,
+          "unknown": 11
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 11
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-1a": "met",
+          "inc-1b": "not_met",
+          "inc-3": "met"
+        },
+        "reasons": [
+          "Inclusion not met: Latest Glomerular filtration rate [Volume Rate/Area] in Serum or Plasma by Creatinine-based formula (MDRD)/1.73 sq M is 92.7 mL/min/{1.73_m2} on 2026-05-21, not below 60 mL/min/{1.73_m2}."
+        ]
+      }
+    },
+    "Stephan15_Emmerich580_492dfa32-d7b8-faf8-c7d9-ba12d95f82cd": {
+      "NCT04819217": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 2,
+          "not_met": 3,
+          "unknown": 15
+        },
+        "unknowns": {
+          "structured": 3,
+          "free_text": 12
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-2a": "met",
+          "inc-2b": "not_met",
+          "inc-2c": "unknown",
+          "exc-1": "not_met",
+          "exc-2": "unknown",
+          "exc-3a": "unknown",
+          "exc-13a": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: Latest Glomerular filtration rate [Volume Rate/Area] in Serum or Plasma by Creatinine-based formula (MDRD)/1.73 sq M is 71.123 mL/min/{1.73_m2} on 2026-10-18, not below 45 mL/min/{1.73_m2}."
+        ]
+      },
+      "NCT05440227": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 1,
+          "not_met": 3,
+          "unknown": 25
+        },
+        "unknowns": {
+          "structured": 1,
+          "free_text": 24
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-0b": "not_met",
+          "inc-3a": "not_met",
+          "inc-5a": "unknown",
+          "exc-8a": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: Sex is male; the criterion requires female.",
+          "Inclusion not met: No matching condition in the record (Breast cancer)."
+        ]
+      },
+      "NCT05799846": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 1,
+          "not_met": 1,
+          "unknown": 2
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 2
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-1a": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: Latest Body mass index (BMI) [Ratio] is 24.81 kg/m2 on 2026-10-18, not between 25 and 45 kg/m2."
+        ]
+      },
+      "NCT05919797": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 1,
+          "not_met": 2,
+          "unknown": 21
+        },
+        "unknowns": {
+          "structured": 2,
+          "free_text": 19
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-2a": "not_met",
+          "exc-2": "unknown",
+          "exc-6a": "not_met",
+          "exc-16": "unknown"
+        },
+        "reasons": [
+          "Inclusion not met: Latest Body mass index (BMI) [Ratio] is 24.81 kg/m2 on 2026-10-18, not between 27 and 50 kg/m2."
+        ]
+      },
+      "NCT06393725": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 1,
+          "not_met": 1,
+          "unknown": 14
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 14
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-1": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: Latest Body mass index (BMI) [Ratio] is 24.81 kg/m2 on 2026-10-18, not between 27 and 45 kg/m2."
+        ]
+      },
+      "NCT06461650": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 1,
+          "not_met": 3,
+          "unknown": 9
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 9
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-0b": "not_met",
+          "inc-2a": "not_met",
+          "exc-1a": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: Sex is male; the criterion requires female.",
+          "Inclusion not met: No matching condition in the record (Breast cancer)."
+        ]
+      },
+      "NCT06627322": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 1,
+          "not_met": 2,
+          "unknown": 22
+        },
+        "unknowns": {
+          "structured": 2,
+          "free_text": 20
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-3": "not_met",
+          "inc-4a": "unknown",
+          "inc-4b": "unknown",
+          "exc-2": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: No matching condition in the record (Type 2 diabetes)."
+        ]
+      },
+      "NCT06725810": {
+        "verdict": "strong_match",
+        "counts": {
+          "met": 4,
+          "not_met": 0,
+          "unknown": 25
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 25
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-2": "met",
+          "inc-3a": "met",
+          "inc-3b": "met"
+        },
+        "reasons": [
+          "Every coded inclusion criterion is met and no coded exclusion applies.",
+          "25 items to confirm with your doctor."
+        ]
+      },
+      "NCT06858449": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 1,
+          "not_met": 2,
+          "unknown": 9
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 9
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-0b": "not_met",
+          "inc-2a": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: Sex is male; the criterion requires female.",
+          "Inclusion not met: No matching condition in the record (Breast cancer)."
+        ]
+      },
+      "NCT06875193": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 2,
+          "not_met": 4,
+          "unknown": 30
+        },
+        "unknowns": {
+          "structured": 3,
+          "free_text": 27
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-1": "not_met",
+          "inc-2a": "unknown",
+          "inc-3a": "unknown",
+          "inc-3b": "unknown",
+          "inc-4a": "met",
+          "exc-2": "not_met",
+          "exc-3a": "not_met",
+          "exc-17a": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: No matching condition in the record (Type 2 diabetes)."
+        ]
+      },
+      "NCT06923709": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 2,
+          "not_met": 2,
+          "unknown": 27
+        },
+        "unknowns": {
+          "structured": 2,
+          "free_text": 25
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-3a": "met",
+          "inc-3b": "not_met",
+          "inc-3c": "unknown",
+          "exc-20a": "not_met",
+          "exc-20b": "unknown"
+        },
+        "reasons": [
+          "Inclusion not met: Latest Glomerular filtration rate [Volume Rate/Area] in Serum or Plasma by Creatinine-based formula (MDRD)/1.73 sq M is 71.123 mL/min/{1.73_m2} on 2026-10-18, not below 60 mL/min/{1.73_m2}."
+        ]
+      },
+      "NCT07007676": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 1,
+          "not_met": 3,
+          "unknown": 13
+        },
+        "unknowns": {
+          "structured": 1,
+          "free_text": 12
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-2": "not_met",
+          "inc-4a": "unknown",
+          "exc-1a": "not_met",
+          "exc-7": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: No matching condition in the record (Type 2 diabetes)."
+        ]
+      },
+      "NCT07021846": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 0,
+          "not_met": 4,
+          "unknown": 12
+        },
+        "unknowns": {
+          "structured": 3,
+          "free_text": 9
+        },
+        "structured": {
+          "inc-0a": "not_met",
+          "inc-0b": "not_met",
+          "inc-1a": "not_met",
+          "inc-6a": "unknown",
+          "inc-6b": "unknown",
+          "inc-6c": "unknown",
+          "exc-4": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: Age 62 is above the maximum of 50.",
+          "Inclusion not met: Sex is male; the criterion requires female.",
+          "Inclusion not met: No matching condition in the record (Breast cancer)."
+        ]
+      },
+      "NCT07272343": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 2,
+          "not_met": 2,
+          "unknown": 10
+        },
+        "unknowns": {
+          "structured": 1,
+          "free_text": 9
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-2": "not_met",
+          "inc-3": "not_met",
+          "inc-4": "unknown",
+          "exc-1": "met"
+        },
+        "reasons": [
+          "Inclusion not met: Latest Body mass index (BMI) [Ratio] is 24.81 kg/m2 on 2026-10-18, not at least 25 kg/m2.",
+          "Inclusion not met: No matching condition in the record (Type 2 diabetes).",
+          "Exclusion applies: Latest Body mass index (BMI) [Ratio] is 24.81 kg/m2 on 2026-10-18, below 25 kg/m2."
+        ]
+      },
+      "NCT07390422": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 2,
+          "not_met": 3,
+          "unknown": 25
+        },
+        "unknowns": {
+          "structured": 2,
+          "free_text": 23
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-1a": "not_met",
+          "inc-2": "met",
+          "inc-3a": "unknown",
+          "exc-4a": "not_met",
+          "exc-8a": "unknown",
+          "exc-15a": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: No matching condition in the record (Type 2 diabetes)."
+        ]
+      },
+      "NCT07564414": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 1,
+          "not_met": 1,
+          "unknown": 4
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 4
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-3": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: Latest Body mass index (BMI) [Ratio] is 24.81 kg/m2 on 2026-10-18, not at least 35 kg/m2."
+        ]
+      },
+      "NCT07595549": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 1,
+          "not_met": 1,
+          "unknown": 5
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 5
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-2a": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: Latest Body mass index (BMI) [Ratio] is 24.81 kg/m2 on 2026-10-18, not at least 27 kg/m2."
+        ]
+      },
+      "NCT07776613": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 1,
+          "not_met": 2,
+          "unknown": 10
+        },
+        "unknowns": {
+          "structured": 1,
+          "free_text": 9
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-0b": "not_met",
+          "inc-2a": "not_met",
+          "inc-4a": "unknown"
+        },
+        "reasons": [
+          "Inclusion not met: Sex is male; the criterion requires female.",
+          "Inclusion not met: No matching condition in the record (Breast cancer)."
+        ]
+      },
+      "NCT07835828": {
+        "verdict": "strong_match",
+        "counts": {
+          "met": 2,
+          "not_met": 1,
+          "unknown": 9
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 9
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-4a": "met",
+          "exc-2a": "not_met"
+        },
+        "reasons": [
+          "Every coded inclusion criterion is met and no coded exclusion applies.",
+          "9 items to confirm with your doctor."
+        ]
+      },
+      "NCT07851454": {
+        "verdict": "not_eligible",
+        "counts": {
+          "met": 2,
+          "not_met": 2,
+          "unknown": 11
+        },
+        "unknowns": {
+          "structured": 0,
+          "free_text": 11
+        },
+        "structured": {
+          "inc-0a": "met",
+          "inc-1a": "met",
+          "inc-1b": "not_met",
+          "inc-3": "not_met"
+        },
+        "reasons": [
+          "Inclusion not met: Latest Glomerular filtration rate [Volume Rate/Area] in Serum or Plasma by Creatinine-based formula (MDRD)/1.73 sq M is 71.123 mL/min/{1.73_m2} on 2026-10-18, not below 60 mL/min/{1.73_m2}.",
+          "Inclusion not met: Latest Body mass index (BMI) [Ratio] is 24.81 kg/m2 on 2026-10-18, not between 25 and 40 kg/m2."
+        ]
+      }
+    }
+  }
+}

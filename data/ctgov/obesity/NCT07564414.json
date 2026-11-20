@@ -1,0 +1,2042 @@
+{
+  "retrieved": "2026-11-16",
+  "api_version": "2.0.5",
+  "request_url": "https://clinicaltrials.gov/api/v2/studies?filter.ids=NCT07595549%2CNCT07564414%2CNCT05919797%2CNCT06393725%2CNCT05799846&pageSize=5&fields=NCTId%2CBriefTitle%2COverallStatus%2CLastUpdatePostDate%2CStartDate%2CPrimaryCompletionDate%2CPhase%2CStudyType%2CEnrollmentCount%2CLeadSponsorName%2CCondition%2CBriefSummary%2CEligibilityCriteria%2CMinimumAge%2CMaximumAge%2CSex%2CHealthyVolunteers%2CLocationFacility%2CLocationCity%2CLocationState%2CLocationCountry%2CLocationStatus",
+  "study": {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT07564414",
+        "briefTitle": "A Research Study to Look at How Two Different Doses of CagriSema and One Dose of Semaglutide Help People Living With Obesity With or Without Type 2 Diabetes Lose Weight"
+      },
+      "statusModule": {
+        "overallStatus": "RECRUITING",
+        "startDateStruct": {
+          "date": "2026-05-21"
+        },
+        "primaryCompletionDateStruct": {
+          "date": "2028-02-23"
+        },
+        "lastUpdatePostDateStruct": {
+          "date": "2026-09-30"
+        }
+      },
+      "sponsorCollaboratorsModule": {
+        "leadSponsor": {
+          "name": "Novo Nordisk A/S"
+        }
+      },
+      "descriptionModule": {
+        "briefSummary": "This clinical study is testing how the study medicine CagriSema helps people living with obesity, with or without type 2 diabetes (T2D), lose weight. The purpose of the study is to find out how safe and effective CagriSema is for body weight loss in these participants. Participants will receive either CagriSema or semaglutide, and which treatment participants receive is decided by chance. CagriSema is a new study medicine being tested, while semaglutide is a medicine that doctors can already prescribe. The study will last for about 83 weeks"
+      },
+      "conditionsModule": {
+        "conditions": [
+          "Obesity",
+          "Type 2 Diabetes"
+        ]
+      },
+      "designModule": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "enrollmentInfo": {
+          "count": 2500
+        }
+      },
+      "eligibilityModule": {
+        "eligibilityCriteria": "Inclusion Criteria :\n\n* Male or female (sex assigned at birth, inclusive of all gender identities).\n* Age 18 years or above at the time of signing the informed consent.\n* BMI≥ 35.0 kg/m\\^2.\n* Participants without T2D: No history of T2D and HbA1c \\< 6.5% (48 millimoles per mole (mmol/mol)) Participants with T2D: A history of T2D and HbA1c \\< 10% (\\< 86 mmol/mol). If a participant without a history of diabetes during the screening period receives an HbA1c result of 6.5% (48 mmol/mol) or higher, the investigator or the participant's healthcare provider must confirm the diagnosis of type 2 diabetes before the participant is randomised.\n\nExclusion Criteria:\n\n* A self-reported change in body weight \\> 5% within 90 days before screening, irrespective of medical records.\n* Use of any glucagon-like-peptide-1 receptor agonist (GLP-1 RA), including medication with GLP-1 RA activity, or amylin analogues, including medication with amylin activity, within 6 months before screening.",
+        "healthyVolunteers": false,
+        "sex": "ALL",
+        "minimumAge": "18 Years"
+      },
+      "contactsLocationsModule": {
+        "locations": [
+          {
+            "facility": "Uni of Alabama at Birmingham",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Birmingham",
+            "state": "Alabama",
+            "country": "United States"
+          },
+          {
+            "facility": "Cahaba Research",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Pelham",
+            "state": "Alabama",
+            "country": "United States"
+          },
+          {
+            "facility": "Elligo Health Research Inc",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Gilbert",
+            "state": "Arizona",
+            "country": "United States"
+          },
+          {
+            "facility": "Velocity Clinical Research-Phoenix",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Phoenix",
+            "state": "Arizona",
+            "country": "United States"
+          },
+          {
+            "facility": "Arkansas Clinical Research",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Little Rock",
+            "state": "Arkansas",
+            "country": "United States"
+          },
+          {
+            "facility": "Woodland Int. Research Group",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Little Rock",
+            "state": "Arkansas",
+            "country": "United States"
+          },
+          {
+            "facility": "Headlands Research California, LLC",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Escondido",
+            "state": "California",
+            "country": "United States"
+          },
+          {
+            "facility": "Neighborhood Healthcare",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Escondido",
+            "state": "California",
+            "country": "United States"
+          },
+          {
+            "facility": "Diabetes & Endocrine Specialists - La Mesa",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "La Mesa",
+            "state": "California",
+            "country": "United States"
+          },
+          {
+            "facility": "Clinical Trials Research_Sacramento",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Lincoln",
+            "state": "California",
+            "country": "United States"
+          },
+          {
+            "facility": "Loma Linda University Faculty Medical Clinics",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Loma Linda",
+            "state": "California",
+            "country": "United States"
+          },
+          {
+            "facility": "Pacific Clinical Studies",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Los Alamitos",
+            "state": "California",
+            "country": "United States"
+          },
+          {
+            "facility": "Valley Clinical Trials",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Northridge",
+            "state": "California",
+            "country": "United States"
+          },
+          {
+            "facility": "Desert Oasis Healthcare",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Palm Springs",
+            "state": "California",
+            "country": "United States"
+          },
+          {
+            "facility": "Linda Vista Health Care Ctr",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "San Diego",
+            "state": "California",
+            "country": "United States"
+          },
+          {
+            "facility": "Velocity Clin Res - Van Nuys",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Van Nuys",
+            "state": "California",
+            "country": "United States"
+          },
+          {
+            "facility": "Flourish Research - CA",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Walnut Creek",
+            "state": "California",
+            "country": "United States"
+          },
+          {
+            "facility": "University of Colorado Hospital",
+            "status": "COMPLETED",
+            "city": "Aurora",
+            "state": "Colorado",
+            "country": "United States"
+          },
+          {
+            "facility": "TBMR & Alcanza",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Clearwater",
+            "state": "Florida",
+            "country": "United States"
+          },
+          {
+            "facility": "Northeast Research Institute",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Fleming Island",
+            "state": "Florida",
+            "country": "United States"
+          },
+          {
+            "facility": "Northeast Research Institute",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Jacksonville",
+            "state": "Florida",
+            "country": "United States"
+          },
+          {
+            "facility": "Westside Center For Clinical Research",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Jacksonville",
+            "state": "Florida",
+            "country": "United States"
+          },
+          {
+            "facility": "Bioclinical Research Alliance",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Miami",
+            "state": "Florida",
+            "country": "United States"
+          },
+          {
+            "facility": "New Horizon Research Center",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Miami",
+            "state": "Florida",
+            "country": "United States"
+          },
+          {
+            "facility": "South Broward Research LLC",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Miramar",
+            "state": "Florida",
+            "country": "United States"
+          },
+          {
+            "facility": "West Orange Endocrinology",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Ocoee",
+            "state": "Florida",
+            "country": "United States"
+          },
+          {
+            "facility": "Oviedo Medical Research, LLC",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Oviedo",
+            "state": "Florida",
+            "country": "United States"
+          },
+          {
+            "facility": "Clinical Trial Services Corp",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Pembroke Pines",
+            "state": "Florida",
+            "country": "United States"
+          },
+          {
+            "facility": "Hope Clin Res & Wellness",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Conyers",
+            "state": "Georgia",
+            "country": "United States"
+          },
+          {
+            "facility": "Center for Adv Res & Education",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Gainesville",
+            "state": "Georgia",
+            "country": "United States"
+          },
+          {
+            "facility": "Endocrine Research Solutions, Inc",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Roswell",
+            "state": "Georgia",
+            "country": "United States"
+          },
+          {
+            "facility": "North Georgia Clinical Research",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Woodstock",
+            "state": "Georgia",
+            "country": "United States"
+          },
+          {
+            "facility": "Solaris Clinical Research",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Meridian",
+            "state": "Idaho",
+            "country": "United States"
+          },
+          {
+            "facility": "Cedar-Crosse Research Center",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Chicago",
+            "state": "Illinois",
+            "country": "United States"
+          },
+          {
+            "facility": "Macoupin Fam Practice Ctr, LLP",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Gillespie",
+            "state": "Illinois",
+            "country": "United States"
+          },
+          {
+            "facility": "Clinical Investigation Spec Gurnee",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Gurnee",
+            "state": "Illinois",
+            "country": "United States"
+          },
+          {
+            "facility": "Endeavor Health",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Skokie",
+            "state": "Illinois",
+            "country": "United States"
+          },
+          {
+            "facility": "Evanston Premier Hlthcr Res",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Skokie",
+            "state": "Illinois",
+            "country": "United States"
+          },
+          {
+            "facility": "Iowa Diabetes Research",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "West Des Moines",
+            "state": "Iowa",
+            "country": "United States"
+          },
+          {
+            "facility": "Alliance for Multispecialty Research",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Newton",
+            "state": "Kansas",
+            "country": "United States"
+          },
+          {
+            "facility": "Cotton O'Neil Diab & Endo Ctr",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Topeka",
+            "state": "Kansas",
+            "country": "United States"
+          },
+          {
+            "facility": "The Research Group of Lexington LLC",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Lexington",
+            "state": "Kentucky",
+            "country": "United States"
+          },
+          {
+            "facility": "Endo and Metabolic Consultants",
+            "status": "NOT_YET_RECRUITING",
+            "city": "Rockville",
+            "state": "Maryland",
+            "country": "United States"
+          },
+          {
+            "facility": "Northern Pines Hlth Ctr, PC",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Buckley",
+            "state": "Michigan",
+            "country": "United States"
+          },
+          {
+            "facility": "International Diabetes Center",
+            "status": "NOT_YET_RECRUITING",
+            "city": "Minneapolis",
+            "state": "Minnesota",
+            "country": "United States"
+          },
+          {
+            "facility": "AES Minneapolis DRS",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Richfield",
+            "state": "Minnesota",
+            "country": "United States"
+          },
+          {
+            "facility": "Belzoni Clinical Research",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Belzoni",
+            "state": "Mississippi",
+            "country": "United States"
+          },
+          {
+            "facility": "Clinical Research Professionals",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Chesterfield",
+            "state": "Missouri",
+            "country": "United States"
+          },
+          {
+            "facility": "Amicis Centers of Clinical Research",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "St Louis",
+            "state": "Missouri",
+            "country": "United States"
+          },
+          {
+            "facility": "Southgate Medical Group, LLP",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "West Seneca",
+            "state": "New York",
+            "country": "United States"
+          },
+          {
+            "facility": "PharmQuest Life Sciences LLC",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Greensboro",
+            "state": "North Carolina",
+            "country": "United States"
+          },
+          {
+            "facility": "Physician's East Endocrinology",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Greenville",
+            "state": "North Carolina",
+            "country": "United States"
+          },
+          {
+            "facility": "Carteret Medical Group",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Morehead City",
+            "state": "North Carolina",
+            "country": "United States"
+          },
+          {
+            "facility": "Centricity Rsrch MHCity Multi",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Morehead City",
+            "state": "North Carolina",
+            "country": "United States"
+          },
+          {
+            "facility": "Piedmont Healthcare/Research",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Statesville",
+            "state": "North Carolina",
+            "country": "United States"
+          },
+          {
+            "facility": "Accellacare Wilmington",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Wilmington",
+            "state": "North Carolina",
+            "country": "United States"
+          },
+          {
+            "facility": "Lillestol Research LLC",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Fargo",
+            "state": "North Dakota",
+            "country": "United States"
+          },
+          {
+            "facility": "Plains Clinical Research Center, LLC",
+            "status": "NOT_YET_RECRUITING",
+            "city": "Fargo",
+            "state": "North Dakota",
+            "country": "United States"
+          },
+          {
+            "facility": "Advanced Medical Research",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Maumee",
+            "state": "Ohio",
+            "country": "United States"
+          },
+          {
+            "facility": "Alliance for Multispecialty Research",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Norman",
+            "state": "Oklahoma",
+            "country": "United States"
+          },
+          {
+            "facility": "Lynn Institute of Norman",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Norman",
+            "state": "Oklahoma",
+            "country": "United States"
+          },
+          {
+            "facility": "Heritage Valley Medical Group",
+            "status": "NOT_YET_RECRUITING",
+            "city": "Beaver",
+            "state": "Pennsylvania",
+            "country": "United States"
+          },
+          {
+            "facility": "Hatboro Med Associates",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Hatboro",
+            "state": "Pennsylvania",
+            "country": "United States"
+          },
+          {
+            "facility": "Northeast Endocrine Metabolic Associates",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Philadelphia",
+            "state": "Pennsylvania",
+            "country": "United States"
+          },
+          {
+            "facility": "Clinical Res Collaborative",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Cumberland",
+            "state": "Rhode Island",
+            "country": "United States"
+          },
+          {
+            "facility": "Velocity Clinical Research-Gaffney",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Gaffney",
+            "state": "South Carolina",
+            "country": "United States"
+          },
+          {
+            "facility": "Spartanburg Medical Research",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Spartanburg",
+            "state": "South Carolina",
+            "country": "United States"
+          },
+          {
+            "facility": "Jackson Clinic",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Jackson",
+            "state": "Tennessee",
+            "country": "United States"
+          },
+          {
+            "facility": "Holston Medical Group",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Kingsport",
+            "state": "Tennessee",
+            "country": "United States"
+          },
+          {
+            "facility": "CNS Healthcare",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Memphis",
+            "state": "Tennessee",
+            "country": "United States"
+          },
+          {
+            "facility": "HealthStar Physicians, PC",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Morristown",
+            "state": "Tennessee",
+            "country": "United States"
+          },
+          {
+            "facility": "Clinical Research Associates",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Nashville",
+            "state": "Tennessee",
+            "country": "United States"
+          },
+          {
+            "facility": "Amarillo Med Spec LLP",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Amarillo",
+            "state": "Texas",
+            "country": "United States"
+          },
+          {
+            "facility": "Texas Diab & Endo, P.A.",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Austin",
+            "state": "Texas",
+            "country": "United States"
+          },
+          {
+            "facility": "Velocity Clinical Research Austin",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Austin",
+            "state": "Texas",
+            "country": "United States"
+          },
+          {
+            "facility": "Velocity Clin Res, Dallas",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Dallas",
+            "state": "Texas",
+            "country": "United States"
+          },
+          {
+            "facility": "North Texas Endocrine Center",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Dallas",
+            "state": "Texas",
+            "country": "United States"
+          },
+          {
+            "facility": "Cedar Health Research",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Euless",
+            "state": "Texas",
+            "country": "United States"
+          },
+          {
+            "facility": "JCCT- Juno NW Houston",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Houston",
+            "state": "Texas",
+            "country": "United States"
+          },
+          {
+            "facility": "The Endocrine Center",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Houston",
+            "state": "Texas",
+            "country": "United States"
+          },
+          {
+            "facility": "Medical Colleagues-Texas LLP",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Katy",
+            "state": "Texas",
+            "country": "United States"
+          },
+          {
+            "facility": "Sante Clinical Research",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Kerrville",
+            "state": "Texas",
+            "country": "United States"
+          },
+          {
+            "facility": "Radiance Clinical Research",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Lampasas",
+            "state": "Texas",
+            "country": "United States"
+          },
+          {
+            "facility": "Aeres Clinical Research",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Laredo",
+            "state": "Texas",
+            "country": "United States"
+          },
+          {
+            "facility": "DCOL Ctr for Clin Res",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Longview",
+            "state": "Texas",
+            "country": "United States"
+          },
+          {
+            "facility": "RGV Endocrine Center",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "McAllen",
+            "state": "Texas",
+            "country": "United States"
+          },
+          {
+            "facility": "Quality Research Inc",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "San Antonio",
+            "state": "Texas",
+            "country": "United States"
+          },
+          {
+            "facility": "AES San Antonio",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "San Antonio",
+            "state": "Texas",
+            "country": "United States"
+          },
+          {
+            "facility": "Northeast Clinical Research of San Antonio",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "San Antonio",
+            "state": "Texas",
+            "country": "United States"
+          },
+          {
+            "facility": "Consano Clinical Research, LLC",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Shavano Park",
+            "state": "Texas",
+            "country": "United States"
+          },
+          {
+            "facility": "Mt Olympus Medical Research, LLC",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Sugar Land",
+            "state": "Texas",
+            "country": "United States"
+          },
+          {
+            "facility": "J.Lewis Research Inc",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Salt Lake City",
+            "state": "Utah",
+            "country": "United States"
+          },
+          {
+            "facility": "J.Lewis Research Inc",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Salt Lake City",
+            "state": "Utah",
+            "country": "United States"
+          },
+          {
+            "facility": "Diabetes & Endo Tx Specialists",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Sandy City",
+            "state": "Utah",
+            "country": "United States"
+          },
+          {
+            "facility": "J.Lewis Research Inc",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "South Jordan",
+            "state": "Utah",
+            "country": "United States"
+          },
+          {
+            "facility": "Health Res of Hampton Roads",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Newport News",
+            "state": "Virginia",
+            "country": "United States"
+          },
+          {
+            "facility": "Tidewater Physicians Multispecialty Group",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Newport News",
+            "state": "Virginia",
+            "country": "United States"
+          },
+          {
+            "facility": "National Clin Res Inc.",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Richmond",
+            "state": "Virginia",
+            "country": "United States"
+          },
+          {
+            "facility": "Prevea Health",
+            "status": "NOT_YET_RECRUITING",
+            "city": "Green Bay",
+            "state": "Wisconsin",
+            "country": "United States"
+          },
+          {
+            "facility": "CEMEDIC",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "CABA",
+            "state": "Buenos Aires",
+            "country": "Argentina"
+          },
+          {
+            "facility": "Centro de Investigaciones Metabólicas",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Capital Federal",
+            "state": "Buenos Aires",
+            "country": "Argentina"
+          },
+          {
+            "facility": "CICEMO- Consultorio (Av Directorio)",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Ciudad Autónoma de Buenos Aires",
+            "state": "Buenos Aires",
+            "country": "Argentina"
+          },
+          {
+            "facility": "Centro Médico Arsema",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Ciudad Autónoma de Buenos Aires",
+            "state": "Buenos Aires",
+            "country": "Argentina"
+          },
+          {
+            "facility": "Centro de Investigación C.I.C.E 9 de Julio - Sanatorio 9 de Julio",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "San Miguel de Tucumán",
+            "state": "Tucumán Province",
+            "country": "Argentina"
+          },
+          {
+            "facility": "OMI- Organización Médica de Investigación",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Buenos Aires",
+            "country": "Argentina"
+          },
+          {
+            "facility": "Kynet Recoleta",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Buenos Aires",
+            "country": "Argentina"
+          },
+          {
+            "facility": "Hospital Sirio Libanes",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Buenos Aires",
+            "country": "Argentina"
+          },
+          {
+            "facility": "Centro Medico Dra. Laura Maffei e Investigacion Clínica Apli",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Buenos Aires",
+            "country": "Argentina"
+          },
+          {
+            "facility": "CEDIC Centro de Investigación Clínica",
+            "status": "NOT_YET_RECRUITING",
+            "city": "CABA",
+            "country": "Argentina"
+          },
+          {
+            "facility": "CIPREC Arenales",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "CABA",
+            "country": "Argentina"
+          },
+          {
+            "facility": "Centro Médico Viamonte SRL",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "CABA",
+            "country": "Argentina"
+          },
+          {
+            "facility": "Instituto Centenario",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Ciudad de Buenos Aires",
+            "country": "Argentina"
+          },
+          {
+            "facility": "CEDIR - Centro de diagnóstico y rehabilitación Santa Fe",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Santa Fe",
+            "country": "Argentina"
+          },
+          {
+            "facility": "Sanatorio Norte",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Santiago del Estero",
+            "country": "Argentina"
+          },
+          {
+            "facility": "Sydney Clinical Trials",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Campbelltown",
+            "state": "New South Wales",
+            "country": "Australia"
+          },
+          {
+            "facility": "Gosford Renal Research",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Gosford",
+            "state": "New South Wales",
+            "country": "Australia"
+          },
+          {
+            "facility": "Sydney Cardiometabolic Centre",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Liverpool",
+            "state": "New South Wales",
+            "country": "Australia"
+          },
+          {
+            "facility": "Hunter Diabetes Centre",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Merewether",
+            "state": "New South Wales",
+            "country": "Australia"
+          },
+          {
+            "facility": "University of Sunshine Coast - Vitality Village",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Birtinya",
+            "state": "Queensland",
+            "country": "Australia"
+          },
+          {
+            "facility": "University of Sunshine Coast - South Brisbane",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "South Brisbane",
+            "state": "Queensland",
+            "country": "Australia"
+          },
+          {
+            "facility": "Emeritus Research Melbourne",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Camberwell",
+            "state": "Victoria",
+            "country": "Australia"
+          },
+          {
+            "facility": "Medical University of Graz",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Graz",
+            "country": "Austria"
+          },
+          {
+            "facility": "Ordination Winhofer-Stöckl",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Mattersburg",
+            "country": "Austria"
+          },
+          {
+            "facility": "Fließer-Görzer [Ordination]",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Saint Stefan",
+            "country": "Austria"
+          },
+          {
+            "facility": "Klinik Landstraße",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Vienna",
+            "country": "Austria"
+          },
+          {
+            "facility": "Universitätsklinikum AKH Wien",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Vienna",
+            "country": "Austria"
+          },
+          {
+            "facility": "Ordination Dr. Günter Sokol",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Vienna",
+            "country": "Austria"
+          },
+          {
+            "facility": "Klinik Hietzing 3. Med. Abt.",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Vienna",
+            "country": "Austria"
+          },
+          {
+            "facility": "Itariu [Ordination]",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Vienna",
+            "country": "Austria"
+          },
+          {
+            "facility": "Anima Research Center",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Alken",
+            "country": "Belgium"
+          },
+          {
+            "facility": "Cliniques universitaires Saint-Luc",
+            "status": "NOT_YET_RECRUITING",
+            "city": "Brussels",
+            "country": "Belgium"
+          },
+          {
+            "facility": "KORMONT",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Kluisbergen",
+            "country": "Belgium"
+          },
+          {
+            "facility": "CHU Tivoli",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "La Louvière",
+            "country": "Belgium"
+          },
+          {
+            "facility": "MECLINAS",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Mechelen",
+            "country": "Belgium"
+          },
+          {
+            "facility": "AZ Delta - Roeselare",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Roeselare",
+            "country": "Belgium"
+          },
+          {
+            "facility": "KORMONT",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Zwalm",
+            "country": "Belgium"
+          },
+          {
+            "facility": "MC For Life EOOD",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Burgas",
+            "country": "Bulgaria"
+          },
+          {
+            "facility": "MC Kazanlak EOOD",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Kazanlak",
+            "country": "Bulgaria"
+          },
+          {
+            "facility": "Medical center Medi City 21 OOD",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Kyustendil",
+            "country": "Bulgaria"
+          },
+          {
+            "facility": "OCSOMCE - Dr. Albena Dinkova EOOD",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Pleven",
+            "country": "Bulgaria"
+          },
+          {
+            "facility": "AIPSMCEMDID - Dr. Georgi Levterov EOOD",
+            "status": "COMPLETED",
+            "city": "Plovdiv",
+            "country": "Bulgaria"
+          },
+          {
+            "facility": "DCC Sveti Georgi EOOD",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Plovdiv",
+            "country": "Bulgaria"
+          },
+          {
+            "facility": "Hipocrat 9 - Dr. Rumyana Boykova - Draganova - AISPEMD EOOD",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Sofia",
+            "country": "Bulgaria"
+          },
+          {
+            "facility": "DCC XX - Sofia EOOD, Endocrinology",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Sofia",
+            "country": "Bulgaria"
+          },
+          {
+            "facility": "MC Diamedical - 2013 OOD, Sofia",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Sofia",
+            "country": "Bulgaria"
+          },
+          {
+            "facility": "Medical Centre Medical Arts Medico-dental centre",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Sofia",
+            "country": "Bulgaria"
+          },
+          {
+            "facility": "DCC XXV Sofia EOOD, Endocrinology Consulting room",
+            "status": "COMPLETED",
+            "city": "Sofia",
+            "country": "Bulgaria"
+          },
+          {
+            "facility": "UMHAT Prof. Dr. Stoyan Kirkovich AD",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Stara Zagora",
+            "country": "Bulgaria"
+          },
+          {
+            "facility": "AIPSMC Dr. Evelina Zlatanova EOOD",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Varna",
+            "country": "Bulgaria"
+          },
+          {
+            "facility": "MC Nevromedics EOOD, Internal Diseases",
+            "status": "COMPLETED",
+            "city": "Veliko Tarnovo",
+            "country": "Bulgaria"
+          },
+          {
+            "facility": "C-Health Partners",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Calgary",
+            "state": "Alberta",
+            "country": "Canada"
+          },
+          {
+            "facility": "Kelowna Health and Memory Centre Ltd.",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Kelowna",
+            "state": "British Columbia",
+            "country": "Canada"
+          },
+          {
+            "facility": "Medical Arts Health Research Group_Kelowna",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Kelowna",
+            "state": "British Columbia",
+            "country": "Canada"
+          },
+          {
+            "facility": "Ocean West Research Clinic",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Surrey",
+            "state": "British Columbia",
+            "country": "Canada"
+          },
+          {
+            "facility": "Hilltop Medical Clinic",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Surrey",
+            "state": "British Columbia",
+            "country": "Canada"
+          },
+          {
+            "facility": "Dr. M.B. Jones Inc",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Victoria",
+            "state": "British Columbia",
+            "country": "Canada"
+          },
+          {
+            "facility": "G.A. Research Associates Ltd.",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Moncton",
+            "state": "New Brunswick",
+            "country": "Canada"
+          },
+          {
+            "facility": "Nova Scotia Hlth Halifax",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Halifax",
+            "state": "Nova Scotia",
+            "country": "Canada"
+          },
+          {
+            "facility": "Care Access Cape Breton",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Sydney",
+            "state": "Nova Scotia",
+            "country": "Canada"
+          },
+          {
+            "facility": "Centricity Research Brampton Endocrinology",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Brampton",
+            "state": "Ontario",
+            "country": "Canada"
+          },
+          {
+            "facility": "Apex Trials",
+            "status": "NOT_YET_RECRUITING",
+            "city": "Guelph",
+            "state": "Ontario",
+            "country": "Canada"
+          },
+          {
+            "facility": "Hamilton Medical Research Group",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Hamilton",
+            "state": "Ontario",
+            "country": "Canada"
+          },
+          {
+            "facility": "Premier Clinical Trial Research Network (PCTRN)",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Hamilton",
+            "state": "Ontario",
+            "country": "Canada"
+          },
+          {
+            "facility": "Wharton Medical Clinic Clinical Trials (Hamilton)",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Hamilton",
+            "state": "Ontario",
+            "country": "Canada"
+          },
+          {
+            "facility": "Milestone Research",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "London",
+            "state": "Ontario",
+            "country": "Canada"
+          },
+          {
+            "facility": "Bluewater Clin Res Group Inc",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Sarnia",
+            "state": "Ontario",
+            "country": "Canada"
+          },
+          {
+            "facility": "Diabetes Heart Research Centre",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Toronto",
+            "state": "Ontario",
+            "country": "Canada"
+          },
+          {
+            "facility": "Centre Medical Acadie",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Montreal",
+            "state": "Quebec",
+            "country": "Canada"
+          },
+          {
+            "facility": "Centricity Res Pointe-Claire",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Pointe-Claire",
+            "state": "Quebec",
+            "country": "Canada"
+          },
+          {
+            "facility": "Diex Recherche Quebec",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Québec",
+            "country": "Canada"
+          },
+          {
+            "facility": "Alpha Recherche Clinique - Lebourgneuf",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Québec",
+            "country": "Canada"
+          },
+          {
+            "facility": "Fakultní nemocnice U sv. Anny v Brně",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Brno",
+            "country": "Czechia"
+          },
+          {
+            "facility": "Centrum zdraví Dolní Břežany, a.s.",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Dolní Břežany",
+            "country": "Czechia"
+          },
+          {
+            "facility": "KARDIOLOGIE - LIBEREC s.r.o.",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Liberec",
+            "country": "Czechia"
+          },
+          {
+            "facility": "Interní a diabetologická ordinace s.r.o.",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Náchod",
+            "country": "Czechia"
+          },
+          {
+            "facility": "DIALINE s.r.o.",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Plzeň 3",
+            "country": "Czechia"
+          },
+          {
+            "facility": "ENDOTRIAL s.r.o.",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Prague",
+            "country": "Czechia"
+          },
+          {
+            "facility": "Milan Kvapil s.r.o.",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Prague",
+            "country": "Czechia"
+          },
+          {
+            "facility": "EUC Klinika Praha a.s.",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Prague",
+            "country": "Czechia"
+          },
+          {
+            "facility": "Fledip s.r.o.",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Prague",
+            "country": "Czechia"
+          },
+          {
+            "facility": "CHU ROUEN_HOPITAL DE BOIS GUILLAUME_Service de Nutrition",
+            "status": "NOT_YET_RECRUITING",
+            "city": "Bois-Guillaume",
+            "country": "France"
+          },
+          {
+            "facility": "CENTRE HOSPITALIER DE COLMAR_Endocrinologie/Diabetologie/Centre Nutritionnel",
+            "status": "NOT_YET_RECRUITING",
+            "city": "Colmar",
+            "country": "France"
+          },
+          {
+            "facility": "LES HOPITAUX DE CHARTRES_HOPITAL LOUIS PASTEUR_Service d'endocrinologie",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Le Coudray",
+            "country": "France"
+          },
+          {
+            "facility": "APHP - LA PITIE SALPETRIERE _ Service de Nutrition",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Paris",
+            "country": "France"
+          },
+          {
+            "facility": "HOPITAL EUROPEEN GEORGES POMPIDOU_Service de nutrition et diabétologie",
+            "status": "NOT_YET_RECRUITING",
+            "city": "Paris",
+            "country": "France"
+          },
+          {
+            "facility": "CHU DE BORDEAUX-HOPITAL HAUT LEVEQUE_Service d'Endocrinologie, Diabétologie et Maladies Métaboliques",
+            "status": "NOT_YET_RECRUITING",
+            "city": "Pessac",
+            "country": "France"
+          },
+          {
+            "facility": "HCL-HOPITAL LYON SUD_Service d'Endocrinologie-Diabète-Nutrition",
+            "status": "NOT_YET_RECRUITING",
+            "city": "Pierre-Bénite",
+            "country": "France"
+          },
+          {
+            "facility": "CHU NANTES - HOPITAL NORD LAENNEC_Service d'Endocrinologie-Diabétologie-Nutrition",
+            "status": "COMPLETED",
+            "city": "Saint-Herblain",
+            "country": "France"
+          },
+          {
+            "facility": "CENTRE DE RECHERCHE CLINIQUE PORTES DU SUD_Service d'Endocrinologie-Diabétologie-Maladies Métaboliques",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Vénissieux",
+            "country": "France"
+          },
+          {
+            "facility": "University General Hospital Of Alexandroupoli - First Department of Internal Medicine",
+            "status": "NOT_YET_RECRUITING",
+            "city": "Alexandroupoli",
+            "country": "Greece"
+          },
+          {
+            "facility": "Evangelismos S.A. - Endocrinology department",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Athens",
+            "country": "Greece"
+          },
+          {
+            "facility": "Laiko General Hospital Of Athens - 1st department of Internal Medicine",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Athens",
+            "country": "Greece"
+          },
+          {
+            "facility": "Athens Medical Center S.A. (Iatriko Psychikou) - Department of Internal Medicine & Metabolic Diseases",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Athens",
+            "country": "Greece"
+          },
+          {
+            "facility": "General Hospital Of Athens Alexandra - Clinical Therapeutics",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Athens",
+            "country": "Greece"
+          },
+          {
+            "facility": "General Hospital Of Lamia - Internal Medicine Clinic",
+            "status": "NOT_YET_RECRUITING",
+            "city": "Lamia",
+            "country": "Greece"
+          },
+          {
+            "facility": "Athens Medical Center S.A. (Iatriko Athinon) - Diabetes and Obesity Unit",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Marousi",
+            "country": "Greece"
+          },
+          {
+            "facility": "Athens Medical Center S.A. (Iatriko P. Falirou) - Diabetes and Clinical Research Center",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Palaió Fáliro",
+            "country": "Greece"
+          },
+          {
+            "facility": "Athens Medical Center S.A. (Iatriko Peristeriou) - Diabetes, obesity and cardiometabolic diseases department",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Peristeri",
+            "country": "Greece"
+          },
+          {
+            "facility": "Athens Medical Center S.A., European Interbalkan Medical Center - Department of Internal Medicine",
+            "status": "NOT_YET_RECRUITING",
+            "city": "Thessaloniki",
+            "country": "Greece"
+          },
+          {
+            "facility": "General Hospital Of Thessaloniki G Gennimatas - Internal Medicine Clinic",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Thessaloniki",
+            "country": "Greece"
+          },
+          {
+            "facility": "NextHealth S.A. - Department of Endocrinology, Metabolism & Diabetes",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Thessaloniki",
+            "country": "Greece"
+          },
+          {
+            "facility": "Thermi Clinic S.A. - Diabetes and Internal Medicine Department",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Thessaloniki",
+            "country": "Greece"
+          },
+          {
+            "facility": "Dr. Lakatos Ferenc Kardiológus ,Belgyógyász Magán szakrendelés",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Békéscsaba",
+            "state": "Bekes County",
+            "country": "Hungary"
+          },
+          {
+            "facility": "Lausmed Kft.",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Baja",
+            "state": "Bács-Kiskun county",
+            "country": "Hungary"
+          },
+          {
+            "facility": "Szegedi Tudomanyegyetem St Györgyi Albert Klinikai Központ",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Szeged",
+            "state": "Csongrád-Csanád",
+            "country": "Hungary"
+          },
+          {
+            "facility": "Óbudai Egészségügyi Centrum",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Budapest",
+            "state": "Pest County",
+            "country": "Hungary"
+          },
+          {
+            "facility": "Szatmári-Med Kft.",
+            "status": "NOT_YET_RECRUITING",
+            "city": "Budapest",
+            "state": "Pest County",
+            "country": "Hungary"
+          },
+          {
+            "facility": "Medifarma-98 Kft.",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Nyíregyháza",
+            "state": "Szabolcs-Szatmár-Bereg",
+            "country": "Hungary"
+          },
+          {
+            "facility": "EURÉKA-CENTER Orvosi és Szolgáltató Betéti Társaság",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Baja",
+            "country": "Hungary"
+          },
+          {
+            "facility": "Békés Vármegyei Központi Kórház",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Békéscsaba",
+            "country": "Hungary"
+          },
+          {
+            "facility": "Trial Pharma Kft.",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Békéscsaba",
+            "country": "Hungary"
+          },
+          {
+            "facility": "Biatros Kft.",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Biatorbágy",
+            "country": "Hungary"
+          },
+          {
+            "facility": "Semmelweis Egyetem",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Budapest",
+            "country": "Hungary"
+          },
+          {
+            "facility": "Cardiogeneral Kft.",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Budapest",
+            "country": "Hungary"
+          },
+          {
+            "facility": "Mentaház Kft.",
+            "status": "NOT_YET_RECRUITING",
+            "city": "Székesfehérvár",
+            "country": "Hungary"
+          },
+          {
+            "facility": "Jász-Nagykun-Szolnok Vármegyei Hetényi Géza Kórház-Rendelőintézet",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Szolnok",
+            "country": "Hungary"
+          },
+          {
+            "facility": "AOU IRCCS Policlinico di Sant'Orsola Malpighi - UOC Endocrinologia e Prevenzione e Cura del Diabete",
+            "status": "NOT_YET_RECRUITING",
+            "city": "Bologna",
+            "state": "Emilia-Romagna",
+            "country": "Italy"
+          },
+          {
+            "facility": "IRCCS Ospedale Policlinico San Martino - U.O.D. Dietetica e Nutrizione Clinica",
+            "status": "NOT_YET_RECRUITING",
+            "city": "Genoa",
+            "state": "Liguria",
+            "country": "Italy"
+          },
+          {
+            "facility": "Spedali Civili Brescia - SSD Endocrinologia",
+            "status": "NOT_YET_RECRUITING",
+            "city": "Brescia",
+            "state": "Lombardy",
+            "country": "Italy"
+          },
+          {
+            "facility": "Ospedale San Raffaele S.r.l. - Unità di Cardio-metabolismo e Trials Clinici",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Milan",
+            "state": "Lombardy",
+            "country": "Italy"
+          },
+          {
+            "facility": "Azienda Ospedaliera di Perugia;Ospedale S. Maria della Misericordia",
+            "status": "NOT_YET_RECRUITING",
+            "city": "Perugia",
+            "state": "Pg",
+            "country": "Italy"
+          },
+          {
+            "facility": "D.A.I. Oncologico - U.O.C. di Chirurgia Generale ad indirizzo Oncologico",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Messina",
+            "state": "Sicily",
+            "country": "Italy"
+          },
+          {
+            "facility": "INRCA Ancona - UOC Clinica Medica e Geriatrica",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Ancorna",
+            "state": "The Marches",
+            "country": "Italy"
+          },
+          {
+            "facility": "Azienda Ospedaliero Universitaria Pisana",
+            "status": "NOT_YET_RECRUITING",
+            "city": "Pisa",
+            "state": "Tuscany",
+            "country": "Italy"
+          },
+          {
+            "facility": "Azienda Ospedaliero-Universitaria Renato Dulbecco",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Catanzaro",
+            "country": "Italy"
+          },
+          {
+            "facility": "PreCare Trial & Recruitment",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Born",
+            "state": "Limburg",
+            "country": "Netherlands"
+          },
+          {
+            "facility": "Progress Clinical Research Den Bosch",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "'s-Hertogenbosch",
+            "state": "North Brabant",
+            "country": "Netherlands"
+          },
+          {
+            "facility": "Rijnstate Ziekenhuis",
+            "status": "COMPLETED",
+            "city": "Arnhem",
+            "country": "Netherlands"
+          },
+          {
+            "facility": "Catharina Zkh Eindhoven - Interne geneeskunde",
+            "status": "NOT_YET_RECRUITING",
+            "city": "Eindhoven",
+            "country": "Netherlands"
+          },
+          {
+            "facility": "Spaarne Gasthuis Hoofddorp - Interne",
+            "status": "COMPLETED",
+            "city": "Hoofddorp",
+            "country": "Netherlands"
+          },
+          {
+            "facility": "Bethesda Diabetes Research Center",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Hoogeveen",
+            "country": "Netherlands"
+          },
+          {
+            "facility": "Ikazia Ziekenhuis",
+            "status": "COMPLETED",
+            "city": "Rotterdam",
+            "country": "Netherlands"
+          },
+          {
+            "facility": "Medisch Centrum Thomsonplein",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "The Hague",
+            "country": "Netherlands"
+          },
+          {
+            "facility": "Uniwersytecki Szpital Kliniczny w Bialymstoku",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Bialystok",
+            "country": "Poland"
+          },
+          {
+            "facility": "Gabinet Leczenia Otylosci i Chorob Dietozaleznych",
+            "status": "NOT_YET_RECRUITING",
+            "city": "Bialystok",
+            "country": "Poland"
+          },
+          {
+            "facility": "Kresmed Sp. z o. o.",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Bialystok",
+            "country": "Poland"
+          },
+          {
+            "facility": "Renew Clinic Sp. z o.o.",
+            "status": "RECRUITING",
+            "city": "Bialystok",
+            "country": "Poland"
+          },
+          {
+            "facility": "Gierach-Med",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Bydgoszcz",
+            "country": "Poland"
+          },
+          {
+            "facility": "ETG Lublin Sp. z o.o.",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Dębica",
+            "country": "Poland"
+          },
+          {
+            "facility": "Pro Familia Altera Sp. z o.o.",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Katowice",
+            "country": "Poland"
+          },
+          {
+            "facility": "Vita Longa Sp. z o. o.",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Katowice",
+            "country": "Poland"
+          },
+          {
+            "facility": "Małopolskie Centrum Kliniczne",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Krakow",
+            "country": "Poland"
+          },
+          {
+            "facility": "Maciej Wiza Gaja Poradnie Lekarskie",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Poznan",
+            "country": "Poland"
+          },
+          {
+            "facility": "Centrum Medyczne Medyk Sp.zo.o. Sp.k.",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Rzeszów",
+            "country": "Poland"
+          },
+          {
+            "facility": "Gyncentrum Sp. z o. o.",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Warsaw",
+            "country": "Poland"
+          },
+          {
+            "facility": "Medon Clinical Research Sp. z o.o.",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Warsaw",
+            "country": "Poland"
+          },
+          {
+            "facility": "Wojewódzki Szpital Specjalistyczny im. J. Gromkowskiego",
+            "status": "NOT_YET_RECRUITING",
+            "city": "Wroclaw",
+            "country": "Poland"
+          },
+          {
+            "facility": "Centrum Medyczne Oporow",
+            "status": "NOT_YET_RECRUITING",
+            "city": "Wroclaw",
+            "country": "Poland"
+          },
+          {
+            "facility": "Ucardio Centro Clinico Unidade Cardiovascular",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Riachos, Torres Novas",
+            "state": "Riachos",
+            "country": "Portugal"
+          },
+          {
+            "facility": "ULS Almada-Seixal E.P.E. - HGO_Serviço de Endocrinologia",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Almada",
+            "country": "Portugal"
+          },
+          {
+            "facility": "ULS Do Oeste E.P.E. - Unidade Caldas da Rainha_CAMI - Unidade de Diabetes",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Caldas da Rainha",
+            "country": "Portugal"
+          },
+          {
+            "facility": "ULS Do Baixo Mondego, E.P.E. - HDFF_Serviço Cardiologia",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Figueira da Foz Municipality",
+            "country": "Portugal"
+          },
+          {
+            "facility": "Hospital da Luz Lisboa, S.A._Serviço de Medicina Interna",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Lisbon",
+            "country": "Portugal"
+          },
+          {
+            "facility": "ULS De Matosinhos, E.P.E - HPH_Serviço de Endocrinologia",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Senhora Da Hora, Matosinhos",
+            "country": "Portugal"
+          },
+          {
+            "facility": "Hospital Trofa Saude Senhor do Bonfim S.A_Unidade de Ensaios Clínicos",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Vila do Conde",
+            "country": "Portugal"
+          },
+          {
+            "facility": "Hospital da Luz Arrábida, S.A_Serviço de Endocrinologia",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Vila Nova de Gaia",
+            "country": "Portugal"
+          },
+          {
+            "facility": "Grandmed SRL",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Oradea",
+            "state": "Bihor County",
+            "country": "Romania"
+          },
+          {
+            "facility": "S.C. Top Diabet Srl",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Craiova",
+            "state": "Dolj",
+            "country": "Romania"
+          },
+          {
+            "facility": "CMI Dr Pop Lavinia",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Baia Mare",
+            "state": "Maramureş",
+            "country": "Romania"
+          },
+          {
+            "facility": "Sc Mediab Srl",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Târgu Mureş",
+            "state": "Mureș County",
+            "country": "Romania"
+          },
+          {
+            "facility": "Mariodiab Clinic SRL",
+            "status": "NOT_YET_RECRUITING",
+            "city": "Brasov",
+            "country": "Romania"
+          },
+          {
+            "facility": "Sc Nicodiab Srl",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Bucharest",
+            "country": "Romania"
+          },
+          {
+            "facility": "Mat Cord Biomedica S.R.L.",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Buzău",
+            "country": "Romania"
+          },
+          {
+            "facility": "Spitalul Clinic Judetean De Urgenta Bihor",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Oradea",
+            "country": "Romania"
+          },
+          {
+            "facility": "Sc Sal Med Srl",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Piteşti",
+            "country": "Romania"
+          },
+          {
+            "facility": "Cabinet Medical Dr Geru SRL",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Timișoara",
+            "country": "Romania"
+          },
+          {
+            "facility": "Spitalul Clinic Judetean De Urgenta Pius Brinzeu Timisoara",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Timișoara",
+            "country": "Romania"
+          },
+          {
+            "facility": "DIA - CLARUS s.r.o.",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Bojnice",
+            "country": "Slovakia"
+          },
+          {
+            "facility": "KARDIO-SANUS, spol. s r.o.",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Bratislava",
+            "country": "Slovakia"
+          },
+          {
+            "facility": "MEDISPEKTRUM s.r.o.",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Bratislava",
+            "country": "Slovakia"
+          },
+          {
+            "facility": "Diab - Int, s.r.o.",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Bytča",
+            "country": "Slovakia"
+          },
+          {
+            "facility": "HUMAN-CARE, s.r.o.",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Košice",
+            "country": "Slovakia"
+          },
+          {
+            "facility": "ENDOMED, s.r.o.",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Košice",
+            "country": "Slovakia"
+          },
+          {
+            "facility": "DIAMARTIN, s. r. o.",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Martin",
+            "country": "Slovakia"
+          },
+          {
+            "facility": "LUDIA, s. r. o.",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Spišská Nová Ves",
+            "country": "Slovakia"
+          },
+          {
+            "facility": "Phoenix Pharma",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Port Elizabeth",
+            "state": "Eastern Cape",
+            "country": "South Africa"
+          },
+          {
+            "facility": "IATROS International",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Bloemfontein",
+            "state": "Free State",
+            "country": "South Africa"
+          },
+          {
+            "facility": "Medi-Clinic Bloemfontein",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Bloemfontein",
+            "state": "Free State",
+            "country": "South Africa"
+          },
+          {
+            "facility": "Soweto Clinical Trial Centre",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Johannesburg",
+            "state": "Gauteng",
+            "country": "South Africa"
+          },
+          {
+            "facility": "Hemant Makan",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Johannesburg",
+            "state": "Gauteng",
+            "country": "South Africa"
+          },
+          {
+            "facility": "Newtown Clinical Research",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Johannesburg",
+            "state": "Gauteng",
+            "country": "South Africa"
+          },
+          {
+            "facility": "Wits Bara Clinical Trial Site",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Johannesburg",
+            "state": "Gauteng",
+            "country": "South Africa"
+          },
+          {
+            "facility": "Sandton Medical Research",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Johannesburg",
+            "state": "Gauteng",
+            "country": "South Africa"
+          },
+          {
+            "facility": "Lenasia Clinical Trial Centre",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Lenasia",
+            "state": "Gauteng",
+            "country": "South Africa"
+          },
+          {
+            "facility": "Clinical Trial Systems (CTC)",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Pretoria",
+            "state": "Gauteng",
+            "country": "South Africa"
+          },
+          {
+            "facility": "Dr Pillay's Rooms",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Durban",
+            "state": "KwaZulu-Natal",
+            "country": "South Africa"
+          },
+          {
+            "facility": "Tread Research (Pty)Ltd",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Cape Town",
+            "state": "Western Cape",
+            "country": "South Africa"
+          },
+          {
+            "facility": "Dr Hendrik Snyman's Practice",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Mossel Bay",
+            "state": "Western Cape",
+            "country": "South Africa"
+          },
+          {
+            "facility": "Paarl Research Centre",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Paarl, Cape Town",
+            "state": "Western Cape",
+            "country": "South Africa"
+          },
+          {
+            "facility": "Clinical Trials Network Helderberg (Pty) Ltd",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Somerset West",
+            "state": "Western Cape",
+            "country": "South Africa"
+          },
+          {
+            "facility": "Complejo Hospitalario Universitario A Coruña",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "A Coruña",
+            "country": "Spain"
+          },
+          {
+            "facility": "Hospital Comarcal de Antequera",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Antequera",
+            "country": "Spain"
+          },
+          {
+            "facility": "CAPSBE_CAP Ernest LLuch",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Barcelona",
+            "country": "Spain"
+          },
+          {
+            "facility": "Hospital Vall d'Hebron",
+            "status": "NOT_YET_RECRUITING",
+            "city": "Barcelona",
+            "country": "Spain"
+          },
+          {
+            "facility": "Eap Osona Sud Alt Congost S.L.P",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Centelles (Barcelona)",
+            "country": "Spain"
+          },
+          {
+            "facility": "Clínica Bofill",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Girona",
+            "country": "Spain"
+          },
+          {
+            "facility": "Hosp. Univ. Ruber Juan Bravo_Endocrinología",
+            "status": "COMPLETED",
+            "city": "Madrid",
+            "country": "Spain"
+          },
+          {
+            "facility": "Hospital Universitario de la Princesa",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Madrid",
+            "country": "Spain"
+          },
+          {
+            "facility": "Hospital Universitario Sanitas Virgen del Mar",
+            "status": "NOT_YET_RECRUITING",
+            "city": "Madrid",
+            "country": "Spain"
+          },
+          {
+            "facility": "Hospital Universitario de Fuenlabrada",
+            "status": "NOT_YET_RECRUITING",
+            "city": "Madrid",
+            "country": "Spain"
+          },
+          {
+            "facility": "Althaia Xarxa Assistencial Universitaria De Manresa Fundacio Privada",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Manresa",
+            "country": "Spain"
+          },
+          {
+            "facility": "H. Clinico Univ. Virgen de la Victoria",
+            "status": "NOT_YET_RECRUITING",
+            "city": "Málaga",
+            "country": "Spain"
+          },
+          {
+            "facility": "Hosp. Recoletas Salud Campo Grande_Endoc y Nutric",
+            "status": "ACTIVE_NOT_RECRUITING",
+            "city": "Valladolid",
+            "country": "Spain"
+          }
+        ]
+      }
+    }
+  }
+}

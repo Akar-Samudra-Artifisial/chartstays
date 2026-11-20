@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "nct_id": "NCT06393725",
+  "title": "Synchronous vs Asynchronous Remotely Delivered Lifestyle Interventions",
+  "status": "RECRUITING",
+  "conditions": [
+    "Obesity"
+  ],
+  "source": {
+    "name": "ClinicalTrials.gov",
+    "nct_id": "NCT06393725",
+    "url": "https://clinicaltrials.gov/study/NCT06393725",
+    "retrieved": "2026-11-16",
+    "modified": "Eligibility criteria structured and coded (SNOMED CT, LOINC, RxNorm) by ChartStays from the ClinicalTrials.gov text; the original text is kept unchanged in eligibility.criteria_text. Criteria curated by the project team, not reviewed by clinicians; pre-screening only.",
+    "last_update_posted": "2026-11-03"
+  },
+  "eligibility": {
+    "criteria_text": "Inclusion Criteria:\n\n* BMI 27-45\n* has Bluetooth or wifi connectivity at home (for scale)\n* goes on Facebook at least 5 days per week over the past 2 weeks\n* has posted/replied at least once a week in the past 2 weeks (per self-report)\n* has a smart phone\n\nExclusion Criteria:\n\n* Pregnant or lactating or plans to during study period\n* bipolar disorder, substance abuse, psychosis, bulimia, binge eating disorder, or severe depression\n* had bariatric surgery or plans to during the study\n* currently taking meds affecting weight\n* lost ≥5% of weight in past 6 months\n* participating in another weight loss program or plans to during the study\n* chronic pain or medical condition that interferes with the ability to exercise\n* type 1 diabetes\n* unable to walk ¼ mile unaided without stopping\n* nicotine user",
+    "sex": "ALL",
+    "minimum_age": "18 Years",
+    "maximum_age": "65 Years",
+    "healthy_volunteers": true
+  },
+  "structured": [
+    {
+      "id": "inc-0a",
+      "type": "inclusion",
+      "kind": "age",
+      "label": "Age 18 to 65 years",
+      "source_text": "ClinicalTrials.gov age limits: 18 Years minimum, 65 Years maximum",
+      "min": 18,
+      "max": 65,
+      "unit": "years"
+    },
+    {
+      "kind": "lab",
+      "label": "BMI 27 to 45 kg/m2",
+      "loinc": "39156-5",
+      "op": "between",
+      "value": [
+        27,
+        45
+      ],
+      "unit": "kg/m2",
+      "id": "inc-1",
+      "type": "inclusion",
+      "source_text": "BMI 27-45"
+    }
+  ],
+  "free_text": [
+    {
+      "id": "inc-2",
+      "type": "inclusion",
+      "text": "has Bluetooth or wifi connectivity at home (for scale)"
+    },
+    {
+      "id": "inc-3",
+      "type": "inclusion",
+      "text": "goes on Facebook at least 5 days per week over the past 2 weeks"
+    },
+    {
+      "id": "inc-4",
+      "type": "inclusion",
+      "text": "has posted/replied at least once a week in the past 2 weeks (per self-report)"
+    },
+    {
+      "id": "inc-5",
+      "type": "inclusion",
+      "text": "has a smart phone"
+    },
+    {
+      "id": "exc-1",
+      "type": "exclusion",
+      "text": "Pregnant or lactating or plans to during study period"
+    },
+    {
+      "id": "exc-2",
+      "type": "exclusion",
+      "text": "bipolar disorder, substance abuse, psychosis, bulimia, binge eating disorder, or severe depression"
+    },
+    {
+      "id": "exc-3",
+      "type": "exclusion",
+      "text": "had bariatric surgery or plans to during the study"
+    },
+    {
+      "id": "exc-4",
+      "type": "exclusion",
+      "text": "currently taking meds affecting weight"
+    },
+    {
+      "id": "exc-5",
+      "type": "exclusion",
+      "text": "lost ≥5% of weight in past 6 months"
+    },
+    {
+      "id": "exc-6",
+      "type": "exclusion",
+      "text": "participating in another weight loss program or plans to during the study"
+    },
+    {
+      "id": "exc-7",
+      "type": "exclusion",
+      "text": "chronic pain or medical condition that interferes with the ability to exercise"
+    },
+    {
+      "id": "exc-8",
+      "type": "exclusion",
+      "text": "type 1 diabetes"
+    },
+    {
+      "id": "exc-9",
+      "type": "exclusion",
+      "text": "unable to walk ¼ mile unaided without stopping"
+    },
+    {
+      "id": "exc-10",
+      "type": "exclusion",
+      "text": "nicotine user"
+    }
+  ],
+  "requested_fields_for_inquiry": [
+    "age",
+    "labs:39156-5"
+  ],
+  "curation": {
+    "method": "manual"
+  }
+}

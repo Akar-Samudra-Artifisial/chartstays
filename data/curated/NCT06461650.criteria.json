@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "nct_id": "NCT06461650",
+  "title": "Preoperative Nicotine Cessation for Women With Breast Cancer Recommended for Reconstruction",
+  "status": "RECRUITING",
+  "conditions": [
+    "Breast Cancer"
+  ],
+  "source": {
+    "name": "ClinicalTrials.gov",
+    "nct_id": "NCT06461650",
+    "url": "https://clinicaltrials.gov/study/NCT06461650",
+    "retrieved": "2026-11-16",
+    "modified": "Eligibility criteria structured and coded (SNOMED CT, LOINC, RxNorm) by ChartStays from the ClinicalTrials.gov text; the original text is kept unchanged in eligibility.criteria_text. Criteria curated by the project team, not reviewed by clinicians; pre-screening only.",
+    "last_update_posted": "2026-06-25"
+  },
+  "eligibility": {
+    "criteria_text": "Inclusion Criteria:\n\n* Adults ≥ 18 years of age and ≤ 80 years of age.\n* Women who are diagnosed with Stage 0 - 3 breast cancer confirmed by biopsy\n* Women who have been recommended to have reconstruction at time of mastectomy or oncoplastics at time of lumpectomy\n* Participants who actively use nicotine products defined as any self-reported nicotine use within the past month\n* Participant agrees to comply with all the study-related procedures.\n\nExclusion Criteria:\n\n* Patients not eligible for reconstruction or oncoplastics for other reasons including BMI\\>35 or inflammatory breast cancer or based on surgeon discretion.\n* Prisoners or subjects who are involuntarily incarcerated, or subjects who are compulsorily detained for treatment of either a psychiatric or physical illness.\n* Patients unable to complete the sessions because of language, travel or technology barriers\n* Patients already actively participating in another cessation program\n* Patients who are pregnant.",
+    "sex": "FEMALE",
+    "minimum_age": "18 Years",
+    "maximum_age": "80 Years",
+    "healthy_volunteers": false
+  },
+  "structured": [
+    {
+      "id": "inc-0a",
+      "type": "inclusion",
+      "kind": "age",
+      "label": "Age 18 to 80 years",
+      "source_text": "ClinicalTrials.gov age limits: 18 Years minimum, 80 Years maximum",
+      "min": 18,
+      "max": 80,
+      "unit": "years"
+    },
+    {
+      "id": "inc-0b",
+      "type": "inclusion",
+      "kind": "sex",
+      "label": "Female participants",
+      "source_text": "ClinicalTrials.gov sex: FEMALE",
+      "sex": "female"
+    },
+    {
+      "kind": "condition",
+      "label": "Breast cancer",
+      "primary": true,
+      "codes": {
+        "snomed": [
+          "254837009"
+        ]
+      },
+      "note": "Stage 0 to 3 is not checked.",
+      "id": "inc-2a",
+      "type": "inclusion",
+      "source_text": "Women who are diagnosed with Stage 0 - 3 breast cancer confirmed by biopsy"
+    },
+    {
+      "kind": "lab",
+      "label": "BMI above 35 kg/m2",
+      "loinc": "39156-5",
+      "op": "gt",
+      "value": 35,
+      "unit": "kg/m2",
+      "id": "exc-1a",
+      "type": "exclusion",
+      "source_text": "Patients not eligible for reconstruction or oncoplastics for other reasons including BMI>35 or inflammatory breast cancer or based on surgeon discretion."
+    }
+  ],
+  "free_text": [
+    {
+      "id": "inc-2",
+      "type": "inclusion",
+      "text": "Women who are diagnosed with Stage 0 - 3 breast cancer confirmed by biopsy"
+    },
+    {
+      "id": "inc-3",
+      "type": "inclusion",
+      "text": "Women who have been recommended to have reconstruction at time of mastectomy or oncoplastics at time of lumpectomy"
+    },
+    {
+      "id": "inc-4",
+      "type": "inclusion",
+      "text": "Participants who actively use nicotine products defined as any self-reported nicotine use within the past month"
+    },
+    {
+      "id": "inc-5",
+      "type": "inclusion",
+      "text": "Participant agrees to comply with all the study-related procedures."
+    },
+    {
+      "id": "exc-1",
+      "type": "exclusion",
+      "text": "Patients not eligible for reconstruction or oncoplastics for other reasons including BMI>35 or inflammatory breast cancer or based on surgeon discretion."
+    },
+    {
+      "id": "exc-2",
+      "type": "exclusion",
+      "text": "Prisoners or subjects who are involuntarily incarcerated, or subjects who are compulsorily detained for treatment of either a psychiatric or physical illness."
+    },
+    {
+      "id": "exc-3",
+      "type": "exclusion",
+      "text": "Patients unable to complete the sessions because of language, travel or technology barriers"
+    },
+    {
+      "id": "exc-4",
+      "type": "exclusion",
+      "text": "Patients already actively participating in another cessation program"
+    },
+    {
+      "id": "exc-5",
+      "type": "exclusion",
+      "text": "Patients who are pregnant."
+    }
+  ],
+  "requested_fields_for_inquiry": [
+    "age",
+    "sex",
+    "conditions",
+    "labs:39156-5"
+  ],
+  "curation": {
+    "method": "manual"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "area": "type-2-diabetes",
+  "studies": [
+    {
+      "nct_id": "NCT07272343",
+      "map": [
+        { "from": "inc-1", "match": "Age 18-75", "covered_by": "inc-0a" },
+        { "from": "inc-2", "match": "BMI≥25", "structured": [
+          { "kind": "lab", "label": "BMI 25 kg/m2 or higher", "loinc": "39156-5", "op": "gte", "value": 25, "unit": "kg/m2" }
+        ] },
+        { "from": "inc-3", "match": "type 2 diabetes", "structured": [
+          { "kind": "condition", "label": "Type 2 diabetes", "primary": true, "codes": { "snomed": ["44054006"] } }
+        ] },
+        { "from": "inc-4", "match": "HbA1c≤8.5%", "structured": [
+          { "kind": "lab", "label": "HbA1c 8.5% or lower", "loinc": "4548-4", "op": "lte", "value": 8.5, "unit": "%" }
+        ] },
+        { "from": "exc-1", "match": "BMI < 25", "structured": [
+          { "kind": "lab", "label": "BMI below 25 kg/m2", "loinc": "39156-5", "op": "lt", "value": 25, "unit": "kg/m2" }
+        ] },
+        { "from": "exc-2", "match": "Age < 18", "covered_by": "inc-0a" }
+      ]
+    },
+    {
+      "nct_id": "NCT07390422",
+      "map": [
+        { "from": "inc-1", "match": "T2DM", "keep_free_text": true, "structured": [
+          { "kind": "condition", "label": "Type 2 diabetes", "primary": true, "codes": { "snomed": ["44054006"] }, "note": "Diabetes duration under 10 years is not checked." }
+        ] },
+        { "from": "inc-2", "match": "BMI 18.5-40", "structured": [
+          { "kind": "lab", "label": "BMI 18.5 to 40 kg/m2", "loinc": "39156-5", "op": "between", "value": [18.5, 40], "unit": "kg/m2" }
+        ] },
+        { "from": "inc-3", "match": "7.5 - 11%", "keep_free_text": true, "structured": [
+          { "kind": "lab", "label": "HbA1c 7.5% to 11%", "loinc": "4548-4", "op": "between", "value": [7.5, 11], "unit": "%", "note": "The 3 months of stable oral glucose-lowering drugs is not checked." }
+        ] },
+        { "from": "exc-4", "match": "on insulin", "keep_free_text": true, "structured": [
+          { "kind": "medication", "label": "Currently on insulin", "rxnorm": ["106892"], "note": "Only the insulin product found in the Synthea sample (RxNorm 106892, the only insulin code in the sample) is recognised; any other insulin relies on the free text." }
+        ] },
+        { "from": "exc-8", "match": "platelet count less than 100,000", "keep_free_text": true, "structured": [
+          { "kind": "lab", "label": "Platelet count below 100 x10^3/uL", "loinc": "777-3", "op": "lt", "value": 100, "unit": "10*3/uL" }
+        ] },
+        { "from": "exc-15", "match": "Malignancy", "keep_free_text": true, "structured": [
+          { "kind": "condition", "label": "Malignancy", "codes": { "snomed": ["254837009", "93143009", "94503003"] }, "note": "Coded: breast cancer, leukemia and metastatic prostate cancer found in the Synthea sample. Neoplasm of prostate (may be benign) and carcinoma in situ are left out; they and all other cancers rely on the free text." }
+        ] }
+      ]
+    },
+    {
+      "nct_id": "NCT06627322",
+      "map": [
+        { "from": "inc-1", "match": "≥19 years", "covered_by": "inc-0a" },
+        { "from": "inc-3", "match": "Type 2 diabetes", "structured": [
+          { "kind": "condition", "label": "Type 2 diabetes", "primary": true, "codes": { "snomed": ["44054006"] } }
+        ] },
+        { "from": "inc-4", "match": "HbA1c≥7.0% and <10.0%", "keep_free_text": true, "structured": [
+          { "kind": "lab", "label": "HbA1c 7.0% or higher", "loinc": "4548-4", "op": "gte", "value": 7.0, "unit": "%" },
+          { "kind": "lab", "label": "HbA1c below 10.0%", "loinc": "4548-4", "op": "lt", "value": 10.0, "unit": "%", "note": "The oral antidiabetic therapy requirement is not checked." }
+        ] },
+        { "from": "exc-2", "match": "GFR<45", "structured": [
+          { "kind": "lab", "label": "eGFR below 45 mL/min/1.73m2", "loinc": "33914-3", "op": "lt", "value": 45, "unit": "mL/min/{1.73_m2}", "note": "Synthea records eGFR by the MDRD formula (LOINC 33914-3); the study does not name a formula." }
+        ] }
+      ]
+    },
+    {
+      "nct_id": "NCT06875193",
+      "map": [
+        { "from": "inc-1", "match": "type 2 diabetes", "structured": [
+          { "kind": "condition", "label": "Type 2 diabetes", "primary": true, "codes": { "snomed": ["44054006"] } }
+        ] },
+        { "from": "inc-2", "match": "metformin", "keep_free_text": true, "structured": [
+          { "kind": "medication", "label": "Taking metformin", "rxnorm": ["860975"], "note": "Only the metformin product found in the Synthea sample (RxNorm 860975, metformin ER 500 mg, the only metformin code in the sample) is recognised; other metformin products rely on the free text; the DPP-4 inhibitor and dose stability are not checked." }
+        ] },
+        { "from": "inc-3", "match": "HbA1c < 10%", "keep_free_text": true, "structured": [
+          { "kind": "lab", "label": "HbA1c 7.0% or higher", "loinc": "4548-4", "op": "gte", "value": 7.0, "unit": "%", "note": "Interpreted from garbled source text (\"HbA1c ≤ 7.0% ≤ HbA1c < 10%\") as 7.0% to below 10%." },
+          { "kind": "lab", "label": "HbA1c below 10%", "loinc": "4548-4", "op": "lt", "value": 10, "unit": "%" }
+        ] },
+        { "from": "inc-4", "match": "40 kg/m2", "keep_free_text": true, "structured": [
+          { "kind": "lab", "label": "BMI 18.5 to 40 kg/m2", "loinc": "39156-5", "op": "between", "value": [18.5, 40], "unit": "kg/m2", "note": "Interpreted from garbled source text (\"BMI ≤ 18.5 kg/m2 ≤ 40 kg/m2\") as 18.5 to 40 kg/m2." }
+        ] },
+        { "from": "exc-2", "match": "BMI > 40", "structured": [
+          { "kind": "lab", "label": "BMI above 40 kg/m2", "loinc": "39156-5", "op": "gt", "value": 40, "unit": "kg/m2" }
+        ] },
+        { "from": "exc-3", "match": "< 45 mL/min", "keep_free_text": true, "structured": [
+          { "kind": "lab", "label": "eGFR below 45 mL/min/1.73m2", "loinc": "33914-3", "op": "lt", "value": 45, "unit": "mL/min/{1.73_m2}", "note": "The study uses CKD-EPI; Synthea records eGFR by the MDRD formula (LOINC 33914-3)." }
+        ] },
+        { "from": "exc-17", "match": "receiving insulin", "keep_free_text": true, "structured": [
+          { "kind": "medication", "label": "Receiving insulin", "rxnorm": ["106892"], "note": "Only the insulin product found in the Synthea sample (RxNorm 106892) is recognised; other drug classes rely on the free text." }
+        ] }
+      ]
+    },
+    {
+      "nct_id": "NCT07007676",
+      "map": [
+        { "from": "inc-1", "match": "Age ≥ 60", "covered_by": "inc-0a" },
+        { "from": "inc-2", "match": "type 2 diabetes", "structured": [
+          { "kind": "condition", "label": "Type 2 diabetes", "primary": true, "codes": { "snomed": ["44054006"] } }
+        ] },
+        { "from": "inc-4", "match": "HbA1c ≥ 7.5% and ≤ 10%", "keep_free_text": true, "structured": [
+          { "kind": "lab", "label": "HbA1c 7.5% to 10%", "loinc": "4548-4", "op": "between", "value": [7.5, 10], "unit": "%", "note": "The result must be from screening or the 30 days before it." }
+        ] },
+        { "from": "exc-1", "match": "insulin", "keep_free_text": true, "structured": [
+          { "kind": "medication", "label": "Use of insulin", "rxnorm": ["106892"], "note": "Only the insulin product found in the Synthea sample (RxNorm 106892) is recognised; GLP-1 receptor agonists rely on the free text." }
+        ] },
+        { "from": "exc-7", "match": "< 30 ml/min", "structured": [
+          { "kind": "lab", "label": "eGFR below 30 mL/min/1.73m2", "loinc": "33914-3", "op": "lt", "value": 30, "unit": "mL/min/{1.73_m2}", "note": "Synthea records eGFR by the MDRD formula (LOINC 33914-3); the study does not name a formula." }
+        ] }
+      ]
+    }
+  ]
+}

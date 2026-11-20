@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "nct_id": "NCT07564414",
+  "title": "A Research Study to Look at How Two Different Doses of CagriSema and One Dose of Semaglutide Help People Living With Obesity With or Without Type 2 Diabetes Lose Weight",
+  "status": "RECRUITING",
+  "conditions": [
+    "Obesity",
+    "Type 2 Diabetes"
+  ],
+  "source": {
+    "name": "ClinicalTrials.gov",
+    "nct_id": "NCT07564414",
+    "url": "https://clinicaltrials.gov/study/NCT07564414",
+    "retrieved": "2026-11-16",
+    "modified": "Eligibility criteria structured and coded (SNOMED CT, LOINC, RxNorm) by ChartStays from the ClinicalTrials.gov text; the original text is kept unchanged in eligibility.criteria_text. Criteria curated by the project team, not reviewed by clinicians; pre-screening only.",
+    "last_update_posted": "2026-09-30"
+  },
+  "eligibility": {
+    "criteria_text": "Inclusion Criteria :\n\n* Male or female (sex assigned at birth, inclusive of all gender identities).\n* Age 18 years or above at the time of signing the informed consent.\n* BMI≥ 35.0 kg/m\\^2.\n* Participants without T2D: No history of T2D and HbA1c \\< 6.5% (48 millimoles per mole (mmol/mol)) Participants with T2D: A history of T2D and HbA1c \\< 10% (\\< 86 mmol/mol). If a participant without a history of diabetes during the screening period receives an HbA1c result of 6.5% (48 mmol/mol) or higher, the investigator or the participant's healthcare provider must confirm the diagnosis of type 2 diabetes before the participant is randomised.\n\nExclusion Criteria:\n\n* A self-reported change in body weight \\> 5% within 90 days before screening, irrespective of medical records.\n* Use of any glucagon-like-peptide-1 receptor agonist (GLP-1 RA), including medication with GLP-1 RA activity, or amylin analogues, including medication with amylin activity, within 6 months before screening.",
+    "sex": "ALL",
+    "minimum_age": "18 Years",
+    "maximum_age": null,
+    "healthy_volunteers": false
+  },
+  "structured": [
+    {
+      "id": "inc-0a",
+      "type": "inclusion",
+      "kind": "age",
+      "label": "Age 18 years or older",
+      "source_text": "ClinicalTrials.gov age limits: 18 Years minimum, none maximum",
+      "min": 18,
+      "max": null,
+      "unit": "years"
+    },
+    {
+      "kind": "lab",
+      "label": "BMI 35 kg/m2 or higher",
+      "loinc": "39156-5",
+      "op": "gte",
+      "value": 35,
+      "unit": "kg/m2",
+      "id": "inc-3",
+      "type": "inclusion",
+      "source_text": "BMI≥ 35.0 kg/m^2."
+    }
+  ],
+  "free_text": [
+    {
+      "id": "inc-1",
+      "type": "inclusion",
+      "text": "Male or female (sex assigned at birth, inclusive of all gender identities)."
+    },
+    {
+      "id": "inc-4",
+      "type": "inclusion",
+      "text": "Participants without T2D: No history of T2D and HbA1c < 6.5% (48 millimoles per mole (mmol/mol)) Participants with T2D: A history of T2D and HbA1c < 10% (< 86 mmol/mol). If a participant without a history of diabetes during the screening period receives an HbA1c result of 6.5% (48 mmol/mol) or higher, the investigator or the participant's healthcare provider must confirm the diagnosis of type 2 diabetes before the participant is randomised."
+    },
+    {
+      "id": "exc-1",
+      "type": "exclusion",
+      "text": "A self-reported change in body weight > 5% within 90 days before screening, irrespective of medical records."
+    },
+    {
+      "id": "exc-2",
+      "type": "exclusion",
+      "text": "Use of any glucagon-like-peptide-1 receptor agonist (GLP-1 RA), including medication with GLP-1 RA activity, or amylin analogues, including medication with amylin activity, within 6 months before screening."
+    }
+  ],
+  "requested_fields_for_inquiry": [
+    "age",
+    "labs:39156-5"
+  ],
+  "curation": {
+    "method": "manual"
+  }
+}

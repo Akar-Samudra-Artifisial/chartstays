@@ -1,0 +1,65 @@
+{
+  "retrieved": "2026-11-16",
+  "api_version": "2.0.5",
+  "request_url": "https://clinicaltrials.gov/api/v2/studies?filter.ids=NCT07776613%2CNCT05440227%2CNCT06858449%2CNCT06461650%2CNCT07021846&pageSize=5&fields=NCTId%2CBriefTitle%2COverallStatus%2CLastUpdatePostDate%2CStartDate%2CPrimaryCompletionDate%2CPhase%2CStudyType%2CEnrollmentCount%2CLeadSponsorName%2CCondition%2CBriefSummary%2CEligibilityCriteria%2CMinimumAge%2CMaximumAge%2CSex%2CHealthyVolunteers%2CLocationFacility%2CLocationCity%2CLocationState%2CLocationCountry%2CLocationStatus",
+  "study": {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT06461650",
+        "briefTitle": "Preoperative Nicotine Cessation for Women With Breast Cancer Recommended for Reconstruction"
+      },
+      "statusModule": {
+        "overallStatus": "RECRUITING",
+        "startDateStruct": {
+          "date": "2024-11-14"
+        },
+        "primaryCompletionDateStruct": {
+          "date": "2028-03"
+        },
+        "lastUpdatePostDateStruct": {
+          "date": "2026-06-25"
+        }
+      },
+      "sponsorCollaboratorsModule": {
+        "leadSponsor": {
+          "name": "University of Florida"
+        }
+      },
+      "descriptionModule": {
+        "briefSummary": "Close to 20% of cancer patients currently use nicotine products. Nicotine use in breast cancer patients is associated with poorer overall outcomes, including worsened survival and increased surgical complications. Nicotine cessation is rarely addressed in breast cancer patients at the time of diagnosis and may be a missed opportunity to optimize patient outcomes. Patients that use nicotine products are not offered reconstruction at time of mastectomy or oncoplastics at the time of lumpectomy, which can be emotionally distressing in women with breast cancer. Reconstruction could be an additional motivating factor in nicotine cessation success.\n\nThis study aims to evaluate the feasibility of a nicotine cessation program designed by Area Health Education Center (AHEC) in the target population. The study is designed to test the acceptability, and preliminary efficacy of a formal nicotine cessation program in women actively using nicotine products with breast cancer recommended for reconstructive or oncoplastics surgery."
+      },
+      "conditionsModule": {
+        "conditions": [
+          "Breast Cancer"
+        ]
+      },
+      "designModule": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "enrollmentInfo": {
+          "count": 20
+        }
+      },
+      "eligibilityModule": {
+        "eligibilityCriteria": "Inclusion Criteria:\n\n* Adults ≥ 18 years of age and ≤ 80 years of age.\n* Women who are diagnosed with Stage 0 - 3 breast cancer confirmed by biopsy\n* Women who have been recommended to have reconstruction at time of mastectomy or oncoplastics at time of lumpectomy\n* Participants who actively use nicotine products defined as any self-reported nicotine use within the past month\n* Participant agrees to comply with all the study-related procedures.\n\nExclusion Criteria:\n\n* Patients not eligible for reconstruction or oncoplastics for other reasons including BMI\\>35 or inflammatory breast cancer or based on surgeon discretion.\n* Prisoners or subjects who are involuntarily incarcerated, or subjects who are compulsorily detained for treatment of either a psychiatric or physical illness.\n* Patients unable to complete the sessions because of language, travel or technology barriers\n* Patients already actively participating in another cessation program\n* Patients who are pregnant.",
+        "healthyVolunteers": false,
+        "sex": "FEMALE",
+        "minimumAge": "18 Years",
+        "maximumAge": "80 Years"
+      },
+      "contactsLocationsModule": {
+        "locations": [
+          {
+            "facility": "University of Florida",
+            "status": "RECRUITING",
+            "city": "Gainesville",
+            "state": "Florida",
+            "country": "United States"
+          }
+        ]
+      }
+    }
+  }
+}

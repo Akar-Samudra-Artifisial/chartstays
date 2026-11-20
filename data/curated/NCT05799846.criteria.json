@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "nct_id": "NCT05799846",
+  "title": "Cognitive Strategies for Weight Loss",
+  "status": "RECRUITING",
+  "conditions": [
+    "Obesity"
+  ],
+  "source": {
+    "name": "ClinicalTrials.gov",
+    "nct_id": "NCT05799846",
+    "url": "https://clinicaltrials.gov/study/NCT05799846",
+    "retrieved": "2026-11-16",
+    "modified": "Eligibility criteria structured and coded (SNOMED CT, LOINC, RxNorm) by ChartStays from the ClinicalTrials.gov text; the original text is kept unchanged in eligibility.criteria_text. Criteria curated by the project team, not reviewed by clinicians; pre-screening only.",
+    "last_update_posted": "2026-07-15"
+  },
+  "eligibility": {
+    "criteria_text": "Inclusion Criteria:\n\n* Participants will be between the ages of 18 and 70, have a BMI between 25 and 45 kg/m2, and have regular (i.e., weekly) access to the Internet, defined as owning a smart phone with Internet capabilities, and/or having a broadband or Wi-Fi connection at home or work.\n\nExclusion Criteria:\n\n* Exclusionary criteria include: 1) current enrollment in a weight loss program, 2) currently taking weight loss medications, 3) history of bariatric surgery or planned bariatric surgery in the next 18 months, 4) individuals who are pregnant, nursing, or have plans to become pregnant within the next 18 months, 5) individuals planning to relocate outside the area in the next 18 months, 6) any medical condition for which weight loss would be contraindicated, 7) neurological or psychiatric conditions including but not limited to schizophrenia and bipolar disorder, 8) inability to attend assessments at the Weight Control and Diabetes Research Center in Providence, RI.\n\nIndividuals with mobility issues, dizziness, or history of heart disease, diabetes, or cancer will be required to provide physician consent prior to enrolling.",
+    "sex": "ALL",
+    "minimum_age": "18 Years",
+    "maximum_age": "70 Years",
+    "healthy_volunteers": true
+  },
+  "structured": [
+    {
+      "id": "inc-0a",
+      "type": "inclusion",
+      "kind": "age",
+      "label": "Age 18 to 70 years",
+      "source_text": "ClinicalTrials.gov age limits: 18 Years minimum, 70 Years maximum",
+      "min": 18,
+      "max": 70,
+      "unit": "years"
+    },
+    {
+      "kind": "lab",
+      "label": "BMI 25 to 45 kg/m2",
+      "loinc": "39156-5",
+      "op": "between",
+      "value": [
+        25,
+        45
+      ],
+      "unit": "kg/m2",
+      "id": "inc-1a",
+      "type": "inclusion",
+      "source_text": "Participants will be between the ages of 18 and 70, have a BMI between 25 and 45 kg/m2, and have regular (i.e., weekly) access to the Internet, defined as owning a smart phone with Internet capabilities, and/or having a broadband or Wi-Fi connection at home or work."
+    }
+  ],
+  "free_text": [
+    {
+      "id": "inc-1",
+      "type": "inclusion",
+      "text": "Participants will be between the ages of 18 and 70, have a BMI between 25 and 45 kg/m2, and have regular (i.e., weekly) access to the Internet, defined as owning a smart phone with Internet capabilities, and/or having a broadband or Wi-Fi connection at home or work."
+    },
+    {
+      "id": "exc-1",
+      "type": "exclusion",
+      "text": "Exclusionary criteria include: 1) current enrollment in a weight loss program, 2) currently taking weight loss medications, 3) history of bariatric surgery or planned bariatric surgery in the next 18 months, 4) individuals who are pregnant, nursing, or have plans to become pregnant within the next 18 months, 5) individuals planning to relocate outside the area in the next 18 months, 6) any medical condition for which weight loss would be contraindicated, 7) neurological or psychiatric conditions including but not limited to schizophrenia and bipolar disorder, 8) inability to attend assessments at the Weight Control and Diabetes Research Center in Providence, RI.; Individuals with mobility issues, dizziness, or history of heart disease, diabetes, or cancer will be required to provide physician consent prior to enrolling."
+    }
+  ],
+  "requested_fields_for_inquiry": [
+    "age",
+    "labs:39156-5"
+  ],
+  "curation": {
+    "method": "manual"
+  }
+}

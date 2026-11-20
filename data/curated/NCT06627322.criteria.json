@@ -1,0 +1,195 @@
+{
+  "schema_version": 1,
+  "nct_id": "NCT06627322",
+  "title": "A Registry-based Randomized Controlled Trial in Type 2 Diabetes With Cardiovascular Risk Factors (REMATCH)",
+  "status": "RECRUITING",
+  "conditions": [
+    "Type 2 Diabetes"
+  ],
+  "source": {
+    "name": "ClinicalTrials.gov",
+    "nct_id": "NCT06627322",
+    "url": "https://clinicaltrials.gov/study/NCT06627322",
+    "retrieved": "2026-11-16",
+    "modified": "Eligibility criteria structured and coded (SNOMED CT, LOINC, RxNorm) by ChartStays from the ClinicalTrials.gov text; the original text is kept unchanged in eligibility.criteria_text. Criteria curated by the project team, not reviewed by clinicians; pre-screening only.",
+    "last_update_posted": "2025-04-24"
+  },
+  "eligibility": {
+    "criteria_text": "Inclusion Criteria:\n\n1. ≥19 years of age\n2. Patient agreed to participate in the study and signed a written informed consent form\n3. Type 2 diabetes (ADA criteria)\n4. HbA1c≥7.0% and \\&lt;10.0% in patients receiving monotherapy, dual-combination therapy, or triple-combination therapy (when the submaximal dose was administered) with oral antidiabetic drugs (OADs)\n5. Any of the following:\n\nA. Patients who one or more of the following conditions\n\n1. Coronary artery disease\n2. Atherosclerotic ischemic stroke, transient ischemic attack, carotid artery disease, peripheral artery disease, abdominal aortic aneurysm\n3. Prevalence of diabetes ≥10 years\n4. Left ventricular hypertrophy\n5. Albuminuria\n6. Chronic kidney disease (eGFR\\&lt;60mL/min/1.73m²)\n7. Diabetic Retinopathy\n8. Diabetic neuropathy or B. Patients who have two or more of the following cardiovascular risk factors\n\n(1) Family history of early-onset ASCVD (first-degree relatives with disease before age 55 for men and before age 65 for women) (2) Hypertension (on medication or with SBP≥140 mm Hg or DBP≥90 mm Hg) (3) Low HDL cholesterol concentration (\\&lt;40 mg/dL) (4) Current smoker (5) Obese (BMI≥25 kg/m²)\n\nExclusion Criteria:\n\n1. Type 1 diabetes\n2. Estimated GFR\\&lt;45 ml/min/1.73m²\n3. AST or ALT greater than 3 times the normal upper limit\n4. Symptomatic heart failure (NYHA Class III or IV)\n5. History of hospitalization for acute cardiovascular events within 3 months prior to the date of consent\n6. Currently in active treatment for malignancy\n7. Contraindications for each assigned drug, as applicable\n8. Pregnant and nursing women\n9. If the investigator determines that assignment to the standard glycemic control arm raises ethical concerns",
+    "sex": "ALL",
+    "minimum_age": "19 Years",
+    "maximum_age": null,
+    "healthy_volunteers": false
+  },
+  "structured": [
+    {
+      "id": "inc-0a",
+      "type": "inclusion",
+      "kind": "age",
+      "label": "Age 19 years or older",
+      "source_text": "ClinicalTrials.gov age limits: 19 Years minimum, none maximum",
+      "min": 19,
+      "max": null,
+      "unit": "years"
+    },
+    {
+      "kind": "condition",
+      "label": "Type 2 diabetes",
+      "primary": true,
+      "codes": {
+        "snomed": [
+          "44054006"
+        ]
+      },
+      "id": "inc-3",
+      "type": "inclusion",
+      "source_text": "Type 2 diabetes (ADA criteria)"
+    },
+    {
+      "kind": "lab",
+      "label": "HbA1c 7.0% or higher",
+      "loinc": "4548-4",
+      "op": "gte",
+      "value": 7,
+      "unit": "%",
+      "id": "inc-4a",
+      "type": "inclusion",
+      "source_text": "HbA1c≥7.0% and <10.0% in patients receiving monotherapy, dual-combination therapy, or triple-combination therapy (when the submaximal dose was administered) with oral antidiabetic drugs (OADs)"
+    },
+    {
+      "kind": "lab",
+      "label": "HbA1c below 10.0%",
+      "loinc": "4548-4",
+      "op": "lt",
+      "value": 10,
+      "unit": "%",
+      "note": "The oral antidiabetic therapy requirement is not checked.",
+      "id": "inc-4b",
+      "type": "inclusion",
+      "source_text": "HbA1c≥7.0% and <10.0% in patients receiving monotherapy, dual-combination therapy, or triple-combination therapy (when the submaximal dose was administered) with oral antidiabetic drugs (OADs)"
+    },
+    {
+      "kind": "lab",
+      "label": "eGFR below 45 mL/min/1.73m2",
+      "loinc": "33914-3",
+      "op": "lt",
+      "value": 45,
+      "unit": "mL/min/{1.73_m2}",
+      "note": "Synthea records eGFR by the MDRD formula (LOINC 33914-3); the study does not name a formula.",
+      "id": "exc-2",
+      "type": "exclusion",
+      "source_text": "Estimated GFR<45 ml/min/1.73m²"
+    }
+  ],
+  "free_text": [
+    {
+      "id": "inc-2",
+      "type": "inclusion",
+      "text": "Patient agreed to participate in the study and signed a written informed consent form"
+    },
+    {
+      "id": "inc-4",
+      "type": "inclusion",
+      "text": "HbA1c≥7.0% and <10.0% in patients receiving monotherapy, dual-combination therapy, or triple-combination therapy (when the submaximal dose was administered) with oral antidiabetic drugs (OADs)"
+    },
+    {
+      "id": "inc-5",
+      "type": "inclusion",
+      "text": "Any of the following:"
+    },
+    {
+      "id": "inc-6",
+      "type": "inclusion",
+      "text": "Patients who one or more of the following conditions"
+    },
+    {
+      "id": "inc-7",
+      "type": "inclusion",
+      "text": "Coronary artery disease"
+    },
+    {
+      "id": "inc-8",
+      "type": "inclusion",
+      "text": "Atherosclerotic ischemic stroke, transient ischemic attack, carotid artery disease, peripheral artery disease, abdominal aortic aneurysm"
+    },
+    {
+      "id": "inc-9",
+      "type": "inclusion",
+      "text": "Prevalence of diabetes ≥10 years"
+    },
+    {
+      "id": "inc-10",
+      "type": "inclusion",
+      "text": "Left ventricular hypertrophy"
+    },
+    {
+      "id": "inc-11",
+      "type": "inclusion",
+      "text": "Albuminuria"
+    },
+    {
+      "id": "inc-12",
+      "type": "inclusion",
+      "text": "Chronic kidney disease (eGFR<60mL/min/1.73m²)"
+    },
+    {
+      "id": "inc-13",
+      "type": "inclusion",
+      "text": "Diabetic Retinopathy"
+    },
+    {
+      "id": "inc-14",
+      "type": "inclusion",
+      "text": "Diabetic neuropathy or B. Patients who have two or more of the following cardiovascular risk factors; (1) Family history of early-onset ASCVD (first-degree relatives with disease before age 55 for men and before age 65 for women) (2) Hypertension (on medication or with SBP≥140 mm Hg or DBP≥90 mm Hg) (3) Low HDL cholesterol concentration (<40 mg/dL) (4) Current smoker (5) Obese (BMI≥25 kg/m²)"
+    },
+    {
+      "id": "exc-1",
+      "type": "exclusion",
+      "text": "Type 1 diabetes"
+    },
+    {
+      "id": "exc-3",
+      "type": "exclusion",
+      "text": "AST or ALT greater than 3 times the normal upper limit"
+    },
+    {
+      "id": "exc-4",
+      "type": "exclusion",
+      "text": "Symptomatic heart failure (NYHA Class III or IV)"
+    },
+    {
+      "id": "exc-5",
+      "type": "exclusion",
+      "text": "History of hospitalization for acute cardiovascular events within 3 months prior to the date of consent"
+    },
+    {
+      "id": "exc-6",
+      "type": "exclusion",
+      "text": "Currently in active treatment for malignancy"
+    },
+    {
+      "id": "exc-7",
+      "type": "exclusion",
+      "text": "Contraindications for each assigned drug, as applicable"
+    },
+    {
+      "id": "exc-8",
+      "type": "exclusion",
+      "text": "Pregnant and nursing women"
+    },
+    {
+      "id": "exc-9",
+      "type": "exclusion",
+      "text": "If the investigator determines that assignment to the standard glycemic control arm raises ethical concerns"
+    }
+  ],
+  "requested_fields_for_inquiry": [
+    "age",
+    "conditions",
+    "labs:4548-4",
+    "labs:33914-3"
+  ],
+  "curation": {
+    "method": "manual"
+  }
+}
