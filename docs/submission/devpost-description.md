@@ -1,6 +1,6 @@
 # Devpost description (draft)
 
-Links: Demo `https://chartstays.pages.dev` · Video `<VIDEO_URL>` · Code `https://github.com/Akar-Samudra-Artifisial/chartstays`
+Links: Demo `https://chartstays.pages.dev` · Video `https://youtu.be/-W-GVHxsNDM` · Code `https://github.com/Akar-Samudra-Artifisial/chartstays`
 
 ## Inspiration
 Checking whether you qualify for a clinical trial usually means handing your medical record to a matching service or study site before you know whether you qualify. We wanted to turn that around: bring the criteria to the record. (Landing copy, `apps/patient/app/page.tsx`.)
